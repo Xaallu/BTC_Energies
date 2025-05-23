@@ -28,6 +28,12 @@ pyvenv.cfg
 # Ignorer le dépôt miroir utilisé pour le backup
 BTC_Energies.git/
 
+# 💾 Base de données locale
+db.sqlite3
+
+*.pyc
+__pycache__/
+
 
 # 🔹 Clés et fichiers sensibles (ex: API keys)
 .env
