@@ -55,7 +55,8 @@
              <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
 
     
-    <div class="text-center mb-20">
+              <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
       <!-- Ligne de séparation verte -->
       <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -77,62 +78,86 @@
 
             <!-- Formulaire de Contact -->
 
-            <div class="w-full max-w-4xl bg-white bg-opacity-70 p-8 rounded-lg shadow-md pl-32 sm:pl-32 md:pl-32 lg:pl-32 xl:pl-32">
+            <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
 
+          <form @submit.prevent="envoyerFormulaire" class="space-y-6">
 
-
-              <form @submit.prevent="envoyerFormulaire" class="space-y-6">
-
-                <div class="flex items-center mb-4">
-                  <label for="nom" class="block text-lg font-semibold text-[#3E3E3E] mb-2 mr-7">Votre Nom et <br> Prénom</label>
-                  <input v-model="nom" id="nom" type="text" required
-                    class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                </div>
-
-                <div class="flex items-center mb-4">
-                  <label for="email" class="block text-lg font-semibold text-[#3E3E3E] mb-2 mr-10">Adresse <br>E-Mail</label>
-                  <input v-model="email" id="email" type="email" required
-                    class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                </div>
-
-                <div class="flex items-center mb-4">
-                  <label for="message" class="block text-lg font-semibold text-[#3E3E3E] mb-2 mr-4">Votre Message</label>
-                  <textarea v-model="message" id="message" rows="4" required
-                    class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-                </div>
-
-               <!-- Bouton d'envoi -->
-                <div class="text-center">
-                  <button
-                    ref="boutonSoumettre"
-                    type="submit"
-                    class="bg-gray-800 hover:bg-black text-white font-bold py-2 px-12 rounded-full shadow"
-                  >
-                    Soumettre
-                  </button>
-                </div>
-
-                    <!-- Espace-->              
-                  <div class="mb-8"></div>
-
-                <!-- Bloc Contact -->
-                <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-mg md:text-base px-2">
-                  <a href="mailto:direction@btc-energies.fr" 
-                   class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105"
-                   >
-                    direction@btc-energies.fr
-                  </a>
-                  <span class="italic text-[#8BC367]">
-                    +33 6 29 56 07 56
-                  </span>
-                </div>
-              </form>
+            <div class="w-full max-w-lg mx-auto">
+              <label for="nom" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+                Votre Nom* et Prénom*
+              </label>
+              <input
+                v-model="nom"
+                id="nom"
+                type="text"
+                required
+                placeholder="Ce champs est obliagatoire"
+                class="w-full px-4 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              />
             </div>
-          
 
-              </div>
-             </v-container>
-            
+            <div class="w-full max-w-lg mx-auto">
+              <label for="email" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+                Adresse E-Mail*
+              </label>
+              
+              <input
+                v-model="email"
+                id="email"
+                type="email"
+                required
+                placeholder="Ce champs est obliagatoire @"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              />
+            </div>
+
+            <div class="w-full max-w-lg mx-auto">
+              <label for="message" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+                Votre Message*
+              </label>
+              <textarea
+                v-model="message"
+                id="message"
+                rows="7" 
+                placeholder="Votre message doit contenir au moins 20 caractères"
+                required
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              ></textarea>
+            </div>
+
+            <!-- Bouton d'envoi -->
+            <div class="text-center">
+              <button
+                ref="boutonSoumettre"
+                type="submit"
+                class="bg-[#1f2937] text-white font-bold py-3 px-12 rounded-full shadow transition duration-300"
+              >
+                Soumettre
+              </button>
+            </div>
+
+            <!-- Espace -->
+            <div class="mb-8"></div>
+
+            <!-- Bloc Contact -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-base md:text-lg px-2">
+              <a href="mailto:direction@btc-energies.fr"
+                class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
+                direction@btc-energies.fr
+              </a>
+              <span class="italic text-[#8BC367]">
+                +33 6 29 56 07 56
+              </span>
+            </div>
+
+          </form>
+      </div>
+
+          
+        </div>
+      </div>
+    </v-container>
+      
            
             
 
@@ -182,26 +207,47 @@ const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
 
-const envoyerFormulaire = () => {
-  console.log({ nom: nom.value, email: email.value, message: message.value });
-
-  // Animation rebond au clic
+const envoyerFormulaire = async () => {
+  // Animation rebond bouton
   if (boutonSoumettre.value) {
-    gsap.fromTo(
-      boutonSoumettre.value,
-      { scale: 1 },
-      {
-        scale: 1.55,
-        duration: 0.15,
-        yoyo: true,
-        repeat: 1,
-        ease: 'power2.out',
-      }
-    );
+    gsap.fromTo(boutonSoumettre.value, { scale: 1 }, {
+      scale: 1.55,
+      backgroundColor: "#10b981", // vert
+      duration: 0.15,
+      yoyo: true,
+      repeat: 1,
+      ease: 'power2.out'
+    });
   }
 
-  alert('Formulaire envoyé (simulé) !');
+  try {
+    const response = await fetch("http://127.0.0.1:8000/api/contact/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        nom: nom.value,
+        email: email.value,
+        message: message.value,
+        langue: "fr" // Tu pourras le rendre dynamique plus tard
+      })
+    });
+
+    if (!response.ok) throw new Error("Erreur réseau");
+
+    alert("Message envoyé avec succès, nous reviendrons vers vous dans les meilleurs délais.");
+    nom.value = "";
+    email.value = "";
+    message.value = "";
+
+  } catch (error) {
+    console.error(error);
+    alert("Erreur lors de l'envoi du formulaire. Veuillez vérifé les champs obligatoires et réessayer.");
+  }
 };
+
+
 
 onMounted(() => {
   // ✅ Animation du logo

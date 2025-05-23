@@ -50,9 +50,8 @@
     
         
              <!-- Section Notre Constat -->
-              <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-
-             <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
               <div class="text-center mb-20">
              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
@@ -123,8 +122,9 @@
 
               
               </div>
-             </v-container>
+             
             </div>
+          </v-container>
             
             
 

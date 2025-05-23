@@ -42,13 +42,15 @@
             
               <section>
               
-              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-                
-                
-              <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-                <div class="page-blanche_app-wrapper max-w-screen-xl mx-auto space-y-10">
+             <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+            
+                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+                  <section class="bg-white py-10 px-6 md:px-16">
 
                   <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+                    
+
                     <h1 class="text-3xl font-bold text-[#777777] text-left">Et demain, que ferons-nous ?</h1>
                     <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
                     <div class="mb-8"></div> 
@@ -107,18 +109,18 @@
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-10"></div>
                   <div class="mb-8"></div>
 
-              <div class="gsap-bloc mt-12">
+                  <div class="gsap-bloc mt-12">
                   <p class="text-3xl text-[#8BC367] font-semibold text-center mt-6">
                     Rien ne se perd, rien ne se crée, tout se transforme et s'exploite !
                   </p>
                 </div>
               </div>
-
-                </div>
-              </div>
-            </v-container>
-            
             </section>
+          </div>
+        </div>
+      </v-container>
+            
+    </section>
          
         </div>
       </v-col>

@@ -36,17 +36,17 @@
              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
                <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
-            <section class="bg-white py-10 px-6 md:px-16">
-              <h2 class="page-blanche_app-title">
-                Nos solutions
-              </h2>
-              <div class="flex justify-center mb-6">
+                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+                  <section class="bg-white py-10 px-6 md:px-16">
+                    <h2 class="page-blanche_app-title">
+                      Nos solutions
+                    </h2>
+                <div class="flex justify-center mb-6">
 <br>              
-              </div>
-              <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
-                En France, il existe seulement 1175 Unité de Méthanisation et presque aucune unité de Gazéification Hydrothermale.
-              </p>
+                  </div>
+                  <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
+                    En France, il existe seulement 1175 Unité de Méthanisation et presque aucune unité de Gazéification Hydrothermale.
+                  </p>
 <br>
 
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">

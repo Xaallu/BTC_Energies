@@ -34,11 +34,11 @@
     
         
              <!-- Section Notre Constat -->
-             <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+             <v-container fluid class="page-blanche_app py-10">
+                <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
+            
+              <div class="bg-white rounded-2xl shadow-md w-full max-w-[95%] sm:max-w-[90%] md:max-w-4xl lg:max-w-5xl p-4 sm:p-6 md:p-8 mx-auto">
 
-                <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-
-                  <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
                     <h2 class="page-blanche_app-title">Notre Constat</h2>
 
@@ -198,9 +198,9 @@
                 <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
               
               </div>
-             </v-container>
+             
             </div>
-            
+          </v-container>
             
 
                  <!-- Bandeau bas -->

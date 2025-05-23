@@ -56,10 +56,9 @@
 
               
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-
-                <div class="pl-16 sm:pl-[56px] md:pl-20 lg:pl-24 xl:pl-24">
-
-                  <div class="page-blanche_app-wrapper">
+               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+            
+              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 <br>
 <br>           
                   <!-- bloc 1 -->
@@ -109,7 +108,7 @@
                   </div>
 
                       <!-- Bulle d'info (Popover) -->
-                      <div class="bulle-info absolute left-[55%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[55%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -221,7 +220,7 @@
                 </div>
 
                  <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                 <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -328,7 +327,7 @@
                </div>
 
                  <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                 <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -429,7 +428,7 @@
                     </div>
 
                     <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                 <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -529,7 +528,7 @@
                       </div>
 
                       <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                 <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -618,7 +617,7 @@
                         </div>
 
                           <!-- Bulle d'info (Popover) -->
-                        <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                        <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                                 bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                                 z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -739,7 +738,7 @@
                     </div>
 
                     <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -845,7 +844,7 @@
                     </div>
 
                      <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -957,7 +956,7 @@
                     </div>
 
                      <!-- Bulle d'info (Popover) -->
-                 <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -1072,7 +1071,7 @@
                 </div>
 
                 <!-- Bulle d'info (Popover) -->
-                <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -1176,7 +1175,7 @@
                       </div>
 
                       <!-- Bulle d'info (Popover) -->
-                <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -1273,7 +1272,7 @@
                     </div>
 
                     <!-- Bulle d'info (Popover) -->
-                <div class="bulle-info absolute left-[60%] transform -translate-x-1/3 top-0 
+                      <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
                         bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                         z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
