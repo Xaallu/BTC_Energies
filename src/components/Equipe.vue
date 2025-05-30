@@ -199,8 +199,6 @@
                     <!-- Détails -->
                     <ul class="text-gray-600 text-lg space-y-1">
                       <li><strong>Directeur Général (COO)</strong></li>
-                      
-                      <li class="text-[#25A875]">+33 6 72 64 22 50</li>
                     </ul>
 
                     <!-- Ligne de sépartion verte-->
@@ -233,8 +231,6 @@
                           <!-- Détails -->
                             <ul class="text-gray-600 text-lg space-y-1">
                               <li><strong>Directeur Général (COO)</strong></li>
-                              
-                              <li class="text-[#25A875]">+33 6 72 64 22 50</li>
                             </ul>
 
                             <!-- Études -->
@@ -309,8 +305,6 @@
                    <!-- Détails -->
                    <ul class="text-gray-600 text-lg space-y-1">
                      <li><strong>Chef de Projet Digital – Cofondateur de BTC Énergies</strong></li>
-                     
-                     <li class="text-[#25A875]">+33 7 88 10 07 46</li>
                    </ul>
 
                    <!-- Ligne de sépartion verte-->
@@ -341,7 +335,6 @@
                             <ul class="text-gray-600 text-lg space-y-1">
                               <li><strong>Chef de Projet Digital – Cofondateur de BTC Énergies</strong></li>
                               
-                              <li class="text-[#25A875]">+33 7 88 10 07 46</li>
                             </ul>
 
                             <!-- Études -->

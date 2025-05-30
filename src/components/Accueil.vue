@@ -69,7 +69,8 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Vente d’énergies et de ressources renouvelables.
+                  {{ $t('Vente d’énergies et de ressources renouvelables.') }}
+
                 </h3>
                 <p>
                   Nous assurons la production et la vente d’énergies et de ressources renouvelables issues de procédés de valorisation de biomasse et de matières d’origine fossile.
@@ -234,11 +235,11 @@
         </div>
 
         <!-- Texte -->
-          <div class="w-full text-white text-center sm:text-left text-[10px] sm:text-xs leading-tight sm:leading-snug space-y-0.5">
+          <div class="w-full text-white text-center xs:text-left text-[10px] sm:text-xs leading-tight sm:leading-snug space-y-0.5">
             <h2 class="font-bold text-white text-xl sm-1">Mentions légales</h2>
             <br />
-            <p class="text-[6px]">BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse</p>
-            <p class="text-[6px]">Numéro SIRET : 928 497 585 00010</p>
+            <p class="text-[10px]">BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse</p>
+            <p class="text-[10px]">Numéro SIRET : 928 497 585 00010</p>
           </div>
       
       </div>
