@@ -39,8 +39,8 @@
               </div>
             </section>
 
-             
-        
+            
+
            <!-- Section Mentions Légales -->
             
          
@@ -49,26 +49,116 @@
 
 
               <!-- Titre + soulignement -->
-              <div class="text-left mb-10">
-                <h1 class="text-3xl font-bold text-[#555]">Mentions légales</h1>
-                <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
-              </div>
+            
+             <div class="w-full text-center mb-10">
+              <h1 class="text-4xl font-bold text-[#555]">Mentions Légales</h1>
+              <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1 mx-auto"></div>
+            </div>
 
               <!-- Bloc principal : Logo à gauche / Infos à droite -->
-              <div class="flex flex-col md:flex-row w-full items-start justify-start gap-20">
+            <div class="flex flex-col md:flex-row items-start justify-start gap-12 w-full px-4">
 
                 <!-- Colonne gauche : Logo + Coordonnées -->
                 <div class="flex flex-col items-center md:items-start ml-6">
                 <img
                   src="/favicon2.jpg"
                   alt="Logo BTC Energies"
-                  class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110 mb-4"
+                  class="w-full max-w-[340px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110 mb-4"
                 />
               </div>
 
-      <!-- Colonne droite : Infos légales -->
-      <div class="flex-1">
+
+              <!-- CGU -->
+          <div id="cgu" class="mt-20 text-gray-800 max-w-4xl mx-auto">
+            <h1 class="text-gray-600 text-3xl space-y-3">Conditions Générales d’Utilisation (CGU)</h1>
+
+            <div class="mb-8"></div>
+
+            <p class="mb-4">L’accès au site de BTC Énergies implique l’acceptation pleine et entière des conditions décrites ci-dessous. Ces conditions peuvent être modifiées à tout moment.</p>
+
+            <h2 class="text-gray-600 text-xl space-y-3">Accès au site</h2>
+            <div class="mb-2"></div>
+            <p class="mb-4">Le site est accessible gratuitement. L’éditeur s'efforce de fournir un accès ininterrompu, sans garantie absolue.</p>
+
+            <h2 class="text-gray-600 text-xl space-y-3">Propriété intellectuelle</h2>
+            <div class="mb-2"></div>
+            <p class="mb-4">Les contenus (textes, images, logos, etc.) sont protégés par le droit d’auteur. Toute reproduction, distribution ou modification est interdite sans autorisation écrite.</p>
+  
+            <h2 class="text-gray-600 text-xl space-y-3">Responsabilité</h2>
+            <div class="mb-2"></div>
+            <p>L’éditeur ne peut être tenu responsable des dommages liés à l’utilisation du site ou à la présence de virus ou liens externes.</p>
+
+            <div class="mb-2"></div>
+            <h2 class="text-gray-600 text-xl space-y-3">Droit applicable</h2>
+            <div class="mb-2"></div>
+            <p>Les présentes CGU sont régies par le droit français. En cas de litige, compétence est attribuée aux tribunaux de Paris.</p>
+          </div>
+
+        <!-- Politique de confidentialité -->
+        <div id="confidentialite" class="mt-20 text-gray-800 max-w-4xl mx-auto">
+          <h1 class="text-gray-600 text-3xl space-y-3">Politique de confidentialité</h1>
+
+          <div class="mb-8"></div>
+
+          <h2 class="text-gray-600 text-xl space-y-3">1. Données collectées</h2>
+          <p class="mb-4">Nous collectons des données personnelles via les formulaires de contact, les cookies et les statistiques de navigation Les données concernées peuvent inclure : nom, prénom, e-mail, téléphone, adresse IP, etc.</p>
+
+          <div class="mb-2"></div>
+
+         <h2 class="text-gray-600 text-xl space-y-3">2. Finalité du traitement</h2>
+            <p>Les données sont utilisées uniquement pour répondre aux demandes, améliorer l'expérience utilisateur, et envoyer des communications si vous y avez consenti.</p>
+
+            <div class="mb-2"></div>
+
+            <h2 class="text-gray-600 text-xl space-y-3">3. Base légale</h2>
+            <p>Le traitement est fondé sur le consentement explicite ou sur l’intérêt légitime lorsqu’il s’agit de répondre à une demande directe.</p>
+
+            <div class="mb-2"></div>
+
+            <h2 class="text-gray-600 text-xl space-y-3">4. Destinataires</h2>
+            <p>Vos données ne sont jamais revendues. Elles peuvent être partagées avec nos prestataires techniques, dans le strict respect de leur mission.</p>
+
+            <div class="mb-2"></div>
+
+            <h2 class="text-gray-600 text-xl space-y-3">5. Durée de conservation</h2>
+            <p>Les données sont conservées pour une durée maximale de 3 ans après le dernier contact ou conformément aux obligations légales.</p>
+
+            <div class="mb-2"></div>
+
+            <h2 class="text-gray-600 text-xl space-y-3">6. Vos droits</h2>
+            <p>Vous pouvez accéder à vos données, demander leur rectification ou suppression, ou vous opposer à leur traitement. Contact : [votre email RGPD].</p>
+
+            <div class="mb-2"></div>
+
+            <h2 class="text-gray-600 text-xl space-y-3">7. Cookies</h2>
+            <p>Ce site utilise des cookies techniques et statistiques. Vous pouvez les accepter ou les refuser à tout moment depuis le bandeau dédié.</p>
+          </div>
+
+        <div class="mb-8"></div>
+           
+    </div>
+
+                <!-- Ligne de sépartion verte-->
+        <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-12 mx-auto mt-6"></div>
+
+<div class="mb-8"></div>
+
+    <!-- Colonne droite : Infos légales -->
+
+
+      <div class="w-full flex justify-center">
+  <div class="flex-1 max-w-4xl">
         <ul class="text-gray-600 text-xl space-y-3">
+           <h2 class="text-gray-600 text-3xl space-y-3">Contact</h2>
+ 
+
+  <li>
+  Pour toute question relative à la protection des données personnelles :
+  <span class="text-[#8BC367]">direction@btc-energies.fr</span>
+</li>
+
+  <div class="mb-8"></div>
+
           <li><strong>Dénomination sociale : BTC Energies</strong></li>
           <li>Forme Juridique : SAS</li>
           <li>Capital social : 120€</li>
@@ -82,6 +172,7 @@
         
 
         <div class="mb-8"></div>
+
 
          <!-- Coordonnées -->
     <div class="mt-4 space-y-2 text-left">
@@ -100,22 +191,24 @@
             kermon31@gmail.com
           </a>
         </div>
-      </div>                 
-    </div>
+      </div>
+      </div>
 
-                      <!-- Ligne de séparation verte -->
-          <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+            <!-- Ligne de séparation verte -->
+      <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-          <div class="mb-4"></div>
+        <!-- Marge interne -->
+        <div class="mb-4"></div>
 
-         <!-- Bloc RCS & TVA parfaitement centré -->
-          <div class="mt-6 text-center">
-            <p class="text-gray-700 text-base ml-24">
-              <span class="font-semibold">Numéro RCS :</span> 928 497 585 R.C.S. Toulouse
-              <span class="mx-4 text-[#8BC367]">|</span>
-              <span class="font-semibold">Numéro de TVA :</span> FR27928497585
-            </p>
-          </div>
+        <!-- Bloc RCS & TVA parfaitement centré avec alignement propre -->
+        <div class="w-full flex justify-center px-4">
+          <p class="text-gray-700 text-base text-center max-w-4xl">
+            <span class="font-semibold">Numéro RCS :</span> 928 497 585 R.C.S. Toulouse
+            <span class="mx-4 text-[#8BC367]">|</span>
+            <span class="font-semibold">Numéro de TVA :</span> FR27928497585
+          </p>
+        </div>
+
 
       </v-container>
    
