@@ -46,6 +46,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -135,8 +136,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'xr.piallu@gmail.com'       # 👈 ton adresse Gmail
-EMAIL_HOST_PASSWORD = 'stywseersufvijkt'         # ⚠️ un mot de passe spécifique à l'application
+EMAIL_HOST_USER = 'xr.piallu@gmail.com'       #  adresse Gmail
+EMAIL_HOST_PASSWORD = 'stywseersufvijkt'         #  un mot de passe spécifique à l'application
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 LOCALE_PATHS = [

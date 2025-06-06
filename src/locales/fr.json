@@ -1,0 +1,71 @@
+{
+  "__comment_page_index": "Traductions pour la page d'accueil (Accueil.vue)",
+
+
+  "texte_bandeau_bleu": "Développement, Gestion et Exploitation de projets industriels",
+  "notre_constat": "Notre Constat",
+  "notre_equipe": "Notre équipe",
+  "legal_title": "Mentions légales",
+  "legal_line1": "BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse",
+  "legal_line2": "Numéro SIRET : 928 497 585 00010",
+
+  "services": {
+    "title_Nos services": "Nos services",
+    "s1_title_Vente d’energies": "Vente d’énergies et de ressources renouvelables.",
+    "s1_p1_Nous assurons la production": "Nous assurons la production et la vente d’énergies et de ressources renouvelables issues de procédés de valorisation de biomasse et de matières d’origine fossile.",
+
+    "s2_title_Gazeification": "Gazéification hydrothermale de déchets et d’ordures ménagères",
+    "s2_p1_La gazeification": "La gazéification hydrothermale permet de transformer efficacement des déchets en gaz de synthèse, une source d'énergie renouvelable et propre, mais également en ressources minérales et en eau.",
+    "s2_p2_Nous pouvons valoriser": "Nous pouvons valoriser une grande variété de matières à des tarifs très compétitifs.",
+
+    "s3_title_Valorisation des effluents": "Valorisation des effluents de station d'épuration et des eaux usées (STEP/STEU) et du lixiviat",
+    "s3_p1_Nous pouvons assurer": "Nous pouvons assurer la valorisation des effluents de stations d'épuration et celles de traitement des eaux usées : y compris lorsqu'elles sont souillées (mercure, pathogènes et autres polluants comme des micro-plastiques et une partie des PFAS).",
+    "s3_p2_Nous pouvons utiliser": "Nous pouvons utiliser les ressources présentes dans les eaux usées et ainsi contribuer à la préservation de l'environnement.",
+
+
+    "s4_title2_Gestion des dechet": "Gestion des déchets agricoles",
+    "s4_p1_Les pratiques de gestion": "Les pratiques de gestion des déchets agricoles sont essentielles pour préserver l'environnement et maintenir la durabilité de l'agriculture. Nous pouvons ainsi valoriser le digestat, en particulier lorsqu’il ne peut pas être épandu, et traiter l'ensemble des déchets agricoles (produits phytosanitaires, production hors-calibre, matière non-méthanisable).",
+
+    "s5_title_Traitement des effluents industriels": "Traitement des effluents industriels",
+    "s5_p1_Le traitement des effluents": "Le traitement des effluents industriels est essentiel pour préserver l'environnement et assurer la qualité des ressources en eau. Nous pouvons valoriser une grande variété d'effluents issus de la plupart de ces secteurs.",
+
+    "s6_title_Opérations de Dépollution": "Opérations de Dépollution",
+    "s6_p1_Nous pouvons organiser": "Nous pouvons organiser des opérations de réhabilitation massive de terrains pollués (anciennes décharges, sols pollués aux métaux lourds)."
+  },
+
+  "team": {
+  "title": "Notre équipe"
+  },
+
+
+  "__comment_page_constat": "Traductions pour la page Notre Constat (Constat.vue)",
+
+ "notre_constat": {
+  "constat_titre": "Notre Constat",
+  "intro1_Le monde continue": "Le monde continue d'évoluer à un rythme accéléré et de nouvelles opportunités se présentent chaque jour. Dans cette ère de transformation, il est essentiel d'explorer les solutions qui façonneront notre avenir.",
+  "intro2_Ces solutions sont vastes": "Ces solutions sont vastes et variées, mais elles ont toutes pour objectif commun de répondre aux défis de notre époque en utilisant l'innovation, la créativité et la collaboration. Il est passionnant d'imaginer comment ces solutions émergentes façonneront notre avenir et ouvriront la voie à un monde meilleur. Restons ouverts aux opportunités et prêts à embrasser le changement pour un avenir prometteur.",
+
+  "titre2_Technologie": "Technologie",
+  "intro3_Les avancees technologiques": "Les avancées technologiques ne cessent de transformer notre façon de vivre, de travailler et de communiquer. Des domaines tels que l'intelligence artificielle, l'Internet des objets, la réalité virtuelle et augmentée ou la blockchain offrent des opportunités fascinantes pour résoudre des problèmes complexes. Les progrès dans ces domaines pourraient non seulement améliorer notre qualité de vie, mais aussi révolutionner certains secteurs comme la santé, l'éducation, l'énergie et bien d'autres.",
+  "titre3_Durabilite environnementale": "Durabilité environnementale",
+  "intro4_Face aux defis": "Face aux défis climatiques auxquels notre planète est confrontée, les solutions de demain doivent se concentrer sur la durabilité environnementale. Les énergies renouvelables, l'efficacité énergétique, la gestion des déchets et la préservation des ressources naturelles sont autant de domaines où des mesures novatrices peuvent être prises pour réduire notre empreinte écologique. Un avenir durable dépend de notre capacité à repenser notre façon de consommer et de produire.",
+
+  "um": "UM : Unité de Méthanisation",
+  "ugh": "UGH : Unité de Gazéification Hydrothermale",
+
+  "titre5_Environnement": "Environnement",
+  "intro5_Nous nous sommes": "Nous nous sommes engagés à agir de manière plus responsable dans nos pratiques. Cela se traduit par la réduction de notre empreinte carbone, la préservation des ressources naturelles et la protection de la biodiversité. Nous mettons nos compétences aux services de lendemains plus vertueux.",
+  
+  "titre6_Economie circulaire": "Economie circulaire",
+  "intro6_Nous croyons en la": "Nous croyons en la transition vers une économie circulaire, qui vise à recycler, réutiliser et valoriser les produits et les matériaux plutôt que de les jeter. Nous encourageons la consommation responsable, le partage, la réparation et le recyclage pour réduire le gaspillage et participer à l’avènement d’une industrie sans déchet ultime.",
+  
+  "titre7_Innovation durable": "Innovation durable",
+  "intro7_Nous soutenons": "Nous soutenons et encourageons l'innovation dans les domaines de l'énergie renouvelable, de la gestion des déchets, du transport durable et de nombreuses autres initiatives écologiques. En investissant dans des solutions plus durables, nous souhaitons participer à la création d’un avenir meilleur.",
+  "intro8_En tant qu entreprise": "En tant qu'entreprise motivée par ces valeurs, nous nous efforçons de faire une différence positive, à la fois dans notre fonctionnement interne et notre impact sociétal. En adoptant des pratiques plus durables et en soutenant des initiatives respectueuses de l'environnement, nous contribuons à la construction d'un avenir plus écologique et équitable pour tous.",
+  "intro9_Notre industrie": "Notre industrie 5.0 est celle de la dépollution, de la décarbonation et de la pluri-sectorialité.",
+
+  "clic1_Nos Solutions": "Nos Solutions",
+  "clic2_Nous contacter": "Nous contacter",
+  "clic3_Nos Coordonnees": "Nos Coordonnées"
+}
+}

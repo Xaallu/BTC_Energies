@@ -31,7 +31,7 @@
     
     <h1 class="bandeau_bleu-text font-montserrat text-white text-center leading-snug break-words"
         style="font-size: clamp(1rem, 1.6vw, 2rem);">
-      Développement, Gestion et Exploitation de projets industriels
+      {{ $t("texte_bandeau_bleu") }}
     </h1>
     
     <div class="w-[200px] h-1 bg-[#22B17A] mt-8 bandeau_bleu-trait mx-auto"></div>
@@ -49,7 +49,7 @@
       <v-container fluid class="page-blanche_app py-10">
         <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
 
-          <h2 class="page-blanche_app-title">Nos services</h2>
+          <h2 class="page-blanche_app-title">{{ $t('services.title_Nos services') }}</h2>
           <br><br>
 
           <!-- blocs services -->
@@ -62,21 +62,20 @@
               <p v-for="(text, i) in service.description" :key="i">{{ text }}</p>
             </v-col>
           </v-row>
-          <!-- bloc 1 -->
+                <!-- bloc 1 -->
         <v-row class="page-blanche_app-block" align="center">
-              <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo1app.png" alt="Nos services BTC Energies">
-              </v-col>
-              <v-col cols="12" md="10" class="page-blanche_app-content">
-                <h3 class="font-semibold text-[#475C79]">
-                  {{ $t('Vente d’énergies et de ressources renouvelables.') }}
-
-                </h3>
-                <p>
-                  Nous assurons la production et la vente d’énergies et de ressources renouvelables issues de procédés de valorisation de biomasse et de matières d’origine fossile.
-                </p>
-              </v-col>
-            </v-row>
+          <v-col cols="12" md="2" class="page-blanche_app-logo">
+            <img src="/logo1app.png" alt="Nos services BTC Energies">
+          </v-col>
+          <v-col cols="12" md="10" class="page-blanche_app-content">
+            <h3 class="font-semibold text-[#475C79]">
+              {{ $t('services.s1_title_Vente d’energies') }}
+            </h3>
+            <p>
+              {{ $t('services.s1_p1_Nous assurons la production') }}
+            </p>
+          </v-col>
+        </v-row>
 
                 <!-- bloc 2 -->
             <v-row class="page-blanche_app-block" align="center">
@@ -85,13 +84,13 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Gazéification hydrothermale de déchets et d’ordures ménagères
+                  {{ $t('services.s2_title_Gazeification') }}s
                 </h3>
                 <p>
-                  La gazéification hydrothermale permet de transformer efficacement des déchets en gaz de synthèse, une source d'énergie renouvelable et propre, mais également en ressources minérales et en eau.
+                  {{ $t('services.s2_p1_La gazeification') }}               
                 </p>
                 <p>
-                  Nous pouvons valoriser une grande variété de matières à des tarifs très compétitifs.
+                  {{ $t('services.s2_p2_Nous pouvons valoriser') }}
                 </p>
               </v-col>
             </v-row>
@@ -103,13 +102,13 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Valorisation des effluents de station d'épuration et des eaux usées (STEP/STEU) et du lixiviat
+                  {{ $t('services.s3_title_Valorisation des effluents') }}
                 </h3>
                 <p>
-                  Nous pouvons assurer la valorisation des effluents de stations d'épuration et celles de traitement des eaux usées : y compris lorsqu'elles sont souillées (mercure, pathogènes et autres polluants comme des micro-plastiques et une partie des PFAS).
+                 {{ $t('services.s3_p1_Nous pouvons assurer') }}
                 </p>
                 <p>
-                  Nous pouvons utiliser les ressources présentes dans les eaux usées et ainsi contribuer à la préservation de l'environnement.
+                  {{ $t('services.s3_p2_Nous pouvons utiliser') }}
                 </p>
               </v-col>
             </v-row>
@@ -121,10 +120,11 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Gestion des déchets agricoles
+                  {{ $t('services.s4_title2_Gestion des dechet') }}
                 </h3>
                 <p>
-                  Les pratiques de gestion des déchets agricoles sont essentielles pour préserver l'environnement et maintenir la durabilité de l'agriculture. Nous pouvons ainsi valoriser le digestat, en particuliers lorsqu’il ne peut pas être épandu, et traiter l'ensemble des déchets agricoles (produits phyto-sanitaires, production hors-calibre, matière non-méthanisable).                </p>
+                  {{ $t('services.s4_p1_Les pratiques de gestion') }}
+                </p>
              
               </v-col>
             </v-row>
@@ -136,10 +136,10 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Traitement des effluents industriels
+                 {{ $t('services.s5_title_Traitement des effluents industriels') }} 
                 </h3>
                 <p>
-                  Le traitement des effluents industriels est essentiel pour préserver l'environnement et assurer la qualité des ressources en eau. Nous pouvons valoriser une grande variété d'effluents issus de la plupart de ces secteurs.
+                  {{ $t('services.s5_p1_Le traitement des effluents') }}  
                 </p>
                 
               </v-col>
@@ -152,10 +152,11 @@
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
-                  Opérations de Dépollution
+                  {{ $t('services.s6_title_Opérations de Dépollution') }}
                 </h3>
                 <p>
-                  Nous pouvons organiser des opérations de réhabilitation massive de terrains pollués (anciennes décharges, sols pollués aux métaux lourds).                 </p>
+                  {{ $t('services.s6_p1_Nous pouvons organiser') }}
+                </p>
                 
               </v-col>
             </v-row>
@@ -165,7 +166,7 @@
 
       <!-- Notre Constat -->
      
-        <h2 class="page-blanche_app-title">Notre Constat</h2>
+        <h2 class="page-blanche_app-title">{{ $t('notre_constat') }}</h2>
 
         
 
@@ -188,7 +189,7 @@
 
       <!-- Notre équipe -->
       
-        <h2 class="page-blanche_app-title">Notre équipe</h2>
+        <h2 class="page-blanche_app-title">{{ $t('notre_equipe') }}</h2>
         <br><br>
 
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
@@ -207,7 +208,9 @@
 
               />
               <p class="profile-name font-semibold text-sm sm:text-base mt-2">{{ member.name }}</p>
-              <p class="profile-title italic text-xs sm:text-sm">{{ member.title }}</p>
+              <p class="profile-title italic text-xs sm:text-sm">
+                {{ $te('team.roles.' + member.title) ? $t('team.roles.' + member.title) : member.title }}
+              </p>
               <p v-if="member.role" class="profile-role italic text-sm text-gray-600 mt-2 font-semibold">{{ member.role }}</p>
               <p v-if="member.phone" class="profile-phone text-sm text-gray-500 font-bold mt-2">{{ member.phone }}</p>
             </div>
@@ -218,32 +221,41 @@
 
     </v-main>
 
-    <!-- Mentions légales -->
-    <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-      <div class="flex justify-start pl-0 ml-0 order-1 sm:order-none">
 
-
-        <!-- Logo -->
-        <div class="flex justify-start pl-0 ml-4">
-          <img
-            ref="bandeau_bleu-logo"
-            src="/logo_sidebar.png"
-            alt="BTC Énergies Logo"
-            class="w-24 sm:w-24 md:w-40 h-auto max-h-24 sm:max-h-28 md:max-h-32 bandeau_bleu-logo"
-
-          />
-        </div>
-
-        <!-- Texte -->
-          <div class="w-full text-white text-center xs:text-left text-[10px] sm:text-xs leading-tight sm:leading-snug space-y-0.5">
-            <h2 class="font-bold text-white text-xl sm-1">Mentions légales</h2>
-            <br />
-            <p class="text-[10px]">BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse</p>
-            <p class="text-[10px]">Numéro SIRET : 928 497 585 00010</p>
-          </div>
-      
-      </div>
+    <!-- Bandeau bas de page - Mentions Légales -->
+<div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+  <div class="flex flex-col sm:grid sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
+    
+    <!-- Colonne 1 : Logo (centré mobile + desktop) -->
+    <div class="flex justify-center sm:justify-start">
+      <img
+        src="/logo_sidebar.png"
+        ref="logoSidebar"
+        alt="BTC Énergies Logo"
+        class="w-28 sm:w-40 h-auto max-h-32"
+      />
     </div>
+
+    <!-- Colonne 2 : Vide sur desktop -->
+    
+
+            <!-- Colonne 3 : Mentions légales -->
+<div class="flex flex-col items-center text-center">
+  <h2 class="font-bold text-white text-xl mb-1">Mentions légales</h2>
+
+  <p class="text-[10px] sm:text-[13px] inline-block">
+    BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse
+  </p>
+
+  <p class="text-[10px] sm:text-[13px] inline-block pl-6 sm:pl-12">
+    Numéro SIRET : 928 497 585 00010
+  </p>
+</div>
+
+
+  </div>
+</div>
+
   </div>
 </template>
 
@@ -286,13 +298,11 @@ export default {
         {
           name: 'Jean-Marc BOUILLON',
           title: 'Directeur Général',
-          phone: '+33 6 72 64 22 50',
           img: '/Trombi/JM_B.jpg',
         },
         {
           name: 'Alain Degans',
           title: 'Chef de Projet Digital',
-          phone: '+33 7 88 10 07 46',
           img: '/Trombi/A_D.png',
         },
         {

@@ -3,7 +3,6 @@
   <div class="hidden lg:flex fixed top-0 left-0 h-full w-72 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e] text-white flex-col z-50 shadow-lg">
     <div class="flex flex-col h-full justify-between py-8">
 
-      
 
       <!-- Haut : logos + flèche haut -->
       <div>
@@ -11,9 +10,24 @@
           <img ref="logoL" src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-32 w-auto mb-2" />
           <br>
           <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto mb-2 mt-4" />
-          <div class="menu-arrow_H mt-16"></div>
-        </div>
-      </div>
+
+              <!-- 🧠 Place-le en bas de ta sidebar -->
+                <div class="mt-auto p-8">
+                  <button
+                    @click="switchLang"
+                    class="text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a] transition"
+                  >
+                    🌍 {{ locale === 'fr' ? '🇫🇷' : '🇬🇧' }}
+                   
+
+                  </button>
+                </div>
+
+              <div class="menu-arrow_H"></div>
+            </div>
+          </div>
+
+
 
       <!-- Centre : menu avec scroll -->
       <ul ref="menuList" class="menu-scroll text-center space-y-4 overflow-x-hidden flex-1 scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-transparent">
@@ -156,6 +170,17 @@ onMounted(() => {
     })
   }
 })
+
+/* Changemment de langue */
+import { useI18n } from 'vue-i18n'
+
+const { locale } = useI18n()
+
+function switchLang() {
+  locale.value = locale.value === 'fr' ? 'en' : 'fr'
+  localStorage.setItem('lang', locale.value)
+}
+
 </script>
 
 <style scoped>

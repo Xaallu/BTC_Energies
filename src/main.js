@@ -1,29 +1,41 @@
 // main.js
 
 import { createApp } from 'vue'
-import 'vuetify/styles'
-// import '@mdi/font/css/materialdesignicons.css' // (si tu utilises des icônes mdi)
-
+import App from './App.vue'
 
 // Styles globaux
+import 'vuetify/styles'
 import './style.css'
 import './assets/tailwind.css'
 
-// Composant racine
-import App from './App.vue'
+// Vuetify et Router
+import vuetify from './plugins/vuetify'
 import router from './router'
 
-// Vuetify
-import vuetify from './plugins/vuetify'
+// Traductions
+import { createI18n } from 'vue-i18n'
+import fr from './locales/fr.json'
+import en from './locales/en.json'
 
+// Langue enregistrée (ou fr par défaut)
+const savedLocale = localStorage.getItem('lang') || 'fr'
 
+// Instance i18n
+const i18n = createI18n({
+  locale: savedLocale,
+  fallbackLocale: 'fr',
+  messages: { fr, en },
+  missingWarn: false,
+  fallbackWarn: false  
+})
 
-// ✅ Crée une seule fois l'app
+// Création de l’application Vue
 const app = createApp(App)
 
-// ✅ Utilise Vuetify et le Router AVANT le mount
+// Ajout des plugins
 app.use(vuetify)
 app.use(router)
+app.use(i18n)
 
-// ✅ Monte l’app une seule fois
+// Montre l'application
 app.mount('#app')

@@ -1,0 +1,91 @@
+{
+  "__comment_page_index": "Traductions pour la page d'accueil (Accueil.vue)",
+
+
+  "texte_bandeau_bleu": "Development, Management and Operation of Industrial Projects",
+  "notre_constat": "Our Analysis",
+  "notre_equipe": "Our Team",
+  "legal_title": "Legal Notice",
+  "legal_line1": "BTC Énergies (SAS) with a capital of €120, registered with the Toulouse RCS",
+  "legal_line2": "SIRET number: 928 497 585 00010",
+
+  "services": {
+    "title_Nos services": "Our services",
+    "s1_title_Vente d’energies": "Sale of renewable energy and resources.",
+    "s1_p1_Nous assurons la production": "We produce and sell renewable energy and resources from biomass and fossil-based processes.",
+
+    "s2_title_Gazeification": "Hydrothermal gasification of waste and household garbage",
+    "s2_p1_La gazeification": "Hydrothermal gasification effectively transforms waste into syngas—a clean, renewable energy source—as well as mineral resources and water.",
+    "s2_p2_Nous pouvons valoriser": "We can process a wide variety of materials at highly competitive rates.",
+
+    "s3_title_Valorisation des effluents": "Recovery of wastewater treatment plant effluents and leachate",
+    "s3_p1_Nous pouvons assurer": "We recover effluents from wastewater treatment plants, even when contaminated (mercury, pathogens, microplastics, PFAS).",
+    "s3_p2_Nous pouvons utiliser": "We reuse waterborne resources to help protect the environment.",
+
+    "s4_title2_Gestion des dechet": "Agricultural waste management",
+    "s4_p1_Les pratiques de gestion": "Managing agricultural waste is essential for protecting the environment and sustainable farming. We recover digestate (even when not spreadable) and treat all farm-related waste (phytosanitary products, off-grade crops, non-methanisable matter).",
+
+    "s5_title_Traitement des effluents industriels": "Industrial effluent treatment",
+    "s5_p1_Le traitement des effluents": "Treating industrial effluents is vital for protecting the environment and maintaining water quality. We recover a wide range of effluents from most sectors.",
+
+    "s6_title_Opérations de Dépollution": "Decontamination Operations",
+    "s6_p1_Nous pouvons organiser": "We can organize large-scale remediation of polluted sites (former dumps, soils contaminated with heavy metals)."
+  },
+
+  "team": {
+  "title": "Our Team",
+
+  "roles": {
+    "Président (CEO)": "President (CEO)",
+    "Porteur de projet": "Project Leader",
+
+    "Directeur Général": "General Director",
+    "Chef de Projet Digital": "Digital Project Manager",
+    "Responsable RH (HR Manager)": "HR Manager",
+    "Responsable Technique (CTO)": "Technical Manager (CTO)",
+    "Responsable Commercial (CBO)": "Sales Manager (CBO)",
+    "Responsable QHSE (QSE Manager)": "QSE Manager",
+    "Cheffe de projet Outre Mer (Project Manager)": "Overseas Project Manager",
+    "Développeur IA et Automatisation": "AI & Automation Developer",
+    "Architecte Web Full-Stack": "Full-Stack Web Architect",
+    "Responsable Bien-être au travail (Chief Happiness Officer)": "Chief Happiness Officer"
+    }
+  },
+
+
+  
+  "__comment_page_constat": "Traductions pour la page Notre Constat (Constat.vue)",
+
+  "notre_constat": {
+  "constat_titre": "Our Analysis",
+  "intro1_Le monde continue": "The world continues to evolve at a rapid pace, and new opportunities arise every day. In this era of transformation, it is essential to explore the solutions that will shape our future.",
+  "intro2_Ces solutions sont vastes": "These solutions are vast and diverse, but they all share a common goal: addressing today's challenges through innovation, creativity, and collaboration. It is exciting to imagine how these emerging solutions will shape our future and pave the way for a better world. Let’s stay open to opportunities and ready to embrace change for a promising future.",
+
+  "titre2_Technologie": "Technology",
+  "intro3_Les avancees technologiques": "Technological advances are constantly transforming the way we live, work and communicate. Areas such as artificial intelligence, the Internet of Things, virtual and augmented reality and blockchain offer fascinating opportunities for solving complex problems. Advances in these areas could not only improve our quality of life, but also revolutionise sectors such as healthcare, education, energy and many others.",
+  "titre3_Durabilite environnementale": "Environmental sustainability",
+  "intro4_Face aux defis": "Faced with the climate challenges facing our planet, tomorrow's solutions must focus on environmental sustainability. Renewable energies, energy efficiency, waste management and the preservation of natural resources are all areas where innovative measures can be taken to reduce our ecological footprint. A sustainable future depends on our ability to rethink the way we consume and produce.",
+
+  "um": "UM: Methanation Unit",
+  "ugh": "UGH: Hydrothermal Gasification Unit",
+
+  "titre5_Environnement": "Environment",
+  "intro5_Nous nous sommes": "We are committed to acting more responsibly in our business practices. This means reducing our carbon footprint, preserving natural resources and protecting biodiversity. We are putting our skills at the service of a more virtuous tomorrow.",
+
+  "titre6_Economie circulaire": "Circular economy",
+  "intro6_Nous croyons en la": "We believe in the transition to a circular economy, which aims to recycle, reuse and add value to products and materials rather than throwing them away. We encourage responsible consumption, sharing, repair and recycling to reduce waste and contribute to an industry with no ultimate waste.",
+
+  "titre7_Innovation durable": "Sustainable innovation",
+  "intro7_Nous soutenons": "We support and encourage innovation in renewable energy, waste management, sustainable transport and many other green initiatives. By investing in more sustainable solutions, we want to help create a better future.",
+  "intro8_En tant qu entreprise": "As a company driven by these values, we strive to make a positive difference, both in our internal operations and in our impact on society. By adopting more sustainable practices and supporting environmentally-friendly initiatives, we are helping to build a greener, fairer future for everyone.",
+  "intro9_Notre industrie": "Our Industry 5.0 is one of depollution, decarbonisation and multi-sectoriality.",
+
+  "clic1_Nos Solutions": "Our solutions",
+  "clic2_Nous contacter": "Contact us",
+  "clic3_Nos Coordonnees": "Our contact"
+
+
+
+}
+  }
+
