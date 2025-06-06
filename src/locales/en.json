@@ -83,9 +83,39 @@
   "clic1_Nos Solutions": "Our solutions",
   "clic2_Nous contacter": "Contact us",
   "clic3_Nos Coordonnees": "Our contact"
+  },
 
+  "__comment_page_solutions": "Traductions pour la page Nos Solutions (Solutions.vue)",
 
+  "nos_solutions": {
+    "title_nos solutions": "Our Solutions",
+    "intro1_En France": "In France, there are only 1175 Methanation Units and almost no Hydrothermal Gasification Units.",
+    "titre2_Preparation": "Preparation",
+    "text1_Recuperation": "On-site recovery and transport of inputs.",
+    "text2_Tri et separation": "Sorting and separating inputs.",
+    "text3_Broyage": "Shredding of recyclable waste.",
+    "text4_Melange": "Mixing, pulping and brewing.",
 
-}
+    "titreVal_Valorisation": "Valuation",
+     "Val_La Gazéification Hydrothermale": "Hydrothermal gasification, or GH, is used to extract various gases and minerals using a catalytic or high-temperature process.",
+      "text1_Gaz produits": "Gases produced: (Di) Hydrogen, methane and CO2, which will be purified before being reinjected into the grid, transformed into electricity, compressed or exploited on site.",
+      "text2_Eau récupérée": "Recovered water: will be treated by an electrolysis process (after passing through a reverse osmosis process or an evapo-condenser) and/or reused on site.",
+      "text3_Matiere minérale": "Extracted mineral matter: will be dried, separated and sold to cement manufacturers or refiners. Some of the fertiliser will also be used on site.",
+      
+      "titre_Notre offre de services": "Our services offerings",
+      "texteOffre_Nous pouvons traiter": "We can handle a wide variety of materials from different sectors.",
+      "texteOffre_Nous proposons": "We offer our services to any organisation (public or private) wishing to optimise its waste and wastewater treatment system. We take charge of their waste treatment and develop, manage and operate a customised system tailored to their needs.",
+
+      "titre_Nos produits fini": "Our finished products and their outlets",
+      "texteproduits_Nous destinons": "We use our methane production to supply industrial companies, gas and energy suppliers, service stations and local authorities.",
+      "texteproduits_LHydrogène est": "Hydrogen is redistributed to businesses and local authorities and transformed into electricity.",
+      "texteproduits_Le CO2 est": "The CO2 is used in agricultural and industrial activities or converted into e-fuel.",
+      "texteproduits_Leau chargee dazote": "The water, loaded with nitrogen, is osmosed or used to grow plants.",
+      "texteproduits_La matiere minerale": "Depending on the material recovered, mineral matter may contain fertilisers and metals. They are therefore extracted and exploited by different sectors.",
+
+      "Nous contacter": "Contact us",
+      "Nos Coordonnees": "Our Contact",
   }
 
+    
+}

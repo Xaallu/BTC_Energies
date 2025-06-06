@@ -67,5 +67,39 @@
   "clic1_Nos Solutions": "Nos Solutions",
   "clic2_Nous contacter": "Nous contacter",
   "clic3_Nos Coordonnees": "Nos Coordonnées"
+  },
+
+  "__comment_page_solutions": "Traductions pour la page Nos Solutions (Solutions.vue)",
+
+"nos_solutions": {
+  "title_nos solutions": "Nos solutions",
+  "intro1_En France": "En France, il existe seulement 1175 Unité de Méthanisation et presque aucune unité de Gazéification Hydrothermale.",
+  "titre2_Preparation": "Préparation",
+  "text1_Recuperation": "Récupération et acheminement des intrants sur site.",
+  "text2_Tri et separation": "Tri et séparation des intrants.",
+  "text3_Broyage": "Broyage des déchets valorisables.",
+  "text4_Melange": "Mélange, pulpage et brassage.",
+
+  "titreVal_Valorisation": "Valorisation",
+  "Val_La Gazéification Hydrothermale": "La Gazéification Hydrothermale ou GH permet d'extraire différents gaz et minéraux par procédé catalytique ou par procédé de haute température.",
+
+  "text1_Gaz produits": "Gaz produits : (Di) Hydrogène, méthane et CO2 qui seront purifiés avant d'être réinjectés dans le réseau, transformés en électricité, comprimés ou exploités sur place.",
+  "text2_Eau récupérée": "Eau récupérée : sera traitée par un processus d'électrolyse (après passage en procédé d'osmose inverse ou en évapo-condensateur) et/ou réexploitée sur place.",
+  "text3_Matiere minérale": "Matière minérale extraite : sera séchée, séparée, et vendue à des cimentiers ou à des affineurs. Une partie des engrais seront également exploités sur place.",
+
+  "titre_Notre offre de services": "Notre offre de services",
+  "texteOffre_Nous pouvons traiter": "Nous pouvons traiter une grande variété de matière issues de différents secteurs.",
+  "texteOffre_Nous proposons": "Nous proposons nos services à toute structure (publique ou privée) souhaitant optimiser son système de traitement de déchets et d'eaux usées. Nous prenons en charge le traitement de leurs déchets et assurons le développement, la gestion et l'exploitation d'un système sur-mesure, adapté à leurs besoins.",
+
+  "titre_Nos produits fini": "Nos produits finis et leurs débouchés",
+  "texteproduits_Nous destinons": "Nous destinons notre production de méthane aux entreprises : industriels, fournisseurs de gaz et énergéticiens, stations services et aux collectivités.",
+  "texteproduits_LHydrogène est": "L’Hydrogène est redistribué aux entreprises et aux collectivités et transformé en électricité.",
+  "texteproduits_Le CO2 est": "Le CO2 est exploité dans le cadre d’activités agricoles et industrielles ou transformé en e-carburant.",
+  "texteproduits_Leau chargee dazote": "L’eau, chargée d’azote, est osmosée ou exploitée pour produire des plantes.",
+  "texteproduits_La matiere minerale": "La matières minérale peut contenir, en fonction de la matière valorisée, des engrais et des métaux. Il sont donc extraits et exploités par différents secteurs.",
+
+  "Nous contacter": "Nous contacter",
+  "Nos Coordonnees": "Nos Coordonnées"
 }
+
 }

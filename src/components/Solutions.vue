@@ -39,13 +39,13 @@
                 <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
                   <section class="bg-white py-10 px-6 md:px-16">
                     <h2 class="page-blanche_app-title">
-                      Nos solutions
+                      {{ $t('nos_solutions.title_nos solutions') }}
                     </h2>
                 <div class="flex justify-center mb-6">
 <br>              
                   </div>
                   <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
-                    En France, il existe seulement 1175 Unité de Méthanisation et presque aucune unité de Gazéification Hydrothermale.
+                    {{ $t('nos_solutions.intro1_En France') }}
                   </p>
 <br>
 
@@ -62,16 +62,16 @@
 
           <!-- Titre 1 + soulignement -->
           <div class="indent-8 text-left mb-6">
-            <h2 class=" text-3xl font-bold text-[#777777]">Préparation</h2>
+            <h2 class=" text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.titre2_Preparation') }}</h2>
             <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
           </div>
 
             <!-- Liste -->
           <ol class="indent-12 text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <li>1. Récupération et acheminement des intrants sur site.</li>
-            <li>2. Tri et séparation des intrants.</li>
-            <li>3. Broyage des déchets valorisables.</li>
-            <li>4. Mélange, pulpage et brassage.</li>
+            <li>1. {{ $t('nos_solutions.text1_Recuperation') }} </li>
+            <li>2. {{ $t('nos_solutions.text2_Tri et separation') }}</li>
+            <li>3. {{ $t('nos_solutions.text3_Broyage') }}</li>
+            <li>4. {{ $t('nos_solutions.text4_Melange') }}</li>
           </ol>
       </div>
 <br><br>
@@ -88,13 +88,13 @@
 
           <!-- Titre 2 + soulignement -->
           <div class="indent-8 text-left mb-6">
-            <h2 class="text-3xl font-bold text-[#777777]">Valorisation</h2>
+            <h2 class="text-3xl font-bold text-[#777777]"> {{ $t('nos_solutions.titreVal_Valorisation') }}</h2>
             <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
           </div>
 
             <!-- Liste -->
           <ol class="text-center text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <p>La Gazéification Hydrothermale ou GH permet d'extraire différents gaz et minéraux par procédé catalytique ou par procédé de haute température.</p>
+            <p>{{ $t('nos_solutions.Val_La Gazéification Hydrothermale') }}</p>
           </ol>
       </div>   
 
@@ -118,9 +118,9 @@
 
             <!-- Liste -->
             <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <li>1.  Gaz produits : (Di)Hydrogène, méthane et CO2 qui seront purifiés avant d'être réinjectés dans le réseau, transformés en électricité, comprimés ou exploités sur place.</li>
-            <li>2.  Eau récupérée : sera traitée par un processus d'électrolyse (après passage en procédé d'osmose inverse ou en évapo-condensateur) et/ou réexploitée sur place.</li>
-            <li>3.  Matière minérale extraite : sera séchée, séparée, et vendue à des cimentiers ou à des affineurs. Une partie des engrais seront également exploités sur place. </li>
+            <li>1. {{ $t('nos_solutions.text1_Gaz produits') }} </li>
+            <li>2. {{ $t('nos_solutions.text2_Eau récupérée') }}</li>
+            <li>3. {{ $t('nos_solutions.text3_Matiere minérale') }}</li>
           </ol>
         </div>  
   <br><br>
@@ -136,11 +136,11 @@
         <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
             <h2 class="page-blanche_app-title ">
-                Notre offre de services
+               {{ $t('nos_solutions.titre_Notre offre de services') }}
               </h2>
               <br><br>
               <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
-              Nous pouvons traiter une grande variété de matière issues de différents secteurs.              </p>
+             {{ $t('nos_solutions.texteOffre_Nous pouvons traiter') }}</p>
           </div>        
 
           <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
@@ -155,7 +155,7 @@
 
             <!-- Liste image 1 -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">Nous proposons nos services à toute structure (publique ou privée) souhaitant optimiser son système de traitement de déchets et d'eaux usées. Nous prenons en charge le traitement de leurs déchets et assurons le développement, la gestion et l'exploitation d'un système sur-mesure, adapté à leurs besoins.</p>
+          <p class="text-center">{{ $t('nos_solutions.texteOffre_Nous proposons') }}</p>
           </ol>
       </div>
 <br>
@@ -169,7 +169,7 @@
           <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
               <h2 class="page-blanche_app-title">
-                Nos produits finis et leurs débouchés :
+                {{ $t('nos_solutions.titre_Nos produits fini') }}
               </h2>
           </div> 
 
@@ -189,7 +189,7 @@
 
           <!-- Liste image 2 -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">Nous destinons notre production de méthane aux entreprises : industriels, fournisseurs de gaz et énergéticiens, stations services et aux collectivités.</p>
+          <p class="text-center">{{ $t('nos_solutions.texteproduits_Nous destinons') }}</p>
           </ol>
         </div> 
       </div>
@@ -207,7 +207,7 @@
 
           <!-- Liste image 3 -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">L’Hydrogène est redistribué aux entreprises et aux collectivités et transformé en électricité.</p>
+          <p class="text-center">{{ $t('nos_solutions.texteproduits_LHydrogène est') }}</p>
           </ol>
         </div>
 <br>
@@ -223,7 +223,7 @@
 
           <!-- Liste image 4 -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">Le CO2 est exploité dans le cadre d’activités agricoles et industrielles ou transformé en e-carburant.</p>
+          <p class="text-center">{{ $t('nos_solutions.texteproduits_Le CO2 est') }}</p>
         </ol>
       </div> 
 <br>
@@ -240,7 +240,7 @@
       
           <!-- Liste image 5 -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">L’eau, chargée d’azote, est osmosée ou exploitée pour produire des plantes.</p>
+          <p class="text-center">{{ $t('nos_solutions.texteproduits_Leau chargee dazote') }}</p>
         </ol>
       </div> 
 <br>
@@ -258,7 +258,7 @@
 
           <!-- Liste image 6  -->
           <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">La matières minérale peut contenir, en fonction de la matière valorisée, des engrais et des métaux. Il sont donc extraits et exploités par différents secteurs. </p>
+          <p class="text-center">{{ $t('nos_solutions.texteproduits_La matiere minerale') }} </p>
         </ol>
       </div>
           
@@ -291,12 +291,12 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">Nous contacter</h2>
+              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('nos_solutions.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
                        active:scale-95 active:shadow-inner flex items-center gap-2">
-                Nos Coordonnées
+                {{ $t('nos_solutions.Nos Coordonnees') }}
               </a>
             </div>
           </div>
