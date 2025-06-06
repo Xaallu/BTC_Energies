@@ -206,7 +206,7 @@
             <!-- Colonne 2 : Vide ou contenu futur -->
             <div></div>
 
-            <!-- Colonne 3 : Texte et bouton -->
+            <!-- Colonne 3 : Texte et bouton .-->
             <div class="flex flex-col items-center text-center">
               <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('notre_constat.clic2_Nous contacter') }}</h2>
               <a href="/contact"
