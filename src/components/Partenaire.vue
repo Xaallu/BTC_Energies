@@ -31,14 +31,14 @@
 
             <!-- Texte centré -->
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white ml-16">Financements et partenaires</h2>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white ml-16">{{ $t('nos_partenaires.Financements et partenaires') }}</h2>
 
                 <!-- Trait supérieur -->
               <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
 
                 <div class="w-full max-w-4xl border-t border-white mb-6"></div>
                 <p class="text-white text-lg md:text-xl max-w-4xl mx-auto leading-relaxed pl-10">
-                  Pour réaliser nos projets, nous nous rapprochons d'une grande variété d'acteurs qui  nous soutiennent à chaque étape.
+                 {{ $t('nos_partenaires.textHe_Pour realiser') }} 
                 </p>
 
                 <br> <br>
@@ -58,14 +58,23 @@
 
               
 
-              <h2 class="text-3xl font-bold text-[#777777] mb-6">Financement participatif</h2>
+              <h2 class="text-3xl font-bold text-[#777777] mb-6 text-center">
+                {{ $t('nos_partenaires.titre1_Financement participatif') }}
+              </h2>
+              <!-- Trait vert-->
+              <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
+
               <div class="flex justify-center items-center my-6">
             <a href="https://fr.ulule.com/projet-promethee-energies-renouvelables/"
                target="_blank" rel="noopener noreferrer">
               <img src="/partenaire/ulule.png" alt="Ulule" class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-400 text-xl">Cliquez sur les logos si vous souhaitez nous soutenir ou découvrir notre démarche RSE.</p>
+
+          <p class="text-gray-400 text-xl text-center">{{ $t('nos_partenaires.text2_Cliquez sur') }}</p>
+
+          <p class="mb-10"></p>
+        
           
           <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
@@ -73,7 +82,11 @@
 
                   <!-- Partenaires -->
         <div class="text-center mb-20">
-          <h2 class="text-3xl font-bold text-[#777777] mb-2">Nos partenaires</h2>
+          <h2 class="text-3xl font-bold text-[#777777] mb-2">{{ $t('nos_partenaires.titre2_Nos partenaires') }}</h2>
+
+          <!-- Trait vert-->
+              <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
+
           <p class="text-gray-500 text-xl">2024</p>
           <div class="flex justify-center items-center my-6">
             <a href="https://www.lafrenchtechtoulouse.com/outils-pour-entrepreneurs/programmes/creation-et-amorcage/"
@@ -82,7 +95,8 @@
                    class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-500 text-xl">French Tech Prépa Tremplin</p>
+          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text2_French Tech') }}</p>
+          
           <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
         </div>
        
@@ -95,7 +109,7 @@
                    class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-500 text-xl">French Tech Toulouse</p>
+          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text3_French Tech Tou') }}</p>
         </div>
         
                 
@@ -111,8 +125,7 @@
                 <v-row justify="center">
                   <v-col cols="12" md="10">
                     <p class="text-center text-[#475C79] font-bold">
-                      Chez BTC Énergies, nous croyons en la force du collectif pour bâtir les solutions de demain.
-                      C’est en unissant nos compétences, nos savoir-faire et nos convictions que nous pouvons relever les défis de la transition énergétique.
+                      {{ $t('nos_partenaires.text4_Chez BTC Energies') }}
                     </p>
                     <br />
                    
@@ -149,12 +162,12 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">Nous contacter</h2>
+              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white"> {{ $t('nos_solutions.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
                        active:scale-95 active:shadow-inner flex items-center gap-2">
-                Nos Coordonnées
+                {{ $t('nos_solutions.Nos Coordonnees') }}
               </a>
             </div>
           </div>

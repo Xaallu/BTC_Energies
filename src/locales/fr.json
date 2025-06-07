@@ -100,6 +100,22 @@
 
   "Nous contacter": "Nous contacter",
   "Nos Coordonnees": "Nos Coordonnées"
-}
+},
+
+  "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",
+
+  "nos_partenaires": {
+    "Financements et partenaires": "Financements et Partenaires",
+    "textHe_Pour realiser": "Pour réaliser nos projets, nous nous rapprochons d'une grande variété d'acteurs qui nous soutiennent à chaque étape.",
+    "titre1_Financement participatif": "Financement participatif",
+    "text2_Cliquez sur": "Cliquez sur les logos si vous souhaitez nous soutenir ou découvrir notre démarche RSE.",
+    "titre2_Nos partenaires": "Nos partenaires",
+    "text2_French Tech": "French Tech Prépa Tremplin",
+    "text3_French Tech Tou": "French Tech Toulouse",
+    "text4_Chez BTC Energies": "Chez BTC Énergies, nous croyons en la force du collectif pour bâtir les solutions de demain. C’est en unissant nos compétences, nos savoir-faire et nos convictions que nous pouvons relever les défis de la transition énergétique."
+      
+   
+  }
+    
 
 }

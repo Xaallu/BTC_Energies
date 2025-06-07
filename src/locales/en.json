@@ -114,8 +114,22 @@
       "texteproduits_La matiere minerale": "Depending on the material recovered, mineral matter may contain fertilisers and metals. They are therefore extracted and exploited by different sectors.",
 
       "Nous contacter": "Contact us",
-      "Nos Coordonnees": "Our Contact",
-  }
+      "Nos Coordonnees": "Our Contact"
+  },
 
+  "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",
+
+  "nos_partenaires": {
+    "Financements et partenaires": "Funding and Partners",
+      "textHe_Pour realiser": "To carry out our projects, we work with a wide variety of players who support us every step of the way.",
+      "titre1_Financement participatif": "Equity financing",
+      "text2_Cliquez sur": "Click on the logos if you would like to support us or find out more about our CSR approach.",
+      "titre2_Nos partenaires": "Our partners",
+      "text2_French Tech": "French Tech Springboard Prep",
+      "text3_French Tech Tou": "French Tech Toulouse",
+      "text4_Chez BTC Energies": "At BTC Energies, we believe in the power of the collective to build tomorrow's solutions. It's by pooling our skills, know-how and convictions that we can meet the challenges of the energy transition."
+
+     
+  }
     
 }
