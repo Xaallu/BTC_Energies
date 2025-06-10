@@ -1,0 +1,290 @@
+{
+  "__comment_page_index": "Traducciones para la página de inicio (Accueil.vue)",
+
+  "texte_bandeau_bleu": "Desarrollo, Gestión y Explotación de proyectos industriales",
+  "nootre_constat": "Nuestro Diagnóstico",
+  "notre_equipe": "Nuestro equipo",
+  "legal_title": "Aviso Legal",
+  "legal_line1": "BTC Énergies (SAS) con capital de 120 €, registrada en el RCS de Toulouse",
+  "legal_line2": "Número SIRET: 928 497 585 00010",
+
+  "services": {
+    "title_Nos services": "Nuestros servicios",
+    "s1_title_Vente d’energies": "Venta de energías y recursos renovables.",
+    "s1_p1_Nous assurons la production": "Aseguramos la producción y venta de energías y recursos renovables procedentes de procesos de valorización de biomasa y materias de origen fósil.",
+
+    "s2_title_Gazeification": "Gasificación hidrotermal de residuos y basura doméstica",
+    "s2_p1_La gazeification": "La gasificación hidrotermal permite transformar eficazmente residuos en gas de síntesis, una fuente de energía renovable y limpia, así como en recursos minerales y agua.",
+    "s2_p2_Nous pouvons valoriser": "Podemos valorizar una gran variedad de materiales a precios muy competitivos.",
+
+    "s3_title_Valorisation des effluents": "Valorización de efluentes de estaciones depuradoras y aguas residuales (EDAR/STEU) y lixiviados",
+    "s3_p1_Nous pouvons assurer": "Podemos asegurar la valorización de los efluentes de estaciones depuradoras y plantas de tratamiento de aguas residuales: incluso cuando están contaminados (mercurio, patógenos y otros contaminantes como microplásticos y parte de los PFAS).",
+    "s3_p2_Nous pouvons utiliser": "Podemos aprovechar los recursos presentes en las aguas residuales y así contribuir a la preservación del medio ambiente.",
+
+    "s4_title2_Gestion des dechet": "Gestión de residuos agrícolas",
+    "s4_p1_Les pratiques de gestion": "Las prácticas de gestión de residuos agrícolas son esenciales para preservar el medio ambiente y mantener la sostenibilidad agrícola. Podemos valorizar el digestato, especialmente cuando no puede aplicarse como abono, y tratar todo tipo de residuos agrícolas (productos fitosanitarios, producción fuera de calibre, material no metanizable).",
+
+    "s5_title_Traitement des effluents industriels": "Tratamiento de efluentes industriales",
+    "s5_p1_Le traitement des effluents": "El tratamiento de efluentes industriales es esencial para preservar el medio ambiente y garantizar la calidad de los recursos hídricos. Podemos valorizar una gran variedad de efluentes de la mayoría de estos sectores.",
+
+    "s6_title_Opérations de Dépollution": "Operaciones de Descontaminación",
+    "s6_p1_Nous pouvons organiser": "Podemos organizar operaciones de rehabilitación masiva de terrenos contaminados (antiguos vertederos, suelos con metales pesados)."
+  },
+
+"team": {
+  "title": "Nuestro equipo",
+  "roles": {
+    "Président (CEO)": "Presidente (CEO)",
+    "Porteur de projet": "Patrocinador del proyecto",
+    "Directeur Général": "Director General",
+    "Chef de Projet Digital": "Jefe de Proyecto Digital",
+    "Responsable RH (HR Manager)": "Responsable de RR. HH. (HR Manager)",
+    "Responsable Technique (CTO)": "Responsable Técnico (CTO)",
+    "Responsable Commercial (CBO)": "Responsable Comercial (CBO)",
+    "Responsable QHSE (QSE Manager)": "Responsable de QHSE (QSE Manager)",
+    "Cheffe de projet Outre Mer (Project Manager)": "Jefa de proyecto Ultramar (Project Manager)",
+    "Développeur IA et Automatisation": "Desarrollador de IA y Automatización",
+    "Architecte Web Full-Stack": "Arquitecto Web Full-Stack",
+    "Responsable Bien-être au travail (Chief Happiness Officer)": "Responsable de Bienestar en el Trabajo (Chief Happiness Officer)"
+  }
+},
+
+
+  "__comment_page_constat": "Traducciones para la página Nuestro Diagnóstico (Constat.vue)",
+
+  "notre_constat": {
+    "constat_titre": "Nuestro Diagnóstico",
+    "intro1_Le monde continue": "El mundo sigue evolucionando a un ritmo acelerado y nuevas oportunidades surgen cada día. En esta era de transformación, es esencial explorar las soluciones que definirán nuestro futuro.",
+    "intro2_Ces solutions sont vastes": "Estas soluciones son amplias y variadas, pero comparten el objetivo común de abordar los retos de nuestra época mediante innovación, creatividad y colaboración. Es emocionante imaginar cómo estas soluciones emergentes moldearán nuestro futuro y abrirán camino a un mundo mejor. Mantengámonos abiertos a las oportunidades y preparados para abrazar el cambio hacia un futuro prometedor.",
+
+    "titre2_Technologie": "Tecnología",
+    "intro3_Les avancees technologiques": "Los avances tecnológicos no dejan de transformar nuestra forma de vivir, trabajar y comunicarnos. Áreas como la inteligencia artificial, Internet de las cosas, realidad virtual y aumentada o blockchain ofrecen oportunidades fascinantes para resolver problemas complejos. El progreso en estos ámbitos podría no solo mejorar nuestra calidad de vida, sino revolucionar sectores como la salud, la educación, la energía y muchos más.",
+    "titre3_Durabilite environnementale": "Sostenibilidad ambiental",
+    "intro4_Face aux defis": "Ante los desafíos climáticos que enfrenta nuestro planeta, las soluciones del mañana deben centrarse en la sostenibilidad ambiental. Las energías renovables, la eficiencia energética, la gestión de residuos y la preservación de los recursos naturales son ámbitos donde se pueden aplicar medidas innovadoras para reducir nuestra huella ecológica. Un futuro sostenible depende de nuestra capacidad para replantear cómo consumimos y producimos.",
+
+    "um": "UM: Unidad de Metanización",
+    "ugh": "UGH: Unidad de Gasificación Hidrotermal",
+
+    "titre5_Environnement": "Medio ambiente",
+    "intro5_Nous nous sommes": "Nos hemos comprometido a actuar con mayor responsabilidad en nuestras prácticas. Esto se traduce en la reducción de nuestra huella de carbono, la preservación de los recursos naturales y la protección de la biodiversidad. Ponemos nuestras competencias al servicio de un mañana más virtuoso.",
+
+    "titre6_Economie circulaire": "Economía circular",
+    "intro6_Nous croyons en la": "Creemos en la transición hacia una economía circular, que busca reciclar, reutilizar y valorizar productos y materiales en lugar de desecharlos. Fomentamos el consumo responsable, el intercambio, la reparación y el reciclaje para reducir el desperdicio y contribuir al advenimiento de una industria de cero residuos.",
+
+    "titre7_Innovation durable": "Innovación sostenible",
+    "intro7_Nous soutenons": "Apoyamos y promovemos la innovación en áreas como energía renovable, gestión de residuos, transporte sostenible y muchas otras iniciativas ecológicas. Al invertir en soluciones más sostenibles, deseamos ofrecer un futuro mejor.",
+    "intro8_En tant qu entreprise": "Como empresa motivada por estos valores, nos esforzamos por generar un impacto positivo tanto en nuestra operativa interna como en nuestro impacto social. Al adoptar prácticas más sostenibles y apoyar iniciativas respetuosas con el medio ambiente, contribuimos a construir un futuro más ecológico y equitativo para todos.",
+    "intro9_Notre industrie": "Nuestra industria 5.0 se basa en la descontaminación, la descarbonización y la plurisectorialidad.",
+
+    "clic1_Nos Solutions": "Nuestras Soluciones",
+    "clic2_Nous contacter": "Contáctanos",
+    "clic3_Nos Coordonnees": "Nuestros Datos de Contacto"
+  },
+
+  "__comment_page_solutions": "Traducciones para la página Nuestras Soluciones (Solutions.vue)",
+
+  "nos_solutions": {
+    "title_nos solutions": "Nuestras soluciones",
+    "intro1_En France": "En Francia, solo existen 1175 Unidades de Metanización y casi ninguna unidad de Gasificación Hidrotermal.",
+    "titre2_Preparation": "Preparación",
+    "text1_Recuperation": "Recuperación y transporte de los insumos al sitio.",
+    "text2_Tri et separation": "Clasificación y separación de los insumos.",
+    "text3_Broyage": "Trituración de residuos valorizables.",
+    "text4_Melange": "Mezcla, pulpeado y agitación.",
+
+    "titreVal_Valorisation": "Valorización",
+    "Val_La Gazéification Hydrothermale": "La Gasificación Hidrotermal o GH permite extraer diversos gases y minerales mediante un proceso catalítico o de alta temperatura.",
+
+    "text1_Gaz produits": "Gases producidos: (Di) Hidrógeno, metano y CO₂ que serán purificados antes de ser reinyectados en la red, convertidos en electricidad, comprimidos o utilizados localmente.",
+    "text2_Eau récupérée": "Agua recuperada: será tratada mediante un proceso de electrólisis (tras ósmosis inversa o evaporoconcentración) y/o reutilizada en el sitio.",
+    "text3_Matiere minérale": "Materia mineral extraída: será secada, separada y vendida a empresas cementeras o refinadoras. Parte de los fertilizantes también se explotará localmente.",
+
+    "titre_Notre offre de services": "Nuestra oferta de servicios",
+    "texteOffre_Nous pouvons traiter": "Podemos tratar una amplia variedad de materiales procedentes de distintos sectores.",
+    "texteOffre_Nous proposons": "Ofrecemos nuestros servicios a cualquier entidad (pública o privada) que desee optimizar su sistema de tratamiento de residuos y aguas residuales. Nos encargamos del tratamiento de sus residuos y gestionamos el desarrollo, operación y explotación de un sistema a medida, adaptado a sus necesidades.",
+
+    "titre_Nos produits fini": "Nuestros productos finales y sus salidas",
+    "texteproduits_Nous destinons": "Destinamos nuestra producción de metano a empresas: industriales, proveedores de gas y energéticas, estaciones de servicio y comunidades.",
+    "texteproduits_LHydrogène est": "El hidrógeno se distribuye a empresas y administraciones y se convierte en electricidad.",
+    "texteproduits_Le CO2 est": "El CO₂ se utiliza en actividades agrícolas e industriales o se transforma en biocombustible.",
+    "texteproduits_Leau chargee dazote": "El agua, cargada de nitrógeno, se someterá a ósmosis o se utilizará para el cultivo de plantas.",
+    "texteproduits_La matiere minerale": "La materia mineral puede contener, según el material valorizado, fertilizantes y metales. Por ello se extrae y utiliza en distintos sectores.",
+
+    "Nous contacter": "Contáctanos",
+    "Nos Coordonnees": "Nuestros Datos de Contacto"
+  },
+
+  "__comment_page_partenaire": "Traducciones para la página Socios (Partenaire.vue)",
+
+  "nos_partenaires": {
+    "Financements et partenaires": "Financiación y Socios",
+    "textHe_Pour realiser": "Para llevar a cabo nuestros proyectos, colaboramos con una amplia variedad de actores que nos apoyan en cada etapa.",
+    "titre1_Financement participatif": "Financiación colectiva",
+    "text2_Cliquez sur": "Haz clic en los logotipos si deseas apoyarnos o conocer nuestro enfoque RSE.",
+    "titre2_Nos partenaires": "Nuestros socios",
+    "text2_French Tech": "French Tech Prépa Tremplin",
+    "text3_French Tech Tou": "French Tech Toulouse",
+    "text4_Chez BTC Energies": "En BTC Énergies creemos en la fuerza del colectivo para construir las soluciones del mañana. Es uniendo nuestras competencias, saber‑hacer y convicciones que podemos afrontar los retos de la transición energética."
+  },
+
+  "__comment_page_equipe": "Traducciones para la página Equipo (Equipe.vue)",
+
+  "equipe": {
+    "Equipe_Titre": "Nuestro equipo",
+    "Titre_equipe": "Nuestro equipo está compuesto por 3 socios presentados a continuación y nuestro 'Chief Happiness Officer Canino'. También contamos con más de una decena de personas que aportan sus competencias en las diferentes áreas del proyecto.",
+
+    "equipe_Thibault_Nom": "Thibault BÉTHENCOURT",
+    "equipe_Thibault_TitreCourt": "Presidente – Fundador de BTC Énergies",
+    "equipe_Thibault_CEO": "Promotor del proyecto (CEO)",
+    "equipe_Thibault_Tel": "+33 6 29 56 07 56",
+    "equipe_Thibault_Etudes_Titre": "Formación:",
+    "equipe_Thibault_Etudes_Detail": "Bac+5: Derecho, Economía, Gestión (administración de instituciones públicas)<br />Doctorado en preparación (Gestión estratégica)",
+    "equipe_Thibault_Citation": "“En este mundo, todo es imaginable. Pero hay que saber convencer y rodearse de los mejores para que todo sea posible.”",
+    "equipe_Thibault_Bio1": "Titular de varios títulos en disciplinas complementarias: Ingeniería y Gestión de Proyectos, Historia, Relaciones Internacionales y Geopolítica, Derecho, Economía y Gestión. Representa un perfil multidisciplinar raro, en la intersección de retos técnicos, estratégicos y geopolíticos.",
+    "equipe_Thibault_Bio2": "Fundador y principal impulsor del proyecto BTC Énergies, ha liderado la dirección desde la presentación oficial de la tecnología a profesionales del sector en febrero de 2022, marcando así el lanzamiento operativo de la iniciativa.",
+    "equipe_Thibault_Bio3": "Desde entonces, BTC Énergies ha alcanzado un hito importante al ser seleccionado en el marco de la Convocatoria de Manifestación de Interés lanzada por Natran (antes GRTgaz), específicamente dedicada a la gasificación hidrotermal.",
+    "equipe_Thibault_Bio4": "Este hito confirma la pertinencia de la solución desarrollada por Thibault BÉTHENCOURT, así como el reconocimiento creciente de su compromiso, visión y capacidad de ejecución. Empresario visionario, creativo y firmemente orientado hacia la innovación, representa un enfoque audaz y disruptivo en la industria, convirtiéndose en una figura singular y destacada en el ecosistema de la transición energética.",
+    "equipe_Thibault_Bio5": "Políglota, aventurero y viajero intrépido, emprendió a los 17 años un recorrido de ideación alimentado por un viaje por 11 países y 3 continentes. Al enfrentarse a las realidades energéticas y ambientales sobre el terreno, afinó una comprensión global de los retos, lo cual le permitió identificar de inmediato el potencial estratégico de la gasificación hidrotermal.",
+    "equipe_Thibault_Bio6": "Sus experiencias internacionales, entre observación pragmática e inmersión cultural, configuran una visión singular y ambiciosa: convertir esta tecnología en una respuesta tangible a los desafíos de la transición energética y reindustrialización. Su mente siempre activa hace de él la caja de ideas de la empresa.",
+
+    "equipe_JMarc_Nom": "PhD Jean‑Marc BOUILLON",
+    "equipe_JMarc_TitreCourt": "Director General (COO)",
+    "equipe_JMarc_Etudes_Titre": "Formación:",
+    "equipe_JMarc_Etudes_Detail": "Diploma de Ingeniero: Instituto Nacional Politécnico de Grenoble<br />Doctorado: Ciencias de la Gestión<br />Certificaciones: PMP® (Project Management Institute), Mediador diplomado (Universidad Panthéon‑Assas)",
+    "equipe_JMarc_Citation": "“Mi compromiso es hacer brillar los talentos. También crear valor e anclar a BTC Énergies en el panorama industrial francés y más allá. Mi hilo conductor perma-industrial es menos plástico.”",
+    "equipe_JMarc_Bio1": "Graduado en el Instituto Nacional Politécnico de Grenoble y doctor en ciencias de la gestión, acumula más de 35 años de experiencia en innovación, rendimiento industrial y transición ecológica. Experto reconocido, autor comprometido y mediador diplomado por la Universidad Panthéon‑Assas, es presidente electo de la Asociación de Mediadores Diplomados y miembro activo de redes de referencia como Polyméris y la Convención de Empresas por el Clima.",
+    "equipe_JMarc_Bio2": "Con más de 25 años en un grupo multinacional de referencia global, ha liderado proyectos complejos por un valor total equivalente a mil millones de francos suizos, desde el estudio hasta la implementación operativa. También es Project Management Professional (PMP®️) certificado por el PMI, la principal organización mundial en gestión de proyectos. Representa un liderazgo riguroso, estratégico y orientado al impacto.",
+    "equipe_JMarc_Bio3": "Su experiencia, genio operacional y rigor metodológico lo convierten en uno de los pilares de la realización industrial de las ambiciones de BTC Énergies, contribuyendo activamente a convertir nuestra estrategia en resultados tangibles.",
+
+    "equipe_Alain_Nom": "Alain DEGANS",
+    "equipe_Alain_TitreCourt": "Responsable de Proyecto Digital – Cofundador de BTC Énergies",
+    "equipe_Alain_Etudes_Titre": "Formación:",
+    "equipe_Alain_Etudes_Detail": "Bac+5 en Gestión y Desarrollo de Actividades Comerciales (en curso)",
+    "equipe_Alain_Citation": "“Me uní a este proyecto con la convicción profunda de que podía tener un impacto positivo y duradero en nuestra sociedad. Para mí, BTC Énergies es ante todo una visión, un equipo unido y soluciones de futuro.”",
+    "equipe_Alain_Bio1": "Nacido en 2000, es el miembro más joven del equipo y también uno de los cofundadores de BTC Énergies. Formado en gestión de proyectos y marketing digital, se distingue por un espíritu emprendedor afianzado y una fuerte sensibilidad hacia los retos ecológicos y tecnológicos.",
+    "equipe_Alain_Bio2": "Guiado por una visión militante del emprendimiento, defiende con convicción el papel fundamental de la industria en la transición ecológica. Considera la gasificación hidrotermal (GH) como una tecnología clave para un desarrollo económico sostenible.",
+    "equipe_Alain_Bio3": "Perseverante, constante y con gran capacidad de entrega, se impone como uno de los miembros más resilientes del equipo.",
+
+    "equipe_Camille_Nom": "Camille FAURE",
+    "equipe_Camille_TitreCourt": "Responsable RRHH (HR Manager)",
+    "equipe_Camille_Titre2": "Encargada de comunicación",
+    "equipe_Camille_Tel": "+33 7 49 71 63 40",
+    "equipe_Camille_Etudes_Titre": "Formación:",
+    "equipe_Camille_Etudes_Detail": "Bac+5 en Gestión de Recursos Humanos",
+    "equipe_Camille_Citation": "« Mi voluntad es nutrir valores que permitan construir una cultura empresarial sana, humana y orientada hacia el futuro »",
+    "equipe_Camille_Bio1": "Licenciada en psicología social y con un Master 2 en RRHH, es cofundadora de BTC Énergies y uno de los pilares esenciales de la empresa. Con un perfil altamente especializado, destaca por su mente estructurada y metódica. Su gran capacidad de intuición le permite identificar con exactitud los perfiles y movilizar talentos de forma óptima.",
+    "equipe_Camille_Bio2": "Responsable de reclutamiento y estrategia RRHH, vela para que cada colaborador ocupe una posición alineada tanto con sus competencias, su realización personal como con los objetivos estratégicos de BTC Énergies. Su rol es central en la estructuración y consolidación de los equipos, contribuyendo directamente al rendimiento y la resiliencia de la empresa.",
+
+    "equipe_Remi_Nom": "Rémi PICHONNEAU",
+    "equipe_Remi_TitreCourt": "Ingeniero en Ingeniería Industrial / Responsable técnico (CTO)",
+    "equipe_Remi_Etudes_Titre": "Formación:",
+    "equipe_Remi_Etudes_Detail": "Título de Ingeniero en gestión de proyectos industriales<br />Máster SYSPEC",
+    "equipe_Remi_Citation": "« Mi consigna es impulsar y dinamizar la transición energética con espíritu de desarrollo sostenible.»",
+    "equipe_Remi_Bio1": "Titulado en Ingeniería general en conducción de proyectos industriales y Máster SYSPEC, acumula 42 años de experiencia en ejes clave como producción de energías renovables, gestión de residuos (incineración, valorización del gas de vertedero) y construcción de centros de datos.",
+    "equipe_Remi_Bio2": "En su carrera ha contribuido a la instalación de 145 MW de potencia energética, suficiente para alimentar 15 000 hogares – equivalente a una ciudad como Chambéry. Sus hilos conductores son el desarrollo sostenible y la transición energética, que guían todos sus proyectos. Impulsado por una visión futura, prioriza la anticipación y la innovación para ofrecer soluciones responsables y duraderas frente a los retos ambientales y tecnológicos. Su pericia, versatilidad y experiencia lo convierten en un experto reconocido e influyente en BTC Énergies.",
+
+    "equipe_Adell_Nom": "ADELL",
+    "equipe_Adell_TitreCourt": "Dirección Administrativa y Financiera",
+    "equipe_Adell_Titre2": "Arquitecta de la rentabilidad, gestora del procesamiento financiero",
+    "equipe_Adell_Etudes_Titre": "Formación:",
+    "equipe_Adell_Etudes_Detail": "Ingeniería mecánica / Máster en gestión empresarial",
+    "equipe_Adell_Citation": "« Lo que me interesa es construir, asumir desafíos y crear herramientas al servicio de proyectos innovadores. El proyecto BTC Énergies tiene una carga técnica y social extremadamente fuerte que lo convierte en un proyecto de futuro y una acción concreta y relevante.»",
+    "equipe_Adell_Bio2": "También ha participado en varios proyectos europeos de dimensión internacional, en colaboración con Bélgica, Reino Unido, Portugal, Polonia, Alemania y España. Estas experiencias le han permitido desarrollar sólidas competencias en ingeniería de proyectos y recaudación de fondos, cultivando al mismo tiempo un enfoque intercultural y multidisciplinar. Habla inglés con fluidez, español conversacional y tiene nociones de portugués y japonés.",
+    "equipe_Adell_Bio3": "De perfil pragmático, moderado y riguroso, se distingue por un estilo operativo directo que favorece la eficacia, tanto en la toma de decisiones como en la tramitación de los expedientes. A la vez jerárquico en su postura y autónomo en su actuación, combina el respeto de la política general con una auténtica autonomía operativa. Esta combinación les confiere una apreciable capacidad de discernimiento, sobre todo a la hora de detectar disfunciones y señalarlas de forma constructiva y directa",
+    "equipe_Adell_Bio4": "Su capacidad para dialogar con todas las partes implicadas, desde la Presidencia hasta la alta dirección, pasando por las funciones operativas, le permite garantizar una calidad constante de los intercambios, sea cual sea su interlocutor. Curioso y visionario, sobrepasa de buen grado el ámbito de su función para captar los asuntos en su totalidad, con el deseo constante de servir lo mejor posible a las misiones que se le confían. Estas cualidades, unidas a su perfil altamente cualificado y experimentado, hacen de él uno de los motores de la empresa."
+  },
+
+  "__comment_page_contact": "Traducciones para la página de Contacto (Contact.vue)",
+
+  "contact": {
+    "titre": "Contacto",
+    "texteIntroHead": "¿Busca una solución sostenible para la gestión de residuos y la producción de energía limpia? BTC Énergies es su socio ideal.",
+    "introForm1": "¿Quiere saber más sobre nuestras soluciones, proponer una asociación o simplemente ponerse en contacto con nuestro equipo?",
+    "introForm2": "Rellene este formulario. Nos pondremos en contacto lo antes posible.",
+    "nomLabel": "Su nombre y apellido",
+    "nomPlaceholder": "Este campo es obligatorio",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "@",
+    "messageLabel": "Su mensaje",
+    "messagePlaceholder": "Su mensaje debe contener al menos 20 caracteres",
+    "boutonEnvoyer": "Enviar"
+  },
+
+  "__comment_page_etdemain": "Traducciones para la página ¿Y mañana? (Demain.vue)",
+
+  "Etdemain": {
+    "titre": "¿Y mañana?",
+    "textIntroHead": "Nuestro modelo es plurisectorial y puede ir más allá de la valorización de residuos y la producción de energías renovables.",
+    "titrePrincipal": "Y mañana, ¿qué haremos?",
+    "intro": "Gracias a la gran variedad de recursos que generamos, tenemos la posibilidad de impulsar y desarrollar una amplia gama de proyectos industriales.",
+    "bloc1_phrase": "BTC Énergies planea construir una zona de producción de plantas con fines terapéuticos aprovechando parte de los recursos generados:",
+    "bloc1_liste1": "El CO₂ purificado se utilizará para estimular el crecimiento de plantas y extraer principios activos.",
+    "bloc1_liste2": "Parte del (di)hidrógeno transformado en electricidad alimentará las instalaciones.",
+    "bloc1_liste3": "Fertilizantes y agua nutrirán las plantas.",
+    "bloc2_phrase1": "Las plantas se cultivarán en un entorno controlado (temperatura, humedad, nivel de CO₂, aporte de nutrientes, etc.).",
+    "bloc2_phrase2": "De este modo podremos producir, bajo demanda, una gran variedad de plantas de alto valor añadido para la industria farmacéutica, cosmética o alimentaria.",
+    "bloc2_phrase3": "Estas zonas de producción también podrán ubicarse cerca de unidades de metanización existentes.",
+    "citation": "¡Nada se pierde, nada se crea, todo se transforma y aprovecha!",
+
+    "Nous contacter": "Contáctanos",
+    "Nos Coordonnées": "Nuestros Datos de Contacto"
+  },
+
+  "__comment_page_MentionsLégales": "Traducciones para la página Aviso Legal (Demain.vue)",
+
+  "MentionsLégales": {
+    "titre": "Aviso Legal",
+
+    "titreCGU": "Condiciones Generales de Uso (CGU)",
+    "cguIntro": "El acceso al sitio de BTC Énergies implica la aceptación total de las condiciones descritas a continuación. Estas condiciones pueden modificarse en cualquier momento.",
+    "accesTitre": "Acceso al sitio",
+    "accesTexte": "El sitio es accesible gratuitamente. El editor se esfuerza por proporcionar acceso ininterrumpido, sin garantía absoluta.",
+    "proprieteTitre": "Propiedad intelectual",
+    "proprieteTexte": "Los contenidos (textos, imágenes, logos, etc.) están protegidos por derechos de autor. Cualquier reproducción, distribución o modificación está prohibida sin autorización escrita.",
+    "responsabiliteTitre": "Responsabilidad",
+    "responsabiliteTexte": "El editor no puede ser responsable de daños derivados del uso del sitio o la presencia de virus o enlaces externos.",
+    "droitTitre": "Derecho aplicable",
+    "droitTexte": "Estas CGU se rigen por la legislación francesa. En caso de disputa, la competencia corresponde a los tribunales de París.",
+
+    "titreConfidentialite": "Política de privacidad",
+    "donneesTitre": "Datos recogidos",
+    "donneesTexte": "Recopilamos datos personales a través de los formularios de contacto, cookies y estadísticas de navegación. Los datos pueden incluir: nombre, apellido, correo electrónico, teléfono, dirección IP, etc.",
+    "finaliteTitre": "Finalidad del tratamiento",
+    "finaliteTexte": "Los datos se utilizan únicamente para responder solicitudes, mejorar la experiencia del usuario y enviar comunicaciones si ha dado su consentimiento.",
+    "legaleTitre": "Base legal",
+    "legaleTexte": "El tratamiento se basa en el consentimiento explícito o en el interés legítimo cuando se trata de responder a una solicitud directa.",
+    "destinatairesTitre": "Destinatarios",
+    "destinatairesTexte": "Sus datos nunca se revenden. Pueden compartirse con nuestros proveedores técnicos, en estricto respeto a su misión.",
+    "dureeTitre": "Duración de conservación",
+    "dureeTexte": "Los datos se conservan como máximo 3 años tras el último contacto o conforme a las obligaciones legales.",
+    "droitsTitre": "Sus derechos",
+    "droitsTexte": "Puede acceder a sus datos, solicitar su rectificación o eliminación, o oponerse a su tratamiento. Contacto: [tu email RGPD].",
+    "cookiesTitre": "Cookies",
+    "cookiesTexte": "Este sitio utiliza cookies técnicas y estadísticas. Puedes aceptarlas o rechazarlas en cualquier momento desde el banner correspondiente.",
+
+    "contactTitre": "Contacto",
+    "contactQuestion": "Para cualquier consulta relativa a protección de datos personales:",
+    "emailPrincipal": "direction@btc-energies.fr",
+    "raisonSociale": "Denominación social: BTC Energies",
+    "formeJuridique": "Forma jurídica: SAS",
+    "capitalSocial": "Capital social: 120 €",
+    "adresseSiege": "Sede social: 9 RUE DE L'AVENIR, 31470 FONTENILLES",
+    "telephoneLabel": "Teléfono:",
+    "telephoneNumero": "+33 6 29 56 07 56",
+    "emailLabel": "Email:",
+
+    "rcsLabel": "Número RCS:",
+    "rcsValue": "928 497 585 R.C.S. Toulouse",
+    "tvaLabel": "Número de IVA:",
+    "tvaValue": "FR27928497585",
+
+    "Nous contacter": "Contáctanos",
+    "Nos Coordonnées": "Nuestros Datos de Contacto"
+  },
+
+  "Footer": {
+    "siteoptimise": "Sitio optimizado para versión de escritorio",
+    "Cookies": "Cookies",
+    "Site conçu et": "Sitio diseñado y optimizado por BTC Énergies •"
+  }
+}

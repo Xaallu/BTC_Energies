@@ -13,14 +13,44 @@
 
               <!-- 🧠 Place-le en bas de ta sidebar -->
                 <div class="mt-auto p-8">
-                  <button
-                    @click="switchLang"
-                    class="text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a] transition"
-                  >
-                    🌍 {{ locale === 'fr' ? '🇫🇷' : '🇬🇧' }}
-                   
+                 <button
+  @click="switchLang"
+  class="text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a] transition flex items-center gap-2"
+>
+  <img
+    v-if="locale === 'fr'"
+    src="/Flag/flag_fr.jpg"
+    alt="Français"
+    class="w-6 h-4 rounded-sm"
+  />
+  
+   <img
+    v-if="locale === 'en'"
+    src="/Flag/flag_en.jpg"
+    alt="English"
+    class="w-6 h-4 rounded-sm"
+  />
 
-                  </button>
+  <img
+    v-if="locale === 'es'"
+    src="/Flag/flag_es.jpg"
+    alt="Espagnol"
+    class="w-6 h-4 rounded-sm"
+  />
+  
+ <span>
+  {{
+    locale === 'fr'
+      ? '🇫🇷'
+      : locale === 'en'
+      ? '🇬🇧'
+      : locale === 'es'
+      ? '🇪🇸'
+      : '🌍'
+  }}
+</span>
+</button>
+
                 </div>
 
               <div class="menu-arrow_H"></div>
@@ -174,11 +204,32 @@ onMounted(() => {
 /* Changemment de langue */
 import { useI18n } from 'vue-i18n'
 
-const { locale } = useI18n()
 
-function switchLang() {
-  locale.value = locale.value === 'fr' ? 'en' : 'fr'
+const { locale } = useI18n();
+
+const switchLang = () => {
+  if (locale.value === 'fr') {
+    locale.value = 'en';
+  } else if (locale.value === 'en') {
+    locale.value = 'es';
+  } else {
+    locale.value = 'fr';
+  }
   localStorage.setItem('lang', locale.value)
+
+  function getFlagEmoji(lang) {
+  switch (lang) {
+    case 'fr': return '🇫🇷'
+    case 'en': return '🇬🇧'
+    case 'es': return '🇪🇸'
+    case 'de': return '🇩🇪'
+    case 'it': return '🇮🇹'
+    case 'zh': return '🇨🇳'
+    case 'ja': return '🇯🇵'
+    default: return '🌍'
+  }
+}
+
 }
 
 </script>
@@ -225,4 +276,7 @@ function switchLang() {
 
 /* Scrollbar customisée */
 
+.emoji-compatible {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", system-ui, sans-serif;
+}
 </style>

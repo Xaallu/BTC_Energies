@@ -166,7 +166,7 @@
 
       <!-- Notre Constat -->
      
-        <h2 class="page-blanche_app-title">{{ $t('notre_constat') }}</h2>
+        <h2 class="page-blanche_app-title">{{ $t('nootre_constat') }}</h2>
 
         
 
@@ -241,14 +241,14 @@
 
             <!-- Colonne 3 : Mentions légales -->
 <div class="flex flex-col items-center text-center">
-  <h2 class="font-bold text-white text-xl mb-1">Mentions légales</h2>
+  <h2 class="font-bold text-white text-xl mb-1">{{ $t('legal_title') }}</h2>
 
   <p class="text-[10px] sm:text-[13px] inline-block">
-    BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse
+    {{ $t('legal_line1') }}
   </p>
 
   <p class="text-[10px] sm:text-[13px] inline-block pl-6 sm:pl-12">
-    Numéro SIRET : 928 497 585 00010
+    {{ $t('legal_line2') }}
   </p>
 </div>
 

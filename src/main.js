@@ -16,6 +16,7 @@ import router from './router'
 import { createI18n } from 'vue-i18n'
 import fr from './locales/fr.json'
 import en from './locales/en.json'
+import es from './locales/es.json'
 
 // Langue enregistrée (ou fr par défaut)
 const savedLocale = localStorage.getItem('lang') || 'fr'
@@ -24,7 +25,7 @@ const savedLocale = localStorage.getItem('lang') || 'fr'
 const i18n = createI18n({
   locale: savedLocale,
   fallbackLocale: 'fr',
-  messages: { fr, en },
+  messages: { fr, en, es},
   missingWarn: false,
   fallbackWarn: false  
 })

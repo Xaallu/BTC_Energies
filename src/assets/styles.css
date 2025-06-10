@@ -525,3 +525,8 @@ h1, h2, h3 {
   background-color: #8BC367;  /* Vert clair BTC pour la bulle */
   border-radius: 4px;
 }
+
+
+.emoji-compatible {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", system-ui, sans-serif;
+}
