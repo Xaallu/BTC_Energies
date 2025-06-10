@@ -139,6 +139,7 @@ const availableLocales = [
   { code: 'fr', label: '🇫🇷', flag: '/Flag/flag_fr.jpg' },
   { code: 'en', label: '🇬🇧', flag: '/Flag/flag_en.jpg' },
   { code: 'es', label: '🇪🇸', flag: '/Flag/flag_es.jpg' },
+  { code: 'it', label: '🇮🇹', flag: '/Flag/flag_it.jpg' },
 ]
 
 const currentLang = computed(

@@ -209,7 +209,8 @@
               />
               <p class="profile-name font-semibold text-sm sm:text-base mt-2">{{ member.name }}</p>
               <p class="profile-title italic text-xs sm:text-sm">
-                {{ $te('team.roles.' + member.title) ? $t('team.roles.' + member.title) : member.title }}
+              {{ $te('team.roles.' + member.roleKey) ? $t('team.roles.' + member.roleKey) : member.roleKey }}
+
               </p>
               <p v-if="member.role" class="profile-role italic text-sm text-gray-600 mt-2 font-semibold">{{ member.role }}</p>
               <p v-if="member.phone" class="profile-phone text-sm text-gray-500 font-bold mt-2">{{ member.phone }}</p>
@@ -291,7 +292,7 @@ export default {
         {
           name: 'Thibault Béthencourt',
           title: 'Président (CEO)',
-          role: 'Porteur de projet',
+          roleKey: 'Porteur_de_projet',
           phone: '+33 6 29 56 07 56',
           img: '/Trombi/T_B.png',
         },

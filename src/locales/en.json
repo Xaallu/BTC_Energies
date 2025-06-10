@@ -51,7 +51,7 @@
 
   "roles": {
     "Président (CEO)": "President (CEO)",
-    "Porteur de projet": "Project Leader",
+    "Porteur_de_projet": "Project Leader",
 
     "Directeur Général": "General Director",
     "Chef de Projet Digital": "Digital Project Manager",
@@ -266,7 +266,12 @@
     "equipe_Rubie_TitreEn": "Chief Happiness Officer",
     "equipe_Rubie_Bio1": "As part of its CSR approach and strong commitment to promoting a caring and innovative work environment, BTC Énergies made the unique yet deeply human choice to integrate a therapy dog into its team. This decision aligns with a holistic vision of workplace well-being, where performance and humanity move forward hand in paw.",
     "equipe_Rubie_Bio2": "Her integration is based on three key pillars:\n\n- Well-being and mental health: Numerous studies show the beneficial effects of animal presence in reducing anxiety, improving mood, and lowering chronic stress. Her mere presence helps ease tensions and fosters a climate of calm, especially in demanding sectors like ours.\n\n- Social cohesion and attractiveness: Rubie has become a true mascot, encouraging informal exchanges and strengthening bonds among colleagues and partners. She brings a sense of gentleness to technical environments. Notably, some partners joined BTC Énergies in part because of the affection they developed for her.\n\n- Societal commitment and responsible image: This choice asserts BTC Énergies’ position as a socially innovative and life-respecting organization. It illustrates our ability to combine cutting-edge technology, environmental performance, and a deep sense of life.",
-    "equipe_Rubie_Bio3": "Trained with care, dedicated, and fully integrated into our daily operations, she symbolizes our company’s vision: loyal, agile, and bold. At BTC Énergies, we believe that sustainable performance also comes from the heart  and Rubie is living proof of that."
+    "equipe_Rubie_Bio3": "Trained with care, dedicated, and fully integrated into our daily operations, she symbolizes our company’s vision: loyal, agile, and bold. At BTC Énergies, we believe that sustainable performance also comes from the heart  and Rubie is living proof of that.",
+
+    "clic2_Nous contacter": "Contact us",
+    "Nos Coordonnées": "Our contact"
+  
+  
   },
 
     "__comment_page_contact": "Traductions pour la page Contact.vue",

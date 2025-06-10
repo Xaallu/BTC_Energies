@@ -47,9 +47,12 @@
   },
 
   "team": {
-  "title": "Notre équipe"
-  },
+  "title": "Notre équipe",
 
+  "roles": {
+  "Porteur_de_projet": "Porteur de projet"
+  }
+},
 
   "__comment_page_constat": "Traductions pour la page Notre Constat (Constat.vue)",
 
@@ -249,7 +252,10 @@
     "equipe_Rubie_TitreEn": "Chief Happiness Officer",
     "equipe_Rubie_Bio1": "Dans le cadre de sa démarche RSE et de sa volonté affirmée de promouvoir un environnement de travail bienveillant et innovant, BTC Énergies a fait le choix singulier mais profondément humain d’intégrer un chien thérapeutique au sein de son équipe. Cette décision s’inscrit dans une vision holistique du bien-être au travail, où la performance et l’humain avancent main dans la patte.",
     "equipe_Rubie_Bio2": "Son intégration repose sur trois piliers clés :\n\n- Bien-être et santé mentale : De nombreuses études démontrent les effets bénéfiques de la présence animale sur la réduction de l’anxiété, l’amélioration de l’humeur et la diminution du stress chronique. Sa simple présence contribue à apaiser les tensions et à instaurer un climat de sérénité, notamment dans des secteurs aussi exigeants que le nôtre.\n\n- Cohésion sociale et attractivité : Rubie est devenue une véritable mascotte, favorisant les échanges informels et renforçant le lien entre collaborateurs et partenaires. Elle incarne une forme de douceur dans des environnements techniques. Fait remarquable : certains partenaires ont rejoint BTC Énergies en partie grâce à l’attachement développé pour elle.\n\n- Engagement sociétal et image responsable : Ce choix affirme notre engagement pour l’innovation sociale et le respect du vivant. Il illustre notre capacité à concilier haute technologie, performance environnementale et sens du vivant.",
-    "equipe_Rubie_Bio3": "Dressée avec rigueur, dévouée et parfaitement intégrée à notre fonctionnement quotidien, elle symbolise notre vision de l’entreprise : fidèle, agile et audacieuse. Chez BTC Énergies, nous croyons que la performance durable passe aussi par le cœur, et Rubie en est la preuve vivante."
+    "equipe_Rubie_Bio3": "Dressée avec rigueur, dévouée et parfaitement intégrée à notre fonctionnement quotidien, elle symbolise notre vision de l’entreprise : fidèle, agile et audacieuse. Chez BTC Énergies, nous croyons que la performance durable passe aussi par le cœur, et Rubie en est la preuve vivante.",
+  
+    "clic2_Nous contacter": "Nous Contacter",
+    "Nos Coordonnées": "Nos Coordonnées"
   },
 
     "__comment_page_contact": "Traductions pour la page Contact.vue",
