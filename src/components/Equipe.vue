@@ -129,6 +129,8 @@
               </div>
 
 <br> 
+<br>
+<br> 
 <br> 
 
                 <!-- Bloc J-M Bouillon  -->
@@ -193,7 +195,9 @@
                 </div>
 
     <br> 
+    <br>
     <br> 
+<br> 
                  <!-- Bloc 3 Alain DEGANS -->
                  <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
           <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
@@ -258,6 +262,8 @@
 
 <br>            
 <br>
+<br> 
+<br> 
 <br>     
            <!-- Bloc Camille FAURE -->
         <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
@@ -339,6 +345,8 @@
 <br>
 <br> 
 <br>
+<br> 
+<br> 
                 <!-- Bloc 5 Rémi PICHONNEAU -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
@@ -412,6 +420,7 @@
 <br>
 <br> <br>
 <br>
+<br> 
 
     <!-- Bloc Adell -->
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
@@ -477,6 +486,9 @@
   </div>
 </div>
                
+<br>
+<br> 
+<br>
 <br>
 <br> 
 <br> 
@@ -547,6 +559,8 @@
 </div>
 
 <br>
+<br> 
+<br> 
 <br> 
 <br> 
 
@@ -630,7 +644,8 @@
 <br>
 <br>
 <br>
-
+<br> 
+<br> 
              <!-- Bloc 7 Anais OLIVIER -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
@@ -711,19 +726,21 @@
 
 <br>
 <br>
+<br>
 <br> 
-<!-- Bloc 8 Cedric CHAUVET -->
-<div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-  <!-- Titre 1 + soulignement -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
-    <!-- Image à gauche -->
-    <div class="flex-shrink-0">
-      <img
-        src="/Trombi/C_C.jpg"
-        alt="Cédric Chauvet"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
-      />
-    </div>
+<br> 
+    <!-- Bloc 8 Cedric CHAUVET -->
+    <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+      <!-- Titre 1 + soulignement -->
+      <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+        <!-- Image à gauche -->
+        <div class="flex-shrink-0">
+          <img
+            src="/Trombi/C_C.jpg"
+            alt="Cédric Chauvet"
+            class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+          />
+        </div>
 
     <!-- Texte à droite -->
     <div class="flex-1">

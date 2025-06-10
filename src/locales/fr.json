@@ -1,4 +1,17 @@
 {
+  "__comment_page_sidebar" : "Traductions pour la page d'accueil (Sidebar.vue)",
+
+  "menu": {
+    "accueil": "Accueil",
+    "constat": "Notre Constat",
+    "solutions": "Nos solutions",
+    "partenaires": "Financements et partenaires",
+    "equipe": "Notre équipe",
+    "contact": "Contact",
+    "etDemain": "Et demain ?",
+    "mentions": "Mentions légales"
+  },
+
   "__comment_page_index": "Traductions pour la page d'accueil (Accueil.vue)",
 
 
@@ -6,7 +19,7 @@
   "nootre_constat": "Notre Constat",
   "notre_equipe": "Notre équipe",
   "legal_title": "Mentions légales",
-  "legal_line1": "BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse",
+  "legal_line1": "BTC Énergies (SAS) au capital de 120€, enregistrée au RCS de Toulouse - FRANCE",
   "legal_line2": "Numéro SIRET : 928 497 585 00010",
 
   "services": {
@@ -321,7 +334,7 @@
   "emailLabel": "Email :",
 
    "rcsLabel": "Numéro RCS :",
-    "rcsValue": "928 497 585 R.C.S. Toulouse",
+    "rcsValue": "928 497 585 R.C.S. Toulouse - FRANCE",
     "tvaLabel": "Numéro de TVA :",
     "tvaValue": "FR27928497585",
 

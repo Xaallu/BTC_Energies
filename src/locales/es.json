@@ -1,11 +1,24 @@
 {
+    "__comment_page_sidebar": "Traducciones para la página de inicio (Sidebar.vue)",
+
+     "menu": {
+    "accueil": "Inicio",
+    "constat": "Nuestro Análisis",
+    "solutions": "Nuestras Soluciones",
+    "partenaires": "Financiación y Socios",
+    "equipe": "Nuestro Equipo",
+    "contact": "Contacto",
+    "etDemain": "¿Y mañana?",
+    "mentions": "Aviso Legal"
+  },
+
   "__comment_page_index": "Traducciones para la página de inicio (Accueil.vue)",
 
   "texte_bandeau_bleu": "Desarrollo, Gestión y Explotación de proyectos industriales",
   "nootre_constat": "Nuestro Diagnóstico",
   "notre_equipe": "Nuestro equipo",
   "legal_title": "Aviso Legal",
-  "legal_line1": "BTC Énergies (SAS) con capital de 120 €, registrada en el RCS de Toulouse",
+  "legal_line1": "BTC Énergies (SAS) con capital de 120 €, registrada en el RCS de Toulouse - FRANCE",
   "legal_line2": "Número SIRET: 928 497 585 00010",
 
   "services": {
@@ -274,7 +287,7 @@
     "emailLabel": "Email:",
 
     "rcsLabel": "Número RCS:",
-    "rcsValue": "928 497 585 R.C.S. Toulouse",
+    "rcsValue": "928 497 585 R.C.S. Toulouse - FRANCE",
     "tvaLabel": "Número de IVA:",
     "tvaValue": "FR27928497585",
 
