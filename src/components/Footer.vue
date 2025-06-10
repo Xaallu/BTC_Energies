@@ -1,10 +1,10 @@
 <template>
   <footer class="footer-global text-white text-sm">
     <div class="max-w-[1200px] mx-auto px-6 py-6 text-center">
-      <p class="mb-1">Site optimisé pour la version ordinateur</p>
+      <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
-        Site conçu et optimisé par BTC Énergies •
-        <a href="/cookies" class="underline hover:text-gray-300">Cookies</a>
+        {{ $t('Footer.Site conçu et') }}
+        <a href="/cookies" class="underline hover:text-gray-300">{{ $t('Footer.Cookies') }}</a>
       </p>
     </div>
   </footer>

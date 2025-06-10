@@ -28,10 +28,10 @@
 
               <!-- Texte centré -->
               <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">Et demain ?</h2>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">{{ $t('Etdemain.titre') }}</h2>
                 <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
                 <p class="text-white text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
-                  Notre modèle est plurisectoriel et peut aller au-delà de la valorisation de déchets et de la production d'énergies renouvelables. 
+                 {{ $t('Etdemain.textIntroHead') }}
                 </p>
                 <div class="mb-8"></div> 
                 <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
@@ -51,69 +51,62 @@
                   <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
                     
 
-                    <h1 class="text-3xl font-bold text-[#777777] text-left">Et demain, que ferons-nous ?</h1>
-                    <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
-                    <div class="mb-8"></div> 
+                    <!-- Titre principal -->
+                <h1 class="text-3xl font-bold text-[#777777] text-left">
+                  {{ $t('Etdemain.titrePrincipal') }}
+                </h1>
+                <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
+                <div class="mb-8"></div> 
 
-                    <div class="flex justify-center mt-8">
-                      <img
-                        src="/etdemain.png"
-                        alt="Avenir de BTC Energie"
-                        class="w-[320px] sm:w-[500px] md:w-[650px] h-auto object-contain transition-transform duration-300 ease-in-out hover:scale-110"
-                      />
-                    </div>
+                <!-- Image -->
+                <div class="flex justify-center mt-8">
+                  <img
+                    src="/etdemain.png"
+                    alt="Avenir de BTC Energie"
+                    class="w-[320px] sm:w-[500px] md:w-[650px] h-auto object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+                  />
+                </div>
 
-                    <p class="text-[#475C79] font-bold text-center mt-6">
-                      De par la grande diversité des ressources que nous obtenons, nous avons la possibilité de porter et de développer tout un ensemble de projets industriels.
-                    </p>
-                  </div>
+                <!-- Intro -->
+                <p class="text-[#475C79] font-bold text-center mt-6">
+                  {{ $t('Etdemain.intro') }}
+                </p>
 
-                    <!-- Texte détaillé -->
-                    <div class="gsap-bloc mt-12">
-
-                      <div class="border-t-2 border-[#8BC367] w-16 mx-auto"></div>
-                      <div class="mb-8"></div>
-
-                      <p class="text-gray-600">
-                        BTC Énergies prévoit ainsi de construire une zone de production de plantes à visées thérapeutiques exploitant une partie des ressources générées :
-                      </p>
-
-                      <ul class="list-disc pl-8 text-gray-600 space-y-2 mt-4">
-                        <li>Le CO₂ purifié servira à booster la croissance des plantes et à en extraire les principes actifs.</li>
-                        <li>Une partie du (di)hydrogène transformé en électricité alimentera les installations.</li>
-                        <li>Les engrais ainsi que l'eau nourriront les plantes.</li>
-                      </ul>
-                    </div>
-                      <!-- Espace -->
-                      <div class="mb-8"></div>
-
-             
-              <!-- Ligne verte de séparattion -->
-              <div class="gsap-bloc mt-12">
-
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+                <!-- Bloc 1 -->
+                <div class="gsap-bloc mt-12">
+                  <div class="border-t-2 border-[#8BC367] w-16 mx-auto"></div>
                   <div class="mb-8"></div>
 
                   <p class="text-gray-600">
-                    Les plantes seront cultivées en environnement contrôlé (température, hygrométrie, taux de CO₂, alimentation en éléments nutritifs, etc.).
+                    {{ $t('Etdemain.bloc1_phrase') }}
                   </p>
+
+                  <ul class="list-disc pl-8 text-gray-600 space-y-2 mt-4">
+                    <li>{{ $t('Etdemain.bloc1_liste1') }}</li>
+                    <li>{{ $t('Etdemain.bloc1_liste2') }}</li>
+                    <li>{{ $t('Etdemain.bloc1_liste3') }}</li>
+                  </ul>
+                </div>
+
+                <!-- Bloc 2 -->
+                <div class="gsap-bloc mt-12">
+                  <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+                  <div class="mb-8"></div>
+
+                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase1') }}</p>
                   <div class="mb-4"></div>
-                  <p class="text-gray-600">
-                    Nous pourrons ainsi produire, sur commande, une grande diversité de plantes à haute valeur ajoutée pour l'industrie pharmaceutique, cosmétique ou alimentaire.
-                  </p>
+                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase2') }}</p>
                   <div class="mb-4"></div>
-                  <p class="text-gray-600">
-                    Ces zones de production pourront également être construites à proximité d'unités de méthanisation déjà existantes.
-                  </p>
+                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase3') }}</p>
 
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-10"></div>
                   <div class="mb-8"></div>
 
-                  <div class="gsap-bloc mt-12">
                   <p class="text-3xl text-[#8BC367] font-semibold text-center mt-6">
-                    Rien ne se perd, rien ne se crée, tout se transforme et s'exploite !
+                    {{ $t('Etdemain.citation') }}
                   </p>
                 </div>
+
               </div>
             </section>
           </div>
@@ -143,12 +136,12 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">Nous contacter</h2>
+              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('Etdemain.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
                        active:scale-95 active:shadow-inner flex items-center gap-2">
-                Nos Coordonnées
+                {{ $t('Etdemain.Nos Coordonnées') }}
               </a>
             </div>
           </div>

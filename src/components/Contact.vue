@@ -31,14 +31,14 @@
 
             <!-- Texte centré -->
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white ml-4">Contact</h2>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white ml-4">{{ $t('contact.titre') }}</h2>
 
                 <!-- Trait supérieur -->
               <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
 
                 <div class="w-full max-w-4xl border-t border-white mb-6"></div>
                 <p class="text-white text-lg md:text-xl max-w-4xl mx-auto leading-relaxed pl-10">
-                  Vous êtes à la recherche d'une solution durable pour la gestion de vos déchets et la production d'énergie propre ? BTC Énergies est votre partenaire idéal.
+                  {{ $t('contact.texteIntroHead') }}
                 </p>
 
                 <br> <br>
@@ -58,83 +58,84 @@
               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
                 <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
+              <!-- Ligne de séparation verte -->
+              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+              <br>
+
+              <!-- Texte en tête -->
+              <v-row justify="center">
+                <v-col cols="12" md="10">
+                  <h4 class="text-center text-[#475C79] font-bold">
+          {{ $t('contact.introForm1') }}<br />
+          {{ $t('contact.introForm2') }}
+        </h4>
+
+</v-col>
+</v-row>
+
       <!-- Ligne de séparation verte -->
       <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-      <br>
+      <br />
 
-      <!-- Texte en tête -->
-      <v-row justify="center">
-        <v-col cols="12" md="10">
-          <h4 class="text-center  text-[#475C79] font-bold">
-            Vous souhaitez en savoir plus sur nos solutions, proposer un partenariat, ou tout simplement entrer en contact avec notre équipe&nbsp;?<br>
-              Remplissez ce formulaire. Nous reviendrons vers vous dans les meilleurs délais.                    <br />
-            </h4>
-          </v-col>
-        </v-row>
+      <!-- Formulaire de Contact -->
+      <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
+        <form @submit.prevent="envoyerFormulaire" class="space-y-6">
 
-        <!-- Ligne de sépartion verte-->
-        <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-  <br>
+          <!-- Champ Nom -->
+          <div class="w-full max-w-lg mx-auto">
+            <label for="nom" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+              {{ $t('contact.nomLabel') }}
+            </label>
+            <input
+              v-model="nom"
+              id="nom"
+              type="text"
+              required
+              :placeholder="$t('contact.nomPlaceholder')"
+              class="w-full px-4 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            />
+          </div>
 
-            <!-- Formulaire de Contact -->
+          <!-- Champ Email -->
+          <div class="w-full max-w-lg mx-auto">
+            <label for="email" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+              {{ $t('contact.emailLabel') }}
+            </label>
+            <input
+              v-model="email"
+              id="email"
+              type="email"
+              required
+              :placeholder="$t('contact.emailPlaceholder')"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            />
+          </div>
 
-            <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
+          <!-- Champ Message -->
+          <div class="w-full max-w-lg mx-auto">
+            <label for="message" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+              {{ $t('contact.messageLabel') }}
+            </label>
+            <textarea
+              v-model="message"
+              id="message"
+              rows="7"
+              required
+              :placeholder="$t('contact.messagePlaceholder')"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            ></textarea>
+          </div>
 
-          <form @submit.prevent="envoyerFormulaire" class="space-y-6">
-
-            <div class="w-full max-w-lg mx-auto">
-              <label for="nom" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
-                Votre Nom et Prénom
-              </label>
-              <input
-                v-model="nom"
-                id="nom"
-                type="text"
-                required
-                placeholder="Ce champs est obliagatoire"
-                class="w-full px-4 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
-              />
-            </div>
-
-            <div class="w-full max-w-lg mx-auto">
-              <label for="email" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
-                Adresse E-Mail
-              </label>
-              
-              <input
-                v-model="email"
-                id="email"
-                type="email"
-                required
-                placeholder="@"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
-              />
-            </div>
-
-            <div class="w-full max-w-lg mx-auto">
-              <label for="message" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
-                Votre Message
-              </label>
-              <textarea
-                v-model="message"
-                id="message"
-                rows="7" 
-                placeholder="Votre message doit contenir au moins 20 caractères"
-                required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
-              ></textarea>
-            </div>
-
-            <!-- Bouton d'envoi -->
-            <div class="text-center mx-auto">
-              <button
-                ref="boutonSoumettre"
-                type="submit"
-                class="bg-[#1f2937] text-white font-bold py-3 px-12 rounded-full shadow transition duration-300"
-              >
-                Soumettre
-              </button>
-            </div>
+          <!-- Bouton -->
+          <div class="text-center mx-auto">
+            <button
+              ref="boutonSoumettre"
+              type="submit"
+              class="bg-[#1f2937] text-white font-bold py-3 px-12 rounded-full shadow transition duration-300"
+            >
+              {{ $t('contact.boutonEnvoyer') }}
+            </button>
+          </div>
 
             <!-- Espace -->
             <div class="mb-8"></div>
@@ -158,17 +159,17 @@
       </div>
     </v-container>
       
-                        <!-- Bandeau bas -->
-                      <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-                        <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
-                          <img
-                            ref="logoSidebar"
-                            src="/logo_sidebar.png"
-                            alt="BTC Énergies Logo"
-                            class="w-40 h-auto max-h-32"
-                          />
-                        </div>
-                      </div>
+              <!-- Bandeau bas -->
+            <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+              <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
+                <img
+                  ref="logoSidebar"
+                  src="/logo_sidebar.png"
+                  alt="BTC Énergies Logo"
+                  class="w-40 h-auto max-h-32"
+                />
+              </div>
+            </div>
           </v-col>
         
       </v-row>

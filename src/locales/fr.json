@@ -113,9 +113,226 @@
     "text2_French Tech": "French Tech Prépa Tremplin",
     "text3_French Tech Tou": "French Tech Toulouse",
     "text4_Chez BTC Energies": "Chez BTC Énergies, nous croyons en la force du collectif pour bâtir les solutions de demain. C’est en unissant nos compétences, nos savoir-faire et nos convictions que nous pouvons relever les défis de la transition énergétique."
-      
-   
-  }
-    
+    },
 
+    "__comment_page_equipe": "Traductions pour la page Equipe.vue",
+
+     "equipe": {
+      "Equipe_Titre": "Notre Equipe",
+      "Titre_equipe": "Notre équipe est composée de 3 associés présentés ci-dessous et de notre 'Chief Happiness Officer Canin'. Nous sommes également soutenus par plus d'une dizaine de personnes apportant leurs compétences sur les différentes parties du projet.",
+    
+      "equipe_Thibault_Nom": "Thibault BÉTHENCOURT",
+    "equipe_Thibault_TitreCourt": "Président - Fondateur de BTC Énergies",
+    "equipe_Thibault_CEO": "Porteur de projet (CEO)",
+    "equipe_Thibault_Tel": "+33 6 29 56 07 56",
+    "equipe_Thibault_Etudes_Titre": "Études :",
+    "equipe_Thibault_Etudes_Detail": "Bac+5 : Droit, Économie, Gestion (administration des institutions publiques)<br />Doctorat en préparation (Management stratégique)",
+    "equipe_Thibault_Citation": "“Dans ce monde, tout est imaginable. Mais il faut savoir convaincre et s’entourer des meilleurs pour que tout soit possible.”",
+
+    "equipe_Thibault_Bio1": "Titulaire de plusieurs diplômes dans des disciplines complémentaires, Ingénierie et Gestion de Projets, Histoire, Relations Internationales & Géopolitique, Droit, Économie et Gestion. Il incarne un profil pluridisciplinaire rare, au croisement des enjeux techniques, stratégiques et géopolitiques.",
+    "equipe_Thibault_Bio2": "Fondateur et penseur du projet BTC Énergies, il en assure la direction depuis la présentation officielle de la technologie aux professionnels du secteur en février 2022, marquant ainsi le lancement opérationnel de l’initiative.",
+    "equipe_Thibault_Bio3": "Depuis, BTC Énergies a franchi une étape majeure avec sa sélection dans le cadre de l’Appel à Manifestation d’Intérêt lancé par Natran (ex-GRTgaz), spécifiquement dédié à la gazéification hydrothermale.",
+    "equipe_Thibault_Bio4": "Ce jalon confirme la pertinence de la solution développée par Thibault BÉTHENCOURT, ainsi que la reconnaissance croissante de son engagement, de sa vision et de sa capacité d’exécution. Entrepreneur visionnaire, créatif et résolument tourné vers l’innovation, il incarne une approche audacieuse et disruptive de l’industrie, faisant de lui une figure singulière et remarquée dans l’écosystème de la transition énergétique.",
+    "equipe_Thibault_Bio5": "Polyglotte, aventurier passionné et voyageur intrépide, il débute dès l’âge de 17 ans un parcours d’idéation nourri par un tour du monde à travers 11 pays et 3 continents. Confronté aux réalités énergétiques et environnementales sur le terrain, il affine une compréhension globale des enjeux, ce qui lui a permis d’identifier immédiatement le potentiel stratégique de la gazéification hydrothermale.",
+    "equipe_Thibault_Bio6": "Ses expériences internationales, entre observation pragmatique et immersion culturelle, façonnent une vision singulière et ambitieuse : faire de cette technologie une réponse concrète aux défis de la transition énergétique et de la ré-industrialisation. Son esprit en constante émulation fait de lui la boîte à idées de l’entreprise.",
+    
+    "equipe_JMarc_Nom": "ePhD Jean-Marc BOUILLON",
+    "equipe_JMarc_TitreCourt": "Directeur Général (COO)",
+    "equipe_JMarc_Etudes_Titre": "Études :",
+    "equipe_JMarc_Etudes_Detail": "Diplôme d'Ingénieur : Institut National Polytechnique de Grenoble<br />Doctorat : Sciences de Gestion<br />Certifications : PMP® (Project Management Institute), Médiateur diplômé (Université Panthéon-Assas)",
+    "equipe_JMarc_Citation": "“Mon engagement, c’est faire rayonner les talents. C’est aussi créer de la valeur et ancrer BTC Énergies dans le paysage industriel français et au-delà. Mon fil rouge perma-industriel, c’est moins de plastique”.",
+    "equipe_JMarc_Bio1": "Diplômé de l’Institut National Polytechnique de Grenoble et docteur en sciences de gestion, il cumule plus de 35 ans d’expérience au service de l’innovation, de la performance industrielle et de la transition écologique. Expert reconnu, auteur engagé et médiateur diplômé de l’Université Panthéon-Assas, il est Président élu de leur Association des Médiateurs Diplômés et membre actif de réseaux de référence tels que Polyméris et la Convention des Entreprises pour le Climat.",
+    "equipe_JMarc_Bio2": "Fort de plus de 25 ans d’expérience au sein d’un groupe multinational leader mondial, il a piloté des projets complexes, pour un cumul total équivalent à un milliard de francs suisses, de l’étude à la mise en œuvre opérationnelle. Il est également Project Management Professional (PMP®️) certifié par le Project Management Institute, première organisation mondiale dédiée à la gestion de projet. Il incarne un leadership rigoureux, stratégique et orienté impact.",
+    "equipe_JMarc_Bio3": "Son expérience, son génie opérationnel et sa rigueur méthodologique font de lui l’un des piliers de la concrétisation industrielle des ambitions portées par BTC Énergies, contribuant activement à transformer notre stratégie en résultats tangibles.",
+    
+     "equipe_Alain_Nom": "Alain DEGANS",
+    "equipe_Alain_TitreCourt": "Chef de Projet Digital – Cofondateur de BTC Énergies",
+    "equipe_Alain_Etudes_Titre": "Études :",
+    "equipe_Alain_Etudes_Detail": "Bac+5 : Management et Développement des Activités Commerciales (en cours)",
+    "equipe_Alain_Citation": "“J’ai rejoint ce projet avec la conviction profonde qu’il pouvait avoir un impact positif et durable sur notre société. Pour moi, BTC Énergies, c’est avant tout une vision, une équipe soudée et des solutions d’avenir.”",
+    "equipe_Alain_Bio1": "Né en 2000, il est le benjamin de l’équipe, mais aussi l’un des cofondateurs de BTC Énergies. Formé en gestion de projet et en marketing digital, il se distingue par un esprit entrepreneurial affirmé et une sensibilité forte aux enjeux écologiques et technologiques.",
+    "equipe_Alain_Bio2": "Animé par une vision militante de l’entrepreneuriat, il défend avec conviction le rôle fondamental de l’industrie dans la transition écologique. Il perçoit la gazéification hydrothermale (GH) comme une technologie clé pour un développement économique durable.",
+    "equipe_Alain_Bio3": "Persévérant, constant et doté d’une grande capacité d’abnégation, il s’impose comme l’un des membres les plus résilients de l’équipe.",
+
+     "equipe_Camille_Nom": "Camille FAURE",
+    "equipe_Camille_TitreCourt": "Responsable RH (HR Manager)",
+    "equipe_Camille_Titre2": "Chargée de communication",
+    "equipe_Camille_Tel": "+33 7 49 71 63 40",
+    "equipe_Camille_Etudes_Titre": "Études :",
+    "equipe_Camille_Etudes_Detail": "Bac+5 : Management des Ressources Humaines",
+    "equipe_Camille_Citation": "« Ma volonté, c’est de nourrir des valeurs qui permettent de construire une culture d’entreprise saine, humaine et tournée vers l’avenir »",
+    "equipe_Camille_Bio1": "Titulaire d’une licence en psychologie sociale et d’un Master 2 en ressources humaines, elle est cofondatrice de BTC Énergies et l’un des piliers essentiels de l’entreprise. Dotée d’un profil hautement spécialisé, elle se distingue par un esprit rigoureux, structuré et méthodique. Son sens aigu de l’analyse humaine, allié à une remarquable capacité d’intuition, lui permet de cerner avec précision les profils et de mobiliser les talents de manière optimale.",
+    "equipe_Camille_Bio2": "Responsable du recrutement et de la stratégie RH, elle veille à ce que chaque collaborateur occupe une position alignée à la fois avec ses compétences, son épanouissement personnel et les objectifs stratégiques de BTC Énergies. Son rôle est central dans la structuration et la consolidation des équipes, contribuant directement à la performance et à la résilience de l’entreprise.",
+
+      "equipe_Remi_Nom": "Rémi PICHONNEAU",
+    "equipe_Remi_TitreCourt": "Ingénieur en génie industriel / Responsable technique (CTO)",
+    "equipe_Remi_Etudes_Titre": "Études :",
+    "equipe_Remi_Etudes_Detail": "Diplôme d'Ingénieur en conduite de projets industriels<br />Master SYSPEC",
+    "equipe_Remi_Citation": "« Mon mot d’ordre, c’est impulser et dynamiser la transition énergétique dans l’esprit du développement durable. »",
+    "equipe_Remi_Bio1": "Titulaire d’un diplôme d’Ingénieur généraliste en conduite de projet industriel ainsi que d’un Master SYSPEC, il cumule 42 années d’expérience dans des domaines clés tels que la production d’énergies renouvelables, la gestion des déchets (incinération, valorisation du gaz de décharge) et la construction de Data centers.",
+    "equipe_Remi_Bio2": "Au cours de sa carrière, il a notamment contribué à l’installation de 145 MW de puissance énergétique, soit de quoi alimenter 15 000 foyers – l’équivalent d’une ville comme Chambéry. Ses fils conducteurs sont le développement durable et la transition énergétique, qui guident l’ensemble de ses projets. Porté par une vision tournée vers l’avenir, il privilégie l’anticipation et l’innovation, afin de proposer des solutions responsables et durables face aux enjeux environnementaux et technologiques. Son expertise, sa polyvalence et sa sagesse acquise font de lui un expert reconnu et un élément influent au sein de BTC Énergies.",
+
+    "equipe_Adell_Nom": "ADELL",
+  "equipe_Adell_TitreCourt": "Direction Administrative et Financière",
+  "equipe_Adell_Titre2": "Architecte de la rentabilité, maître d’ouvrage de la structuration financière",
+  "equipe_Adell_Etudes_Titre": "Études :",
+  "equipe_Adell_Etudes_Detail": "Diplôme d'Ingénieur en génie mécanique / Master en gestion d’entreprise",
+  "equipe_Adell_Citation": "« Ce qui m’intéresse, c’est la construction, le challenge et la mise en place d’outils au service de projets innovants. Le Projet de BTC Énergies a une charge technique et sociétale extrêmement forte qui en fait un projet d’avenir et une voie d’action concrète et pertinente. »",
+  "equipe_Adell_Bio1": "Titulaire d’un diplôme d’ingénieur en génie mécanique ainsi que d’un master en gestion d’entreprise, il bénéficie de 35 années d’expérience dans l’industrie, les services et les institutions dédiées au développement économique local, telles que les Chambres de commerce et d’industrie (CCI) ou les agences de développement. Tout au long de son parcours, il a su mettre son expertise au service de projets variés et complexes, allant de la fusion de structures à la réorganisation fonctionnelle d’entreprises, en passant par la redéfinition des actionnariats ou la structuration des fonctions administratives et financières.",
+  "equipe_Adell_Bio2": "Il a également participé à plusieurs projets européens à dimension internationale, impliquant des collaborations avec la Belgique, le Royaume-Uni, le Portugal, la Pologne, l’Allemagne et l’Espagne. Ces expériences lui ont permis de développer une solide compétence en ingénierie de projets et en recherche de financements, tout en cultivant une approche interculturelle et transversale. Il parle couramment anglais, maîtrise un espagnol conversationnel et a des notions de portugais et de japonais.",
+  "equipe_Adell_Bio3": "Doté d’un profil pragmatique, modéré et rigoureux, il se distingue par un mode de fonctionnement direct qui favorise l'efficacité, tant dans la prise de décision que dans le traitement des dossiers. À la fois hiérarchique dans sa posture et autonome dans son action, il conjugue le respect d’une politique générale à une véritable autonomie opérationnelle. Cette combinaison lui donne une capacité de discernement appréciable, notamment pour repérer les dysfonctionnements et les signaler de manière constructive et directe.",
+  "equipe_Adell_Bio4": "Sa capacité à dialoguer avec toutes les parties prenantes de la présidence à la direction générale, en passant par les fonctions opérationnelles lui permet d’assurer une qualité d’échange constante, quels que soient les interlocuteurs. Curieux et visionnaire, il dépasse volontiers le périmètre de sa fonction pour appréhender les problématiques dans leur globalité, avec la volonté constante de servir au mieux les missions qui lui sont confiées. Ces qualités et son profil à la fois hautement qualifié et expérimenté font de lui l’un des éléments moteurs de l’entreprise.",
+
+    "equipe_Olivier_Nom": "Olivier COT",
+  "equipe_Olivier_TitreCourt": "Responsable Commercial (CBO)",
+  "equipe_Olivier_Etudes_Titre": "Études :",
+  "equipe_Olivier_Etudes_Detail": "Bac+5 – Programme Grande École<br />(Business Development, Management, Finance)",
+  "equipe_Olivier_Citation": "“Ma conviction c’est, qu’ensemble, nous pourrons développer un modèle industriel rentable et faire de BTC Énergies une entreprise prospère au rayonnement mondial.”",
+  "equipe_Olivier_Bio1": "Titulaire d’un Master 2 Programme Grande École de KEDGE Business School, il bénéficie de cinq années d’expérience dans l’industrie lourde, plus particulièrement dans les domaines des achats et de la supply chain, dont trois années passées à l’étranger, au contact de contextes industriels complexes et exigeants.",
+  "equipe_Olivier_Bio2": "Doté d’une grande aisance relationnelle, il entretient des relations commerciales solides et constructives avec des partenaires de diverses régions du monde : États-Unis, Turquie, Chine, Inde, pays de l’Union Européenne, Amérique du Sud, Afrique du Nord, Asie du Sud, etc. Polyglotte, il maîtrise plusieurs langues étrangères, un atout stratégique pour le développement international de BTC Énergies, notamment dans des zones géographiques clés.",
+  "equipe_Olivier_Bio3": "Son esprit d’aventure, combiné à un pragmatisme affirmé et à une capacité d’analyse pointue (évaluation des besoins, pilotage de KPI, veille conjoncturelle, compréhension fine des dynamiques de marché), fait de lui l’un des piliers essentiels de BTC Énergies, contribuant activement à sa structuration, sa vision et son déploiement stratégique à l’échelle mondiale sur le long terme.",
+
+    "equipe_Philippe_Nom": "Philippe SUTARIK",
+  "equipe_Philippe_TitreCourt": "Responsable Qualité, Sécurité, Environnement (QSE)",
+  "equipe_Philippe_Etudes_Titre": "Études :",
+  "equipe_Philippe_Etudes_Detail": "Bac+5 Technique et Gestion de l'Environnement des Ponts et Chaussées option Gestion et Économie",
+  "equipe_Philippe_Citation": "J’ai un objectif : faire disparaître définitivement les déchets ultimes. À chaque problème, il y a toujours des solutions.",
+  "equipe_Philippe_Bio1": "Diplômé de l'École nationale des ponts et chaussées, Philippe Sutarik cumule trente années d’expertise dans le traitement et la valorisation des déchets. Visionnaire et innovateur, il est à l’origine de quinze avancées majeures qui ont contribué à transformer les pratiques industrielles dans ce domaine. Faisant de lui le Géo-Trouvetou de l’équipe.",
+  "equipe_Philippe_Bio2": "Dès 1993, son engagement en faveur de solutions industrielles durables est récompensé par le Prix Éco-Industrie, une distinction qui souligne son excellence technique et sa capacité à anticiper les besoins environnementaux de demain. Depuis 2023, Philippe Sutarik a rejoint BTC Énergies en tant que Responsable QSE. Fort de son expérience, il met sa vision stratégique et son savoir-faire au service d’une aventure collective visant à repousser les limites de l’innovation en matière de qualité, de sécurité et d’environnement.",
+  "equipe_Philippe_Bio3": "Ancien auditeur chez Afnor, il a accompagné quarante entreprises et réalisé soixante audits environnementaux. Au cours de sa carrière, il a suivi trois formations d’auditeur et d’accompagnateur, dont une formation spécifique à l’éco-audit, la seule officiellement reconnue à l’échelle européenne.",
+  "equipe_Philippe_Bio4": "Sa démarche, qui allie rigueur scientifique et pragmatisme opérationnel, est le fruit de trois décennies dédiées à la conception et à l’implémentation de procédés de valorisation des déchets. Grâce à cette expertise unique, il aborde les défis environnementaux avec une approche globale, à la fois technique et managériale, visant un objectif clair : éradiquer définitivement les déchets ultimes.",
+
+    "equipe_Anais_Nom": "Anaïs Olive",
+  "equipe_Anais_TitreCourt": "Cheffe de projet Outre Mer",
+  "equipe_Anais_Etudes_Titre": "Études :",
+  "equipe_Anais_Etudes_Detail": "Bac+5 : Audit et management des ressources humaines + formation gestionnaire de paie",
+  "equipe_Anais_Citation": "Le but de mon existence, c’est de permettre à la nature de retrouver sa place. Rejoindre BTC Énergies, c’est participer à la mise en place de solutions d’avenir pour traiter efficacement les déchets qui tuent notre planète",
+  "equipe_Anais_Bio1": "Titulaire d’une licence en droit, d’une maîtrise en droit social, d’un master 2 d’audit social et de gestion des ressources humaines, ainsi que de plusieurs diplômes spécialisés (gestionnaire de paie, droit des obligations, sophrologie), elle dispose d’un profil particulièrement complet, axé sur les secteurs administratifs, juridiques et de paie.",
+  "equipe_Anais_Bio2": "Son parcours professionnel en tant que gestionnaire d’agence d’intérim, trésorière, responsable de la gestion administrative et comptable, et assistante juridique, atteste d’une polyvalence remarquable et d’une réelle capacité à évoluer dans des contextes complexes et exigeants. Forte d’une expérience personnelle enrichissante à travers des voyages en Australie, Nouvelle-Calédonie, Île Maurice, Angleterre, Majorque, Ibiza, Îles Canaries, Crète, Corse et Sardaigne, elle bénéficie d’une connaissance très complète des territoires insulaires et de leurs problématiques spécifiques. Cette immersion géographique constitue un véritable atout pour construire une stratégie locale pertinente et ancrée dans les réalités du terrain.",
+  "equipe_Anais_Bio3": "Membre volontaire, dynamique, dotée d’un excellent sens du contact et d’un esprit d’initiative affirmé, elle se distingue par une vision claire et une volonté forte d’avoir un impact positif sur son environnement. Convaincue de la pertinence des projets de BTC Énergies dans les territoires insulaires, elle est naturellement destinée à encadrer l’ensemble des projets menés sur ces zones à forts enjeux.",
+  "equipe_Anais_Bio4": "Sa sensibilité écologique, conjuguée à sa rigueur et à son sens de l’organisation, en fait le profil idéal pour développer des projets dans des écosystèmes fragiles, en veillant à limiter au maximum les impacts négatifs des activités humaines. Consciencieuse et méthodique, elle sait cadrer efficacement chaque phase de la conduite de projet, dans une logique de performance et de durabilité.",
+
+    "equipe_Cedric_Nom": "Cédric Chauvet",
+  "equipe_Cedric_TitreCourt": "Développeur IA et Automatisation",
+  "equipe_Cedric_Etudes_Titre": "Études :",
+  "equipe_Cedric_Etudes_Detail": "Master 2Pro - Pilote et surveillance des procédés industriels. Spécialisation Machine Learning - Holberton School",
+  "equipe_Cedric_Citation": "Mon but ultime, c’est généraliser l’usage de l’intelligence artificielle dans l’Industrie et à tous les niveaux.",
+  "equipe_Cedric_Bio1": "Titulaire d’un Master 2 Professionnel en Pilotage et Surveillance des Procédés Industriels, spécialisé en sciences industrielles, d’une maîtrise CAPES de Physique-Chimie, ainsi que d’un diplôme de programmateur en développement d’applications avec une spécialisation en intelligence artificielle, Cédric incarne un profil résolument pluridisciplinaire. Passionné d’électronique et d’entrepreneuriat, il a eu l’opportunité de participer à plusieurs compétitions de renom, telles que le concours Eurobot en 2024 et la Toulouse Robotrace, où il a brillamment décroché la 3ᵉ place en 2022.",
+  "equipe_Cedric_Bio2": "Ses compétences transversales lui permettent d'apporter des solutions concrètes à de nombreuses problématiques complexes, faisant de lui un atout majeur pour relever les défis de l'industrie d'aujourd'hui et de demain.",
+  "equipe_Cedric_Bio3": "Doté d'un esprit inventif et bricoleur, Cédric possède l'ouverture d'esprit essentielle à l'intégration et à l'exploitation de technologies novatrices. Conscient que nous vivons une époque charnière à la croisée des technologies d’hier, d’aujourd’hui et de demain, il met un point d'honneur à créer des ponts entre ces mondes afin d’en tirer le meilleur.",
+
+  "equipe_Xavier_Nom": "Xavier Piedallu",
+    "equipe_Xavier_TitreCourt": "Architecte Web Full-Stack",
+    "equipe_Xavier_TitreDetail": "Conception d'outils numériques",
+    "equipe_Xavier_Etudes_Titre": "Études :",
+    "equipe_Xavier_Etudes_Detail": "Bac+2 : Développement Web Full-Stack RNCP5",
+    "equipe_Xavier_Citation": "BTC Énergies a la capacité de proposer des solutions pertinentes et concrètes pour le monde entier. Je suis parfaitement en phase avec chaque membre de l’équipe et cela me conforte dans mes inspirations : celles de changer les choses.",
+    "equipe_Xavier_Bio1": "Issu à l’origine d’un cursus en travaux publics, il a su faire preuve d’une remarquable capacité d’adaptation en opérant une reconversion réussie vers le développement web, couronnée par l’obtention d’un diplôme en développement full stack. Fort de 14 années d’expérience, il évolue avec aisance dans les domaines du bâtiment, des travaux publics et du numérique, aussi bien en métropole que dans les territoires ultramarins.",
+    "equipe_Xavier_Bio2": "Ce double ancrage technique et digital lui permet d’aborder avec la même efficacité des projets d’infrastructures lourdes que des missions de développement à forte valeur ajoutée. Son parcours témoigne d’un profil polyvalent, ambitieux et visionnaire, porté par une quête permanente d’évolution et d’amélioration. Fin connaisseur des dynamiques de marché et attentif aux conjonctures, il sait ajuster ses orientations en conséquence.",
+    "equipe_Xavier_Bio3": "Passionné de voyages, il a enrichi sa vision globale à travers des séjours dans plusieurs îles de l’océan Indien, au Québec, aux Philippines ou encore en zone sub-antarctique. Cette ouverture sur le monde nourrit sa curiosité et renforce sa capacité à s’adapter à des contextes variés. Autonome, rigoureux et doté d’un solide esprit d’initiative, il fait preuve d’un grand professionnalisme. Son respect des consignes et sa fiabilité en font un collaborateur de confiance, capable de s’investir pleinement dans des environnements exigeants.",
+
+     "equipe_Rubie_Nom": "Rubie",
+    "equipe_Rubie_TitreFr": "Responsable Bien-être au Travail",
+    "equipe_Rubie_TitreEn": "Chief Happiness Officer",
+    "equipe_Rubie_Bio1": "Dans le cadre de sa démarche RSE et de sa volonté affirmée de promouvoir un environnement de travail bienveillant et innovant, BTC Énergies a fait le choix singulier mais profondément humain d’intégrer un chien thérapeutique au sein de son équipe. Cette décision s’inscrit dans une vision holistique du bien-être au travail, où la performance et l’humain avancent main dans la patte.",
+    "equipe_Rubie_Bio2": "Son intégration repose sur trois piliers clés :\n\n- Bien-être et santé mentale : De nombreuses études démontrent les effets bénéfiques de la présence animale sur la réduction de l’anxiété, l’amélioration de l’humeur et la diminution du stress chronique. Sa simple présence contribue à apaiser les tensions et à instaurer un climat de sérénité, notamment dans des secteurs aussi exigeants que le nôtre.\n\n- Cohésion sociale et attractivité : Rubie est devenue une véritable mascotte, favorisant les échanges informels et renforçant le lien entre collaborateurs et partenaires. Elle incarne une forme de douceur dans des environnements techniques. Fait remarquable : certains partenaires ont rejoint BTC Énergies en partie grâce à l’attachement développé pour elle.\n\n- Engagement sociétal et image responsable : Ce choix affirme notre engagement pour l’innovation sociale et le respect du vivant. Il illustre notre capacité à concilier haute technologie, performance environnementale et sens du vivant.",
+    "equipe_Rubie_Bio3": "Dressée avec rigueur, dévouée et parfaitement intégrée à notre fonctionnement quotidien, elle symbolise notre vision de l’entreprise : fidèle, agile et audacieuse. Chez BTC Énergies, nous croyons que la performance durable passe aussi par le cœur, et Rubie en est la preuve vivante."
+  },
+
+    "__comment_page_contact": "Traductions pour la page Contact.vue",
+
+    "contact": {
+
+      "titre": "Contact",
+      "texteIntroHead": "Vous êtes à la recherche d'une solution durable pour la gestion de vos déchets et la production d'énergie propre ? BTC Énergies est votre partenaire idéal.",
+      "introForm1": "Vous souhaitez en savoir plus sur nos solutions, proposer un partenariat, ou tout simplement entrer en contact avec notre équipe ?",
+      "introForm2": "Remplissez ce formulaire. Nous reviendrons vers vous dans les meilleurs délais.",
+      "nomLabel": "Votre Nom et Prénom",
+      "nomPlaceholder": "Ce champ est obligatoire",
+      "emailLabel": "Adresse E-Mail",
+      "emailPlaceholder": "@",
+      "messageLabel": "Votre Message",
+      "messagePlaceholder": "Votre message doit contenir au moins 20 caractères",
+      "boutonEnvoyer": "Soumettre"
+    },
+
+  "__comment_page_etdemain": "Traductions pour la page Demain.vue",
+
+  "Etdemain": {
+
+    "titre": "Et demain ?",
+    "textIntroHead": "Notre modèle est plurisectoriel et peut aller au-delà de la valorisation de déchets et de la production d'énergies renouvelables.",
+    "titrePrincipal": "Et demain, que ferons-nous ?",
+    "intro": "De par la grande diversité des ressources que nous obtenons, nous avons la possibilité de porter et de développer tout un ensemble de projets industriels.",
+    "bloc1_phrase": "BTC Énergies prévoit ainsi de construire une zone de production de plantes à visées thérapeutiques exploitant une partie des ressources générées :",
+    "bloc1_liste1": "Le CO₂ purifié servira à booster la croissance des plantes et à en extraire les principes actifs.",
+    "bloc1_liste2": "Une partie du (di)hydrogène transformé en électricité alimentera les installations.",
+    "bloc1_liste3": "Les engrais ainsi que l'eau nourriront les plantes.",
+    "bloc2_phrase1": "Les plantes seront cultivées en environnement contrôlé (température, hygrométrie, taux de CO₂, alimentation en éléments nutritifs, etc.).",
+    "bloc2_phrase2": "Nous pourrons ainsi produire, sur commande, une grande diversité de plantes à haute valeur ajoutée pour l'industrie pharmaceutique, cosmétique ou alimentaire.",
+    "bloc2_phrase3": "Ces zones de production pourront également être construites à proximité d'unités de méthanisation déjà existantes.",
+    "citation": "Rien ne se perd, rien ne se crée, tout se transforme et s'exploite !",
+
+    "Nous contacter": "Nous contacter",
+    "Nos Coordonnées": "Nos Coordonnées"
+  },
+
+   "__comment_page_MentionsLégales": "Traductions pour la page Demain.vue",
+
+  "MentionsLégales": {
+    "titre": "Mentions Légales",
+
+    "titreCGU": "Conditions Générales d’Utilisation (CGU)",
+    "cguIntro": "L’accès au site de BTC Énergies implique l’acceptation pleine et entière des conditions décrites ci-dessous. Ces conditions peuvent être modifiées à tout moment.",
+    "accesTitre": "Accès au site",
+    "accesTexte": "Le site est accessible gratuitement. L’éditeur s'efforce de fournir un accès ininterrompu, sans garantie absolue.",
+    "proprieteTitre": "Propriété intellectuelle",
+    "proprieteTexte": "Les contenus (textes, images, logos, etc.) sont protégés par le droit d’auteur. Toute reproduction, distribution ou modification est interdite sans autorisation écrite.",
+    "responsabiliteTitre": "Responsabilité",
+    "responsabiliteTexte": "L’éditeur ne peut être tenu responsable des dommages liés à l’utilisation du site ou à la présence de virus ou liens externes.",
+    "droitTitre": "Droit applicable",
+    "droitTexte": "Les présentes CGU sont régies par le droit français. En cas de litige, compétence est attribuée aux tribunaux de Paris.",
+
+    "titreConfidentialite": "Politique de confidentialité",
+    "donneesTitre": "Données collectées",
+    "donneesTexte": "Nous collectons des données personnelles via les formulaires de contact, les cookies et les statistiques de navigation. Les données concernées peuvent inclure : nom, prénom, e-mail, téléphone, adresse IP, etc.",
+    "finaliteTitre": "Finalité du traitement",
+    "finaliteTexte": "Les données sont utilisées uniquement pour répondre aux demandes, améliorer l'expérience utilisateur, et envoyer des communications si vous y avez consenti.",
+    "legaleTitre": "Base légale",
+    "legaleTexte": "Le traitement est fondé sur le consentement explicite ou sur l’intérêt légitime lorsqu’il s’agit de répondre à une demande directe.",
+    "destinatairesTitre": "Destinataires",
+    "destinatairesTexte": "Vos données ne sont jamais revendues. Elles peuvent être partagées avec nos prestataires techniques, dans le strict respect de leur mission.",
+    "dureeTitre": "Durée de conservation",
+    "dureeTexte": "Les données sont conservées pour une durée maximale de 3 ans après le dernier contact ou conformément aux obligations légales.",
+    "droitsTitre": "Vos droits",
+    "droitsTexte": "Vous pouvez accéder à vos données, demander leur rectification ou suppression, ou vous opposer à leur traitement. Contact : [votre email RGPD].",
+    "cookiesTitre": "Cookies",
+    "cookiesTexte": "Ce site utilise des cookies techniques et statistiques. Vous pouvez les accepter ou les refuser à tout moment depuis le bandeau dédié.",
+
+    "contactTitre": "Contact",
+  "contactQuestion": "Pour toute question relative à la protection des données personnelles :",
+  "emailPrincipal": "direction@btc-energies.fr",
+  "raisonSociale": "Dénomination sociale : BTC Energies",
+  "formeJuridique": "Forme Juridique : SAS",
+  "capitalSocial": "Capital social : 120€",
+  "adresseSiege": "Siège social : 9 RUE DE L'AVENIR, 31470 FONTENILLES",
+  "telephoneLabel": "Téléphone :",
+  "telephoneNumero": "+33 6 29 56 07 56",
+  "emailLabel": "Email :",
+
+   "rcsLabel": "Numéro RCS :",
+    "rcsValue": "928 497 585 R.C.S. Toulouse",
+    "tvaLabel": "Numéro de TVA :",
+    "tvaValue": "FR27928497585",
+
+    "Nous contacter": "Nous contacter",
+    "Nos Coordonnées": "Nos Coordonnées"
+  },
+
+  "Footer": {
+    "siteoptimise": "Site optimisé pour la version ordinateur",
+    "Cookies": "Cookies",
+    "Site conçu et": "Site conçu et optimisé par BTC Énergies •"
+  }
+  
 }
