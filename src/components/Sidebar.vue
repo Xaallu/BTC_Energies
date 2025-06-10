@@ -11,47 +11,65 @@
           <br>
           <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto mb-2 mt-4" />
 
-              <!-- 🧠 Place-le en bas de ta sidebar -->
-                <div class="mt-auto p-8">
-                 <button
-  @click="switchLang"
-  class="text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a] transition flex items-center gap-2"
->
-  <img
-    v-if="locale === 'fr'"
-    src="/Flag/flag_fr.jpg"
-    alt="Français"
-    class="w-6 h-4 rounded-sm"
-  />
-  
-   <img
-    v-if="locale === 'en'"
-    src="/Flag/flag_en.jpg"
-    alt="English"
-    class="w-6 h-4 rounded-sm"
-  />
+          <!-- Espace -->
+  <div class="mt-6"></div>
 
+       <!-- Bouton langue avec flèche -->
+<div class="relative">
+  <button
+    @click="toggleDropdown"
+    class="text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a] transition flex items-center gap-2 w-full justify-between"
+  >
+    <div class="flex items-center gap-2">
   <img
-    v-if="locale === 'es'"
-    src="/Flag/flag_es.jpg"
-    alt="Espagnol"
+    v-if="currentLang.flag"
+    :src="currentLang.flag"
+    :alt="currentLang.label"
     class="w-6 h-4 rounded-sm"
   />
-  
- <span>
-  {{
-    locale === 'fr'
-      ? '🇫🇷'
-      : locale === 'en'
-      ? '🇬🇧'
-      : locale === 'es'
-      ? '🇪🇸'
-      : '🌍'
-  }}
-</span>
-</button>
+  <span>
+    {{
+      locale === 'fr' ? '🇫🇷' :
+      locale === 'en' ? '🇬🇧' :
+      locale === 'es' ? '🇪🇸' : '🌍'
+    }}
+  </span>
+</div>
 
-                </div>
+
+    <!-- Flèche -->
+    <svg
+      class="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </button>
+
+  <!-- Liste déroulante -->
+  <div
+    v-if="showDropdown"
+    class="absolute mt-2 bg-white text-black rounded shadow w-full z-10"
+  >
+    <ul>
+      <li
+        v-for="lang in availableLocales"
+        :key="lang.code"
+        @click="setLocale(lang.code)"
+        class="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer gap-2"
+      >
+        <img :src="lang.flag" :alt="lang.label" class="w-6 h-4 rounded-sm" />
+        <span>{{ lang.label }}</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Espace -->
+<div class="mt-12"></div>
 
               <div class="menu-arrow_H"></div>
             </div>
@@ -124,14 +142,49 @@
 <script setup>
 import { onMounted, ref, onBeforeUnmount } from 'vue'
 import gsap from 'gsap'
+import { computed } from 'vue'
 
 const props = defineProps({ isSidebarOpen: Boolean })
 const emit = defineEmits(['toggleSidebar'])
 const isDesktop = ref(window.innerWidth >= 1024)
+const showDropdown = ref(false)
+
 
 const updateIsDesktop = () => {
   isDesktop.value = window.innerWidth >= 1024
 }
+
+const currentLang = computed(() => {
+  return availableLocales.find(lang => lang.code === locale.value) || { flag: '', label: '' }
+})
+
+ const availableLocales = [
+  { code: 'fr', label: '🇫🇷', flag: '/Flag/flag_fr.jpg' },
+  { code: 'en', label: '🇬🇧', flag: '/Flag/flag_en.jpg' },
+  { code: 'es', label: '🇪🇸', flag: '/Flag/flag_es.jpg' },
+]
+
+function setLocale(code) {
+  locale.value = code
+  showDropdown.value = false
+  // Si tu utilises vue-i18n :
+  // i18n.global.locale.value = code
+}
+
+
+
+function toggleDropdown() {
+  showDropdown.value = !showDropdown.value
+}
+
+function handleOutsideClick(event) {
+  const dropdown = document.querySelector('.relative')
+  if (dropdown && !dropdown.contains(event.target)) {
+    showDropdown.value = false
+  }
+}
+
+
 
 onMounted(() => {
   window.addEventListener('resize', updateIsDesktop)
@@ -140,6 +193,10 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('resize', updateIsDesktop)
 })
+document.removeEventListener('click', handleOutsideClick)
+
+
+document.addEventListener('click', handleOutsideClick)
 
 const logoL = ref(null)
 const logoS = ref(null)
@@ -209,28 +266,15 @@ const { locale } = useI18n();
 
 const switchLang = () => {
   if (locale.value === 'fr') {
-    locale.value = 'en';
+    locale.value = 'en'
   } else if (locale.value === 'en') {
-    locale.value = 'es';
+    locale.value = 'es'
   } else {
-    locale.value = 'fr';
+    locale.value = 'fr'
   }
   localStorage.setItem('lang', locale.value)
-
-  function getFlagEmoji(lang) {
-  switch (lang) {
-    case 'fr': return '🇫🇷'
-    case 'en': return '🇬🇧'
-    case 'es': return '🇪🇸'
-    case 'de': return '🇩🇪'
-    case 'it': return '🇮🇹'
-    case 'zh': return '🇨🇳'
-    case 'ja': return '🇯🇵'
-    default: return '🌍'
-  }
 }
 
-}
 
 </script>
 
