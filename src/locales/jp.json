@@ -1,0 +1,350 @@
+{
+  "__comment_page_sidebar": "ホームページの翻訳（Sidebar.vue）",
+
+  "menu": {
+    "accueil": "ホーム",
+    "constat": "私たちの分析",
+    "solutions": "私たちのソリューション",
+    "partenaires": "資金調達とパートナー",
+    "equipe": "私たちのチーム",
+    "contact": "お問い合わせ",
+    "etDemain": "そして明日は？",
+    "mentions": "法的通知"
+  },
+
+  "__comment_page_index": "ホームページの翻訳（Accueil.vue）",
+
+  "texte_bandeau_bleu": "産業プロジェクトの開発、管理、運営",
+  "nootre_constat": "私たちの診断",
+  "notre_equipe": "私たちのチーム",
+  "legal_title": "法的通知",
+  "legal_line1": "BTC Énergies（SAS）は資本金120ユーロ、フランス・トゥールーズ商業登記簿に登録されています。",
+  "legal_line2": "SIRET番号：928 497 585 00010",
+
+  "services": {
+    "title_Nos services": "私たちのサービス",
+    "s1_title_Vente d’energies": "エネルギーおよび再生可能資源の販売",
+    "s1_p1_Nous assurons la production": "私たちはバイオマスや化石原料の再利用により、エネルギーと再生可能資源の生産・販売を提供しています。",
+
+    "s2_title_Gazeification": "廃棄物と家庭ごみの水熱ガス化",
+    "s2_p1_La gazeification": "水熱ガス化は廃棄物を合成ガス（クリーンで再生可能なエネルギー源）、ミネラル、水へと効率的に変換します。",
+    "s2_p2_Nous pouvons valoriser": "さまざまな材料を非常に競争力のある価格で再利用できます。",
+
+    "s3_title_Valorisation des effluents": "下水処理場および埋立地浸出水の再利用",
+    "s3_p1_Nous pouvons assurer": "私たちは、下水処理場や施設からの汚水の再利用を保証します（たとえ水銀、病原体、マイクロプラスチック、PFASなどに汚染されていても）。",
+    "s3_p2_Nous pouvons utiliser": "私たちは汚水から資源を回収し、環境保護に貢献します。",
+
+    "s4_title2_Gestion des dechet": "農業廃棄物管理",
+    "s4_p1_Les pratiques de gestion": "持続可能な農業廃棄物管理は環境と農業の持続性にとって不可欠です。施肥が不可能な場合でも消化液を再利用し、農薬、不適格品、メタン化できない資材などのすべての農業廃棄物を処理できます。",
+
+    "s5_title_Traitement des effluents industriels": "産業排水の処理",
+    "s5_p1_Le traitement des effluents": "産業排水の処理は、環境保護と水質保持に不可欠です。さまざまな業界からの排出物を処理することができます。",
+
+    "s6_title_Opérations de Dépollution": "汚染除去対策",
+    "s6_p1_Nous pouvons organiser": "旧ごみ処理場や重金属で汚染された土地など、汚染地域の包括的な修復を実施できます。"
+  },
+
+  
+  "team": {
+    "title": "私たちのチーム",
+    "titles": {
+      "president_ceo": "代表取締役（CEO）"
+    },
+
+    "roles": {
+      "porteur_de_projet": "プロジェクト推進者",
+      "directeur_general": "総支配人（ジェネラルディレクター）",
+      "chef_projet_digital": "デジタルプロジェクトマネージャー",
+      "responsable_rh": "人事責任者（HRマネージャー）",
+      "responsable_technique": "技術責任者（CTO）",
+      "responsable_commercial": "営業責任者（CBO）",
+      "responsable_qhse": "QHSE責任者（品質・安全・環境マネージャー）",
+      "cheffe_projet_outre_mer": "海外プロジェクトマネージャー",
+      "developpeur_ia": "AI・自動化開発者",
+      "architecte_web": "フルスタックWebアーキテクト",
+      "responsable_bien_etre": "従業員の幸福担当（チーフ・ハピネス・オフィサー）"
+    }
+  },
+
+  "__comment_page_constat": "「私たちの分析」ページ（Constat.vue）の翻訳",
+
+  "notre_constat": {
+    "constat_titre": "私たちの分析",
+    "intro1_Le monde continue": "世界は急速に進化しており、日々新たなチャンスが生まれています。この変革の時代において、未来を形作るソリューションを探ることは不可欠です。",
+    "intro2_Ces solutions sont vastes": "これらのソリューションは多岐にわたりますが、すべて同じ目的に向かっています。それは、革新性、創造性、協力によって現代の課題に取り組むことです。こうした新たな解決策がどのように未来を形成し、より良い世界への道を開くかを想像するのは非常に刺激的です。私たちは可能性に心を開き、変化を受け入れる準備を整えるべきです。",
+    "titre2_Technologie": "テクノロジー",
+    "intro3_Les avancees technologiques": "技術革新は私たちの生活、働き方、コミュニケーション方法を変え続けています。人工知能、モノのインターネット（IoT）、仮想現実と拡張現実、ブロックチェーンなどの分野は、複雑な問題を解決する魅力的な可能性を提供しています。これらの分野の進歩は、生活の質を向上させるだけでなく、医療、教育、エネルギーなどの業界をも変革する可能性を秘めています。",
+    "titre3_Durabilite environnementale": "環境の持続可能性",
+    "intro4_Face aux defis": "気候変動に直面して、将来のソリューションは環境への配慮を最優先とする必要があります。再生可能エネルギー、省エネ、廃棄物管理、資源保護といった分野は、私たちの環境負荷を軽減するための革新的な取り組みです。持続可能な未来のためには、消費と生産に対する新たなアプローチが求められます。",
+    "um": "UM：メタン発酵ユニット",
+    "ugh": "UGH：水熱ガス化ユニット",
+    "titre5_Environnement": "環境",
+    "intro5_Nous nous sommes": "私たちは、CO₂排出の削減、天然資源の保護、生物多様性の維持など、より責任ある行動を取ることを約束します。より良い未来のために、私たちの専門知識を活用しています。",
+    "titre6_Economie circulaire": "循環型経済",
+    "intro6_Nous croyons en la": "私たちは、廃棄ではなくリサイクル、再利用、再評価を重視する循環型経済を信じています。責任ある消費、共有、修理、リサイクルを促進し、廃棄物を削減してゼロ・ウェイスト産業を目指します。",
+    "titre7_Innovation durable": "持続可能なイノベーション",
+    "intro7_Nous soutenons": "私たちは、再生可能エネルギー、廃棄物管理、持続可能な交通手段などにおける革新的な取り組みを支援します。より環境に優しいソリューションに投資することで、より良い未来を築いていきます。",
+    "intro8_En tant qu entreprise": "価値観を重視する企業として、私たちは社内外においてポジティブな影響を与えることを目指しています。持続可能な取り組みと環境プロジェクトへの関与を通じて、より緑で公正な未来を築いていきます。",
+    "intro9_Notre industrie": "私たちのインダストリー5.0は、汚染除去、脱炭素化、そして産業の多様性を柱としています。",
+    "clic1_Nos Solutions": "私たちのソリューション",
+    "clic2_Nous contacter": "お問い合わせ",
+    "clic3_Nos Coordonnees": "連絡先"
+  },
+
+
+  "__comment_page_solutions": "「私たちのソリューション」ページ（Solutions.vue）の翻訳",
+
+  "nos_solutions": {
+    "title_nos solutions": "私たちのソリューション",
+    "intro1_En France": "フランスにはメタン発酵施設がわずか1,175基しかなく、水熱ガス化ユニットはほとんど存在しません。",
+    "titre2_Preparation": "準備工程",
+    "text1_Recuperation": "投入物の回収および施設への輸送。",
+    "text2_Tri et separation": "投入物の選別と分離。",
+    "text3_Broyage": "再利用可能な廃棄物の粉砕。",
+    "text4_Melange": "混合、パルプ化、撹拌。",
+    "titreVal_Valorisation": "再資源化",
+    "Val_La Gazéification Hydrothermale": "水熱ガス化（GH）では、触媒または高温プロセスを通じてガスおよび鉱物資源を生成できます。",
+    "text1_Gaz produits": "生成されるガス：水素（H₂）、メタン、CO₂ — 精製後、電力化、圧縮、または現地利用や供給網に注入されます。",
+    "text2_Eau récupérée": "回収された水 — 逆浸透や蒸発濃縮の後、電気分解で処理し、現地で再利用されます。",
+    "text3_Matiere minérale": "抽出された鉱物資源 — 乾燥・分離後、セメント業者や製油所に販売。一部は現地で肥料として使用されます。",
+    "titre_Notre offre de services": "当社のサービス提供",
+    "texteOffre_Nous pouvons traiter": "さまざまな分野からの多種多様な材料を処理できます。",
+    "texteOffre_Nous proposons": "私たちは、廃棄物や廃水の処理を最適化したい公共および民間のすべての事業者に対して、処理、設計、運営、施設のオーダーメイド管理を提供します。",
+    "titre_Nos produits fini": "完成品とアウトプット",
+    "texteproduits_Nous destinons": "当社のメタンは、工業企業、ガス会社、ガソリンスタンド、自治体に供給されます。",
+    "texteproduits_LHydrogène est": "水素は企業や行政機関に供給され、電力に変換されます。",
+    "texteproduits_Le CO2 est": "CO₂は農業・工業で利用され、バイオ燃料にも変換可能です。",
+    "texteproduits_Leau chargee dazote": "窒素を含む水は、浸透ろ過処理されるか、作物に利用されます。",
+    "texteproduits_La matiere minerale": "鉱物資源は、原料によって肥料や金属を含み、抽出後にさまざまな用途に活用されます。",
+    "Nous contacter": "お問い合わせ",
+    "Nos Coordonnees": "連絡先"
+  },
+
+  "__comment_page_partenaire": "「パートナー」ページ（Partenaire.vue）の翻訳",
+
+  "nos_partenaires": {
+    "Financements et partenaires": "資金調達とパートナー",
+    "textHe_Pour realiser": "プロジェクトを実現するために、私たちはあらゆる段階で支援してくれる多くの関係者と協力しています。",
+    "titre1_Financement participatif": "クラウドファンディング",
+    "text2_Cliquez sur": "ロゴをクリックして、私たちを支援するか、CSR方針について詳しくご覧ください。",
+    "titre2_Nos partenaires": "パートナー",
+    "text2_French Tech": "French Tech プレパ・トランプラン",
+    "text3_French Tech Tou": "French Tech トゥールーズ",
+    "text4_Chez BTC Energies": "BTC Énergiesでは、明日のソリューションを共に築くための「集団の力」を信じています。私たちの専門性、ノウハウ、信念を通じて、エネルギー転換の課題に立ち向かうことができます。"
+  },
+
+  "__comment_page_equipe": "「チーム」ページ（Equipe.vue）の翻訳",
+
+  "equipe": {
+    "Equipe_Titre": "私たちのチーム",
+    "Titre_equipe": "私たちのチームは3人のパートナーと、4本足のチーフ・ハピネス・オフィサーで構成されています。さらに10人以上の専門家が、それぞれの分野でプロジェクトに貢献しています。",
+    "equipe_Thibault_Nom": "Thibault BÉTHENCOURT",
+    "equipe_Thibault_TitreCourt": "会長 – BTC Énergies創設者",
+    "equipe_Thibault_CEO": "プロジェクト発起人（CEO）",
+    "equipe_Thibault_Tel": "+33 6 29 56 07 56",
+    "equipe_Thibault_Etudes_Titre": "学歴：",
+    "equipe_Thibault_Etudes_Detail": "修士（学士+5）：法学、経済、経営（公共機関）<br/>博士課程準備中（戦略経営）",
+    "equipe_Thibault_Citation": "「この世界では、すべてが想像可能です。ただし、それを実現するには、他者を納得させ、優れた仲間に囲まれる必要があります。」",
+    "equipe_Thibault_Bio1": "彼は、プロジェクト管理および工学、歴史、国際関係と地政学、法学、経済、マネジメントといった補完的な分野で複数の学位を取得しており、技術的・戦略的・地政学的課題が交差する希少なマルチディシプリンのプロファイルです。",
+    "equipe_Thibault_Bio2": "BTC Énergiesの創業者であり主要な発起人として、2022年2月に専門家向けに技術が正式発表された日をもって事業を指導し始めました。これはプロジェクトの運用開始を象徴する日です。",
+    "equipe_Thibault_Bio3": "以来、BTC Énergiesは重要なマイルストーンを達成しました：水熱ガス化専用の関心表明プログラム（旧GRTgaz）であるNatranからの選出です。",
+    "equipe_Thibault_Bio4": "この選出により、Thibault BÉTHENCOURTが開発したソリューションの妥当性と、彼のコミットメント、ビジョン、実行力に対する評価が確固たるものとなりました。革新的かつ大胆なアプローチを持つビジョナリーな起業家として、彼はエネルギー転換エコシステムの中核的人物として際立っています。",
+    "equipe_Thibault_Bio5": "多言語に堪能で冒険心が強く、旅の経験も豊富な彼は、17歳の時に11カ国・3大陸を巡る探検に出かけました。エネルギーと環境の現実問題に直接触れたことで、グローバルな課題に対する深い理解を育み、水熱ガス化の戦略的ポテンシャルを即座に認識するに至りました。",
+    "equipe_Thibault_Bio6": "文化的没入と実用的な観察を兼ね備えた国際経験を通じて、彼は野心的で独自のビジョンを形成しました。それは、水熱ガス化をエネルギー転換と産業再興への具体的な解決策として位置づけることです。常にアイデアを生み出し続ける彼は、会社の知的源泉です。",
+
+    
+  "equipe_JMarc_Nom": "PhD ジャン＝マルク・ブイヨン",
+  "equipe_JMarc_TitreCourt": "最高執行責任者（COO）",
+  "equipe_JMarc_Etudes_Titre": "学歴：",
+  "equipe_JMarc_Etudes_Detail": "工学ディプロマ：グルノーブル国立工科大学（INPG）<br />博士号：経営学<br />認定：PMP®（プロジェクトマネジメント協会）、認定メディエーター（パンテオン＝アサス大学）",
+  "equipe_JMarc_Citation": "「私は才能の育成に情熱を注いでいます。そして、価値を創出し、BTC Énergiesをフランスおよび国際産業の中核に据えることに尽力しています。私のパーマインダストリアルな信条は：“プラスチックを減らすこと”です。」",
+  "equipe_JMarc_Bio1": "グルノーブル国立工科大学の卒業生で、経営学の博士号を持つ彼は、革新、産業効率、環境変革の分野で35年以上の経験を有します。彼は認定メディエーター（パンテオン＝アサス大学）であり、メディエーター協会の選出会長、Polyméris や Convention des Entreprises pour le Climat といった著名ネットワークのメンバーでもあります。",
+  "equipe_JMarc_Bio2": "世界的な多国籍企業で25年以上のキャリアを重ね、総額10億スイスフラン規模の複雑なプロジェクトを構想段階から実行段階までリードしてきました。PMI認定のPMP®資格を持ち、戦略的・成果志向型の指導力を体現しています。",
+  "equipe_JMarc_Bio3": "その経験、実務能力、方法論的な厳密さにより、彼はBTC Énergiesの産業的実現における柱であり、私たちの戦略を明確で測定可能な成果に変換する原動力です。",
+
+  "equipe_Alain_Nom": "アラン・ドゥガン",
+  "equipe_Alain_TitreCourt": "デジタルプロジェクト責任者・共同創業者",
+  "equipe_Alain_Etudes_Titre": "学歴：",
+  "equipe_Alain_Etudes_Detail": "商業活動のマネジメント＆開発（修士課程中）",
+  "equipe_Alain_Citation": "「このプロジェクトに参加したのは、それが社会に持続可能でポジティブな影響を与えると確信しているからです。BTC Énergiesは何よりも“ビジョン”、信頼できる“チーム”、そして“未来志向のソリューション”なのです。」",
+  "equipe_Alain_Bio1": "2000年生まれの彼はチーム最年少であり、BTC Énergiesの共同創業者でもあります。プロジェクト管理とデジタルマーケティングを学び、起業家精神と環境・技術課題への強い意識を兼ね備えています。",
+  "equipe_Alain_Bio2": "起業に対する情熱的なビジョンを持ち、産業が環境変革の中心であるべきという信念のもと行動しています。水熱ガス化（GH）は持続可能な経済発展の鍵と捉えています。",
+  "equipe_Alain_Bio3": "忍耐力と継続性、そして並外れた努力を兼ね備えた彼は、プロジェクトの進展に不可欠なエネルギーと推進力を提供しています。",
+
+  "equipe_Camille_Nom": "カミーユ・フォール",
+  "equipe_Camille_TitreCourt": "人事マネージャー（HR）",
+  "equipe_Camille_Titre2": "広報責任者",
+  "equipe_Camille_Tel": "+33 7 49 71 63 40",
+  "equipe_Camille_Etudes_Titre": "学歴：",
+  "equipe_Camille_Etudes_Detail": "人事マネジメント 修士（Bac+5）",
+  "equipe_Camille_Citation": "「健全で人間的かつ未来志向の企業文化を築くために、価値観の醸成に努めています。」",
+  "equipe_Camille_Bio1": "社会心理学の学位と人事マネジメントの修士号（Master 2）を持つ彼女は、BTC Énergiesの共同創業者の一人であり、構造的かつ方法論的な思考で中核を担っています。優れた直感力により、適切な人材を見極め、最適な配置を行います。",
+  "equipe_Camille_Bio2": "採用および人材戦略を担い、各メンバーのスキルとキャリアに即した最適なポジション配置を行いながら、企業の戦略目標と調和させます。チームの構築と安定化に不可欠な役割を担っています。",
+
+  "equipe_Remi_Nom": "レミ・ピショノー",
+  "equipe_Remi_TitreCourt": "産業プロジェクトエンジニア / 技術責任者（CTO）",
+  "equipe_Remi_Etudes_Titre": "学歴：",
+  "equipe_Remi_Etudes_Detail": "産業プロジェクトマネジメント エンジニアディプロマ<br />SYSPEC 修士課程",
+  "equipe_Remi_Citation": "「私のモットーは、“持続可能な開発の精神でエネルギー転換を推進すること”です。」",
+  "equipe_Remi_Bio1": "再生可能エネルギーの生産、廃棄物管理（焼却・埋立ガスの活用）、データセンターの建設など、重要分野で42年の経験を持つベテラン技術者です。",
+  "equipe_Remi_Bio2": "そのキャリアでは、145MW相当の発電施設の設置に携わり、約15,000世帯（シャンベリー市に相当）を供給できる規模の実績を残しています。すべてのプロジェクトにおいて“持続可能性”と“エネルギー転換”を軸にし、責任ある技術革新を通じて、未来志向の解決策を提供しています。",
+
+  "equipe_Adell_Nom": "アデル",
+  "equipe_Adell_TitreCourt": "財務・管理ディレクター",
+  "equipe_Adell_Titre2": "収益性の設計者、財務構造の建築家",
+  "equipe_Adell_Etudes_Titre": "学歴：",
+  "equipe_Adell_Etudes_Detail": "機械工学 エンジニアディプロマ / 企業経営 修士",
+  "equipe_Adell_Citation": "「私が惹かれるのは、創造・挑戦・そして革新的プロジェクトのためのツールづくりです。BTC Énergies のプロジェクトは、社会的・技術的な大きな意義を持ち、未来に向けた行動の基盤となるものです。」",
+  "equipe_Adell_Bio1": "機械工学エンジニアと企業マネジメント修士の両学位を持ち、産業・サービス・地域開発機関（商工会議所・開発機関など）において35年の経験を積んできました。合併、組織再編、株式再構成、管理・財務機能の設計まで、多様な複雑プロジェクトに携わっています。",
+  "equipe_Adell_Bio2": "また、ベルギー、英国、ポルトガル、ポーランド、ドイツ、スペインなど、ヨーロッパ諸国との国際協力プロジェクトにも関与し、プロジェクト設計と資金調達に関する高度なスキルを培い、横断的かつ異文化的なアプローチを実践しています。英語は流暢で、スペイン語の日常会話、ポルトガル語と日本語の基礎も習得しています。",
+  "equipe_Adell_Bio3": "実務的で抑制された精緻な性格を持ち、意思決定や複雑な業務において効率重視のダイレクトなスタイルが特徴です。構造的かつ階層的な姿勢と、現場レベルでの自主性を併せ持ちます。",
+  "equipe_Adell_Bio4": "経営陣、実務チーム、会長とのすべてのやりとりにおいて質の高い対話を保証する能力を持ち、常に全体像を理解しながら任務に忠実に取り組みます。その広範な視野と経験は、彼をBTC Énergiesの最も重要な中核人材の一人としています。",
+
+
+  "equipe_Olivier_Nom": "オリヴィエ・コット",
+  "equipe_Olivier_TitreCourt": "営業責任者（CBO）",
+  "equipe_Olivier_Etudes_Titre": "学歴：",
+  "equipe_Olivier_Etudes_Detail": "修士（Bac+5） – グランゼコールプログラム<br />(ビジネス開発、マネジメント、ファイナンス)",
+  "equipe_Olivier_Citation": "「私たちなら、収益性の高い産業モデルをともに構築し、BTC Énergiesを世界的に成功させることができると確信しています。」",
+  "equipe_Olivier_Bio1": "KEDGEビジネススクールのグランゼコールプログラム修了後、彼は重工業分野で5年の経験を持ち、特に購買とサプライチェーンマネジメントに携わってきました。そのうち3年間は海外の複雑な産業環境で過ごしました。",
+  "equipe_Olivier_Bio2": "優れたコミュニケーション能力により、アメリカ、トルコ、中国、インド、EU諸国、南米、北アフリカ、南アジアなどのビジネスパートナーと良好な関係を築いています。複数言語を操ることが、BTC Énergiesの国際展開において重要な戦略的強みとなっています。",
+  "equipe_Olivier_Bio3": "冒険心、実践的な思考、鋭い分析力（ニーズ分析、KPI管理、市場観察、動向理解）を備えた彼は、BTC Énergiesの柱となる存在です。会社の構造化、ビジョン構築、長期的な国際展開に積極的に貢献しています。",
+
+  "equipe_Philippe_Nom": "フィリップ・スータリック",
+  "equipe_Philippe_TitreCourt": "品質・安全・環境責任者（QSE）",
+  "equipe_Philippe_Etudes_Titre": "学歴：",
+  "equipe_Philippe_Etudes_Detail": "ポンゼショセ国立大学校 修士（Bac+5）<br />環境工学・マネジメント専攻（経営と経済）",
+  "equipe_Philippe_Citation": "「私の目標は、すべての残留廃棄物を完全に排除することです。どんな問題にも、必ず解決策はあります。」",
+  "equipe_Philippe_Bio1": "名門ポンゼショセを卒業した彼は、廃棄物処理と再利用の分野で30年の経験を持つベテランです。ビジョナリーかつイノベーターとして、産業慣行を変革した15の主要な技術革新を主導し、チームの「発明家」として知られています。",
+  "equipe_Philippe_Bio2": "1993年には、環境産業における持続可能なソリューションへの貢献が評価され、「エコ産業賞」を受賞しました。2023年にBTC Énergiesに参加し、QSE責任者として品質・安全・環境における革新をリードしています。",
+  "equipe_Philippe_Bio3": "Afnorで環境監査員を務め、40社を支援し、60件の環境監査を実施。欧州で唯一公式に認定されたエコ監査研修を含む3つの監査研修を修了しています。",
+  "equipe_Philippe_Bio4": "科学的厳密さと現場志向の実用性を融合させ、30年にわたって培われた独自の専門知識により、持続可能な廃棄物ゼロを目指して包括的な技術的・マネジメント的アプローチを提供しています。",
+
+  "equipe_Anais_Nom": "アナイス・オリーヴ",
+  "equipe_Anais_TitreCourt": "海外地域プロジェクトマネージャー",
+  "equipe_Anais_Etudes_Titre": "学歴：",
+  "equipe_Anais_Etudes_Detail": "修士（Bac+5）：人的資源監査・マネジメント<br />給与管理士の資格保有",
+  "equipe_Anais_Citation": "「私の人生の目的は、自然に本来の場所を取り戻させることです。BTC Énergiesに加わることは、地球を破壊する廃棄物の効果的な処理に貢献する未来型ソリューションの開発に参加することを意味します。」",
+  "equipe_Anais_Bio1": "法学士、社会法修士、社会監査および人事マネジメント修士2を取得し、給与、契約法、ソフロロジーなどの専門資格も多数保有。管理・法務・給与の分野に幅広く精通しています。",
+  "equipe_Anais_Bio2": "派遣会社の所長、会計・管理責任者、法務アシスタントなど多岐にわたる職歴を持ち、オーストラリア、ニューカレドニア、モーリシャス、イギリス、マヨルカ島、イビサ島、カナリア諸島、クレタ島、コルシカ島、サルデーニャ島などを旅し、島嶼地域特有の課題への深い理解を培っています。",
+  "equipe_Anais_Bio3": "行動力と対人感覚に優れ、強い信念をもってプロジェクトに取り組む姿勢は、チームにとって貴重な存在です。BTC Énergies の島嶼地域向け戦略を担うにふさわしい人物です。",
+  "equipe_Anais_Bio4": "環境への配慮、組織力、几帳面さを兼ね備え、繊細な生態系におけるプロジェクト開発に最適な人物です。人間活動の影響を最小限に抑えつつ、持続可能で成果志向のプロジェクト設計を実現しています。",
+
+  "equipe_Cedric_Nom": "セドリック・ショヴェ",
+  "equipe_Cedric_TitreCourt": "AI・自動化開発者",
+  "equipe_Cedric_Etudes_Titre": "学歴：",
+  "equipe_Cedric_Etudes_Detail": "修士（M2Pro） – 産業プロセス制御と監視<br />機械学習専攻 – ホルバートンスクール",
+  "equipe_Cedric_Citation": "「私の最終目標は、あらゆる産業レベルで人工知能の活用を一般化することです。」",
+  "equipe_Cedric_Bio1": "産業プロセスの制御・監視修士、CAPES物理・化学、AI応用開発者のディプロマを持つ多分野型技術者。Eurobot 2024やToulouse Robotrace（2022年3位）など数々のロボット競技に参加し、電子工学と起業家精神に情熱を持っています。",
+  "equipe_Cedric_Bio2": "幅広い専門知識を活かし、複雑な問題に対する具体的な解決策を提供する彼は、現代および未来の産業課題に対して大きな価値を発揮しています。",
+  "equipe_Cedric_Bio3": "発明家かつクラフトマンの精神を持つ彼は、技術の過去・現在・未来をつなぐ橋を築くべく新技術の導入に熱心に取り組んでいます。",
+
+  "equipe_Xavier_Nom": "グザヴィエ・ピエダル",
+  "equipe_Xavier_TitreCourt": "フルスタックWebアーキテクト",
+  "equipe_Xavier_TitreDetail": "デジタルツール開発",
+  "equipe_Xavier_Etudes_Titre": "学歴：",
+  "equipe_Xavier_Etudes_Detail": "Bac+2：フルスタックWeb開発（RNCP5）",
+  "equipe_Xavier_Citation": "「BTC Énergiesは、世界中に具体的で影響力のあるソリューションを提供できるポテンシャルを持っています。チームの全員と同じ方向を見ていると感じられることで、私は“変化を起こす”という強い意志を再確認できます。」",
+  "equipe_Xavier_Bio1": "土木建設分野出身の彼は、Web開発への再教育を経てフルスタック開発者の資格を取得。14年の実務経験の中で、建設業・デジタル両方の現場をフランスおよび海外で渡り歩いています。",
+  "equipe_Xavier_Bio2": "この二重の専門性により、インフラ整備からWebアプリ開発まで、複雑なプロジェクトを効率的に遂行できます。市場動向と経済環境に敏感で、状況に応じて方向性を柔軟に適応させています。",
+  "equipe_Xavier_Bio3": "インド洋諸島、ケベック、フィリピン、亜南極地域での生活経験により、グローバルな視点と高い順応性を身につけました。自立心が強く、丁寧かつ主体的に行動し、ルールを尊重しながら高品質の成果を生み出しています。",
+
+  "equipe_Rubie_Nom": "ルビー",
+  "equipe_Rubie_TitreFr": "従業員の幸福担当（チーフ・ハピネス・オフィサー）",
+  "equipe_Rubie_TitreEn": "チーフ・ハピネス・オフィサー",
+  "equipe_Rubie_Bio1": "BTC Énergies は、思いやりのある革新的な職場環境を促進するCSRアプローチの一環として、セラピードッグをチームに迎えるという型破りでありながらも深く人間的な決断を下しました。",
+  "equipe_Rubie_Bio2": "この取り組みは次の3つの柱に基づいています：\n\n- 心の健康とウェルビーイング：動物の存在が不安の軽減、気分の改善、慢性ストレスの緩和に寄与することは多くの研究で証明されています。彼女の存在は、特に高負荷の職場において落ち着いた雰囲気を作り出します。\n\n- 社会的つながりと魅力：ルビーは、非公式な会話やチーム内外の絆を強めるマスコット的存在となっています。あるパートナーがBTC Énergies に参加した理由が彼女への愛着だったというエピソードもあります。\n\n- 社会的責任と企業イメージ：この決断は、社会的イノベーションと“生きもの”への尊重を重視する企業姿勢を象徴しています。",
+  "equipe_Rubie_Bio3": "丁寧にトレーニングされ、日々の業務にしっかり溶け込んでいる彼女は、「忠誠・柔軟性・勇気」という当社の哲学を体現しています。私たちは、“持続可能な成果は、心を通じて生まれる”と信じており、ルビーはその生き証人です。",
+
+    "clic2_Nous contacter": "お問い合わせ",
+    "Nos Coordonnées": "連絡先"
+},
+
+    "contact": {
+  "titre": "お問い合わせ",
+  "texteIntroHead": "廃棄物管理とクリーンエネルギー生産のための持続可能なソリューションをお探しですか？BTC Énergies は理想的なパートナーです。",
+  "introForm1": "私たちのソリューションについて詳しく知りたい、パートナーシップを提案したい、または単にご連絡をご希望の場合は、",
+  "introForm2": "このフォームにご記入ください。できるだけ早くご連絡いたします。",
+  "nomLabel": "お名前（姓・名）",
+  "nomPlaceholder": "この項目は必須です",
+  "emailLabel": "メールアドレス",
+  "emailPlaceholder": "@",
+  "messageLabel": "メッセージ内容",
+  "messagePlaceholder": "メッセージは20文字以上で入力してください",
+  "boutonEnvoyer": "送信"
+},
+
+"Etdemain": {
+  "titre": "そして明日は？",
+  "textIntroHead": "私たちのモデルは多分野にわたり、廃棄物の再資源化や再生可能エネルギーを超えて応用可能です。",
+  "titrePrincipal": "そして明日、私たちは何をするのでしょうか？",
+  "intro": "生成される多様な資源のおかげで、幅広い産業プロジェクトの立ち上げと開発が可能になります。",
+  "bloc1_phrase": "BTC Énergies は、以下のような生成資源の一部を活用した医療用植物の生産エリアの構築を計画しています：",
+  "bloc1_liste1": "浄化された CO₂ は植物の成長促進および有効成分の抽出に使用されます。",
+  "bloc1_liste2": "水素（またはジ水素）の一部は電力に変換され、設備の電源として使用されます。",
+  "bloc1_liste3": "肥料と水は植物の栄養となります。",
+  "bloc2_phrase1": "植物は温度、湿度、CO₂ 濃度、栄養供給などが管理された環境で栽培されます。",
+  "bloc2_phrase2": "この方法により、医薬品、化粧品、食品産業向けの高品質な植物をオンデマンドで生産できます。",
+  "bloc2_phrase3": "これらの生産ゾーンは、既存のメタン化ユニットの近くにも設置可能です。",
+  "citation": "何も失われず、何も創造されず、すべては変換され活用される！",
+  "Nous contacter": "お問い合わせ",
+  "Nos Coordonnées": "連絡先"
+},
+
+"MentionsLégales": {
+     "titre": "法的通知",
+
+  "titreCGU": "利用規約（CGU）",
+  "cguIntro": "BTC Énergies のウェブサイトへのアクセスは、以下に記載された条件を完全に受け入れることを意味します。これらの条件は、いつでも変更される可能性があります。",
+  "accesTitre": "サイトへのアクセス",
+  "accesTexte": "本サイトは無料でアクセス可能です。運営者は中断のないアクセスを提供するよう努めていますが、完全な保証はいたしかねます。",
+  "proprieteTitre": "知的財産権",
+  "proprieteTexte": "本サイトのコンテンツ（テキスト、画像、ロゴなど）は著作権により保護されています。書面による許可なしに複製、配布、変更することは禁止されています。",
+  "responsabiliteTitre": "責任",
+  "responsabiliteTexte": "運営者は、サイトの利用またはウイルスや外部リンクによる損害について一切の責任を負いません。",
+  "droitTitre": "適用法",
+  "droitTexte": "本利用規約はフランス法に準拠します。紛争が生じた場合は、パリの裁判所が専属管轄を有します。",
+
+  "titreConfidentialite": "プライバシーポリシー",
+  "donneesTitre": "収集されるデータ",
+  "donneesTexte": "お問い合わせフォーム、クッキー、利用統計を通じて個人データを収集します。収集される情報には、氏名、メールアドレス、電話番号、IPアドレスなどが含まれる場合があります。",
+  "finaliteTitre": "処理の目的",
+  "finaliteTexte": "データは、お問い合わせへの対応、ユーザー体験の向上、同意がある場合のご案内の送信のみに使用されます。",
+  "legaleTitre": "法的根拠",
+  "legaleTexte": "データ処理は、明示的な同意または正当な利害関係（直接のリクエストなど）に基づいて行われます。",
+  "destinatairesTitre": "受領者",
+  "destinatairesTexte": "データが販売されることはありません。技術サービス提供者と共有されることがありますが、厳格に目的限定されています。",
+  "dureeTitre": "保存期間",
+  "dureeTexte": "データは、最後の接触から最大3年間、または法的義務に従って保存されます。",
+  "droitsTitre": "お客様の権利",
+  "droitsTexte": "お客様には、自身のデータへのアクセス、修正、削除、処理の拒否を求める権利があります。お問い合わせ先：[お客様の RGPD メールアドレス]",
+  "cookiesTitre": "クッキー",
+  "cookiesTexte": "当サイトでは、技術的および統計的クッキーを使用しています。バナーからいつでも受け入れるか拒否することができます。",
+
+  "contactTitre": "連絡先",
+  "contactQuestion": "プライバシー保護に関するご質問がある場合は：",
+  "emailPrincipal": "direction@btc-energies.fr",
+  "raisonSociale": "法人名：BTC Energies",
+  "formeJuridique": "法人形態：SAS",
+  "capitalSocial": "資本金：120ユーロ",
+  "adresseSiege": "本社所在地：9 RUE DE L'AVENIR, 31470 FONTENILLES",
+  "telephoneLabel": "電話番号：",
+  "telephoneNumero": "+33 6 29 56 07 56",
+  "emailLabel": "メール：",
+
+  "rcsLabel": "商業登記番号（RCS）：",
+  "rcsValue": "928 497 585 R.C.S. Toulouse – フランス",
+  "tvaLabel": "VAT番号：",
+  "tvaValue": "FR27928497585",
+
+  "Nous contacter": "お問い合わせ",
+  "Nos Coordonnées": "連絡先"
+},
+
+
+"Footer": {
+    "siteoptimise": "デスクトップ版に最適化されたウェブサイト",
+    "Cookies": "クッキー",
+    "Site conçu et": "ウェブサイトのデザインと最適化はBTCエネジーが担当。"
+  }
+}

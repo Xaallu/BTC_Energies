@@ -211,12 +211,14 @@
               <p class="profile-title italic text-xs sm:text-sm">
               {{ $te('team.titles.' + member.titleKey) ? $t('team.titles.' + member.titleKey) : member.titleKey }}
             </p>
-            <p class="italic text-gray-600">
+
+           <p class="italic text-gray-700 font-normal text-base sm:text-lg leading-snug">
+
               {{ $te('team.roles.' + member.roleKey) ? $t('team.roles.' + member.roleKey) : member.roleKey }}
             </p>
 
               <p v-if="member.role" class="profile-role italic text-sm text-gray-600 mt-2 font-semibold">{{ member.role }}</p>
-              <p v-if="member.phone" class="profile-phone text-sm text-gray-200 font-bold mt-2">{{ member.phone }}</p>
+              <p v-if="member.phone" class="profile-phone text-sm text-gray-800 font-bold mt-2">{{ member.phone }}</p>
             </div>
           </div>
         </div>

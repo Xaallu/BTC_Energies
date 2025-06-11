@@ -4,6 +4,7 @@ import en from './locales/en.json'
 import es from './locales/es.json'
 import it from './locales/it.json'
 import de from './locales/de.json'
+import jp from './locales/jp.json'
 
 const savedLang = localStorage.getItem('lang') || 'fr'
 
@@ -18,6 +19,7 @@ const i18n = createI18n({
     es,
     it,
     de,
+    jp,
   },
 })
 
