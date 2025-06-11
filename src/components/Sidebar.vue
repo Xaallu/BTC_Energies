@@ -6,6 +6,7 @@
            text-white flex-col z-50 shadow-lg"
   >
     <div class="flex flex-col h-full justify-between py-8">
+      
       <!-- === Haut === -->
       <div class="flex flex-col items-center">
         <img ref="logoL" src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-32 w-auto mb-2" />
@@ -37,7 +38,7 @@
           <!-- Dropdown -->
           <div
             v-if="showDropdown"
-            class="absolute left-0 mt-2 w-full bg-white text-black rounded shadow z-10"
+            class="absolute left-14 mt-2 w-full bg-gray-400 text-black rounded shadow z-10"
           >
             <ul>
               <li
@@ -64,13 +65,20 @@
                scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-transparent"
       >
         <li v-for="(item, index) in menuItems" :key="index" class="relative">
-          <router-link
-            :to="item.route"
-            class="block hover:text-green-400 transition-colors duration-300"
-            style="font-size:16.5px;"
-          >
-            {{ $t(item.label) }}
-          </router-link>
+        <router-link
+          :to="item.route"
+          :class="[ 
+            'block transform transition duration-300 ease-out hover:scale-110 focus:outline-none',
+            $route.path === item.route
+              ? 'text-green-400'
+              : 'text-white hover:text-green-400'
+          ]"
+          style="font-size:16.5px;"
+        >
+          {{ $t(item.label) }}
+        </router-link>
+
+
         </li>
       </ul>
 
@@ -183,8 +191,8 @@ onMounted(() => {
   gsap.from([logoL.value, logoS.value], {
     opacity: 0,
     y: -20,
-    duration: 1.2,
-    stagger: 0.2,
+    duration: 2.8,
+    stagger: 0.5,
     ease: 'power2.out',
   })
 
@@ -193,8 +201,8 @@ onMounted(() => {
       opacity: 0,
       x: -40,
       stagger: 0.1,
-      duration: 0.8,
-      delay: 0.5,
+      duration: 2.8,
+      delay: 0.8,
       ease: 'power2.out',
     })
   }
