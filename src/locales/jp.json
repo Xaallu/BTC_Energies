@@ -104,6 +104,8 @@
     "text4_Melange": "混合、パルプ化、撹拌。",
     "titreVal_Valorisation": "再資源化",
     "Val_La Gazéification Hydrothermale": "水熱ガス化（GH）では、触媒または高温プロセスを通じてガスおよび鉱物資源を生成できます。",
+    "Exploitation":"営業",
+
     "text1_Gaz produits": "生成されるガス：水素（H₂）、メタン、CO₂ — 精製後、電力化、圧縮、または現地利用や供給網に注入されます。",
     "text2_Eau récupérée": "回収された水 — 逆浸透や蒸発濃縮の後、電気分解で処理し、現地で再利用されます。",
     "text3_Matiere minérale": "抽出された鉱物資源 — 乾燥・分離後、セメント業者や製油所に販売。一部は現地で肥料として使用されます。",

@@ -112,7 +112,8 @@
 
   "titreVal_Valorisation": "Valorisation",
   "Val_La Gazéification Hydrothermale": "La Gazéification Hydrothermale ou GH permet d'extraire différents gaz et minéraux par procédé catalytique ou par procédé de haute température.",
-
+  "Exploitation":"Exploitation",
+  
   "text1_Gaz produits": "Gaz produits : (Di) Hydrogène, méthane et CO2 qui seront purifiés avant d'être réinjectés dans le réseau, transformés en électricité, comprimés ou exploités sur place.",
   "text2_Eau récupérée": "Eau récupérée : sera traitée par un processus d'électrolyse (après passage en procédé d'osmose inverse ou en évapo-condensateur) et/ou réexploitée sur place.",
   "text3_Matiere minérale": "Matière minérale extraite : sera séchée, séparée, et vendue à des cimentiers ou à des affineurs. Une partie des engrais seront également exploités sur place.",

@@ -112,7 +112,7 @@
 
           <!-- Titre 2 + soulignement -->
           <div class="indent-8 text-left mb-6">
-            <h2 class="text-3xl font-bold text-[#777777]">Exploitation</h2>
+            <h2 class="text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.Exploitation') }}</h2>
             <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
           </div>
 

@@ -111,7 +111,8 @@
 
     "titreVal_Valorisation": "Valuation",
      "Val_La Gazéification Hydrothermale": "Hydrothermal gasification, or GH, is used to extract various gases and minerals using a catalytic or high-temperature process.",
-      "text1_Gaz produits": "Gases produced: (Di) Hydrogen, methane and CO2, which will be purified before being reinjected into the grid, transformed into electricity, compressed or exploited on site.",
+      "Exploitation":"Operating",
+     "text1_Gaz produits": "Gases produced: (Di) Hydrogen, methane and CO2, which will be purified before being reinjected into the grid, transformed into electricity, compressed or exploited on site.",
       "text2_Eau récupérée": "Recovered water: will be treated by an electrolysis process (after passing through a reverse osmosis process or an evapo-condenser) and/or reused on site.",
       "text3_Matiere minérale": "Extracted mineral matter: will be dried, separated and sold to cement manufacturers or refiners. Some of the fertiliser will also be used on site.",
       

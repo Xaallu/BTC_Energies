@@ -20,7 +20,7 @@ import es from './locales/es.json'
 import it from './locales/it.json'
 import de from './locales/de.json'
 import jp from './locales/jp.json'
-
+import cn from './locales/cn.json'
 
 
 // Langue enregistrée (ou fr par défaut)
@@ -30,7 +30,7 @@ const savedLocale = localStorage.getItem('lang') || 'fr'
 const i18n = createI18n({
   locale: savedLocale,
   fallbackLocale: 'fr',
-  messages: { fr, en, es, it, de, jp},
+  messages: { fr, en, es, it, de, jp, cn},
   missingWarn: false,
   fallbackWarn: false  
 })

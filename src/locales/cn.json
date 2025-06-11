@@ -1,0 +1,352 @@
+{
+  "__comment_page_sidebar": "首页（Sidebar.vue）的翻译",
+
+  "menu": {
+    "accueil": "首页",
+    "constat": "我们的分析",
+    "solutions": "我们的解决方案",
+    "partenaires": "资金与合作伙伴",
+    "equipe": "我们的团队",
+    "contact": "联系方式",
+    "etDemain": "未来展望",
+    "mentions": "法律声明"
+  },
+
+  "__comment_page_index": "首页（Accueil.vue）的翻译",
+
+  "texte_bandeau_bleu": "工业项目的开发、管理与运营",
+  "nootre_constat": "我们的诊断",
+  "notre_equipe": "我们的团队",
+  "legal_title": "法律声明",
+  "legal_line1": "BTC Énergies（SAS）公司，注册资本为120欧元，在法国图卢兹商业法院注册",
+  "legal_line2": "SIRET编号：928 497 585 00010",
+
+  "services": {
+    "title_Nos services": "我们的服务",
+    "s1_title_Vente d’energies": "可再生能源与资源的销售",
+    "s1_p1_Nous assurons la production": "我们确保从生物质和化石材料增值过程中生产和销售可再生能源与资源。",
+
+    "s2_title_Gazeification": "生活垃圾的水热气化处理",
+    "s2_p1_La gazeification": "水热气化技术可以高效地将垃圾转化为合成气（一种清洁可再生能源），以及矿物资源和水。",
+    "s2_p2_Nous pouvons valoriser": "我们能够以极具竞争力的价格处理各种材料。",
+
+    "s3_title_Valorisation des effluents": "污水处理厂（EDAR/STEU）及渗滤液的资源化",
+    "s3_p1_Nous pouvons assurer": "我们可以对污水处理厂和废水处理设施中的排放物进行资源化，即使这些排放物含有污染物（如汞、病原体、微塑料或部分PFAS）。",
+    "s3_p2_Nous pouvons utiliser": "我们可以利用废水中的资源，从而有助于保护环境。",
+
+    "s4_title2_Gestion des dechet": "农业废弃物管理",
+    "s4_p1_Les pratiques de gestion": "农业废弃物的管理实践对于保护环境和维持农业可持续性至关重要。我们可以对消化残渣进行资源化处理，尤其是在不能作为肥料使用时，并能处理所有类型的农业废弃物（农药、次品、不可厌氧消化材料）。",
+
+    "s5_title_Traitement des effluents industriels": "工业废水处理",
+    "s5_p1_Le traitement des effluents": "工业废水处理对于保护环境和确保水资源质量至关重要。我们可以对多个行业的大部分工业废水进行资源化处理。",
+
+    "s6_title_Opérations de Dépollution": "污染治理行动",
+    "s6_p1_Nous pouvons organiser": "我们可以组织大规模的污染场地修复行动（如旧垃圾填埋场、重金属污染土壤）。"
+  },
+
+  "team": {
+    "title": "我们的团队",
+    "titles": {
+      "president_ceo": "总裁（首席执行官）"
+    },
+    "roles": {
+      "porteur_de_projet": "项目发起人",
+      "directeur_general": "总经理",
+      "chef_projet_digital": "数字项目负责人",
+      "responsable_rh": "人力资源负责人",
+      "responsable_technique": "技术总监（CTO）",
+      "responsable_commercial": "商务总监（CBO）",
+      "responsable_qhse": "质量、安全与环境负责人",
+      "cheffe_projet_outre_mer": "海外项目经理",
+      "developpeur_ia": "人工智能与自动化开发工程师",
+      "architecte_web": "全栈网页架构师",
+      "responsable_bien_etre": "职场幸福负责人"
+    }
+  },
+
+  "__comment_page_constat": "“我们的分析”（Constat.vue）页面翻译",
+
+"notre_constat": {
+  "constat_titre": "我们的分析",
+  "intro1_Le monde continue": "世界正在以加快的步伐不断演变，每天都有新的机遇出现。在这个转型的时代，探索将塑造我们未来的解决方案至关重要。",
+  "intro2_Ces solutions sont vastes": "这些解决方案广泛多样，但它们有一个共同目标：以创新、创造力和合作来应对我们这个时代的挑战。令人振奋的是，想象这些新兴解决方案如何塑造我们的未来，并为更美好的世界铺平道路。我们保持开放的心态，准备好迎接通往美好未来的变革。",
+
+  "titre2_Technologie": "科技",
+  "intro3_Les avancees technologiques": "技术进步不断改变着我们的生活、工作和沟通方式。人工智能、物联网、虚拟现实与增强现实、区块链等领域为解决复杂问题提供了迷人的机会。这些领域的进展不仅可能提高生活质量，还可能彻底改变医疗、教育、能源等多个行业。",
+
+  "titre3_Durabilite environnementale": "环境可持续性",
+  "intro4_Face aux defis": "面对地球所面临的气候挑战，未来的解决方案必须专注于环境可持续性。可再生能源、能源效率、废物管理和自然资源保护等领域可以应用创新措施来减少我们的碳足迹。可持续的未来取决于我们重新思考消费和生产方式的能力。",
+
+  "um": "UM：厌氧发酵装置",
+  "ugh": "UGH：水热气化装置",
+
+  "titre5_Environnement": "环境",
+  "intro5_Nous nous sommes": "我们致力于在实践中采取更负责任的行动。这意味着减少碳足迹、保护自然资源并维护生物多样性。我们将专业知识投入到构建美好未来的服务中。",
+
+  "titre6_Economie circulaire": "循环经济",
+  "intro6_Nous croyons en la": "我们相信向循环经济转型，即回收、再利用和增值产品与材料，而不是丢弃它们。我们倡导负责任消费、共享、维修和回收，以减少浪费并推动零废工业。",
+
+  "titre7_Innovation durable": "可持续创新",
+  "intro7_Nous soutenons": "我们支持并推动在可再生能源、废物管理、可持续交通等生态领域的创新。通过投资更可持续的解决方案，我们希望带来一个更美好的未来。",
+  "intro8_En tant qu entreprise": "作为一家秉持这些价值观的企业，我们致力于在自身运营及其社会影响中产生积极作用。通过采纳更可持续的做法并支持环保倡议，我们共同建设一个更加绿色、公平的明天。",
+  "intro9_Notre industrie": "我们的工业5.0以污染修复、净化和多行业协作为基础。",
+
+  "clic1_Nos Solutions": "我们的解决方案",
+  "clic2_Nous contacter": "联系我们",
+  "clic3_Nos Coordonnees": "我们的联系方式"
+},
+
+"__comment_page_solutions": "“我们的解决方案”（Solutions.vue）页面翻译",
+
+"nos_solutions": {
+  "title_nos solutions": "我们的解决方案",
+  "intro1_En France": "在法国，目前仅有1175个厌氧发酵装置，几乎没有水热气化装置。",
+  "titre2_Preparation": "准备阶段",
+  "text1_Recuperation": "收集并运输原料至处理站点。",
+  "text2_Tri et separation": "原料的分类与分离。",
+  "text3_Broyage": "对可利用废物进行粉碎处理。",
+  "text4_Melange": "混合、制浆与搅拌过程。",
+  "titreVal_Valorisation": "增值阶段",
+  "Val_La Gazéification Hydrothermale": "水热气化技术可通过催化或高温过程提取多种气体与矿物质。",
+  "Exploitation":"行动",
+  "text1_Gaz produits": "产气：氢气、甲烷和二氧化碳，这些气体将在注入管网、电力转换、压缩或本地使用前进行净化。",
+  "text2_Eau récupérée": "回收水：通过电解工艺（在反渗透或蒸发浓缩后）进行处理，或在本地重复使用。",
+  "text3_Matiere minérale": "提取的矿物质：将被干燥、分离，并出售给水泥厂或炼油厂。部分肥料将用于本地农业。",
+  "titre_Notre offre de services": "我们的服务内容",
+  "texteOffre_Nous pouvons traiter": "我们能够处理来自多个行业的多种材料。",
+  "texteOffre_Nous proposons": "我们为希望优化其废物与废水处理系统的公共或私营机构提供服务。我们负责处理您的废弃物，并管理量身定制的开发、运行与利用系统，满足您的具体需求。",
+  "titre_Nos produits fini": "我们的最终产品及其用途",
+  "texteproduits_Nous destinons": "我们将生产的甲烷用于以下客户：工业企业、燃气与能源供应商、加油站及地方政府。",
+  "texteproduits_LHydrogène est": "氢气被分发给企业与政府，并可转化为电能。",
+  "texteproduits_Le CO2 est": "二氧化碳被用于农业与工业活动，或被转化为生物燃料。",
+  "texteproduits_Leau chargee dazote": "含氮废水将进行反渗透处理，或用于植物种植。",
+  "texteproduits_La matiere minerale": "根据所增值的材料不同，矿物质中可能含有肥料或金属，因此它们会被提取并应用于多个行业。",
+  "Nous contacter": "联系我们",
+  "Nos Coordonnees": "我们的联系方式"
+},
+
+"__comment_page_partenaire": "合作伙伴页面（Partenaire.vue）翻译",
+
+"nos_partenaires": {
+  "Financements et partenaires": "融资与合作伙伴",
+  "textHe_Pour realiser": "为了实现我们的项目，我们与众多支持我们的合作方密切协作，覆盖项目的各个阶段。",
+  "titre1_Financement participatif": "众筹融资",
+  "text2_Cliquez sur": "点击徽标以支持我们或了解我们的企业社会责任（CSR）理念。",
+  "titre2_Nos partenaires": "我们的合作伙伴",
+  "text2_French Tech": "French Tech Prépa Tremplin",
+  "text3_French Tech Tou": "French Tech 图卢兹",
+  "text4_Chez BTC Energies": "在 BTC Énergies，我们坚信集体力量是构建未来解决方案的关键。只有结合多方的专业知识、技术能力和共同信念，我们才能迎接能源转型的挑战。"
+},
+
+"__comment_page_equipe": "团队页面（Equipe.vue）翻译",
+
+"equipe": {
+  "Equipe_Titre": "我们的团队",
+  "Titre_equipe": "我们的团队由以下三位合伙人以及我们的“首席幸福官犬类成员”组成。同时还有十多位成员为项目提供各领域的专业支持。",
+
+  "equipe_Thibault_Nom": "Thibault BÉTHENCOURT",
+  "equipe_Thibault_TitreCourt": "总裁 – BTC Énergies 创始人",
+  "equipe_Thibault_CEO": "项目发起人（CEO）",
+  "equipe_Thibault_Tel": "+33 6 29 56 07 56",
+  "equipe_Thibault_Etudes_Titre": "学历：",
+  "equipe_Thibault_Etudes_Detail": "硕士：法律、经济与管理（公共机构管理方向）<br />博士在读（战略管理）",
+  "equipe_Thibault_Citation": "“在这个世界上，一切皆有可能。但要让它成为现实，就必须懂得说服他人，并与最优秀的人合作。”",
+  "equipe_Thibault_Bio1": "拥有多个互补领域的学位：项目工程与管理、历史、国际关系与地缘政治、法律、经济与管理。他是一个罕见的跨学科人才，具备技术、战略与地缘挑战交叉点的综合视野。",
+  "equipe_Thibault_Bio2": "作为 BTC Énergies 的创始人和主要推动者，自 2022 年 2 月首次向行业专家展示该技术以来，便一直负责公司发展。这标志着项目的正式启动。",
+  "equipe_Thibault_Bio3": "此后，BTC Énergies 达成重要里程碑：成功入选 Natran（前 GRTgaz）发起的水热气化技术项目征集。",
+  "equipe_Thibault_Bio4": "这一成果证明了他所开发解决方案的可行性，并反映出他在愿景、执行力与承诺方面的日益认可。作为一位充满创造力与前瞻性的企业家，他代表了该领域中的一种大胆创新的做法。",
+  "equipe_Thibault_Bio5": "精通多种语言、爱冒险、旅行不止。从 17 岁起，他踏上了一段跨越 11 个国家和 3 大洲的旅程，在现实能源与环境问题的亲身经历中，逐步形成了全球视角，并首次认知到水热气化的战略潜力。",
+  "equipe_Thibault_Bio6": "他的国际经验结合实际观察与文化沉浸，构建出一个独特而宏大的愿景：将这项技术转化为应对能源转型与再工业化挑战的实际方案。他不断思考，持续为公司注入新想法。",
+
+  "equipe_JMarc_Nom": "PhD Jean‑Marc BOUILLON",
+  "equipe_JMarc_TitreCourt": "总经理（COO）",
+  "equipe_JMarc_Etudes_Titre": "学历：",
+  "equipe_JMarc_Etudes_Detail": "工程学学位：格勒诺布尔国家理工学院<br />博士：管理科学<br />认证：PMP®（项目管理协会），调解员文凭（巴黎二大 Panthéon‑Assas）",
+  "equipe_JMarc_Citation": "“我的使命是挖掘人才、创造价值，并将 BTC Énergies 深植于法国乃至国际的工业格局中。我的指导原则是‘工业永续发展 = 减少塑料’。”",
+  "equipe_JMarc_Bio1": "毕业于格勒诺布尔国家理工学院，拥有管理科学博士学位，拥有 35 年以上工业创新、绩效与生态转型经验。他是公认的专家、作者、认证调解员，同时担任调解协会主席，也是 Polyméris 与企业气候联盟等重要网络的活跃成员。",
+  "equipe_JMarc_Bio2": "曾在一家全球领先的跨国集团工作 25 年以上，管理多个总价值达 10 亿瑞士法郎的复杂项目，涵盖从设计到实施。他持有 PMI 项目管理专家（PMP®）认证，是一位严谨、战略型、重成果的领导者。",
+  "equipe_JMarc_Bio3": "他丰富的经验、卓越的执行力与严密的方法论为 BTC Énergies 的工业化目标提供坚实基础，切实推动战略转化为成果。",
+
+  "equipe_Alain_Nom": "Alain DEGANS",
+  "equipe_Alain_TitreCourt": "数字项目负责人 – BTC Énergies 联合创始人",
+  "equipe_Alain_Etudes_Titre": "学历：",
+  "equipe_Alain_Etudes_Detail": "硕士在读：商业活动管理与发展",
+  "equipe_Alain_Citation": "“我加入这个项目，是出于对其为社会带来积极、持久影响的坚定信念。对我来说，BTC Énergies 是愿景、团队精神与未来解决方案的结合。”",
+  "equipe_Alain_Bio1": "出生于 2000 年，是团队中最年轻的成员，同时也是 BTC Énergies 的联合创始人之一。具有项目管理与数字营销背景，具备扎实的创业精神与对生态和技术问题的敏锐洞察。",
+  "equipe_Alain_Bio2": "他以激进企业精神为动力，坚定认为工业在生态转型中发挥着关键作用。他将水热气化（GH）视为实现可持续经济发展的核心技术。",
+  "equipe_Alain_Bio3": "他坚定不移、持续投入，展现出极强的韧性，是团队中最坚强的成员之一。",
+
+  "equipe_Camille_Nom": "Camille FAURE",
+  "equipe_Camille_TitreCourt": "人力资源负责人（HR 经理）",
+  "equipe_Camille_Titre2": "传播负责人",
+  "equipe_Camille_Tel": "+33 7 49 71 63 40",
+  "equipe_Camille_Etudes_Titre": "学历：",
+  "equipe_Camille_Etudes_Detail": "人力资源管理硕士学位",
+  "equipe_Camille_Citation": "“我的目标是培育能够建立健康、人本与面向未来的企业文化的价值观。”",
+  "equipe_Camille_Bio1": "社会心理学毕业，拥有 HR 硕士学位，是 BTC Énergies 的联合创始人，也是公司不可或缺的基石之一。她具备高度专业素养，思维结构严谨，方法清晰，凭借出色的直觉准确识别人才并最大限度调动其潜力。",
+  "equipe_Camille_Bio2": "作为招聘与人力战略负责人，她确保每位员工都能在发挥自身技能的岗位上实现个人价值，同时服务于 BTC Énergies 的战略目标。她在团队建设与稳固中扮演核心角色，直接推动企业绩效与韧性提升。",
+
+    "equipe_Remi_Nom": "Rémi PICHONNEAU",
+"equipe_Remi_TitreCourt": "工业工程师 / 技术总监（CTO）",
+"equipe_Remi_Etudes_Titre": "学历：",
+"equipe_Remi_Etudes_Detail": "工业项目管理工程师学位<br />SYSPEC 硕士",
+"equipe_Remi_Citation": "“我的座右铭是以可持续发展的精神推动并激活能源转型。”",
+"equipe_Remi_Bio1": "Rémi 拥有工业项目管理工程师学位和 SYSPEC 硕士学位，在可再生能源生产、废物管理（焚烧、垃圾填埋气体利用）和数据中心建设等关键领域积累了 42 年经验。",
+"equipe_Remi_Bio2": "在其职业生涯中，他促成了总计 145 兆瓦的能源项目安装，可为 15,000 个家庭供电，相当于尚贝里这样一座城市的能源需求。他的工作始终围绕可持续发展和能源转型展开，追求创新与前瞻，致力于为环境与技术挑战提供负责任且持久的解决方案。凭借其经验、适应性和专业知识，他是 BTC Énergies 备受认可和信赖的技术专家。",
+
+    "equipe_Adell_Nom": "ADELL",
+"equipe_Adell_TitreCourt": "行政与财务总监",
+"equipe_Adell_Titre2": "盈利架构师，财务流动主管",
+"equipe_Adell_Etudes_Titre": "学历：",
+"equipe_Adell_Etudes_Detail": "机械工程师 / 企业管理硕士",
+"equipe_Adell_Citation": "“我热衷于建设、迎接挑战，并创建为创新项目服务的工具。BTC Énergies 项目技术与社会价值兼具，是一个面向未来的实际解决方案。”",
+"equipe_Adell_Bio2": "他参与过多个具有国际维度的欧洲项目，与比利时、英国、葡萄牙、波兰、德国和西班牙等国家合作。这些经历使他在项目工程和融资方面积累了坚实技能，同时具备跨文化和多学科的综合视角。他能流利使用英语，具备西班牙语会话能力，并掌握葡萄牙语和日语。",
+"equipe_Adell_Bio3": "他风格务实、稳重且严谨，擅长直接高效地做出决策和管理事务。他在保持对公司战略政策忠诚的同时，具备强大的行动自主性。这种平衡赋予他卓越的判断力，能准确发现问题并以建设性方式反馈。",
+"equipe_Adell_Bio4": "他善于与所有层级沟通，从董事会到管理层再到一线团队，都能建立高质量的对话。他富有好奇心和远见，经常跳出自身岗位视角，从整体出发理解问题，不断努力以最佳方式履行使命。他的专业背景和经验使他成为公司发展的重要引擎之一。",
+
+    "equipe_Olivier_Nom": "Olivier COT",
+"equipe_Olivier_TitreCourt": "商务总监（CBO）",
+"equipe_Olivier_Etudes_Titre": "学历：",
+"equipe_Olivier_Etudes_Detail": "硕士 – Programme Grande École<br />(商务开发、管理、金融)",
+"equipe_Olivier_Citation": "“我坚信，我们可以共同建立一个可盈利的工业模式，让 BTC Énergies 成为全球瞩目的企业。”",
+"equipe_Olivier_Bio1": "毕业于 KEDGE 商学院 Grande École 计划的硕士项目，拥有五年重工业领域经验，主要涉及采购与供应链，其中三年在海外工作，面对复杂苛刻的工业环境。",
+"equipe_Olivier_Bio2": "具备卓越的人际交往能力，能与来自全球多个地区的商业伙伴建立稳固的合作关系：包括美国、土耳其、中国、印度、欧盟国家、南美、北非、南亚等地。作为多语者，他的语言能力是 BTC Énergies 国际拓展的关键优势。",
+"equipe_Olivier_Bio3": "他兼具冒险精神、务实态度和敏锐的分析能力（需求评估、KPI 管理、市场动态追踪等），是公司长期全球化战略中的中坚力量，积极参与组织架构和发展方向的构建。",
+
+    "equipe_Philippe_Nom": "Philippe SUTARIK",
+"equipe_Philippe_TitreCourt": "质量、安全与环境负责人（QSE）",
+"equipe_Philippe_Etudes_Titre": "学历：",
+"equipe_Philippe_Etudes_Detail": "École des Ponts et Chaussées 环境技术与管理硕士，选修管理与经济",
+"equipe_Philippe_Citation": "“我的目标是彻底消除最终废弃物。所有问题总有解决方案。”",
+"equipe_Philippe_Bio1": "Philippe 毕业于法国国家桥路学院，拥有 30 年废物处理与增值经验。他是一位前瞻性技术专家，发明了十五项推动行业实践变革的重大技术，被团队称为“麦克盖弗”。",
+"equipe_Philippe_Bio2": "自 1993 年起，他在可持续工业解决方案方面的贡献屡获殊荣，包括获得“绿色工业奖”，这一奖项表彰他在技术卓越与应对未来环保挑战方面的能力。自 2023 年起，他正式加入 BTC Énergies，担任 QSE 负责人，全面投入质量、安全与环境的战略创新。",
+"equipe_Philippe_Bio3": "曾在 Afnor 担任审核员，为 40 家企业提供支持并执行了 60 次环保审计。他完成了三项专业审核员与顾问培训，其中包括欧盟唯一认证的生态审计课程。",
+"equipe_Philippe_Bio4": "他将科学严谨与实用性相结合，30 年来专注于废物增值流程的设计与实施。凭借这一独特能力，他从技术和管理角度系统应对环保挑战，始终坚持一个目标：彻底根除最终废弃物。",
+
+    "equipe_Anais_Nom": "Anaïs Olive",
+"equipe_Anais_TitreCourt": "海外地区项目负责人",
+"equipe_Anais_Etudes_Titre": "学历：",
+"equipe_Anais_Etudes_Detail": "硕士：审计与人力资源管理 + 工资主管培训",
+"equipe_Anais_Citation": "“我人生的使命是让自然重返其应有的位置。加入 BTC Énergies 是为了参与解决废弃物问题，为地球的明天做出实际贡献。”",
+"equipe_Anais_Bio1": "Anaïs 拥有法律学士、社会法硕士、人力资源审计硕士以及多个专业文凭（薪酬管理、合同法、正念治疗），具备行政、人事与法律多领域的全面能力。",
+"equipe_Anais_Bio2": "她曾担任临时人力机构主管、财务主管、行政与会计主管、法律助理等多项职务，展现出出色的适应能力和综合管理能力。她曾游历澳大利亚、新喀里多尼亚、毛里求斯、英国、马略卡、伊比萨、加那利群岛、克里特岛、科西嘉和撒丁岛，对岛屿生态系统有深入了解，是构建本地战略的宝贵资源。",
+"equipe_Anais_Bio3": "她热情积极、沟通能力强、富有主动精神，拥有清晰的愿景和环保热忱，理所当然成为所有岛屿项目的主导者。",
+"equipe_Anais_Bio4": "她生态意识强、组织能力强，是在生态脆弱地区开展项目的理想人选。她严谨、系统地推动每个阶段，确保高绩效与可持续性。",
+
+    "equipe_Cedric_Nom": "Cédric Chauvet",
+"equipe_Cedric_TitreCourt": "人工智能与自动化开发工程师",
+"equipe_Cedric_Etudes_Titre": "学历：",
+"equipe_Cedric_Etudes_Detail": "硕士专业 2 – 工业流程控制与监督，人工智能方向 – Holberton School",
+"equipe_Cedric_Citation": "“我的终极目标是在工业领域全面推广人工智能。”",
+"equipe_Cedric_Bio1": "Cédric 拥有工业过程控制硕士、物理化学 CAPES 文凭、人工智能开发员证书。他热爱电子和创业，曾参加 Eurobot 2024、图卢兹 Robotrace（2022 年获第 3 名）等大赛。",
+"equipe_Cedric_Bio2": "他拥有跨学科的技能，能为复杂问题提供切实解决方案，是面对工业挑战不可或缺的力量。",
+"equipe_Cedric_Bio3": "富有创造力和实践精神，Cédric 善于整合新兴科技，并在传统与未来技术之间建立桥梁，推动时代进步。",
+
+    "equipe_Xavier_Nom": "Xavier Piedallu",
+"equipe_Xavier_TitreCourt": "全栈网页架构师",
+"equipe_Xavier_TitreDetail": "数字工具设计专家",
+"equipe_Xavier_Etudes_Titre": "学历：",
+"equipe_Xavier_Etudes_Detail": "Bac+2 文凭：全栈网页开发 RNCP5",
+"equipe_Xavier_Citation": "“BTC Énergies 能为全世界提供切实可行的解决方案。我与团队成员完全契合，这进一步激发了我‘改变世界’的雄心。”",
+"equipe_Xavier_Bio1": "他最初从事公共工程工作，后成功转型为网页开发者，并获得全栈开发文凭。拥有 14 年经验，涉足建筑、公共工程与数字化多个领域，活动范围涵盖法国本土及海外地区。",
+"equipe_Xavier_Bio2": "这种技术与数字的双重能力，使他能胜任重型基础设施与高附加值数字项目。他具备多面向、远见型人才特质，时刻追求进步与优化。",
+"equipe_Xavier_Bio3": "旅行爱好者，曾前往印度洋诸岛、加拿大魁北克、菲律宾乃至南极亚区生活。他的国际视野增强了适应能力。他自主、严谨、有强烈的行动力与责任心，是值得信赖的合作伙伴。",
+
+    "equipe_Rubie_Nom": "Rubie",
+"equipe_Rubie_TitreFr": "职场幸福负责人",
+"equipe_Rubie_TitreEn": "企业幸福大使",
+"equipe_Rubie_Bio1": "在企业社会责任政策框架内，BTC Énergies 决定引入一只疗愈犬，创造善意与创新并重的工作环境。这项人性化决策体现了对工作幸福感的整体性理解，将绩效与人文关怀结合。",
+"equipe_Rubie_Bio2": "Rubie 的融入基于三大支柱：\n\n- 身心健康：研究显示动物陪伴有助于减轻焦虑、改善情绪和缓解慢性压力。在高压行业中，她的陪伴为工作氛围注入平静与安宁。\n\n- 社交凝聚与吸引力：Rubie 成为团队吉祥物，促进非正式交流，增强合作精神。部分合作伙伴正是因她而选择与公司合作。\n\n- 社会参与与企业形象：这一创新决定彰显公司的人文价值观，展示 BTC Énergies 如何将高科技、环保与敏感性完美结合。",
+"equipe_Rubie_Bio3": "她训练有素、忠诚并已融入公司文化，代表着我们的企业理念：忠诚、灵活、果敢。我们相信，可持续绩效也源自内心，而 Rubie 就是最好的见证。",
+
+"clic2_Nous contacter": "联系我们",
+"Nos Coordonnées": "我们的联系方式"
+},
+
+"contact": {
+  "titre": "联系方式",
+  "texteIntroHead": "您正在寻找可持续的废物管理与清洁能源解决方案？BTC Énergies 是您的理想合作伙伴。",
+  "introForm1": "想了解更多我们的解决方案、提出合作建议，或直接联系我们的团队？",
+  "introForm2": "请填写此表单。我们会尽快与您联系。",
+  "nomLabel": "您的姓名",
+  "nomPlaceholder": "此字段为必填项",
+  "emailLabel": "电子邮箱地址",
+  "emailPlaceholder": "@",
+  "messageLabel": "您的留言",
+  "messagePlaceholder": "留言内容需不少于 20 个字符",
+  "boutonEnvoyer": "发送"
+},
+
+"Etdemain": {
+  "titre": "展望未来",
+  "textIntroHead": "我们的模式是多行业的，不仅限于废物增值与可再生能源生产。",
+  "titrePrincipal": "那么明天，我们会做什么？",
+  "intro": "借助我们所生成的多种资源，我们有机会推动并开发多样化的工业项目。",
+  "bloc1_phrase": "BTC Énergies 计划建设植物种植区，用于医疗用途，并利用部分资源实现：",
+  "bloc1_liste1": "净化后的二氧化碳将用于促进植物生长并提取活性成分。",
+  "bloc1_liste2": "部分氢气将被转化为电力，为设施供能。",
+  "bloc1_liste3": "肥料与水将为植物提供养分。",
+  "bloc2_phrase1": "植物将在受控环境中种植（温度、湿度、CO₂ 浓度、营养供给等）。",
+  "bloc2_phrase2": "这样我们就可以按需生产种类繁多的高附加值植物，服务于制药、化妆品或食品行业。",
+  "bloc2_phrase3": "这些种植区也可以设立在现有厌氧发酵装置附近。",
+  "citation": "没有任何东西是被浪费的，也没有凭空产生，一切都可以转化并增值！",
+  "Nous contacter": "联系我们",
+  "Nos Coordonnées": "我们的联系方式"
+},
+
+"MentionsLégales": {
+  "titre": "法律声明",
+  "titreCGU": "网站使用条款（CGU）",
+  "cguIntro": "访问 BTC Énergies 网站即表示您完全接受以下条款。条款可随时修改。",
+  "accesTitre": "网站访问",
+  "accesTexte": "网站免费开放。发布者承诺持续提供访问服务，但不作绝对保证。",
+  "proprieteTitre": "知识产权",
+  "proprieteTexte": "本网站内容（文本、图像、标志等）受版权保护。未经书面授权，禁止任何复制、分发或修改。",
+  "responsabiliteTitre": "免责声明",
+  "responsabiliteTexte": "对于因使用本网站或因病毒、外部链接带来的任何损害，网站发布者不承担任何责任。",
+  "droitTitre": "适用法律",
+  "droitTexte": "本使用条款受法国法律约束。如有争议，巴黎法院具有管辖权。",
+
+  "titreConfidentialite": "隐私政策",
+"donneesTitre": "收集的数据",
+"donneesTexte": "我们通过联系表单、Cookie 和浏览统计信息收集个人数据。收集的数据可能包括：姓名、电子邮件、电话号码、IP 地址等。",
+"finaliteTitre": "数据处理目的",
+"finaliteTexte": "数据仅用于回应请求、改善用户体验，以及在获得同意的前提下发送通信内容。",
+"legaleTitre": "法律依据",
+"legaleTexte": "处理基于明确的同意，或在回应直接请求的情况下，基于合法利益。",
+"destinatairesTitre": "数据接收方",
+"destinatairesTexte": "您的数据绝不会被出售。数据可能会在履行其职责的前提下，与我们的技术供应商共享。",
+"dureeTitre": "数据保留期限",
+"dureeTexte": "数据最多保存 3 年，或根据法律义务规定的期限。",
+"droitsTitre": "您的权利",
+"droitsTexte": "您可以访问、更正或删除您的数据，或反对其处理。联系方式：[您的 GDPR 邮箱地址]",
+"cookiesTitre": "曲奇",
+"cookiesTexte": "本网站使用技术和统计类 Cookie。您可以随时通过专用横幅接受或拒绝。",
+
+"contactTitre": "联系方式",
+"contactQuestion": "如有任何关于个人数据保护的问题，请联系：",
+"emailPrincipal": "direction@btc-energies.fr",
+"raisonSociale": "公司名称：BTC Énergies",
+"formeJuridique": "法律形式：SAS",
+"capitalSocial": "注册资本：120 欧元",
+"adresseSiege": "注册地址：9 RUE DE L'AVENIR, 31470 FONTENILLES",
+"telephoneLabel": "电话：",
+"telephoneNumero": "+33 6 29 56 07 56",
+"emailLabel": "邮箱：",
+
+"rcsLabel": "RCS 编号：",
+"rcsValue": "928 497 585 R.C.S. 图卢兹 - 法国",
+"tvaLabel": "增值税编号：",
+"tvaValue": "FR27928497585",
+
+"Nous contacter": "联系我们",
+"Nos Coordonnées": "我们的联系方式"
+},
+
+"Footer": {
+  "siteoptimise": "网站已为桌面端优化",
+  "Cookies": "曲奇",
+  "Site conçu et": "网站由 BTC Énergies 设计与优化 •"
+}
+
+}
