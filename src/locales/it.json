@@ -44,25 +44,28 @@
     "s6_p1_Nous pouvons organiser": "Possiamo organizzare operazioni di riabilitazione su larga scala di terreni contaminati (vecchie discariche, suoli con metalli pesanti)."
   },
 
-  "team": {
-    "title": "Il nostro team",
-    "roles": {
-      "Président (CEO)": "Presidente (CEO)",
-      "Porteur_de_projet": "Sponsor del progetto",
-      "Directeur Général": "Direttore Generale",
-      "Chef de Projet Digital": "Responsabile del progetto digitale",
-      "Responsable RH (HR Manager)": "Responsabile Risorse Umane",
-      "Responsable Technique (CTO)": "Responsabile Tecnico (CTO)",
-      "Responsable Commercial (CBO)": "Responsabile Commerciale (CBO)",
-      "Responsable QHSE (QSE Manager)": "Responsabile QHSE",
-      "Cheffe de projet Outre Mer (Project Manager)": "Responsabile di progetto Ultramar",
-      "Développeur IA et Automatisation": "Sviluppatore IA e Automazione",
-      "Architecte Web Full-Stack": "Architetto Web Full-Stack",
-      "Responsable Bien-être au travail (Chief Happiness Officer)": "Responsabile Benessere sul Lavoro"
-    }
-  },
 
-  "__comment_page_constat": "Traduzioni per la pagina La nostra diagnosi (Constat.vue)",
+  "team": {
+  "title": "Il nostro team",
+  "titles": {
+    "president_ceo": "Presidente (CEO)"
+  },
+  "roles": {
+    "porteur_de_projet": "Sponsor del progetto",
+    "directeur_general": "Direttore Generale",
+    "chef_projet_digital": "Responsabile del progetto digitale",
+    "responsable_rh": "Responsabile Risorse Umane",
+    "responsable_technique": "Responsabile Tecnico (CTO)",
+    "responsable_commercial": "Responsabile Commerciale (CBO)",
+    "responsable_qhse": "Responsabile QHSE",
+    "cheffe_projet_outre_mer": "Responsabile di progetto Ultramar",
+    "developpeur_ia": "Sviluppatore IA e Automazione",
+    "architecte_web": "Architetto Web Full-Stack",
+    "responsable_bien_etre": "Responsabile Benessere sul Lavoro"
+  }
+},
+
+ "__comment_page_constat": "Traduzioni per la pagina La nostra diagnosi (Constat.vue)",
 
   "notre_constat": {
     "constat_titre": "La nostra diagnosi",

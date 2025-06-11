@@ -46,28 +46,27 @@
     "s6_p1_Nous pouvons organiser": "We can organize large-scale remediation of polluted sites (former dumps, soils contaminated with heavy metals)."
   },
 
-  "team": {
+"team": {
   "title": "Our Team",
-
-  "roles": {
-    "Président (CEO)": "President (CEO)",
-    "Porteur_de_projet": "Project Leader",
-
-    "Directeur Général": "General Director",
-    "Chef de Projet Digital": "Digital Project Manager",
-    "Responsable RH (HR Manager)": "HR Manager",
-    "Responsable Technique (CTO)": "Technical Manager (CTO)",
-    "Responsable Commercial (CBO)": "Sales Manager (CBO)",
-    "Responsable QHSE (QSE Manager)": "QSE Manager",
-    "Cheffe de projet Outre Mer (Project Manager)": "Overseas Project Manager",
-    "Développeur IA et Automatisation": "AI & Automation Developer",
-    "Architecte Web Full-Stack": "Full-Stack Web Architect",
-    "Responsable Bien-être au travail (Chief Happiness Officer)": "Chief Happiness Officer"
-    }
+  "titles": {
+    "president_ceo": "President (CEO)",
+    "directeur_general": "General Director"
   },
+  "roles": {
+    "porteur_de_projet": "Project Leader",
+    "directeur_general": "General Director",
+    "chef_projet_digital": "Digital Project Manager",
+    "responsable_rh": "HR Manager",
+    "responsable_technique": "Technical Manager (CTO)",
+    "responsable_commercial": "Sales Manager (CBO)",
+    "responsable_qhse": "QSE Manager",
+    "cheffe_projet_outre_mer": "Overseas Project Manager",
+    "developpeur_ia": "AI & Automation Developer",
+    "architecte_web": "Full-Stack Web Architect",
+    "responsable_bien_etre": "Chief Happiness Officer"
+  }
+},
 
-
-  
   "__comment_page_constat": "Traductions pour la page Notre Constat (Constat.vue)",
 
   "notre_constat": {

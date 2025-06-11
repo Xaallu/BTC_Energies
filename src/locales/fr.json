@@ -46,13 +46,27 @@
     "s6_p1_Nous pouvons organiser": "Nous pouvons organiser des opérations de réhabilitation massive de terrains pollués (anciennes décharges, sols pollués aux métaux lourds)."
   },
 
-  "team": {
+"team": {
   "title": "Notre équipe",
-
+  "titles": {
+    "president_ceo": "Président (CEO)"
+    
+  },
   "roles": {
-  "Porteur_de_projet": "Porteur de projet"
+    "porteur_de_projet": "Porteur de Projet",
+    "directeur_general": "Directeur Général",
+    "chef_projet_digital": "Chef de Projet Digital",
+    "responsable_rh": "Responsable RH (HR Manager)",
+    "responsable_technique": "Responsable Technique (CTO)",
+    "responsable_commercial": "Responsable Commercial (CBO)",
+    "responsable_qhse": "Responsable QHSE (QSE Manager)",
+    "cheffe_projet_outre_mer": "Cheffe de projet Outre Mer (Project Manager)",
+    "developpeur_ia": "Développeur IA et Automatisation",
+    "architecte_web": "Architecte Web Full-Stack",
+    "responsable_bien_etre": "Responsable Bien-être au travail (Chief Happiness Officer)"
   }
 },
+
 
   "__comment_page_constat": "Traductions pour la page Notre Constat (Constat.vue)",
 

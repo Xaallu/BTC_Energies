@@ -46,19 +46,21 @@
 
 "team": {
   "title": "Nuestro equipo",
+  "titles": {
+    "president_ceo": "Presidente (CEO)"
+  },
   "roles": {
-    "Président (CEO)": "Presidente (CEO)",
-    "Porteur_de_projet": "Patrocinador del proyecto",
-    "Directeur Général": "Director General",
-    "Chef de Projet Digital": "Jefe de Proyecto Digital",
-    "Responsable RH (HR Manager)": "Responsable de RR. HH. (HR Manager)",
-    "Responsable Technique (CTO)": "Responsable Técnico (CTO)",
-    "Responsable Commercial (CBO)": "Responsable Comercial (CBO)",
-    "Responsable QHSE (QSE Manager)": "Responsable de QHSE (QSE Manager)",
-    "Cheffe de projet Outre Mer (Project Manager)": "Jefa de proyecto Ultramar (Project Manager)",
-    "Développeur IA et Automatisation": "Desarrollador de IA y Automatización",
-    "Architecte Web Full-Stack": "Arquitecto Web Full-Stack",
-    "Responsable Bien-être au travail (Chief Happiness Officer)": "Responsable de Bienestar en el Trabajo (Chief Happiness Officer)"
+    "porteur_de_projet": "Patrocinador del proyecto",
+    "directeur_general": "Director General",
+    "chef_projet_digital": "Jefe de Proyecto Digital",
+    "responsable_rh": "Responsable de RR. HH. (HR Manager)",
+    "responsable_technique": "Responsable Técnico (CTO)",
+    "responsable_commercial": "Responsable Comercial (CBO)",
+    "responsable_qhse": "Responsable de QHSE (QSE Manager)",
+    "cheffe_projet_outre_mer": "Jefa de proyecto Ultramar (Project Manager)",
+    "developpeur_ia": "Desarrollador de IA y Automatización",
+    "architecte_web": "Arquitecto Web Full-Stack",
+    "responsable_bien_etre": "Responsable de Bienestar en el Trabajo (Chief Happiness Officer)"
   }
 },
 
