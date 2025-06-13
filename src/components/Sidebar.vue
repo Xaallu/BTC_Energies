@@ -70,8 +70,9 @@
           :class="[ 
             'block transform transition duration-300 ease-out hover:scale-110 focus:outline-none',
             $route.path === item.route
-              ? 'text-green-400'
-              : 'text-white hover:text-green-400'
+              ? 'text-green-400 font-semibold pointer-events-none'
+              : 'text--green-400 hover:text-green-400',
+              'focus:outline-none focus-visible:outline-none'
           ]"
           style="font-size:16.5px;"
         >
