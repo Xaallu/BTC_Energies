@@ -110,6 +110,48 @@
         <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-24 w-auto" />
       </div>
 
+      <!-- Sélecteur de langue -->
+        <div class="relative mt-6 w-22">
+          <button
+            @click="toggleDropdown"
+            class="w-full text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a]
+                   transition flex items-center justify-between gap-2"
+          >
+            <span class="flex items-center gap-2">
+              <img
+                v-if="currentLang.flag"
+                :src="currentLang.flag"
+                :alt="currentLang.label"
+                class="w-6 h-4 rounded-sm"
+              />
+              <span>{{ currentLang.label }}</span>
+            </span>
+
+            <!-- Flèche -->
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <!-- Dropdown -->
+          <div
+            v-if="showDropdown"
+            class="absolute left-0 mt-2 w-full bg-gray-400 text-black rounded shadow z-10"
+          >
+            <ul>
+              <li
+                v-for="lang in availableLocales"
+                :key="lang.code"
+                @click="setLocale(lang.code)"
+                class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 cursor-pointer"
+              >
+                <img :src="lang.flag" :alt="lang.label" class="w-6 h-4 rounded-sm" />
+                {{ lang.label }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
       <!-- Menu Mobile -->
       <ul class="flex-grow space-y-4 border-t border-gray-200 pt-4">
         <li
