@@ -97,7 +97,7 @@
                 </div>
 
                 <!-- Bulle d'info -->
-                <div class="bulle-info absolute left-[50%] md:left-[55%] transform -translate-x-1/3 top-0 
+                <div class="bulle-info absolute left-[40%] md:left-[55%] transform -translate-x-1/3 top-0 
                             bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                             z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
                   <div class="space-y-4">
@@ -168,7 +168,7 @@
                   </div>
 
                   <!-- Bulle d'info -->
-                  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
+                  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
                               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
                     <div class="space-y-4">
@@ -233,7 +233,7 @@
           </div>
 
           <!-- Bulle d'info -->
-          <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+          <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
                       bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                       z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -309,7 +309,7 @@
    
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -387,7 +387,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -454,7 +454,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[50%] md:left-[52%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[52%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -531,7 +531,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -606,7 +606,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -687,7 +687,7 @@
 
   <!-- Bulle d'info (Popover) -->
   <div
-    class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+    class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
            bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
            z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96"
   >
@@ -769,7 +769,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -846,7 +846,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -875,6 +875,13 @@
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Xavier_Bio1') }}</p>
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Xavier_Bio2') }}</p>
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Xavier_Bio3') }}</p>
+
+      <!-- Ligne de séparation verte -->
+      <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+      <!-- Info Contact -->
+
+      <p class="ml-5" v-html="$t('equipe.equipe_Xavier_Bio4contact')"></p>
 
       <br />
     </div>
@@ -916,7 +923,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[50%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
