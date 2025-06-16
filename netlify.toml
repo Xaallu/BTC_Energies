@@ -1,8 +1,14 @@
 [build]
-  command = "vite build"
-  publish = "dist"
+publish = "dist"
+command = "vite build"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[headers]]
+for = "/*"
+  [headers.values]
+  Content-Encoding = "gzip"
+  Cache-Control = "public, max-age=31536000"
