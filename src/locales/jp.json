@@ -240,6 +240,7 @@
   "equipe_Cedric_Bio1": "産業プロセスの制御・監視修士、CAPES物理・化学、AI応用開発者のディプロマを持つ多分野型技術者。Eurobot 2024やToulouse Robotrace（2022年3位）など数々のロボット競技に参加し、電子工学と起業家精神に情熱を持っています。",
   "equipe_Cedric_Bio2": "幅広い専門知識を活かし、複雑な問題に対する具体的な解決策を提供する彼は、現代および未来の産業課題に対して大きな価値を発揮しています。",
   "equipe_Cedric_Bio3": "発明家かつクラフトマンの精神を持つ彼は、技術の過去・現在・未来をつなぐ橋を築くべく新技術の導入に熱心に取り組んでいます。",
+  "equipe_Cedric_Bio3contact": "Cédricの自動化および人工知能開発サービスをご希望の方は、<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>こちらの専用ページ</a>からご連絡ください。",
 
   "equipe_Xavier_Nom": "グザヴィエ・ピエダル",
   "equipe_Xavier_TitreCourt": "フルスタックWebアーキテクト",
@@ -250,7 +251,7 @@
   "equipe_Xavier_Bio1": "土木建設分野出身の彼は、Web開発への再教育を経てフルスタック開発者の資格を取得。14年の実務経験の中で、建設業・デジタル両方の現場をフランスおよび海外で渡り歩いています。",
   "equipe_Xavier_Bio2": "この二重の専門性により、インフラ整備からWebアプリ開発まで、複雑なプロジェクトを効率的に遂行できます。市場動向と経済環境に敏感で、状況に応じて方向性を柔軟に適応させています。",
   "equipe_Xavier_Bio3": "インド洋諸島、ケベック、フィリピン、亜南極地域での生活経験により、グローバルな視点と高い順応性を身につけました。自立心が強く、丁寧かつ主体的に行動し、ルールを尊重しながら高品質の成果を生み出しています。",
-  "equipe_Xavier_Bio4contact": "彼のWeb開発サービスをご希望の方は、<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>こちらの専用ページ</a>からご連絡ください。",
+  "equipe_Xavier_Bio4contact": "XavierのWeb開発サービスをご希望の方は、<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>こちらの専用ページ</a>からご連絡ください。",
 
 
   "equipe_Rubie_Nom": "ルビー",

@@ -243,6 +243,8 @@
     "equipe_Cedric_Bio1": "Laureato con un Master 2 Professionale in Controllo e Supervisione dei Processi Industriali, specializzato in scienze industriali, con una laurea CAPES in Fisica-Chimica e un diploma da programmatore con specializzazione in intelligenza artificiale, Cédric rappresenta un profilo decisamente multidisciplinare. Appassionato di elettronica e imprenditoria, ha partecipato a diverse competizioni di rilievo come il concorso Eurobot nel 2024 e la Toulouse Robotrace, dove ha conquistato il 3° posto nel 2022.",
     "equipe_Cedric_Bio2": "Le sue competenze trasversali gli permettono di offrire soluzioni concrete a numerose problematiche complesse, rendendolo una risorsa fondamentale per affrontare le sfide dell’industria di oggi e di domani.",
     "equipe_Cedric_Bio3": "Con uno spirito inventivo e pratico, Cédric possiede l’apertura mentale necessaria per integrare e sfruttare tecnologie innovative. Consapevole di vivere in un’epoca di transizione tra tecnologie del passato, presente e futuro, si impegna a creare ponti tra questi mondi per trarne il meglio.",
+    "equipe_Cedric_Bio3contact": "Per usufruire dei servizi di Cédric nello sviluppo di automazione e intelligenza artificiale, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>contattalo</a> tramite la nostra pagina dedicata.",
+
 
     "equipe_Xavier_Nom": "Xavier Piedallu",
     "equipe_Xavier_TitreCourt": "Architetto Web Full-Stack",
@@ -253,7 +255,7 @@
     "equipe_Xavier_Bio1": "Proveniente inizialmente da un percorso nei lavori pubblici, ha dimostrato una notevole capacità di adattamento riconvertendosi con successo nello sviluppo web, culminata nell’ottenimento di un diploma in sviluppo full stack. Con 14 anni di esperienza, opera con disinvoltura nei settori dell’edilizia, dei lavori pubblici e del digitale, sia in Francia che nei territori d’oltremare.",
     "equipe_Xavier_Bio2": "Questa doppia competenza tecnica e digitale gli permette di affrontare con la stessa efficacia progetti di infrastrutture pesanti e missioni di sviluppo ad alto valore aggiunto. Il suo percorso testimonia un profilo versatile, ambizioso e visionario, spinto da una costante ricerca di evoluzione e miglioramento. Profondo conoscitore delle dinamiche di mercato, sa orientare le sue scelte con lucidità.",
     "equipe_Xavier_Bio3": "Appassionato di viaggi, ha arricchito la sua visione globale attraverso soggiorni in diverse isole dell’Oceano Indiano, in Québec, nelle Filippine e perfino in zone sub-antartiche. Questa apertura al mondo alimenta la sua curiosità e rafforza la sua capacità di adattarsi a contesti diversi. Autonomo, rigoroso e dotato di un forte spirito d’iniziativa, dimostra grande professionalità. Il suo rispetto delle direttive e la sua affidabilità lo rendono un collaboratore di fiducia, capace di impegnarsi a fondo in ambienti esigenti.",
-    "equipe_Xavier_Bio4contact": "Para contratar sus servicios de desarrollo web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>contáctelo</a> a través de nuestra página dedicada.",
+    "equipe_Xavier_Bio4contact": "Per richiedere i servizi di Xavier nello sviluppo web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>contattalo</a> tramite la nostra pagina dedicata.",
 
 
     "equipe_Rubie_Nom": "Rubie",

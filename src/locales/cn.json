@@ -241,6 +241,7 @@
 "equipe_Cedric_Bio1": "Cédric 拥有工业过程控制硕士、物理化学 CAPES 文凭、人工智能开发员证书。他热爱电子和创业，曾参加 Eurobot 2024、图卢兹 Robotrace（2022 年获第 3 名）等大赛。",
 "equipe_Cedric_Bio2": "他拥有跨学科的技能，能为复杂问题提供切实解决方案，是面对工业挑战不可或缺的力量。",
 "equipe_Cedric_Bio3": "富有创造力和实践精神，Cédric 善于整合新兴科技，并在传统与未来技术之间建立桥梁，推动时代进步。",
+"equipe_Cedric_Bio3contact": "如需使用Cédric在自动化和人工智能开发方面的服务，请通过<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>我们的专用页面</a>与他联系。",
 
     "equipe_Xavier_Nom": "Xavier Piedallu",
 "equipe_Xavier_TitreCourt": "全栈网页架构师",
@@ -251,7 +252,7 @@
 "equipe_Xavier_Bio1": "他最初从事公共工程工作，后成功转型为网页开发者，并获得全栈开发文凭。拥有 14 年经验，涉足建筑、公共工程与数字化多个领域，活动范围涵盖法国本土及海外地区。",
 "equipe_Xavier_Bio2": "这种技术与数字的双重能力，使他能胜任重型基础设施与高附加值数字项目。他具备多面向、远见型人才特质，时刻追求进步与优化。",
 "equipe_Xavier_Bio3": "旅行爱好者，曾前往印度洋诸岛、加拿大魁北克、菲律宾乃至南极亚区生活。他的国际视野增强了适应能力。他自主、严谨、有强烈的行动力与责任心，是值得信赖的合作伙伴。",
-"equipe_Xavier_Bio4contact": "如需使用他的网站开发服务，请通过<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>我们的专用页面</a>与他联系。",
+"equipe_Xavier_Bio4contact": "如需使用Xavier的网页开发服务，请通过<a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>我们的专用页面</a>与他联系。",
 
 
     "equipe_Rubie_Nom": "Rubie",

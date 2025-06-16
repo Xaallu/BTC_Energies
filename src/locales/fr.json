@@ -251,7 +251,9 @@
   "equipe_Cedric_Bio1": "Titulaire d’un Master 2 Professionnel en Pilotage et Surveillance des Procédés Industriels, spécialisé en sciences industrielles, d’une maîtrise CAPES de Physique-Chimie, ainsi que d’un diplôme de programmateur en développement d’applications avec une spécialisation en intelligence artificielle, Cédric incarne un profil résolument pluridisciplinaire. Passionné d’électronique et d’entrepreneuriat, il a eu l’opportunité de participer à plusieurs compétitions de renom, telles que le concours Eurobot en 2024 et la Toulouse Robotrace, où il a brillamment décroché la 3ᵉ place en 2022.",
   "equipe_Cedric_Bio2": "Ses compétences transversales lui permettent d'apporter des solutions concrètes à de nombreuses problématiques complexes, faisant de lui un atout majeur pour relever les défis de l'industrie d'aujourd'hui et de demain.",
   "equipe_Cedric_Bio3": "Doté d'un esprit inventif et bricoleur, Cédric possède l'ouverture d'esprit essentielle à l'intégration et à l'exploitation de technologies novatrices. Conscient que nous vivons une époque charnière à la croisée des technologies d’hier, d’aujourd’hui et de demain, il met un point d'honneur à créer des ponts entre ces mondes afin d’en tirer le meilleur.",
+  "equipe_Cedric_Bio3contact": "Pour bénéficier des services de Cédric en Développement en Automatisation et Intelligence Artificielle, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
 
+  
   "equipe_Xavier_Nom": "Xavier Piedallu",
     "equipe_Xavier_TitreCourt": "Architecte Web Full-Stack",
     "equipe_Xavier_TitreDetail": "Conception d'outils numériques",
@@ -261,6 +263,8 @@
     "equipe_Xavier_Bio1": "Issu à l’origine d’un cursus en travaux publics, il a su faire preuve d’une remarquable capacité d’adaptation en opérant une reconversion réussie vers le développement web, couronnée par l’obtention d’un diplôme en développement full stack. Fort de 14 années d’expérience, il évolue avec aisance dans les domaines du bâtiment, des travaux publics et du numérique, aussi bien en métropole que dans les territoires ultramarins.",
     "equipe_Xavier_Bio2": "Ce double ancrage technique et digital lui permet d’aborder avec la même efficacité des projets d’infrastructures lourdes que des missions de développement à forte valeur ajoutée. Son parcours témoigne d’un profil polyvalent, ambitieux et visionnaire, porté par une quête permanente d’évolution et d’amélioration. Fin connaisseur des dynamiques de marché et attentif aux conjonctures, il sait ajuster ses orientations en conséquence.",
     "equipe_Xavier_Bio3": "Passionné de voyages, il a enrichi sa vision globale à travers des séjours dans plusieurs îles de l’océan Indien, au Québec, aux Philippines ou encore en zone sub-antarctique. Cette ouverture sur le monde nourrit sa curiosité et renforce sa capacité à s’adapter à des contextes variés. Autonome, rigoureux et doté d’un solide esprit d’initiative, il fait preuve d’un grand professionnalisme. Son respect des consignes et sa fiabilité en font un collaborateur de confiance, capable de s’investir pleinement dans des environnements exigeants.",
+    "equipe_Xavier_Bio4contact": "Pour faire appel aux services de Xavier en Développement Web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
+
 
      "equipe_Rubie_Nom": "Rubie",
     "equipe_Rubie_TitreFr": "Responsable Bien-être au Travail",
@@ -268,8 +272,6 @@
     "equipe_Rubie_Bio1": "Dans le cadre de sa démarche RSE et de sa volonté affirmée de promouvoir un environnement de travail bienveillant et innovant, BTC Énergies a fait le choix singulier mais profondément humain d’intégrer un chien thérapeutique au sein de son équipe. Cette décision s’inscrit dans une vision holistique du bien-être au travail, où la performance et l’humain avancent main dans la patte.",
     "equipe_Rubie_Bio2": "Son intégration repose sur trois piliers clés :\n\n- Bien-être et santé mentale : De nombreuses études démontrent les effets bénéfiques de la présence animale sur la réduction de l’anxiété, l’amélioration de l’humeur et la diminution du stress chronique. Sa simple présence contribue à apaiser les tensions et à instaurer un climat de sérénité, notamment dans des secteurs aussi exigeants que le nôtre.\n\n- Cohésion sociale et attractivité : Rubie est devenue une véritable mascotte, favorisant les échanges informels et renforçant le lien entre collaborateurs et partenaires. Elle incarne une forme de douceur dans des environnements techniques. Fait remarquable : certains partenaires ont rejoint BTC Énergies en partie grâce à l’attachement développé pour elle.\n\n- Engagement sociétal et image responsable : Ce choix affirme notre engagement pour l’innovation sociale et le respect du vivant. Il illustre notre capacité à concilier haute technologie, performance environnementale et sens du vivant.",
     "equipe_Rubie_Bio3": "Dressée avec rigueur, dévouée et parfaitement intégrée à notre fonctionnement quotidien, elle symbolise notre vision de l’entreprise : fidèle, agile et audacieuse. Chez BTC Énergies, nous croyons que la performance durable passe aussi par le cœur, et Rubie en est la preuve vivante.",
-    "equipe_Xavier_Bio4contact": "Pour faire appel à ses services en développement web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
-
     "clic2_Nous contacter": "Nous Contacter",
     "Nos Coordonnées": "Nos Coordonnées"
   },

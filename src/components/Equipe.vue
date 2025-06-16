@@ -798,6 +798,10 @@
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Cedric_Bio2') }}</p>
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Cedric_Bio3') }}</p>
 
+      <!-- Ligne de séparation verte -->
+      <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+      <p class="ml-5" v-html="$t('equipe.equipe_Cedric_Bio3contact')"></p>
+
       <br />
     </div>
   </div>
