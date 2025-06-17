@@ -34,7 +34,7 @@
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(1rem, 1.6vw, 2rem);">
+           style="font-size: clamp(0.8rem, 1.6vw, 2rem);">
         {{ $t("texte_bandeau_bleu") }}
       </h1>
 
@@ -64,7 +64,13 @@
           <br><br>
 
           <!-- blocs services -->
-          <v-row class="page-blanche_app-block" align="center" v-for="(service, index) in services" :key="index">
+          <v-row
+          class="page-blanche_app-block bg-white shadow-md rounded-xl py-4 px-6"
+          align="center"
+          v-for="(service, index) in services"
+          :key="index"
+          >
+
             <v-col cols="12" md="2" class="page-blanche_app-logo">
               <img :src="service.logo" :alt="service.title" />
             </v-col>
@@ -74,7 +80,7 @@
             </v-col>
           </v-row>
                 <!-- bloc 1 -->
-        <v-row class="page-blanche_app-block" align="center">
+        <v-row class="page-blanche_app-block bg-white" align="center" >
           <v-col cols="12" md="2" class="page-blanche_app-logo">
             <img src="/logo1app.png" alt="Nos services BTC Energies">
           </v-col>
@@ -89,7 +95,7 @@
         </v-row>
 
                 <!-- bloc 2 -->
-            <v-row class="page-blanche_app-block" align="center">
+            <v-row class="page-blanche_app-block bg-white" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo2app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -107,7 +113,7 @@
             </v-row>
 
               <!-- bloc 3 -->
-            <v-row class="page-blanche_app-block" align="center">
+            <v-row class="page-blanche_app-block bg-white" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo3app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -125,7 +131,7 @@
             </v-row>
 
             <!-- bloc 4 -->
-            <v-row class="page-blanche_app-block" align="center">
+            <v-row class="page-blanche_app-block bg-white" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo4app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -141,7 +147,7 @@
             </v-row>
 
              <!-- bloc 5 -->
-             <v-row class="page-blanche_app-block" align="center">
+             <v-row class="page-blanche_app-block bg-white" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo5app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -157,7 +163,7 @@
             </v-row>
 
             <!-- bloc 6 -->
-            <v-row class="page-blanche_app-block align=center">
+            <v-row class="page-blanche_app-block align=center bg-white">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo6app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -285,7 +291,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 // Enregistrement du plugin ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
-// ⚠️ Correction du bug sur mobile (scroll tactile)
+// Correction du bug sur mobile (scroll tactile)
 ScrollTrigger.defaults({
   scroller: window,
   invalidateOnRefresh: true,
@@ -420,6 +426,7 @@ export default {
             window.innerWidth > 768
               ? '0px 10px 20px rgba(0, 0, 0, 0.3)'
               : '0px 5px 10px rgba(0, 0, 0, 0.2)',
+          backgroundColor: '#ffffff', // ← Force fond blanc
         });
       });
 
@@ -429,9 +436,18 @@ export default {
           duration: 1.9,
           ease: 'elastic.out(1, 1.5)',
           boxShadow: 'none',
+          backgroundColor: '#ffffff', // ← Force fond blanc
         });
       });
     });
+
+    gsap.from('.page-blanche_app-block', {
+    opacity: 0,
+    y: 30,
+    duration: 1,
+    stagger: 0.2,
+    ease: 'power2.out'
+  });
 
     // Animation du trombinoscope
     gsap.utils.toArray('.trombi-card').forEach((card) => {
