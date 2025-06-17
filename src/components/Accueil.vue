@@ -346,7 +346,7 @@ export default {
   },
   {
     name: 'Cédric Chauvet',
-    title: 'Développeur IA et Automatisation',
+    title: 'Directeur des Opération de Production',
     roleKey: 'developpeur_ia',
     img: '/Trombi/C_C.jpg',
   },

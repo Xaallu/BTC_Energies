@@ -61,7 +61,7 @@
     "responsable_commercial": "Responsable Commercial (CBO)",
     "responsable_qhse": "Responsable QHSE (QSE Manager)",
     "cheffe_projet_outre_mer": "Cheffe de projet Outre Mer (Project Manager)",
-    "developpeur_ia": "Développeur IA et Automatisation",
+    "developpeur_ia": "Directeur des Opération de Production",
     "architecte_web": "Architecte Web Full-Stack",
     "responsable_bien_etre": "Responsable Bien-être au travail (Chief Happiness Officer)"
   }
@@ -244,7 +244,7 @@
   "equipe_Anais_Bio4": "Sa sensibilité écologique, conjuguée à sa rigueur et à son sens de l’organisation, en fait le profil idéal pour développer des projets dans des écosystèmes fragiles, en veillant à limiter au maximum les impacts négatifs des activités humaines. Consciencieuse et méthodique, elle sait cadrer efficacement chaque phase de la conduite de projet, dans une logique de performance et de durabilité.",
 
     "equipe_Cedric_Nom": "Cédric Chauvet",
-  "equipe_Cedric_TitreCourt": "Développeur IA et Automatisation",
+  "equipe_Cedric_TitreCourt": "Directeur des Opération de Production",
   "equipe_Cedric_Etudes_Titre": "Études :",
   "equipe_Cedric_Etudes_Detail": "Master 2Pro - Pilote et surveillance des procédés industriels. Spécialisation Machine Learning - Holberton School",
   "equipe_Cedric_Citation": "Mon but ultime, c’est généraliser l’usage de l’intelligence artificielle dans l’Industrie et à tous les niveaux.",

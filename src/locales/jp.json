@@ -60,7 +60,7 @@
       "responsable_commercial": "営業責任者（CBO）",
       "responsable_qhse": "QHSE責任者（品質・安全・環境マネージャー）",
       "cheffe_projet_outre_mer": "海外プロジェクトマネージャー",
-      "developpeur_ia": "AI・自動化開発者",
+      "developpeur_ia": "製造オペレーションディレクター",
       "architecte_web": "フルスタックWebアーキテクト",
       "responsable_bien_etre": "従業員の幸福担当（チーフ・ハピネス・オフィサー）"
     }
@@ -233,7 +233,7 @@
   "equipe_Anais_Bio4": "環境への配慮、組織力、几帳面さを兼ね備え、繊細な生態系におけるプロジェクト開発に最適な人物です。人間活動の影響を最小限に抑えつつ、持続可能で成果志向のプロジェクト設計を実現しています。",
 
   "equipe_Cedric_Nom": "セドリック・ショヴェ",
-  "equipe_Cedric_TitreCourt": "AI・自動化開発者",
+  "equipe_Cedric_TitreCourt": "製造オペレーションディレクター",
   "equipe_Cedric_Etudes_Titre": "学歴：",
   "equipe_Cedric_Etudes_Detail": "修士（M2Pro） – 産業プロセス制御と監視<br />機械学習専攻 – ホルバートンスクール",
   "equipe_Cedric_Citation": "「私の最終目標は、あらゆる産業レベルで人工知能の活用を一般化することです。」",

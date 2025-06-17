@@ -58,7 +58,7 @@
     "responsable_commercial": "Responsable Comercial (CBO)",
     "responsable_qhse": "Responsable de QHSE (QSE Manager)",
     "cheffe_projet_outre_mer": "Jefa de proyecto Ultramar (Project Manager)",
-    "developpeur_ia": "Desarrollador de IA y Automatización",
+    "developpeur_ia": "Director de Operaciones de Producción",
     "architecte_web": "Arquitecto Web Full-Stack",
     "responsable_bien_etre": "Responsable de Bienestar en el Trabajo (Chief Happiness Officer)"
   }
@@ -239,7 +239,7 @@
     "equipe_Anais_Bio4": "Su sensibilidad ecológica, combinada con su rigor y capacidad organizativa, la convierten en el perfil ideal para desarrollar proyectos en ecosistemas frágiles, minimizando el impacto humano. Concienzuda y metódica, sabe estructurar cada fase del proyecto dentro de una lógica de rendimiento y sostenibilidad.",
 
     "equipe_Cedric_Nom": "Cédric Chauvet",
-    "equipe_Cedric_TitreCourt": "Desarrollador de IA y Automatización",
+    "equipe_Cedric_TitreCourt": "Director de Operaciones de Producción",
     "equipe_Cedric_Etudes_Titre": "Formación:",
     "equipe_Cedric_Etudes_Detail": "Máster profesional – Control y supervisión de procesos industriales. Especialización en Machine Learning – Holberton School",
     "equipe_Cedric_Citation": "Mi objetivo es generalizar el uso de la inteligencia artificial en la industria, a todos los niveles.",

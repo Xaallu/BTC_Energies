@@ -188,7 +188,7 @@ const { locale, t } = useI18n()
 /* ░░░ Langues ░░░ */
 const availableLocales = [
   { code: 'fr', label: 'Fr', flag: '/Flag/flag_fr.jpg' },
-  { code: 'en', label: 'Gb', flag: '/Flag/flag_en.jpg' },
+  { code: 'en', label: 'En', flag: '/Flag/flag_enam.jpg'},
   { code: 'es', label: 'Es', flag: '/Flag/flag_es.jpg' },
   { code: 'it', label: 'It', flag: '/Flag/flag_it.jpg' },
   { code: 'de', label: 'De', flag: '/Flag/flag_de.jpg' },

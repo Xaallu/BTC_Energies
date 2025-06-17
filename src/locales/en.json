@@ -61,7 +61,7 @@
     "responsable_commercial": "Sales Manager (CBO)",
     "responsable_qhse": "QSE Manager",
     "cheffe_projet_outre_mer": "Overseas Project Manager",
-    "developpeur_ia": "AI & Automation Developer",
+    "developpeur_ia": "Director of Production Operations",
     "architecte_web": "Full-Stack Web Architect",
     "responsable_bien_etre": "Chief Happiness Officer"
   }
@@ -243,7 +243,7 @@
 
 
     "equipe_Cedric_Nom": "Cédric Chauvet",
-  "equipe_Cedric_TitreCourt": "AI and Automation Developer",
+  "equipe_Cedric_TitreCourt": "Director of Production Operations",
   "equipe_Cedric_Etudes_Titre": "Studies:",
   "equipe_Cedric_Etudes_Detail": "Master’s Degree – Supervision of Industrial Processes. Machine Learning specialization – Holberton School",
   "equipe_Cedric_Citation": "My ultimate goal is to generalize the use of artificial intelligence in industry and at all levels.",
