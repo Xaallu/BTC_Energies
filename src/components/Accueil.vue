@@ -23,21 +23,32 @@
 
 
 
-    <!-- Bandeau bleu -->
-    <div class="bandeau_bleu w-full py-20 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-  <div class="w-full max-w-[1200px] mx-auto text-center px-4">
-    
-    <div class="w-[200px] h-1 bg-[#22B17A] mb-8 bandeau_bleu-trait mx-auto"></div>
-    
-    <h1 class="bandeau_bleu-text font-montserrat text-white text-center leading-snug break-words"
-        style="font-size: clamp(1rem, 1.6vw, 2rem);">
-      {{ $t("texte_bandeau_bleu") }}
-    </h1>
-    
-    <div class="w-[200px] h-1 bg-[#22B17A] mt-8 bandeau_bleu-trait mx-auto"></div>
-    
+<!-- Bandeau bleu -->
+<div class="bandeau_bleu w-full py-20 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+  <div class="w-full max-w-[1200px] mx-auto px-4">
+
+    <!-- Groupe centré mais décalé vers la gauche -->
+    <div class="text-center transform -translate-x-12 sm:-translate-x-20 md:-translate-x-24">
+      <!-- Trait supérieur -->
+      <div class="w-[300px] h-1 bg-[#22B17A] mb-12 mx-auto"></div>
+
+      <!-- Texte -->
+      <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+           style="font-size: clamp(1rem, 1.6vw, 2rem);">
+        {{ $t("texte_bandeau_bleu") }}
+      </h1>
+
+      <!-- Trait inférieur -->
+      <div class="w-[300px] h-1 bg-[#22B17A] mt-12 mx-auto"></div>
+    </div>
+
   </div>
 </div>
+
+
+
+
+
 
 
 
