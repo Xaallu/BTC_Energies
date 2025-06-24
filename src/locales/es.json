@@ -282,7 +282,7 @@
     "nomLabel": "Su nombre y apellido",
     "nomPlaceholder": "Este campo es obligatorio",
     "emailLabel": "Correo electrónico",
-    "emailPlaceholder": "@",
+    
     "messageLabel": "Su mensaje",
     "messagePlaceholder": "Su mensaje debe contener al menos 20 caracteres",
     "boutonEnvoyer": "Enviar"

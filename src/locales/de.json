@@ -274,7 +274,7 @@
     "nomLabel": "Ihr Vor‑ und Nachname",
     "nomPlaceholder": "Dieses Feld ist verpflichtend",
     "emailLabel": "E‑Mail",
-    "emailPlaceholder": "@",
+    
     "messageLabel": "Ihre Nachricht",
     "messagePlaceholder": "Ihre Nachricht muss mindestens 20 Zeichen enthalten",
     "boutonEnvoyer": "Senden"

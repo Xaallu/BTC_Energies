@@ -278,7 +278,7 @@
   "nomLabel": "Il tuo nome e cognome",
   "nomPlaceholder": "Questo campo è obbligatorio",
   "emailLabel": "Indirizzo email",
-  "emailPlaceholder": "@",
+  
   "messageLabel": "Il tuo messaggio",
   "messagePlaceholder": "Il tuo messaggio deve contenere almeno 20 caratteri",
   "boutonEnvoyer": "Invia"

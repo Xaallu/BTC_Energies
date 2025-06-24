@@ -5,7 +5,6 @@ import Solutions from '../components/Solutions.vue'
 import Partenaire from '../components/Partenaire.vue'
 import Equipe from '../components/Equipe.vue'
 import Contact from '../components/Contact.vue'
-import Demain from '../components/Etdemain.vue'
 import Etdemain from '../components/Etdemain.vue'
 import MentionsLegales from '../components/MentionsLegales.vue'
 
@@ -22,7 +21,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),  // ← nouveau
   routes
 })
 

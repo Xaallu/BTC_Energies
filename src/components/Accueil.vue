@@ -34,7 +34,7 @@
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(0.8rem, 1.6vw, 2rem);">
+           style="font-size: clamp(0.6rem, 1.6vw, 2rem);">
         {{ $t("texte_bandeau_bleu") }}
       </h1>
 
@@ -163,7 +163,7 @@
             </v-row>
 
             <!-- bloc 6 -->
-            <v-row class="page-blanche_app-block align=center bg-white">
+            <v-row class="page-blanche_app-block bg-white" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo6app.png" alt="Nos services BTC Energies">
               </v-col>

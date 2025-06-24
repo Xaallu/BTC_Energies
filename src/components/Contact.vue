@@ -1,12 +1,9 @@
 <template>
-
   <v-app>
-    
-  <v-main class="pa-0 ma-0">
-    
-    <v-row no-gutters class="pa-0 ma-0">
-      
-      <!-- Sidebar -->
+    <v-main class="pa-0 ma-0">
+     <v-row no-gutters class="pa-0 ma-0">
+
+        <!-- Sidebar -->
       <v-col cols="12" md="2" class="pa-0">
         <div class="sidebar">
           <Sidebar />
@@ -14,10 +11,9 @@
       </v-col>
 
       <!-- Contenu principal avec la vidéo -->
-      
-        <v-col>    
 
-           <!-- Bloc vidéo -->
+        <v-col>  
+       <!-- Bloc vidéo -->
       <section class="video-banner relative w-full h-[90vh] overflow-hidden">
         <video autoplay loop muted playsinline class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
           <source src="/videos/animation_eau2.mp4" type="video/mp4" />
@@ -46,38 +42,34 @@
                 <div class="w-full max-w-4xl border-t-[1px] border-white mb-8"></div>
               </div>
             </section>
+          </v-col>
 
-             
-        
-             <!-- Section Contact -->
-             
+
+<br>
+      <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
+        <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+
+                    <!-- Ligne de séparation verte -->
+            <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto"></div>
+
+  <br>
+    <!-- Texte en tête -->
+        <v-row justify="center">
+          <v-col cols="12" md="10">
             
-             <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
+            <h4 class="text-center text-[#475C79] font-bold">
+              {{ $t('contact.introForm1') }}<br />
+              {{ $t('contact.introForm2') }}
+            </h4>
+          </v-col>
+        </v-row>
 
-    
-              <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
-
-              <!-- Ligne de séparation verte -->
-              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-              <br>
-
-              <!-- Texte en tête -->
-              <v-row justify="center">
-                <v-col cols="12" md="10">
-                  <h4 class="text-center text-[#475C79] font-bold">
-          {{ $t('contact.introForm1') }}<br />
-          {{ $t('contact.introForm2') }}
-        </h4>
-
-</v-col>
-</v-row>
-
-      <!-- Ligne de séparation verte -->
+            <!-- Ligne de séparation verte -->
       <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
       <br />
 
-      <!-- Formulaire de Contact -->
+        <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
         <form @submit.prevent="envoyerFormulaire" class="space-y-6">
 
@@ -106,12 +98,12 @@
               id="email"
               type="email"
               required
-              :placeholder="$t('contact.emailPlaceholder')"
+              placeholder="@"
               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
             />
-          </div>
+            </div>
 
-          <!-- Champ Message -->
+           <!-- Champ Message -->
           <div class="w-full max-w-lg mx-auto">
             <label for="message" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.messageLabel') }}
@@ -137,29 +129,27 @@
             </button>
           </div>
 
-            <!-- Espace -->
+           <!-- Espace -->
             <div class="mb-8"></div>
 
-            <!-- Bloc Contact -->
-            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-base md:text-lg px-2">
-              <a href="mailto:direction@btc-energies.fr"
-                class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
-                direction@btc-energies.fr
-              </a>
-              <span class="italic text-[#8BC367]">
-                +33 6 29 56 07 56
-              </span>
+                <!-- Bloc Contact -->
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-base md:text-lg px-2">
+                  <a href="mailto:direction@btc-energies.fr"
+                    class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
+                    direction@btc-energies.fr
+                  </a>
+                  <span class="italic text-[#8BC367]">
+                    +33 6 29 56 07 56
+                  </span>
+                </div>
+
+              </form>
             </div>
-
-          </form>
-      </div>
-
-          
+          </div>
         </div>
-      </div>
-    </v-container>
       
-              <!-- Bandeau bas -->
+      </v-container>
+            <!-- Bandeau bas -->
             <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
               <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
                 <img
@@ -170,17 +160,10 @@
                 />
               </div>
             </div>
-          </v-col>
-        
       </v-row>
-      
     </v-main>
   </v-app>
-
 </template>
-            
-
-            
 
 <script setup>
 import { onMounted, ref } from 'vue';
@@ -299,15 +282,17 @@ onMounted(() => {
 
    // Animation du container "Contact"
    gsap.from(".gsap-mentions", {
-    scrollTrigger: {
-      trigger: ".gsap-mentions",
-      start: "top 40%", 
-      toggleActions: "play none none none"
-    },
-    y: 50,
-    opacity: 0,
-    duration: 4.2,
-    ease: "power3.out"
-  });
+  scrollTrigger: {
+    trigger: ".gsap-mentions",
+    start: "top 65%", // déclenche un peu plus tôt
+    toggleActions: "play none none none",
+    once: true // animation ne se rejoue pas si on remonte
+  },
+  y: 70,             // décalage vertical plus prononcé
+  opacity: 0,
+  duration: 3.6,     // animation un peu plus rapide
+  ease: "power4.out", // easing plus naturel
+  stagger: 0.2       // si plusieurs éléments, ils s’animent en cascade
+});
 });
 </script>

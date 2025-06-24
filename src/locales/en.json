@@ -288,7 +288,7 @@
       "nomLabel": "Your Full Name",
       "nomPlaceholder": "This field is required",
       "emailLabel": "Email Address",
-      "emailPlaceholder": "@",
+      
       "messageLabel": "Your Message",
       "messagePlaceholder": "Your message must contain at least 20 characters",
       "boutonEnvoyer": "Submit"

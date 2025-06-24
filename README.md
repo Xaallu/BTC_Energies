@@ -23,6 +23,8 @@ npm run build
 
 netlify deploy --prod
 
+npm run build && npm run preview
+
 Miroir
 
 git clone --mirror https://REMOVED_TOKEN@github.com/Xa-C24/BTC_Energies.git

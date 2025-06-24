@@ -274,7 +274,7 @@
   "nomLabel": "您的姓名",
   "nomPlaceholder": "此字段为必填项",
   "emailLabel": "电子邮箱地址",
-  "emailPlaceholder": "@",
+  
   "messageLabel": "您的留言",
   "messagePlaceholder": "留言内容需不少于 20 个字符",
   "boutonEnvoyer": "发送"

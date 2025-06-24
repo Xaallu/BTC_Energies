@@ -273,7 +273,7 @@
   "nomLabel": "お名前（姓・名）",
   "nomPlaceholder": "この項目は必須です",
   "emailLabel": "メールアドレス",
-  "emailPlaceholder": "@",
+ 
   "messageLabel": "メッセージ内容",
   "messagePlaceholder": "メッセージは20文字以上で入力してください",
   "boutonEnvoyer": "送信"

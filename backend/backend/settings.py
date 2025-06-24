@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-4^_t-krvgws1d!a9t9(7jmwj0i7@x5jd(*g20m3ah+wg*gd#h=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',                                 # dev
+    '127.0.0.1',                                 # dev
+    'tangerine-babka-89b76d.netlify.app',        # votre front déployé
+    'btc-energies.fr',                           # votre domaine “officiel” si vous en avez un
+]
 
 
 # Application definition
