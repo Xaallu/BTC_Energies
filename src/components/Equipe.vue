@@ -396,10 +396,20 @@
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Remi_Nom") }}</h3>
 
+       <!-- Colonnes -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+
       <!-- Détails -->
       <ul class="text-gray-600 text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Remi_TitreCourt") }}</strong></li>
       </ul>
+
+      <!-- Info Contact à droite -->
+        <div class="font-bold mt-4 md:mt-0 md:ml-6 text-sm text-gray-600 max-w-sm">
+          <p v-html="$t('equipe.equipe_Remi_Bio3contact')"></p>
+        </div>
+
+      </div>
 
       <!-- Études -->
       <div class="mt-4">
@@ -616,10 +626,19 @@
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Philippe_Nom") }}</h3>
 
+       <!-- Colonnes -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+
       <!-- Détails -->
       <ul class="text-gray-600 text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Philippe_TitreCourt") }}</strong></li>
       </ul>
+
+      <!-- Info Contact à droite -->
+        <div class="font-bold mt-4 md:mt-0 md:ml-6 text-sm text-gray-600 max-w-sm">
+          <p v-html="$t('equipe.equipe_Philippe_Bio5contact')"></p>
+        </div>
+      </div>
 
       <!-- Études -->
       <div class="mt-4">
@@ -640,6 +659,10 @@
       <p><span class="ml-5"></span>{{ $t("equipe.equipe_Philippe_Bio2") }}</p>
       <p><span class="ml-5"></span>{{ $t("equipe.equipe_Philippe_Bio3") }}</p>
       <p><span class="ml-5"></span>{{ $t("equipe.equipe_Philippe_Bio4") }}</p>
+
+      <!-- Ligne verte -->
+      <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
     </div>
   </div>
 </div>
@@ -777,11 +800,18 @@
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Cedric_Nom') }}</h3>
 
+       <!-- Colonnes -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+
       <!-- Détails -->
       <ul class="text-gray-600 text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Cedric_TitreCourt') }}</strong></li>
       </ul>
 
+          <div class="font-bold mt-4 md:mt-0 md:ml-6 text-sm text-gray-600 max-w-sm">
+            <p v-html="$t('equipe.equipe_Cedric_Bio3contact')"></p>
+          </div>
+  </div>
       <!-- Études -->
       <div class="mt-4">
         <p class="italic font-semibold text-gray-700">{{ $t('equipe.equipe_Cedric_Etudes_Titre') }}</p>
@@ -802,7 +832,7 @@
 
       <!-- Ligne de séparation verte -->
       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-      <p class="ml-5" v-html="$t('equipe.equipe_Cedric_Bio3contact')"></p>
+      
 
       <br />
     </div>
@@ -840,6 +870,7 @@
         <li>{{ $t('equipe.equipe_Xavier_TitreDetail') }}</li>
       </ul>
 
+
       <!-- Ligne de séparation verte -->
       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
@@ -858,18 +889,30 @@
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Xavier_Nom') }}</h3>
 
-      <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
-        <li><strong>{{ $t('equipe.equipe_Xavier_TitreCourt') }}</strong></li>
-        <li>{{ $t('equipe.equipe_Xavier_TitreDetail') }}</li>
-      </ul>
+      <!-- Colonnes -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+  <!-- Nom + Détails -->
+  <div>
+    
+    
+    <!-- Détails -->
+    <ul class="text-gray-600 text-lg space-y-1">
+      <li><strong>{{ $t('equipe.equipe_Xavier_TitreCourt') }}</strong></li>
+      <li>{{ $t('equipe.equipe_Xavier_TitreDetail') }}</li>
+    </ul>
+  </div>
 
-      <!-- Études -->
-      <div class="mt-4">
-        <p class="italic font-semibold text-gray-700">{{ $t('equipe.equipe_Xavier_Etudes_Titre') }}</p>
-        <p class="text-gray-600 mt-1">{{ $t('equipe.equipe_Xavier_Etudes_Detail') }}</p>
-      </div>
+  <!-- Info Contact à droite -->
+  <div class="font-bold mt-4 md:mt-0 md:ml-6 text-sm text-gray-600 max-w-sm">
+    <p v-html="$t('equipe.equipe_Xavier_Bio4contact')"></p>
+  </div>
+</div>
 
+<!-- Études -->
+<div class="mt-4">
+  <p class="italic font-semibold text-gray-700">{{ $t('equipe.equipe_Xavier_Etudes_Titre') }}</p>
+  <p class="text-gray-600 mt-1">{{ $t('equipe.equipe_Xavier_Etudes_Detail') }}</p>
+</div>
       <!-- Ligne de séparation verte -->
       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
@@ -885,9 +928,7 @@
       <!-- Ligne de séparation verte -->
       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-      <!-- Info Contact -->
-
-      <p class="ml-5" v-html="$t('equipe.equipe_Xavier_Bio4contact')"></p>
+     
 
       <br />
     </div>
@@ -948,7 +989,9 @@
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Rubie_Bio2') }}</p>
       <p><span class="ml-5"></span>{{ $t('equipe.equipe_Rubie_Bio3') }}</p>
 
-      <br />
+
+      <!-- Ligne de séparation verte -->
+      <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
     </div>
   </div>
 </div>

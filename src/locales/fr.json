@@ -211,7 +211,8 @@
     "equipe_Remi_Citation": "« Mon mot d’ordre, c’est impulser et dynamiser la transition énergétique dans l’esprit du développement durable. »",
     "equipe_Remi_Bio1": "Titulaire d’un diplôme d’Ingénieur généraliste en conduite de projet industriel ainsi que d’un Master SYSPEC, il cumule 42 années d’expérience dans des domaines clés tels que la production d’énergies renouvelables, la gestion des déchets (incinération, valorisation du gaz de décharge) et la construction de Data centers.",
     "equipe_Remi_Bio2": "Au cours de sa carrière, il a notamment contribué à l’installation de 145 MW de puissance énergétique, soit de quoi alimenter 15 000 foyers – l’équivalent d’une ville comme Chambéry. Ses fils conducteurs sont le développement durable et la transition énergétique, qui guident l’ensemble de ses projets. Porté par une vision tournée vers l’avenir, il privilégie l’anticipation et l’innovation, afin de proposer des solutions responsables et durables face aux enjeux environnementaux et technologiques. Son expertise, sa polyvalence et sa sagesse acquise font de lui un expert reconnu et un élément influent au sein de BTC Énergies.",
-
+    "equipe_Remi_Bio3contact": "Pour bénéficier des services <br> de Rémi en ingénierie industrielle et en transition énergétique,<br><a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
+    
     "equipe_Adell_Nom": "ADELL",
   "equipe_Adell_TitreCourt": "Direction Administrative et Financière",
   "equipe_Adell_Titre2": "Architecte de la rentabilité, maître d’ouvrage de la structuration financière",
@@ -241,8 +242,9 @@
   "equipe_Philippe_Bio2": "Dès 1993, son engagement en faveur de solutions industrielles durables est récompensé par le Prix Éco-Industrie, une distinction qui souligne son excellence technique et sa capacité à anticiper les besoins environnementaux de demain. Depuis 2023, Philippe Sutarik a rejoint BTC Énergies en tant que Responsable QSE. Fort de son expérience, il met sa vision stratégique et son savoir-faire au service d’une aventure collective visant à repousser les limites de l’innovation en matière de qualité, de sécurité et d’environnement.",
   "equipe_Philippe_Bio3": "Ancien auditeur chez Afnor, il a accompagné quarante entreprises et réalisé soixante audits environnementaux. Au cours de sa carrière, il a suivi trois formations d’auditeur et d’accompagnateur, dont une formation spécifique à l’éco-audit, la seule officiellement reconnue à l’échelle européenne.",
   "equipe_Philippe_Bio4": "Sa démarche, qui allie rigueur scientifique et pragmatisme opérationnel, est le fruit de trois décennies dédiées à la conception et à l’implémentation de procédés de valorisation des déchets. Grâce à cette expertise unique, il aborde les défis environnementaux avec une approche globale, à la fois technique et managériale, visant un objectif clair : éradiquer définitivement les déchets ultimes.",
-
-    "equipe_Anais_Nom": "Anaïs Olive",
+  "equipe_Philippe_Bio5contact": "Pour bénéficier des services <br> de Philippe en Qualité, Sécurité et Environnement,<br><a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
+    
+  "equipe_Anais_Nom": "Anaïs Olive",
   "equipe_Anais_TitreCourt": "Cheffe de projet Outre Mer",
   "equipe_Anais_Etudes_Titre": "Études :",
   "equipe_Anais_Etudes_Detail": "Bac+5 : Audit et management des ressources humaines + formation gestionnaire de paie",
@@ -260,7 +262,7 @@
   "equipe_Cedric_Bio1": "Titulaire d’un Master 2 Professionnel en Pilotage et Surveillance des Procédés Industriels, spécialisé en sciences industrielles, d’une maîtrise CAPES de Physique-Chimie, ainsi que d’un diplôme de programmateur en développement d’applications avec une spécialisation en intelligence artificielle, Cédric incarne un profil résolument pluridisciplinaire. Passionné d’électronique et d’entrepreneuriat, il a eu l’opportunité de participer à plusieurs compétitions de renom, telles que le concours Eurobot en 2024 et la Toulouse Robotrace, où il a brillamment décroché la 3ᵉ place en 2022.",
   "equipe_Cedric_Bio2": "Ses compétences transversales lui permettent d'apporter des solutions concrètes à de nombreuses problématiques complexes, faisant de lui un atout majeur pour relever les défis de l'industrie d'aujourd'hui et de demain.",
   "equipe_Cedric_Bio3": "Doté d'un esprit inventif et bricoleur, Cédric possède l'ouverture d'esprit essentielle à l'intégration et à l'exploitation de technologies novatrices. Conscient que nous vivons une époque charnière à la croisée des technologies d’hier, d’aujourd’hui et de demain, il met un point d'honneur à créer des ponts entre ces mondes afin d’en tirer le meilleur.",
-  "equipe_Cedric_Bio3contact": "Pour bénéficier des services de Cédric en Développement en Automatisation et Intelligence Artificielle, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
+  "equipe_Cedric_Bio3contact": "Pour bénéficier des services de Cédric <br> en Développement, Automatisation <br> et Intelligence Artificielle, <br> <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
 
   
   "equipe_Xavier_Nom": "Xavier Piedallu",
@@ -272,7 +274,7 @@
     "equipe_Xavier_Bio1": "Issu à l’origine d’un cursus en travaux publics, il a su faire preuve d’une remarquable capacité d’adaptation en opérant une reconversion réussie vers le développement web, couronnée par l’obtention d’un diplôme en développement full stack. Fort de 14 années d’expérience, il évolue avec aisance dans les domaines du bâtiment, des travaux publics et du numérique, aussi bien en métropole que dans les territoires ultramarins.",
     "equipe_Xavier_Bio2": "Ce double ancrage technique et digital lui permet d’aborder avec la même efficacité des projets d’infrastructures lourdes que des missions de développement à forte valeur ajoutée. Son parcours témoigne d’un profil polyvalent, ambitieux et visionnaire, porté par une quête permanente d’évolution et d’amélioration. Fin connaisseur des dynamiques de marché et attentif aux conjonctures, il sait ajuster ses orientations en conséquence.",
     "equipe_Xavier_Bio3": "Passionné de voyages, il a enrichi sa vision globale à travers des séjours dans plusieurs îles de l’océan Indien, au Québec, aux Philippines ou encore en zone sub-antarctique. Cette ouverture sur le monde nourrit sa curiosité et renforce sa capacité à s’adapter à des contextes variés. Autonome, rigoureux et doté d’un solide esprit d’initiative, il fait preuve d’un grand professionnalisme. Son respect des consignes et sa fiabilité en font un collaborateur de confiance, capable de s’investir pleinement dans des environnements exigeants.",
-    "equipe_Xavier_Bio4contact": "Pour faire appel aux services de Xavier en Développement Web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via notre page dédiée.",
+    "equipe_Xavier_Bio4contact": "Pour faire appel aux services de Xavier <br> en Développement Web, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contactez-le</a> via <br> notre page dédiée.",
 
 
      "equipe_Rubie_Nom": "Rubie",
