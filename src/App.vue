@@ -11,17 +11,17 @@
       </div>
     </div>
 
-    <!-- Footer en dehors du layout wrapper -->
-   
+    <!-- Rubie Chatbot flottant -->
+    <RubieChat />
   </div>
 </template>
-
 
 <script setup>
 import { ref } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import Footer from './components/Footer.vue'
 import HeaderMobile from './components/HeaderMobile.vue'
+import RubieChat from './components/RubieChat.vue'
 
 const isSidebarOpen = ref(false)
 
@@ -45,3 +45,4 @@ html, body {
   overflow-x: hidden;
 }
 </style>
+

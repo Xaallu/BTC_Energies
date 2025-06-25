@@ -46,14 +46,6 @@
 </div>
 
 
-
-
-
-
-
-
-
-
     <v-main>
 
       <!-- Nos services -->
@@ -210,35 +202,44 @@
         <br><br>
 
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+  <router-link
+    v-for="member in team"
+    :key="member.name"
+    :to="'/equipe/' + member.slug"
+    class="text-center trombi-card"
+  >
+    <div class="bg-white rounded-xl p-2 sm:p-3 md:p-4 shadow-sm transition transform hover:scale-105 duration-300 leading-snug">
+      <img
+        :src="member.img"
+        :alt="member.name"
+        class="mx-auto w-40 h-40 sm:w-56 sm:h-56 object-cover rounded-xl"
+      />
 
-          <div
-            class="text-center trombi-card"
-            v-for="member in team"
-            :key="member.name"
-          >
-            <div class="bg-white rounded-xl p-2 sm:p-3 md:p-4 shadow-sm transition transform hover:scale-105 duration-300 leading-snug">
+      <p class="profile-name font-semibold text-sm sm:text-base mt-2">
+        {{ member.name }}
+      </p>
 
-              <img
-                :src="member.img"
-                :alt="member.name"
-                class="mx-auto w-40 h-40 sm:w-56 sm:h-56 object-cover rounded-xl"
+      <p class="profile-title italic text-xs sm:text-sm">
+        {{ $te('team.titles.' + member.titleKey) ? $t('team.titles.' + member.titleKey) : member.titleKey }}
+      </p>
 
-              />
-              <p class="profile-name font-semibold text-sm sm:text-base mt-2">{{ member.name }}</p>
-              <p class="profile-title italic text-xs sm:text-sm">
-              {{ $te('team.titles.' + member.titleKey) ? $t('team.titles.' + member.titleKey) : member.titleKey }}
-            </p>
+      <p class="italic text-gray-700 font-normal text-base sm:text-lg leading-snug">
+        {{ $te('team.roles.' + member.roleKey) ? $t('team.roles.' + member.roleKey) : member.roleKey }}
+      </p>
 
-           <p class="italic text-gray-700 font-normal text-base sm:text-lg leading-snug">
+      <p v-if="member.role" class="profile-role italic text-sm text-gray-600 mt-2 font-semibold">
+        {{ member.role }}
+      </p>
 
-              {{ $te('team.roles.' + member.roleKey) ? $t('team.roles.' + member.roleKey) : member.roleKey }}
-            </p>
+      <p v-if="member.phone" class="profile-phone text-sm text-gray-800 font-bold mt-2">
+        {{ member.phone }}
+      </p>
+    </div>
+  </router-link>
+</div>
 
-              <p v-if="member.role" class="profile-role italic text-sm text-gray-600 mt-2 font-semibold">{{ member.role }}</p>
-              <p v-if="member.phone" class="profile-phone text-sm text-gray-800 font-bold mt-2">{{ member.phone }}</p>
-            </div>
-          </div>
-        </div>
+
+
       </div>
       </v-container>
 
@@ -263,17 +264,17 @@
     
 
             <!-- Colonne 3 : Mentions légales -->
-<div class="flex flex-col items-center text-center">
-  <h2 class="font-bold text-white text-xl mb-1">{{ $t('legal_title') }}</h2>
+              <div class="flex flex-col items-center text-center">
+                <h2 class="font-bold text-white text-xl mb-1">{{ $t('legal_title') }}</h2>
 
-  <p class="text-[10px] sm:text-[13px] inline-block">
-    {{ $t('legal_line1') }}
-  </p>
+                <p class="text-[10px] sm:text-[13px] inline-block">
+                  {{ $t('legal_line1') }}
+                </p>
 
-  <p class="text-[10px] sm:text-[13px] inline-block pl-6 sm:pl-12">
-    {{ $t('legal_line2') }}
-  </p>
-</div>
+                <p class="text-[10px] sm:text-[13px] inline-block pl-6 sm:pl-12">
+                  {{ $t('legal_line2') }}
+                </p>
+              </div>
 
 
   </div>
@@ -317,6 +318,7 @@ export default {
     roleKey: 'porteur_de_projet', 
     phone: '+33 6 29 56 07 56',
     img: '/Trombi/T_B.png',
+    slug: 'ThibaultBethencourt'
   },
 
   {
@@ -324,60 +326,71 @@ export default {
     title: 'Directeur Général',
     roleKey: 'directeur_general',
     img: '/Trombi/JM_B.jpg',
+    slug: 'JeanMarcBOUILLON'
   },
   {
     name: 'Alain Degans',
     title: 'Chef de Projet Digital',
     roleKey: 'chef_projet_digital',
     img: '/Trombi/A_D.png',
+    slug: 'AlainDEGANS'
   },
   {
     name: 'Camille Faure',
     title: 'Responsable RH (HR Manager)',
     roleKey: 'responsable_rh',
     img: '/Trombi/C_F.png',
+    slug: 'CamilleFaure'
   },
   {
     name: 'Rémi Pichonneau',
     title: 'Responsable Technique (CTO)',
     roleKey: 'responsable_technique',
     img: '/Trombi/R_P.png',
+    slug: 'RemiPichonneau'
   },
   {
     name: 'Olivier Cot',
     title: 'Responsable Commercial (CBO)',
     roleKey: 'responsable_commercial',
     img: '/Trombi/O_C.png',
+    slug: 'OlivierCot'
+    
   },
   {
     name: 'Philippe Stuarik',
     title: 'Responsable QHSE (QSE Manager)',
     roleKey: 'responsable_qhse',
     img: '/Trombi/P_S.png',
+    slug: 'PhilippeStuarik'
   },
   {
     name: 'Anaïs Olive',
     title: 'Cheffe de projet Outre Mer (Project Manager)',
     roleKey: 'cheffe_projet_outre_mer',
     img: '/Trombi/A_O.png',
+    slug: 'AnaisOLIVE'
   },
   {
     name: 'Cédric Chauvet',
     title: 'Directeur des Opération de Production',
     roleKey: 'developpeur_ia',
     img: '/Trombi/C_C.jpg',
+    slug: 'CedricChauvet'
   },
   {
     name: 'Xavier Piedallu',
     title: 'Architecte Web Full-Stack',
     roleKey: 'architecte_web',
     img: '/Trombi/XP2.jpg',
+    slug: 'XavierPiedallu'
   },
   {
     name: 'Rubie',
     title: 'Responsable Bien-être au travail (Chief Happiness Officer)',
     roleKey: 'responsable_bien_etre',
     img: '/Trombi/Rubie.png',
+    slug: 'Rubie'
   },
 ]
 

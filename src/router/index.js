@@ -18,11 +18,31 @@ const routes = [
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/EtDemain', name: 'Demain', component: Etdemain },
   { path: '/mentions-legales', name: 'Mentions Legales', component: MentionsLegales },
+    {
+    path: '/equipe/:slug',
+    redirect: to => {
+      return {
+        path: '/equipe',
+        hash: `#${to.params.slug}`
+      }
+    }
+  },
+  { path: '/rubie', name: 'Rubie', component: () => import('../components/RubieChat.vue') }
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),  // ← nouveau
-  routes
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    } else {
+      return { top: 0 }
+    }
+  }
 })
 
 export default router

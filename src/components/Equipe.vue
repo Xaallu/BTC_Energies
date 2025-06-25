@@ -62,7 +62,8 @@
 <br>           
                   <!-- bloc 1 -->
                   <div class="gsap-bloc relative group hover:scale-[1.04] transition-transform duration-300 ease-in-out">
-                <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc overflow-visible">
+                    
+                <div id="ThibaultBethencourt" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc overflow-visible">
                   <!-- Image à gauche -->
                   <div class="flex-shrink-0">
                     <img
@@ -97,7 +98,7 @@
                 </div>
 
                 <!-- Bulle d'info -->
-                <div class="bulle-info absolute left-[40%] md:left-[55%] transform -translate-x-1/3 top-0 
+                <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
                             bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                             z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
                   <div class="space-y-4">
@@ -134,8 +135,9 @@
 <br> 
 
                 <!-- Bloc J-M Bouillon  -->
-              <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-                  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+               <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+                
+                  <div id="JeanMarcBOUILLON" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
                     <!-- Image à gauche -->
                     <div class="flex-shrink-0">
                       <img
@@ -168,7 +170,7 @@
                   </div>
 
                   <!-- Bulle d'info -->
-                  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+                  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
                               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
                     <div class="space-y-4">
@@ -198,17 +200,18 @@
     <br>
     <br> 
 <br> 
-                 <!-- Bloc 3 Alain DEGANS -->
-                 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-          <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
-            <!-- Image à gauche -->
-            <div class="flex-shrink-0">
-              <img
-                src="/Trombi/A_D.png"
-                alt="Alain DEGANS"
-                class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
-              />
-            </div>
+        <!-- Bloc 3 Alain DEGANS -->
+           <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+           
+            <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+              <!-- Image à gauche -->
+              <div class="flex-shrink-0">
+                <img
+                  src="/Trombi/A_D.png"
+                  alt="Alain DEGANS"
+                  class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </div>
 
             <!-- Texte à droite -->
             <div class="flex-1">
@@ -233,7 +236,7 @@
           </div>
 
           <!-- Bulle d'info -->
-          <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
+          <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
                       bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
                       z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -270,7 +273,7 @@
           
 
   <!-- Titre + image -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div  id="CamilleFaure" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
@@ -309,7 +312,7 @@
    
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -348,8 +351,8 @@
 <br> 
 <br> 
                 <!-- Bloc 5 Rémi PICHONNEAU -->
-<div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+    <div id="RemiPichonneau" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
 
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
@@ -387,7 +390,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -426,7 +429,7 @@
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Contenu principal -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6">
+  <div  id="Adell" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6">
     <!-- Image à gauche (si ajoutée plus tard) -->
     <!-- Texte à droite -->
     <div class="flex-1">
@@ -454,7 +457,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[52%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -494,7 +497,7 @@
 <br> 
                   <!-- Bloc Olivier COT -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="OlivierCot" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
@@ -531,7 +534,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -568,7 +571,7 @@
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Titre + image -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id= "PhilippeStuarik" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
@@ -606,7 +609,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -649,7 +652,7 @@
              <!-- Bloc 7 Anais OLIVIER -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="AnaisOLIVE" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
@@ -686,11 +689,10 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div
-    class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
-           bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-           z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96"
-  >
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
+              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Anais_Nom') }}</h3>
 
@@ -732,7 +734,7 @@
     <!-- Bloc 8 Cedric CHAUVET -->
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
       <!-- Titre 1 + soulignement -->
-      <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+      <div id="CedricChauvet" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
         <!-- Image à gauche -->
         <div class="flex-shrink-0">
           <img
@@ -812,7 +814,7 @@
              <!-- Bloc 9 Xavier Piedallu -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="XavierPiedallu" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
@@ -899,7 +901,7 @@
                   <!-- Bloc Rubie -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="Rubie" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
@@ -1005,16 +1007,30 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, nextTick } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
 import Sidebar from './Sidebar.vue';
 
+
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
+  nextTick(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else {
+      // Sinon on est arrivé depuis un autre lien vers /equipe normal
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+
   // Animation scroll des blocs
   gsap.utils.toArray(".gsap-bloc").forEach((bloc) => {
     // Animation d'apparition au scroll
@@ -1056,6 +1072,8 @@ onMounted(() => {
           });
         }
       });
+
+      
 
       // Puis ouvrir celle du bloc actuel
         gsap.to(bulle, {

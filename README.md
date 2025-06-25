@@ -25,12 +25,17 @@ netlify deploy --prod
 
 npm run build && npm run preview
 
+git remote -v
+
 Miroir
 
 git clone --mirror https://REMOVED_TOKEN@github.com/Xa-C24/BTC_Energies.git
 cd BTC_Energies.git
 git push --mirror https://REMOVED_TOKEN@github.com/Xa-C24/BTC_Energies-Backup.git
 
+
+git remote add backup https://github.com/Xa-C24/BTC_Energies-Backup.git
+git push --mirror backup
 
 
 
