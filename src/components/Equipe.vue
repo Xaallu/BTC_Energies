@@ -609,7 +609,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
