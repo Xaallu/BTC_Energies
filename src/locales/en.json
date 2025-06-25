@@ -5,6 +5,7 @@
     "accueil": "Home",
     "constat": "Our Statement",
     "solutions": "Our Solutions",
+    "projets": "In the project",
     "partenaires": "Funding & Partners",
     "equipe": "Our Team",
     "contact": "Contact",
@@ -130,6 +131,10 @@
       "Nous contacter": "Contact us",
       "Nos Coordonnees": "Our Contact"
   },
+
+  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "In Projects",
 
   "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",
 

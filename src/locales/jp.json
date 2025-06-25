@@ -5,6 +5,7 @@
     "accueil": "ホーム",
     "constat": "私たちの分析",
     "solutions": "私たちのソリューション",
+    "projets": "プロジェクト",
     "partenaires": "資金調達とパートナー",
     "equipe": "私たちのチーム",
     "contact": "お問い合わせ",
@@ -121,6 +122,10 @@
     "Nous contacter": "お問い合わせ",
     "Nos Coordonnees": "連絡先"
   },
+
+  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "プロジェクト",
 
   "__comment_page_partenaire": "「パートナー」ページ（Partenaire.vue）の翻訳",
 

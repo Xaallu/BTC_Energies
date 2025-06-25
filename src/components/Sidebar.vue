@@ -205,6 +205,7 @@ const menuItems = [
   { label: 'menu.accueil',        route: '/' },
   { label: 'menu.constat',        route: '/Constat' },
   { label: 'menu.solutions',      route: '/Solutions' },
+  { label: 'menu.projets',        route: '/Projets' },
   { label: 'menu.partenaires',    route: '/Partenaires' },
   { label: 'menu.equipe',         route: '/equipe' },
   { label: 'menu.contact',        route: '/contact' },

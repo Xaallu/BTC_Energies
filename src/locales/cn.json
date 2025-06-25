@@ -5,6 +5,7 @@
     "accueil": "首页",
     "constat": "我们的分析",
     "solutions": "我们的解决方案",
+    "projets": "在项目中",
     "partenaires": "资金与合作伙伴",
     "equipe": "我们的团队",
     "contact": "联系方式",
@@ -95,6 +96,11 @@
   "clic2_Nous contacter": "联系我们",
   "clic3_Nos Coordonnees": "我们的联系方式"
 },
+
+"__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "在项目中",
+  "projets.texteIntroHead": "Nos projets pour un avenir durable",
 
 "__comment_page_solutions": "“我们的解决方案”（Solutions.vue）页面翻译",
 

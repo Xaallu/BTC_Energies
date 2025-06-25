@@ -5,12 +5,14 @@
     "accueil": "Accueil",
     "constat": "Notre Constat",
     "solutions": "Nos solutions",
+    "projets": "Nos Projets",
     "partenaires": "Financements et partenaires",
     "equipe": "Notre équipe",
     "contact": "Contact",
     "etDemain": "Et demain ?",
     "mentions": "Mentions légales"
   },
+
 
   "__comment_page_index": "Traductions pour la page d'accueil (Accueil.vue)",
 
@@ -132,6 +134,13 @@
   "Nous contacter": "Nous contacter",
   "Nos Coordonnees": "Nos Coordonnées"
 },
+
+
+ "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "Nos Projets",
+  "projets.texteIntroHead": "Nos projets pour un avenir durable",
+
 
   "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",
 

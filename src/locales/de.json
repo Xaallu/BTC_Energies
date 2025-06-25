@@ -5,6 +5,7 @@
     "accueil": "Startseite",
     "constat": "Unsere Analyse",
     "solutions": "Unsere Lösungen",
+    "projets": "Im Projekt",
     "partenaires": "Finanzierung & Partner",
     "equipe": "Unser Team",
     "contact": "Kontakt",
@@ -117,6 +118,10 @@
     "Nous contacter": "Kontaktieren Sie uns",
     "Nos Coordonnees": "Unsere Kontaktdaten"
   },
+
+  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "In Projekte",
 
   "__comment_page_partenaire": "Übersetzungen für Partnerseite (Partenaire.vue)",
 

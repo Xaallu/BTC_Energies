@@ -5,6 +5,7 @@
     "accueil": "Inizio",
     "constat": "La nostra analisi",
     "solutions": "Le nostre soluzioni",
+    "projets": "Nel progetto",
     "partenaires": "Finanziamenti e partner",
     "equipe": "Il nostro team",
     "contact": "Contatto",
@@ -95,6 +96,11 @@
     "clic2_Nous contacter": "Contattaci",
     "clic3_Nos Coordonnees": "I nostri dati di contatto"
   },
+
+  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
+
+  "projets.titre": "In Progetti",
+
 
    "__comment_page_solutions": "Traduzioni per la pagina La nostra diagnosi (Solutions.vue)",
 
