@@ -357,7 +357,7 @@
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
-        src="/Trombi/R_P.png"
+        src="/Trombi/R_Pvf.png"
         alt="Rémi PICHONNEAU"
         class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
@@ -619,7 +619,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[52.3%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -712,7 +712,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
   
@@ -794,8 +794,8 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
+  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
+              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[72%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Cedric_Nom') }}</h3>
@@ -883,7 +883,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0 
+  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0 
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">
@@ -970,7 +970,7 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[65%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
     <div class="space-y-4">

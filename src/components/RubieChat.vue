@@ -1,16 +1,29 @@
 <template>
+  <!-- Bouton flottant (photo Rubie) -->
   <div>
-    <!-- Bouton flottant (photo Rubie) -->
-    <button
-      @click="toggleChat"
-      class="fixed bottom-6 right-6 z-50 rounded-full shadow-lg border border-white"
-    >
+    
+
+   <div class="fixed bottom-6 right-6 z-50 flex flex-col items-center">
+  <button
+    @click="toggleChat"
+    class="rounded-full transition-transform duration-300 hover:scale-125 
+           outline-none focus:outline-none focus:ring-0 focus-visible:outline-none"
+  >
+    <div class="w-14 h-14 rounded-full border-4 border-[#25a875] overflow-hidden">
       <img
         src="/Rubie_chatbot.png"
         alt="Rubie Chatbot"
-        class="w-16 h-16 object-cover rounded-full"
+        class="w-full h-full object-cover"
       />
-    </button>
+    </div>
+  </button>
+
+  <span class="mt-2 text-xs xs:text-base font-medium text-[#25a875] transition-transform duration-300 hover:scale-110">
+  Besoin d'aide&nbsp;?
+</span>
+</div>
+
+
 
     <!-- Fenêtre de chat -->
     <transition name="slide">
@@ -20,7 +33,16 @@
       >
         <!-- En-tête -->
         <div class="bg-[#3c5a81] text-white px-4 py-2 flex justify-between items-center">
-          <h3 class="font-semibold text-lg text-white">Rubie</h3>
+          <div class="flex items-center gap-6">
+            <h3 class="font-semibold text-lg text-white">Rubie Chatbot</h3>
+            <div class="w-12 h-12 rounded-full border-4 border-[#25a875] overflow-hidden">
+              <img
+                src="/Rubie_chatbot.png"
+                alt="Rubie portrait"
+                class="w-full h-full object-cover rounded-full"
+              />
+            </div>
+          </div>
           <button @click="toggleChat" class="text-white text-xl hover:text-red-400">×</button>
         </div>
 

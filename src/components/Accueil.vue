@@ -346,7 +346,7 @@ export default {
     name: 'Rémi Pichonneau',
     title: 'Responsable Technique (CTO)',
     roleKey: 'responsable_technique',
-    img: '/Trombi/R_P.png',
+    img: '/Trombi/R_Pvf.png',
     slug: 'RemiPichonneau'
   },
   {
