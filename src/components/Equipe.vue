@@ -1067,16 +1067,19 @@ onMounted(() => {
       const el = document.querySelector(hash);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        // Attendre un peu puis forcer le check du scroll (important)
+        setTimeout(() => {
+          ScrollTrigger.refresh(); // ✅ force le recalcul du scroll
+        }, 800); // ⏱️ délai à ajuster si nécessaire
       }
     } else {
-      // Sinon on est arrivé depuis un autre lien vers /equipe normal
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   });
 
   // Animation scroll des blocs
   gsap.utils.toArray(".gsap-bloc").forEach((bloc) => {
-    // Animation d'apparition au scroll
     gsap.from(bloc, {
       opacity: 0,
       y: 50,
