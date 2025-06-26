@@ -29,7 +29,7 @@ const routes = [
       }
     }
   },
-  { path: '/rubie', name: 'Rubie', component: () => import('../components/RubieChat.vue') }
+  
 ]
 
 const router = createRouter({

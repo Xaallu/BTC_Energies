@@ -586,7 +586,7 @@
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
-        src="/Trombi/P_S.png"
+        src="/Trombi/P_Svf.png"
         alt="Philippe Sutarik"
         class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
@@ -619,7 +619,7 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[52.3%] transform -translate-x-1/3 top-0
+  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
               bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
               z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
 
@@ -761,7 +761,7 @@
         <!-- Image à gauche -->
         <div class="flex-shrink-0">
           <img
-            src="/Trombi/C_C.jpg"
+            src="/Trombi/C_Cvf.png"
             alt="Cédric Chauvet"
             class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
           />
@@ -848,7 +848,7 @@
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
-        src="/Trombi/X_P.jpg"
+        src="/Trombi/X_Pvf.png"
         alt="Xavier Piedallu"
         class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />

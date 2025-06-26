@@ -361,7 +361,7 @@ export default {
     name: 'Philippe Stuarik',
     title: 'Responsable QHSE (QSE Manager)',
     roleKey: 'responsable_qhse',
-    img: '/Trombi/P_S.png',
+    img: '/Trombi/P_Svf.png',
     slug: 'PhilippeStuarik'
   },
   {
@@ -375,14 +375,14 @@ export default {
     name: 'Cédric Chauvet',
     title: 'Directeur des Opération de Production',
     roleKey: 'developpeur_ia',
-    img: '/Trombi/C_C.jpg',
+    img: '/Trombi/C_Cvf.png',
     slug: 'CedricChauvet'
   },
   {
     name: 'Xavier Piedallu',
     title: 'Architecte Web Full-Stack',
     roleKey: 'architecte_web',
-    img: '/Trombi/XP2.jpg',
+    img: '/Trombi/X_Pvf.png',
     slug: 'XavierPiedallu'
   },
   {
