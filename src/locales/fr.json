@@ -105,7 +105,7 @@
 
 "nos_solutions": {
   "title_nos solutions": "Nos solutions",
-  "intro1_En France": "En France, il existe seulement 1175 Unité de Méthanisation et presque aucune unité de Gazéification Hydrothermale.",
+  
   "titre2_Preparation": "Préparation",
   "text1_Recuperation": "Récupération et acheminement des intrants sur site.",
   "text2_Tri et separation": "Tri et séparation des intrants.",
@@ -140,6 +140,7 @@
 
   "projets.titre": "Nos Projets",
   "projets.texteIntroHead": "Nos projets pour un avenir durable",
+  "texte_bandeau_bleu_projet": "Nos Projets",
 
 
   "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",

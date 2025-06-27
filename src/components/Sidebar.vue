@@ -70,8 +70,8 @@
           :class="[ 
             'block transform transition duration-300 ease-out hover:scale-110 focus:outline-none',
             $route.path === item.route
-              ? 'text-green-400 font-semibold pointer-events-none'
-              : 'text--green-400 hover:text-green-400',
+              ? 'text-[#05ff16] font-semibold pointer-events-none'
+              : 'text--green-400 hover:text-[#05ff16]',
               'focus:outline-none focus-visible:outline-none'
           ]"
           style="font-size:16.5px;"
@@ -192,8 +192,8 @@ const availableLocales = [
   { code: 'es', label: 'Es', flag: '/Flag/flag_es.jpg' },
   { code: 'it', label: 'It', flag: '/Flag/flag_it.jpg' },
   { code: 'de', label: 'De', flag: '/Flag/flag_de.jpg' },
-  { code: 'jp', label: 'Jp', flag: '/Flag/flag_JP.jpg' },
-  { code: 'cn', label: 'Cn', flag: '/Flag/flag_cn.jpg' },
+  { code: 'jp', label: '日本', flag: '/Flag/flag_JP.jpg' },
+  { code: 'cn', label: '中文', flag: '/Flag/flag_cn.jpg' },
 ]
 
 const currentLang = computed(
@@ -262,8 +262,8 @@ onBeforeUnmount(() => {
 .menu-arrow_B {
   width: 6px;
   height: 6px;
-  border-left: 3px solid #22b17a;
-  border-bottom: 3px solid #22b17a;
+  border-left: 3px solid #05ff16;
+  border-bottom: 3px solid #05ff16;
   margin: 0 auto;
   background: transparent;
 }

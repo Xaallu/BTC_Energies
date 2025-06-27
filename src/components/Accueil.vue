@@ -21,16 +21,14 @@
 </section>
 
 
-
-
 <!-- Bandeau bleu -->
-<div class="bandeau_bleu w-full py-20 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+<div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
   <div class="w-full max-w-[1200px] mx-auto px-4">
 
     <!-- Groupe centré mais décalé vers la gauche -->
-    <div class="text-center transform -translate-x-12 sm:-translate-x-20 md:-translate-x-24">
+    <div class="text-center">
       <!-- Trait supérieur -->
-      <div class="w-[300px] h-1 bg-[#22B17A] mb-12 mx-auto"></div>
+      <div class="w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -39,7 +37,7 @@
       </h1>
 
       <!-- Trait inférieur -->
-      <div class="w-[300px] h-1 bg-[#22B17A] mt-12 mx-auto"></div>
+      <div class="w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
     </div>
 
   </div>

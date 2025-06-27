@@ -13,42 +13,80 @@
       <!-- Contenu principal avec la vidéo -->
 
         <v-col>  
-       <!-- Bloc vidéo -->
-      <section class="video-banner relative w-full h-[90vh] overflow-hidden">
-        <video autoplay loop muted playsinline class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-          <source src="/videos/animation_eau2.mp4" type="video/mp4" />
-          Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-        </video>
-   
-        <!-- Logo -->
-        <div class="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-20 h-auto max-w-full" />
-        </div>
+                <!-- Video GIF haut de page -->
+                <section class="w-full overflow-hidden relative">
+            <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
 
-            <!-- Texte centré -->
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white ml-4">{{ $t('projets.titre') }}</h2>
-
-                <!-- Trait supérieur -->
-              <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
-
-                <div class="w-full max-w-4xl border-t border-white mb-6"></div>
-                <p class="text-white text-lg md:text-xl max-w-4xl mx-auto leading-relaxed pl-10">
-                  {{ $t('projets.texteIntroHead') }}
-                </p>
-
-                <br> <br>
-                <!-- Trait inférieur -->
-                <div class="w-full max-w-4xl border-t-[1px] border-white mb-8"></div>
-              </div>
-            </section>
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                class="absolute top-0 left-0 w-full h-full object-cover object-center"
+              >
+                <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+              </video>
+            </div>
+          </section>
           </v-col>
+
+          <!-- Bandeau bleu -->
+          <div class="bandeau_bleu w-full py-20 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+            <div class="w-full max-w-[1200px] mx-auto px-4">
+          
+              <!-- Groupe centré mais décalé vers la gauche -->
+              <div class="text-center transform -translate-x-12 sm:-translate-x-20 md:-translate-x-24">
+                <!-- Trait supérieur -->
+                <div class="w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+          
+                <!-- Texte -->
+                <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                     style="font-size: clamp(0.9rem, 2.9vw, 3.2rem);">
+                  {{ $t("texte_bandeau_bleu_projet") }}
+                </h1>
+          
+                <!-- Trait inférieur -->
+                <div class="w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+              </div>
+          
+            </div>
+          </div>
 
 
 <br>
+<div class="w-full flex justify-center">
+  <iframe src="https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false"
+          width="1000"
+          height="400"
+          frameborder="0"
+          class="border-0">
+  </iframe>
+</div>
       <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
-        <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+
+        
           <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+            Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI) pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone. Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures, se portant volontaire pour répondre à cet appel ambitieux.
+
+Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies. Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle. Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
+
+Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes.  Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
+
+Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
+
+- une production annuelle de 202 GWh/an de méthane bas-carbone ;
+
+- a valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.
+
+Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
+
+- la gazéification hydrothermale à l’échelle industrielle ;
+
+- la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.
+
+Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
+
 
                     <!-- Ligne de séparation verte -->
             <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto"></div>
@@ -72,7 +110,7 @@
        
         
             </div>
-          </div>
+          
         </div>
       
       </v-container>

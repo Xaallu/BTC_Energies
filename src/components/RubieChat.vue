@@ -9,7 +9,7 @@
     class="rounded-full transition-transform duration-300 hover:scale-125 
            outline-none focus:outline-none focus:ring-0 focus-visible:outline-none"
   >
-    <div class="w-14 h-14 rounded-full border-4 border-[#25a875] overflow-hidden">
+    <div class="w-14 h-14 rounded-full border-4 border-[#8BC34A] overflow-hidden">
       <img
         src="/Rubie_chatbot.png"
         alt="Rubie Chatbot"
@@ -18,7 +18,7 @@
     </div>
   </button>
 
-  <span class="mt-2 text-xs xs:text-base font-medium text-[#25a875] transition-transform duration-300 hover:scale-110">
+  <span class="mt-2 text-xs xs:text-base font-medium text-[#8BC34A]">
   Besoin d'aide&nbsp;?
 </span>
 </div>
@@ -32,10 +32,10 @@
         class="fixed bottom-20 right-6 w-80 max-w-full bg-white rounded-lg shadow-2xl z-50 border border-gray-300 flex flex-col overflow-hidden"
       >
         <!-- En-tête -->
-        <div class="bg-[#3c5a81] text-white px-4 py-2 flex justify-between items-center">
+        <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)] text-white px-4 py-2 flex justify-between items-center">
           <div class="flex items-center gap-6">
-            <h3 class="font-semibold text-lg text-white">Rubie Chatbot</h3>
-            <div class="w-12 h-12 rounded-full border-4 border-[#25a875] overflow-hidden">
+            <h3 class="font-semibold text-lg text-white">Rubie Chatbot IA</h3>
+            <div class="w-12 h-12 rounded-full border-4 border-[#8BC34A] overflow-hidden">
               <img
                 src="/Rubie_chatbot.png"
                 alt="Rubie portrait"
@@ -65,7 +65,7 @@
           />
           <button
             @click="askRubie"
-            class="bg-[#22B17A] text-white px-4 rounded-r hover:bg-[#1c9c68]"
+            class="bg-[#8BC34A] text-white px-4 rounded-r hover:bg-[#1c9c68]"
           >
             ▶
           </button>
@@ -112,7 +112,7 @@ async function askRubie() {
 
   try {
     const res = await axios.post('http://176.139.25.235:8080/generate', {
-      prompt: question.value,
+      prompt:  question.value,
       language: language
     })
     response.value = res.data.response
