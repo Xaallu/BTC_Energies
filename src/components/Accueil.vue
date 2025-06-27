@@ -245,8 +245,9 @@
 
 
     <!-- Bandeau bas de page - Mentions Légales -->
-<div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-  <div class="flex flex-col sm:grid sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
+  <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+  
+    <div class="flex flex-col sm:grid sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
     
     <!-- Colonne 1 : Logo (centré mobile + desktop) -->
     <div class="flex justify-center sm:justify-start">

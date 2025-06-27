@@ -37,7 +37,7 @@
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
                <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+                  <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
 
                     <h2 class="page-blanche_app-title">
@@ -191,7 +191,7 @@
             
 
                  <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+        <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">

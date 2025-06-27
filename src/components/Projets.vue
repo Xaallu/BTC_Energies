@@ -56,6 +56,13 @@
 
 <br>
 <div class="w-full flex justify-center">
+<h1> Carte proposer par Opendata</h1>
+</div>
+
+<br>
+
+<div class="w-full flex justify-center">
+  
   <iframe src="https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false"
           width="1000"
           height="400"
@@ -64,58 +71,61 @@
   </iframe>
 </div>
       <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
+        <section class="min-h-screen flex items-center justify-center px-4 py-8">
+          <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+            <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
-        
-          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
-            Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI) pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone. Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures, se portant volontaire pour répondre à cet appel ambitieux.
+       <img src="/Promethée.png" alt="Nos services BTC Energies" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
 
-Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies. Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle. Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
+            <br>
 
-Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes.  Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
+    <p class="mb-6 leading-relaxed">
+      Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI) pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone. Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures, se portant volontaire pour répondre à cet appel ambitieux.
+    </p>
 
-Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
+    <p class="mb-6 leading-relaxed">
+      Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies. Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle.
+    </p>
 
-- une production annuelle de 202 GWh/an de méthane bas-carbone ;
+    <p class="mb-6 leading-relaxed">
+      Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
+    </p>
 
-- a valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.
+    <p class="mb-6 leading-relaxed">
+      Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes. Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
+    </p>
 
-Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
+    <p class="mb-6 leading-relaxed">
+      Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
+    </p>
 
-- la gazéification hydrothermale à l’échelle industrielle ;
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>une production annuelle de 202 GWh/an de méthane bas-carbone ;</li>
+      <li>la valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.</li>
+    </ul>
 
-- la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.
+    <p class="mb-6 leading-relaxed">
+      Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
+    </p>
 
-Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>la gazéification hydrothermale à l’échelle industrielle ;</li>
+      <li>la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.</li>
+    </ul>
 
+    <p class="leading-relaxed">
+      Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
+    </p>
 
-                    <!-- Ligne de séparation verte -->
-            <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto"></div>
+    </div>
+   </div>
+</section>
 
-  <br>
-    <!-- Texte en tête -->
-        <v-row justify="center">
-          <v-col cols="12" md="10">
-            
-            
-
-          </v-col>
-        </v-row>
-
-            <!-- Ligne de séparation verte -->
-      <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-      <br />
-
-        <!-- Formulaire de Contact -->
-      <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
-       
-        
-            </div>
-          
-        </div>
       
       </v-container>
             <!-- Bandeau bas -->
-            <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+            <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+
               <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
                 <img
                   ref="logoSidebar"
