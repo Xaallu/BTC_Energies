@@ -19,7 +19,7 @@
   </button>
 
   <span class="mt-2 text-xs xs:text-base font-medium text-[#8BC34A]">
-  Besoin d'aide&nbsp;?
+  Des questions&nbsp;?
 </span>
 </div>
 
