@@ -45,9 +45,7 @@
                 <div class="flex justify-center mb-6">
 <br>              
                   </div>
-                  <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
-                    {{ $t('nos_solutions.intro1_En France') }}
-                  </p>
+                 
 <br>
 
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">

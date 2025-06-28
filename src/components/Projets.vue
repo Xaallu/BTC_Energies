@@ -38,7 +38,7 @@
               <!-- Groupe centré mais décalé vers la gauche -->
               <div class="text-center transform -translate-x-12 sm:-translate-x-20 md:-translate-x-24">
                 <!-- Trait supérieur -->
-                <div class="w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+                <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
           
                 <!-- Texte -->
                 <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -47,7 +47,7 @@
                 </h1>
           
                 <!-- Trait inférieur -->
-                <div class="w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+                <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
               </div>
           
             </div>
@@ -271,5 +271,32 @@ onMounted(() => {
   ease: "power4.out", // easing plus naturel
   stagger: 0.2       // si plusieurs éléments, ils s’animent en cascade
 });
+
+ // Animation du texte du bandeau bleu
+    gsap.utils.toArray('.bandeau_bleu-text').forEach((el) => {
+    gsap.fromTo(
+      el,
+      { opacity: 0, y: -40, scale: 0.8 },
+      { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' }
+    );
+  });
+
+      // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.5,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 95%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
+  });
 });
 </script>

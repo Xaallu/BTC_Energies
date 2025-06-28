@@ -15,23 +15,22 @@
 
       <!-- Contenu principal avec la vidéo -->
       <v-col>    
+          <section class="w-full overflow-hidden relative">
+            <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
 
-    <!-- Video GIF haut de page -->
-       <section class="w-full overflow-hidden relative">
-   <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-
-    <video
-      autoplay
-      loop
-      muted
-      playsinline
-      class="absolute top-0 left-0 w-full h-full object-cover object-center"
-    >
-      <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-      Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-    </video>
-  </div>
-</section>
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                class="absolute top-0 left-0 w-full h-full object-cover object-center"
+              >
+                <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+              </video>
+            </div>
+          </section>
+     
 
             <!-- Bandeau bleu -->
 <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
@@ -40,7 +39,7 @@
     <!-- Groupe centré mais décalé vers la gauche -->
     <div class="text-center">
       <!-- Trait supérieur -->
-      <div class="w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -50,7 +49,7 @@
 
         <!-- Trait inférieur -->
           <div 
-            class="w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+            class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
           
 <br><br>
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -263,6 +262,33 @@ onMounted(() => {
         toggleActions: "play none none reset",
       }
     });
+  });
+
+  // Animation du texte du bandeau bleu
+    gsap.utils.toArray('.bandeau_bleu-text').forEach((el) => {
+    gsap.fromTo(
+      el,
+      { opacity: 0, y: -40, scale: 0.8 },
+      { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' }
+    );
+  });
+
+      // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.5,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 95%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
   });
 });
 </script>

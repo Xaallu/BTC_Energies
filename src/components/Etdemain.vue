@@ -14,29 +14,53 @@
           <div class="main-content">
             <Header />
 
-            <!-- Bloc vidéo -->
-            <section class="video-banner relative w-full h-[90vh] overflow-hidden">
-              <video autoplay loop muted playsinline preload="auto" class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-                <source src="/videos/animation_eau2.mp4" type="video/mp4" />
-                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-              </video>
 
-              <!-- Logo -->
-              <div class="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-                <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-16 sm:w-20 md:w-24 lg:w-28 h-auto" />
-              </div>
-
-              <!-- Texte centré -->
-              <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
-                <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">{{ $t('Etdemain.titre') }}</h2>
-                <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
-                <p class="text-white text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
-                 {{ $t('Etdemain.textIntroHead') }}
-                </p>
-                <div class="mb-8"></div> 
-                <div class="w-full max-w-4xl border-t-[1px] border-white mb-6"></div>
+             <!-- Video GIF haut de page -->
+                   <section class="w-full overflow-hidden relative">
+               <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+            
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="absolute top-0 left-0 w-full h-full object-cover object-center"
+                >
+                  <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                </video>
               </div>
             </section>
+            
+            
+            <!-- Bandeau bleu -->
+            <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+              <div class="w-full max-w-[1200px] mx-auto px-4">
+            
+                <!-- Groupe centré mais décalé vers la gauche -->
+                <div class="text-center">
+                  <!-- Trait supérieur -->
+                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+            
+                  <!-- Texte -->
+                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                       style="font-size: clamp(1.9rem, 2.6vw, 3rem);">
+                    {{ $t("Etdemain.titre") }}
+                  </h1>
+            
+                  <!-- Trait inférieur -->
+                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+<br>
+                  <!-- Texte -->
+                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                      style="font-size: clamp(0.6rem, 1.4vw, 2rem);">
+                    {{ $t("Etdemain.textIntroHead") }}
+                  </h1>
+                </div>
+            
+              </div>
+            </div>
+            
 
             <!-- Bloc blanc après la vidéo -->
             
@@ -119,7 +143,7 @@
       </v-col>
 
         <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+        <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
@@ -146,6 +170,52 @@
             </div>
           </div>
         </div>
+
+         <!-- Video GIF haut de page -->
+                   <section class="w-full overflow-hidden relative">
+               <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+            
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="absolute top-0 left-0 w-full h-full object-cover object-center"
+                >
+                  <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                </video>
+              </div>
+            </section>
+            
+            
+            <!-- Bandeau bleu -->
+            <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+              <div class="w-full max-w-[1200px] mx-auto px-4">
+            
+                <!-- Groupe centré mais décalé vers la gauche -->
+                <div class="text-center">
+                  <!-- Trait supérieur -->
+                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+            
+                  <!-- Texte -->
+                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                       style="font-size: clamp(1.9rem, 2.6vw, 3rem);">
+                    {{ $t("equipe.Equipe_Titre") }}
+                  </h1>
+            
+                  <!-- Trait inférieur -->
+                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+<br>
+                  <!-- Texte -->
+                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                      style="font-size: clamp(0.6rem, 1.4vw, 2rem);">
+                    {{ $t("equipe.Titre_equipe") }}
+                  </h1>
+                </div>
+            </div>
+            </div>
+            
       </v-row>
     </v-main>
   </v-app>
@@ -193,5 +263,33 @@ onMounted(async () => {
     duration: 5,
     ease: 'back.out(1.7)',
   });
+
+   // Animation du texte du bandeau bleu
+    gsap.utils.toArray('.bandeau_bleu-text').forEach((el) => {
+    gsap.fromTo(
+      el,
+      { opacity: 0, y: -40, scale: 0.8 },
+      { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' }
+    );
+  });
+
+      // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.5,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 95%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
+  });
+  
 });
 </script>

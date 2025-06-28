@@ -191,8 +191,8 @@
             
 
                  <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-          <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
+        <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+          <div class="bandeau_bleu img grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
               <img
