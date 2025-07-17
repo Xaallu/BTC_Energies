@@ -48,16 +48,27 @@
           <button @click="toggleChat" class="text-white text-xl hover:text-red-400">×</button>
         </div>
 
-        <!-- Corps -->
-        <div class="p-4 overflow-y-auto" style="max-height: 300px;">
-          <div v-if="loading" class="text-center text-gray-500 italic">
-            {{ $t('chatbot.thinking') }}
-          </div>
-          
-          <div v-else-if="response" class="text-gray-800 whitespace-pre-wrap">{{ response }}</div>
-            <div v-else class="text-gray-500 text-sm" v-html="$t('chatbot.intro')"></div>
-          
-        </div>
+      <!-- Corps -->
+<div class="p-4 overflow-y-auto" style="max-height: 300px;">
+  <!-- Rubie réfléchit -->
+  <div v-if="loading" class="text-center text-gray-500 italic">
+    {{ $t('chatbot.thinking') }}
+  </div>
+
+  <!-- Message d'erreur explicite -->
+  <div v-else-if="error" class="text-red-600 text-sm text-center font-semibold">
+    {{ $t('chatbot.error') }}
+  </div>
+
+  <!-- Réponse normale -->
+  <div v-else-if="response" class="text-gray-800 whitespace-pre-wrap">
+    {{ response }}
+  </div>
+
+  <!-- Message d’intro -->
+  <div v-else class="text-gray-500 text-sm" v-html="$t('chatbot.intro')"></div>
+</div>
+
 
         <!-- Champ de saisie -->
         <div class="p-2 border-t flex">
