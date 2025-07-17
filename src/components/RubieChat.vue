@@ -111,7 +111,7 @@ async function askRubie() {
   response.value = ''
 
   try {
-    const res = await axios.post('http://176.139.25.235:8080/generate', {
+    const res = await axios.post('http://176.139.25.235:5000/generate', {
       prompt:  question.value,
       language: language
     })
