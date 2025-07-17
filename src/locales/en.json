@@ -321,6 +321,18 @@
     "Nos Coordonnées": "Our contact"
   },
 
+  
+   "__comment_chatbot": "Traductions pour le Chatbot Rubie",
+  "chatbot": {
+    "title": "Rubie Chatbot IA",
+    "thinking": "Rubie is thinking...",
+    "intro": "I am Rubie, Chief Happiness Officer at BTC Energies<br>How can I help you?",
+    "questions": "Any questions?",
+    "placeholder": "Type your question here...",
+    "error": "❌ An error occurred. Please try again."
+  },
+
+
     "__comment_page_mentionslégales": "Traductions pour la page Légalesinformations.vue",
 
   "MentionsLégales": {
@@ -380,4 +392,5 @@
     "Cookies": "Cookies",
     "Site conçu et": "Website designed and optimised by BTC Energies •"
   }
+  
 }

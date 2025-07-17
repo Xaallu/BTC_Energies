@@ -310,7 +310,15 @@
   "Nos Coordonnées": "I nostri contatti"
 },
 
-
+  "__comment_chatbot": "Traduzioni per il chatbot Rubie",
+  "chatbot": {
+    "title": "Rubie Chatbot IA",
+    "thinking": "Rubie sta riflettendo...",
+    "intro": "Sono Rubie, Chief Happiness Officer di BTC Energies<br>In cosa posso aiutarti?",
+    "questions": "Hai domande?",
+    "placeholder": "Scrivi qui la tua domanda...",
+    "error": "❌ Si è verificato un errore. Riprova per favore."
+  },
 
 "MentionsLégales": {
   "titre": "Note legali",

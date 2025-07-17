@@ -301,6 +301,18 @@
   "Nos Coordonnées": "連絡先"
 },
 
+
+ "__comment_chatbot": "Rubieチャットボットの翻訳",
+  "chatbot": {
+    "title": "ルビーAIチャットボット",
+    "thinking": "ルビーは考えています…",
+    "intro": "私はRubie、BTC Energiesのチーフ・ハピネス・オフィサーです<br>どのようにお手伝いできますか？",
+    "questions": "ご質問はありますか？",
+    "placeholder": "ここにご質問を入力してください...",
+    "error": "❌ エラーが発生しました。もう一度お試しください。"
+  },
+
+  
 "MentionsLégales": {
      "titre": "法的通知",
 
