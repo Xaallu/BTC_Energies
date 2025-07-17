@@ -2,9 +2,13 @@
   <div class="flex items-center justify-between bg-[#061832] text-white p-4 lg:hidden fixed top-0 left-0 right-0 z-50">
     <!-- Logo -->
     <div class="flex items-center">
-      <img src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-12 w-auto" />
-      <span class="ml-12 text-2xl">Les solutions de demain</span>
-    </div>
+      <img src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-24 w-auto" />
+ </div>
+
+  <div class="flex justify-center bg-[#06162b]">
+  <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto my-4" />
+</div>
+
 
     <!-- Bouton burger -->
     <button @click="$emit('toggleSidebar')" class="text-white focus:outline-none">
