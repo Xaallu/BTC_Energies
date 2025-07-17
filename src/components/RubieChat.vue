@@ -19,7 +19,7 @@
   </button>
 
   <span class="mt-2 text-xs xs:text-base font-medium text-[#8BC34A]">
-  Des questions&nbsp;?
+   {{ $t('chatbot.questions') }}
 </span>
 </div>
 
@@ -34,7 +34,9 @@
         <!-- En-tête -->
         <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)] text-white px-4 py-2 flex justify-between items-center">
           <div class="flex items-center gap-6">
-            <h3 class="font-semibold text-lg text-white">Rubie Chatbot IA</h3>
+            <h3 class="font-semibold text-lg text-white">
+              {{ $t('chatbot.title') }}
+            </h3>
             <div class="w-12 h-12 rounded-full border-4 border-[#8BC34A] overflow-hidden">
               <img
                 src="/Rubie_chatbot.png"
@@ -48,9 +50,12 @@
 
         <!-- Corps -->
         <div class="p-4 overflow-y-auto" style="max-height: 300px;">
-          <div v-if="loading" class="text-center text-gray-500 italic">Rubie réfléchit...</div>
+          <div v-if="loading" class="text-center text-gray-500 italic">
+            {{ $t('chatbot.thinking') }}
+          </div>
+          
           <div v-else-if="response" class="text-gray-800 whitespace-pre-wrap">{{ response }}</div>
-          <div v-else class="text-gray-500 text-sm">Je suis Rubie, la Chief Happiness de BTC Energies <br> En quoi puis-je vous aider ?</div>
+            <div v-else class="text-gray-500 text-sm" v-html="$t('chatbot.intro')"></div>
           
         </div>
 
@@ -60,7 +65,7 @@
             v-model="question"
             @keyup.enter="askRubie"
             type="text"
-            placeholder="Votre question..."
+            :placeholder="$t('chatbot.placeholder')"
             class="flex-1 px-3 py-2 border rounded-l text-sm focus:outline-none"
           />
           <button
@@ -84,6 +89,7 @@ const showChat = ref(false)
 const question = ref('')
 const response = ref('')
 const loading = ref(false)
+const error = ref(false)
 
 // Récupérer la langue depuis localStorage
 const langMap = {
@@ -109,16 +115,18 @@ async function askRubie() {
   if (!question.value) return
   loading.value = true
   response.value = ''
+  error.value = false
 
   try {
     const res = await axios.post('http://176.139.25.235:5000/generate', {
-      prompt:  question.value,
+      prompt: question.value,
       language: language
     })
     response.value = res.data.response
-  } catch (error) {
-    console.error(error)
-    response.value = "❌ Une erreur est survenue. Veuillez réessayez."
+  } catch (err) {
+    console.error(err)
+    error.value = true
+    response.value = t('chatbot.error')
   } finally {
     loading.value = false
   }

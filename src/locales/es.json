@@ -313,6 +313,17 @@
     "Nos Coordonnées": "Nuestros Datos de Contacto"
   },
 
+
+  "__comment_chatbot": "Traducciones para el chatbot Rubie",
+  "chatbot": {
+    "title": "Rubie Chatbot IA",
+    "thinking": "Rubie está pensando...",
+    "intro": "Soy Rubie, la Chief Happiness Officer de BTC Energies<br>¿En qué puedo ayudarte?",
+    "questions": "¿Tienes preguntas?",
+    "placeholder": "Escribe tu pregunta aquí...",
+    "error": "❌ Ocurrió un error. Por favor, inténtalo de nuevo."
+  },
+  
   "__comment_page_MentionsLégales": "Traducciones para la página Aviso Legal (Demain.vue)",
 
   "MentionsLégales": {

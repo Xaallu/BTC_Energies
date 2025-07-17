@@ -304,6 +304,16 @@
     "Nos Coordonnées": "Unsere Kontaktdaten"
   },
 
+  "__comment_chatbot": "Übersetzungen für den Rubie-Chatbot",
+  "chatbot": {
+    "title": "Rubie KI-Chatbot",
+    "thinking": "Rubie denkt nach...",
+    "intro": "Ich bin Rubie, Chief Happiness Officer bei BTC Energies<br>Wie kann ich Ihnen helfen?",
+    "questions": "Haben Sie Fragen?",
+    "placeholder": "Geben Sie hier Ihre Frage ein...",
+    "error": "❌ Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+
   "__comment_page_MentionsLégales": "Übersetzungen für Impressum (Demain.vue)",
 
   "MentionsLégales": {

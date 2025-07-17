@@ -303,6 +303,17 @@
   "Nos Coordonnées": "我们的联系方式"
 },
 
+  "__comment_chatbot": "Rubie 聊天机器人翻译",
+  "chatbot": {
+    "title": "Rubie 聊天机器人",
+    "thinking": "Rubie 正在思考……",
+    "intro": "我是 Rubie，BTC Energies 的首席幸福官<br>我可以为您做些什么？",
+    "questions": "有问题吗？",
+    "placeholder": "请在此输入您的问题…",
+    "error": "❌ 出现错误，请重试。"
+  },
+
+
 "MentionsLégales": {
   "titre": "法律声明",
   "titreCGU": "网站使用条款（CGU）",
