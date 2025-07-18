@@ -93,6 +93,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import axios from 'axios'
 
 // Contrôles
@@ -129,10 +131,16 @@ async function askRubie() {
   error.value = false
 
   try {
-  const res = await axios.post('/api/generate', {
-    prompt: question.value,
-    language: language
-  })
+ // Détecter si on est en local ou en prod
+const baseURL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:8000'
+  : ''
+
+const res = await axios.post(`${baseURL}/api/generate`, {
+  prompt: question.value,
+  language: language
+})
+  
     response.value = res.data.response
   } catch (err) {
     console.error(err)
