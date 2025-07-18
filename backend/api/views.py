@@ -69,3 +69,21 @@ def contact_api(request):
             return JsonResponse({"error": str(e)}, status=500)
 
     return JsonResponse({"error": "Méthode non autorisée"}, status=405)
+
+
+# --- Vue API Rubie Chatbot ---
+@csrf_exempt
+def generate(request):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body)
+            prompt = data.get("prompt", "")
+            language = data.get("language", "FR")
+
+            # Logique de réponse (à remplacer par l'appel à Vertex AI si besoin)
+            response_text = f"Réponse simulée pour : {prompt} (langue : {language})"
+
+            return JsonResponse({"response": response_text})
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=400)
+    return JsonResponse({"error": "Méthode non autorisée"}, status=405)
