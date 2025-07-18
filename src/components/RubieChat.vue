@@ -129,10 +129,10 @@ async function askRubie() {
   error.value = false
 
   try {
-    const res = await axios.post('http://176.139.25.235:5000/generate', {
-      prompt: question.value,
-      language: language
-    })
+  const res = await axios.post('/api/generate', {
+    prompt: question.value,
+    language: language
+  })
     response.value = res.data.response
   } catch (err) {
     console.error(err)
