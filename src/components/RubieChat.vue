@@ -131,10 +131,9 @@ async function askRubie() {
   error.value = false
 
   try {
+
  // Détecter si on est en local ou en prod
-const baseURL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://localhost:8000'
-  : ''
+const baseURL = 'https://176.139.25.235';
 
 const res = await axios.post(`${baseURL}/api/generate`, {
   prompt: question.value,
