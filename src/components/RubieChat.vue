@@ -133,9 +133,9 @@ async function askRubie() {
   try {
 
  // Détecter si on est en local ou en prod
-const baseURL = 'https://176.139.25.235';
-
-const res = await axios.post(`${baseURL}/api/generate`, {
+ 
+const baseURL = 'https://176.139.25.235'; // ou ton vrai nom de domaine
+const res = await axios.post(`${baseURL}/generate`, {
   prompt: question.value,
   language: language
 })

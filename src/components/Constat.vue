@@ -232,6 +232,7 @@ import Header from './Header.vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+
 gsap.registerPlugin(ScrollTrigger)
 
 export default {
@@ -289,6 +290,42 @@ export default {
     })
   },
 }
+
+ // 👉 SEO dynamique - Page "Notre Constat"
+    useHead({
+      title: 'Notre Constat - BTC Énergies',
+      meta: [
+        {
+          name: 'description',
+          content: 'Découvrez le constat de BTC Énergies sur les enjeux environnementaux, technologiques et durables de demain. Vidéos, explications et vision claire.',
+        },
+        {
+          name: 'keywords',
+          content: 'transition énergétique, environnement, économie circulaire, innovation durable, BTC Énergies, écologie, technologies vertes',
+        },
+        {
+          property: 'og:title',
+          content: 'Notre Constat - BTC Énergies',
+        },
+        {
+          property: 'og:description',
+          content: 'BTC Énergies vous présente son analyse des défis environnementaux et ses solutions durables. Découvrez notre vision pour un avenir meilleur.',
+        },
+        {
+          property: 'og:image',
+          content: 'https://btc-energies.fr/favicon.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://btc-energies.com/constat',
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ],
+    });
+
 </script>
 
 
