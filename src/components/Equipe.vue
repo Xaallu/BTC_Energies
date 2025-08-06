@@ -1069,7 +1069,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
 import Sidebar from './Sidebar.vue';
-
+import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
@@ -1196,5 +1196,19 @@ onMounted(() => {
       }
     );
   });
+});
+
+useHead({
+  title: 'Notre équipe – BTC Énergies',
+  meta: [
+    {
+      name: 'description',
+      content: 'Une équipe pluridisciplinaire : ingénieurs, développeurs, experts énergie et environnement, au service de la transition écologique.',
+    },
+    { name: 'keywords', content: 'équipe BTC Énergies, experts énergie, développeur durable, ingénieur environnement, architecte web, QHSE' },
+    { property: 'og:title', content: 'L’équipe BTC Énergies' },
+    { property: 'og:description', content: 'Découvrez notre équipe : des profils complémentaires pour un même objectif – l’innovation écologique.' }
+  ],
+  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/equipe' }]
 });
 </script>

@@ -190,6 +190,7 @@ import { onMounted, ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Sidebar from './Sidebar.vue';
+import { useHead } from '@vueuse/head';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -324,5 +325,19 @@ gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
   ease: "power4.out", // easing plus naturel
   stagger: 0.2       // si plusieurs éléments, ils s’animent en cascade
 });
+});
+
+useHead({
+  title: 'Contact – BTC Énergies',
+  meta: [
+    {
+      name: 'description',
+      content: 'Vous souhaitez un devis ou en savoir plus ? Contactez l’équipe BTC Énergies pour discuter de vos projets énergétiques et environnementaux.',
+    },
+    { name: 'keywords', content: 'contact BTC Énergies, devis énergie, formulaire entreprise, valorisation déchets, GDF Enedis contact' },
+    { property: 'og:title', content: 'Contactez BTC Énergies' },
+    { property: 'og:description', content: 'Nos experts sont disponibles pour discuter de vos projets : traitement des déchets, valorisation énergétique, accompagnement écologique.' }
+  ],
+  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/contact' }]
 });
 </script>

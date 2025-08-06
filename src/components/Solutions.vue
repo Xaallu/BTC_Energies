@@ -328,6 +328,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
 import Sidebar from './Sidebar.vue';
 import Footer from './Footer.vue';
+import { useHead } from '@vueuse/head';
 
 const logoBandeau = ref(null);
 gsap.registerPlugin(ScrollTrigger);
@@ -385,5 +386,19 @@ onMounted(() => {
       ease: 'back.out(1.7)',
     });
   }
+});
+
+useHead({
+  title: 'Nos solutions – BTC Énergies',
+  meta: [
+    {
+      name: 'description',
+      content: 'Production et vente d’énergies, valorisation des déchets, traitement des effluents industriels, opérations de dépollution et gestion de projets durables.',
+    },
+    { name: 'keywords', content: 'vente d’énergies, gazéification, effluents, déchets, dépollution, valorisation, BTC Énergies, solutions écologiques, recyclage industriel' },
+    { property: 'og:title', content: 'BTC Énergies – Services énergétiques et environnementaux' },
+    { property: 'og:description', content: 'Des solutions innovantes pour valoriser vos déchets et produire de l’énergie verte.' }
+  ],
+  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/nos-services' }]
 });
 </script>
