@@ -231,6 +231,7 @@ import Sidebar from './Sidebar.vue'
 import Header from './Header.vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useHead } from '@vueuse/head';
 
 
 gsap.registerPlugin(ScrollTrigger)
