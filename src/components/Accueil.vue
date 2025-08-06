@@ -234,9 +234,39 @@
       </p>
     </div>
   </router-link>
+
 </div>
 
+<br>
+<br>
 
+<h2 class="page-blanche_app-title">{{ $t(' Nos engagements pour un impact positif') }}</h2>
+<br>
+<br>
+<br>
+<br>
+<div class="my-10 flex justify-center">
+  <div class="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px]">
+    <div
+      v-for="(logo, index) in logosOdd"
+      :key="index"
+      :style="getLogoStyle(index, logosOdd.length)"
+      class="absolute w-[5.7rem] h-[5.7rem] overflow-hidden shadow-md bg-white p-1"
+    >
+      <img
+        :src="logo"
+        alt="ODD"
+        class="w-full h-full object-contain"
+      />
+    </div>
+
+  </div>
+
+</div>
+
+<br>
+<br>
+<div class="w-[120px] h-[2px] mx-auto my-4" style="background-color: #8BC367;"></div>
 
       </div>
       </v-container>
@@ -288,249 +318,151 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useHead } from '@vueuse/head';
 
-
 // Enregistrement du plugin ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
-
-// Correction du bug sur mobile (scroll tactile)
-ScrollTrigger.defaults({
-  scroller: window,
-  invalidateOnRefresh: true,
-});
-
-// Met à jour manuellement sur scroll tactile
-window.addEventListener('touchmove', () => {
-  ScrollTrigger.update();
-});
-window.addEventListener('scroll', () => {
-  ScrollTrigger.update();
-});
+ScrollTrigger.defaults({ scroller: window, invalidateOnRefresh: true });
+window.addEventListener('touchmove', () => ScrollTrigger.update());
+window.addEventListener('scroll', () => ScrollTrigger.update());
 
 export default {
   name: 'Accueil',
- 
+
   data() {
     return {
       team: [
-    {
-    name: 'Thibault Béthencourt',
-    titleKey: 'president_ceo',       
-    roleKey: 'porteur_de_projet', 
-    phone: '+33 6 29 56 07 56',
-    img: '/Trombi/T_B.png',
-    slug: 'ThibaultBethencourt'
-  },
-
-  {
-    name: 'Jean-Marc BOUILLON',
-    title: 'Directeur Général',
-    roleKey: 'directeur_general',
-    img: '/Trombi/JM_B.jpg',
-    slug: 'JeanMarcBOUILLON'
-  },
-  {
-    name: 'Alain Degans',
-    title: 'Chef de Projet Digital',
-    roleKey: 'chef_projet_digital',
-    img: '/Trombi/A_D.png',
-    slug: 'AlainDEGANS'
-  },
-  {
-    name: 'Camille Faure',
-    title: 'Responsable RH (HR Manager)',
-    roleKey: 'responsable_rh',
-    img: '/Trombi/C_F.png',
-    slug: 'CamilleFaure'
-  },
-  {
-    name: 'Rémi Pichonneau',
-    title: 'Responsable Technique (CTO)',
-    roleKey: 'responsable_technique',
-    img: '/Trombi/R_Pvf.png',
-    slug: 'RemiPichonneau'
-  },
-  {
-    name: 'Olivier Cot',
-    title: 'Responsable Commercial (CBO)',
-    roleKey: 'responsable_commercial',
-    img: '/Trombi/O_C.png',
-    slug: 'OlivierCot'
-    
-  },
-  {
-    name: 'Philippe Stuarik',
-    title: 'Responsable QHSE (QSE Manager)',
-    roleKey: 'responsable_qhse',
-    img: '/Trombi/P_Svf.png',
-    slug: 'PhilippeStuarik'
-  },
-  {
-    name: 'Anaïs Olive',
-    title: 'Cheffe de projet Outre Mer (Project Manager)',
-    roleKey: 'cheffe_projet_outre_mer',
-    img: '/Trombi/A_O.png',
-    slug: 'AnaisOLIVE'
-  },
-  {
-    name: 'Cédric Chauvet',
-    title: 'Directeur des Opération de Production',
-    roleKey: 'developpeur_ia',
-    img: '/Trombi/C_Cvf.png',
-    slug: 'CedricChauvet'
-  },
-  {
-    name: 'Xavier Piedallu',
-    title: 'Architecte Web Full-Stack',
-    roleKey: 'architecte_web',
-    img: '/Trombi/X_Pvf.png',
-    slug: 'XavierPiedallu'
-  },
-  {
-    name: 'Rubie',
-    title: 'Responsable Bien-être au travail (Chief Happiness Officer)',
-    roleKey: 'responsable_bien_etre',
-    img: '/Trombi/Rubie.png',
-    slug: 'Rubie'
-  },
-]
-
+        { name: 'Thibault Béthencourt', titleKey: 'president_ceo', roleKey: 'porteur_de_projet', phone: '+33 6 29 56 07 56', img: '/Trombi/T_B.png', slug: 'ThibaultBethencourt' },
+        { name: 'Jean-Marc BOUILLON', title: 'Directeur Général', roleKey: 'directeur_general', img: '/Trombi/JM_B.jpg', slug: 'JeanMarcBOUILLON' },
+        { name: 'Alain Degans', title: 'Chef de Projet Digital', roleKey: 'chef_projet_digital', img: '/Trombi/A_D.png', slug: 'AlainDEGANS' },
+        { name: 'Camille Faure', title: 'Responsable RH (HR Manager)', roleKey: 'responsable_rh', img: '/Trombi/C_F.png', slug: 'CamilleFaure' },
+        { name: 'Rémi Pichonneau', title: 'Responsable Technique (CTO)', roleKey: 'responsable_technique', img: '/Trombi/R_Pvf.png', slug: 'RemiPichonneau' },
+        { name: 'Olivier Cot', title: 'Responsable Commercial (CBO)', roleKey: 'responsable_commercial', img: '/Trombi/O_C.png', slug: 'OlivierCot' },
+        { name: 'Philippe Stuarik', title: 'Responsable QHSE (QSE Manager)', roleKey: 'responsable_qhse', img: '/Trombi/P_Svf.png', slug: 'PhilippeStuarik' },
+        { name: 'Anaïs Olive', title: 'Cheffe de projet Outre Mer (Project Manager)', roleKey: 'cheffe_projet_outre_mer', img: '/Trombi/A_O.png', slug: 'AnaisOLIVE' },
+        { name: 'Cédric Chauvet', title: 'Directeur des Opération de Production', roleKey: 'developpeur_ia', img: '/Trombi/C_Cvf.png', slug: 'CedricChauvet' },
+        { name: 'Xavier Piedallu', title: 'Architecte Web Full-Stack', roleKey: 'architecte_web', img: '/Trombi/X_Pvf.png', slug: 'XavierPiedallu' },
+        { name: 'Rubie', title: 'Responsable Bien-être au travail (Chief Happiness Officer)', roleKey: 'responsable_bien_etre', img: '/Trombi/Rubie.png', slug: 'Rubie' }
+      ],
+      logosOdd: [
+        '/logo_impact/1pauvreté.png', '/logo_impact/2faim.png', '/logo_impact/3santé.png', '/logo_impact/4éducation.png',
+        '/logo_impact/5égalité.png', '/logo_impact/6eau.png', '/logo_impact/7energies.png', '/logo_impact/8acces.png',
+        '/logo_impact/9industrie.png', '/logo_impact/10reduction.png', '/logo_impact/11villes.png', '/logo_impact/12consomations.png',
+        '/logo_impact/13luttes.png', '/logo_impact/14conserver.png', '/logo_impact/15vie.png', '/logo_impact/16justice.png', '/logo_impact/17partenariats.png'
+      ]
     };
   },
 
-  // GSAP
-  setup() {
-  onMounted(() => {
-    const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
-    if (bandeauBleuText) {
-      gsap.fromTo(
-        bandeauBleuText,
-        { opacity: 0, y: -40, scale: 0.8 },
-        { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' }
-      );
+  methods: {
+    getLogoStyle(index, total) {
+      const angle = (index / total) * 2 * Math.PI - Math.PI / 2;
+      const radius = 300;
+      const centerX = 220;
+      const centerY = 220;
+      const x = centerX + radius * Math.cos(angle) - 32;
+      const y = centerY + radius * Math.sin(angle) - 32;
+      return {
+        position: 'absolute',
+        left: `${x}px`,
+        top: `${y}px`
+      };
     }
+  },
 
-    // Animation des traits verts
-    gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
-      gsap.fromTo(
-        trait,
-        { scaleX: 0, transformOrigin: 'center' },
-        { scaleX: 1, duration: 1.5, ease: 'power2.out', delay: 0.3 }
-      );
-    });
+  setup() {
+    onMounted(() => {
+      const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
+      if (bandeauBleuText) {
+        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
+      }
 
-    // Animation de la page blanche
-    gsap.fromTo(
-      '.page-blanche_app-wrapper',
-      { opacity: 0, scale: 0.9 },
-      { opacity: 1, scale: 1, duration: 3, delay: 1, ease: 'power2.out' }
-    );
+      gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+        gsap.fromTo(trait, { scaleX: 0, transformOrigin: 'center' }, { scaleX: 1, duration: 1.5, ease: 'power2.out', delay: 0.3 });
+      });
 
-    // Effet hover sur les blocs
-    const blocks = document.querySelectorAll(
-      '.page-blanche_app-block, .profile'
-    );
-    blocks.forEach((block) => {
-      block.addEventListener('mouseenter', () => {
-        gsap.to(block, {
-          scale: window.innerWidth > 768 ? 1.1 : 1.05,
+      gsap.fromTo('.page-blanche_app-wrapper', { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 3, delay: 1, ease: 'power2.out' });
+
+      const blocks = document.querySelectorAll('.page-blanche_app-block, .profile');
+      blocks.forEach((block) => {
+        block.addEventListener('mouseenter', () => {
+          gsap.to(block, {
+            scale: window.innerWidth > 768 ? 1.1 : 1.05,
+            duration: 0.9,
+            ease: 'power2.out',
+            boxShadow: window.innerWidth > 768 ? '0px 10px 20px rgba(0, 0, 0, 0.3)' : '0px 5px 10px rgba(0, 0, 0, 0.2)',
+            backgroundColor: '#ffffff',
+          });
+        });
+
+        block.addEventListener('mouseleave', () => {
+          gsap.to(block, {
+            scale: 1,
+            duration: 1.9,
+            ease: 'elastic.out(1, 1.5)',
+            boxShadow: 'none',
+            backgroundColor: '#ffffff',
+          });
+        });
+      });
+
+      gsap.from('.page-blanche_app-block', { opacity: 0, y: 30, duration: 1, stagger: 0.2, ease: 'power2.out' });
+
+      gsap.utils.toArray('.trombi-card').forEach((card) => {
+        gsap.from(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: 'top 85%',
+            toggleActions: 'play none none reset',
+          },
+          opacity: 0,
+          y: 50,
+          scale: 0.90,
           duration: 0.9,
           ease: 'power2.out',
-          boxShadow:
-            window.innerWidth > 768
-              ? '0px 10px 20px rgba(0, 0, 0, 0.3)'
-              : '0px 5px 10px rgba(0, 0, 0, 0.2)',
-          backgroundColor: '#ffffff', // ← Force fond blanc
+          stagger: 0.20
         });
       });
 
-      block.addEventListener('mouseleave', () => {
-        gsap.to(block, {
-          scale: 1,
-          duration: 1.9,
-          ease: 'elastic.out(1, 1.5)',
-          boxShadow: 'none',
-          backgroundColor: '#ffffff', // ← Force fond blanc
-        });
-      });
-    });
-
-    gsap.from('.page-blanche_app-block', {
-    opacity: 0,
-    y: 30,
-    duration: 1,
-    stagger: 0.2,
-    ease: 'power2.out'
-  });
-
-    // Animation du trombinoscope
-    gsap.utils.toArray('.trombi-card').forEach((card) => {
-      gsap.from(card, {
+      gsap.from(".bandeau_bleu-logo", {
         scrollTrigger: {
-          trigger: card,
-          start: 'top 85%',
-          toggleActions: 'play none none reset',
+          trigger: ".bandeau_bleu-logo",
+          start: "top 90%",
+          toggleActions: "play reverse play reverse",
         },
         opacity: 0,
-        y: 50,
-        scale: 0.90,
-        duration: 0.9,
-        ease: 'power2.out',
-        stagger: 0.20 // effet cascade
+        scale: 0.9,
+        duration: 5,
+        ease: "power2.out",
       });
     });
-    // Logo du bandeau bleu (zoom + fade)
-    gsap.from(".bandeau_bleu-logo", {
-      scrollTrigger: {
-        trigger: ".bandeau_bleu-logo",
-        start: "top 90%",
-        toggleActions: "play reverse play reverse",
-      },
-      opacity: 0,
-      scale: 0.9,
-      duration: 5,
-      ease: "power2.out",
-    });
-  }
-);
 
- // SEO dynamique :
-  useHead({
-    title: 'BTC Énergies – Valorisation énergétique & environnementale',
-    meta: [
-      {
-        name: 'description',
-        content: 'BTC Énergies est un acteur engagé dans la transition énergétique : vente d’énergies, gazéification, dépollution, valorisation des effluents et traitement des déchets.',
-      },
-      {
-        name: 'keywords',
-        content: 'valorisation énergétique, traitement des déchets, effluents industriels, biogaz, GDF, Enedis, transition écologique, dépollution, BTC Énergies'
-      },
-      {
-        property: 'og:title',
-        content: 'BTC Énergies – Solutions vertes pour un avenir durable'
-      },
-      {
-        property: 'og:description',
-        content: 'Découvrez les services de BTC Énergies : énergie renouvelable, valorisation des déchets, solutions sur-mesure pour collectivités et industriels.'
-      },
-        {
-        property: 'og:image',
-        content: 'https://btc-energies.fr/favicon.jpg',
-      },
-      {
-        property: 'og:type',
-        content: 'website'
-      }
-    ],
-    link: [{ rel: 'canonical', href: 'https://btc-energies.fr/' }]
-  });
-  return {};
+    useHead({
+      title: 'BTC Énergies – Valorisation énergétique & environnementale',
+      meta: [
+        { name: 'description', content: 'BTC Énergies est un acteur engagé dans la transition énergétique : vente d’énergies, gazéification, dépollution, valorisation des effluents et traitement des déchets.' },
+        { name: 'keywords', content: 'valorisation énergétique, traitement des déchets, effluents industriels, biogaz, GDF, Enedis, transition écologique, dépollution, BTC Énergies' },
+        { property: 'og:title', content: 'BTC Énergies – Solutions vertes pour un avenir durable' },
+        { property: 'og:description', content: 'Découvrez les services de BTC Énergies : énergie renouvelable, valorisation des déchets, solutions sur-mesure pour collectivités et industriels.' },
+        { property: 'og:image', content: 'https://btc-energies.fr/favicon.jpg' },
+        { property: 'og:type', content: 'website' }
+      ],
+      link: [{ rel: 'canonical', href: 'https://btc-energies.fr/' }]
+    });
+
+    return {};
   }
 };
-
 </script>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '../assets/styles.css';
 
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+</style>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
