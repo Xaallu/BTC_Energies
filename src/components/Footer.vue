@@ -4,11 +4,27 @@
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
         {{ $t('Footer.Site conçu et') }}
-        <a href="/cookies" class="underline hover:text-gray-300">{{ $t('Footer.Cookies') }}</a>
+        <a href="#" @click.prevent="openCookies" class="underline hover:text-gray-300">
+          {{ $t('Footer.Cookies') }}
+        </a>
       </p>
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  methods: {
+    openCookies() {
+      if (window.tarteaucitron && window.tarteaucitron.userInterface) {
+        window.tarteaucitron.userInterface.openPanel();
+      } else {
+        alert('Panneau cookies indisponible.');
+      }
+    }
+  }
+}
+</script>
 
 <style scoped>
 .footer-global {

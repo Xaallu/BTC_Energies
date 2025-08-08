@@ -681,18 +681,37 @@ export default {
       });
     });
 
-    useHead({
-      title: 'BTC Énergies – Valorisation énergétique & environnementale',
-      meta: [
-        { name: 'description', content: 'BTC Énergies est un acteur engagé dans la transition énergétique : vente d’énergies, gazéification, dépollution, valorisation des effluents et traitement des déchets.' },
-        { name: 'keywords', content: 'valorisation énergétique, traitement des déchets, effluents industriels, biogaz, GDF, Enedis, transition écologique, dépollution, BTC Énergies' },
-        { property: 'og:title', content: 'BTC Énergies – Solutions vertes pour un avenir durable' },
-        { property: 'og:description', content: 'Découvrez les services de BTC Énergies : énergie renouvelable, valorisation des déchets, solutions sur-mesure pour collectivités et industriels.' },
-        { property: 'og:image', content: 'https://btc-energies.fr/favicon.jpg' },
-        { property: 'og:type', content: 'website' }
-      ],
-      link: [{ rel: 'canonical', href: 'https://btc-energies.fr/' }]
-    });
+  useHead({
+  title: 'BTC Énergies – Valorisation énergétique & environnementale',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'BTC Énergies est un acteur engagé dans la transition énergétique : vente d’énergies, gazéification, dépollution, valorisation des effluents et traitement des déchets.',
+    },
+    {
+      name: 'keywords',
+      content:
+        'valorisation énergétique, traitement des déchets, effluents industriels, biogaz, GDF, Enedis, transition écologique, dépollution, BTC Énergies, NaTran, GRT Gaz, AMI, gazéification hydrothermale, bas carbone, innovations, Téréga, climat, réchauffement climatique, panneaux solaires, hydrogène, méthane, CO2, engrais',
+    },
+    {
+      property: 'og:title',
+      content: 'BTC Énergies – Solutions vertes pour un avenir durable',
+    },
+    {
+      property: 'og:description',
+      content:
+        'Découvrez les services de BTC Énergies : énergie renouvelable, valorisation des déchets, solutions sur-mesure pour collectivités et industriels.',
+    },
+    {
+      property: 'og:image',
+      content: 'https://btc-energies.fr/favicon.jpg',
+    },
+    { property: 'og:type', content: 'website' },
+  ],
+  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/' }],
+});
+
 
     return {};
   }
