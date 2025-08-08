@@ -92,38 +92,62 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 import axios from 'axios'
 
-// Contrôles
+// UI state
 const showChat = ref(false)
 const question = ref('')
 const response = ref('')
 const loading = ref(false)
 const error = ref(false)
 
-// Récupérer la langue depuis localStorage
-const langMap = {
-  fr: 'FR',
-  en: 'GB',
-  es: 'ES',
-  it: 'IT',
-  de: 'DE',
-  jp: 'JP',
-  cn: 'CN',
-}
+// Langue (front -> backend)
+const langMap = { fr:'FR', en:'GB', es:'ES', it:'IT', de:'DE', jp:'JP', cn:'CN' }
 const savedLang = localStorage.getItem('lang') || 'fr'
 const language = langMap[savedLang] || 'FR'
 
-// Fonctions
+// --- Auto-détection du backend ---
+// Ordre d’essai : (1) 5000, (2) 5001, (3) sans port (si un reverse proxy arrive plus tard)
+const SERVER_CANDIDATES = [
+  'https://176.139.25.235:5000',
+  'https://176.139.25.235:5001',
+  'https://176.139.25.235'
+]
+
+const chosenServer = ref(localStorage.getItem('rubie_server') || '')
+
+async function pingServer(base) {
+  try {
+    const res = await axios.get(`${base}/health`, { timeout: 5000 })
+    return res?.data?.status === 'ok'
+  } catch {
+    return false
+  }
+}
+
+async function ensureServer() {
+  if (chosenServer.value) return chosenServer.value
+  for (const base of SERVER_CANDIDATES) {
+    if (await pingServer(base)) {
+      chosenServer.value = base
+      localStorage.setItem('rubie_server', base)
+      break
+    }
+  }
+  return chosenServer.value
+}
+
 function toggleChat() {
   showChat.value = !showChat.value
   response.value = ''
   question.value = ''
+  error.value = false
 }
 
+// Appel API
 async function askRubie() {
   if (!question.value) return
   loading.value = true
@@ -131,35 +155,35 @@ async function askRubie() {
   error.value = false
 
   try {
+    const base = await ensureServer()
+    if (!base) throw new Error('Aucun serveur Rubie accessible')
 
- // Détecter si on est en local ou en prod
- 
-const baseURL = 'https://176.139.25.235:5000';
+    const res = await axios.post(
+      `${base}/generate`,
+      {
+        prompt: question.value,
+        language: language
+      },
+      {
+        headers: { 'Content-Type': 'application/json' },
+        timeout: 20000
+      }
+    )
 
-const res = await axios.post(`${baseURL}/generate`, {
-  prompt: question.value,
-  language: language
-})
-  
-    response.value = res.data.response
-  } catch (err) {
-    console.error(err)
+    if (res?.data?.response) {
+      response.value = res.data.response
+    } else {
+      throw new Error('Réponse vide du serveur')
+    }
+  } catch (e) {
+    console.error('[RubieChat] erreur:', e?.message || e)
     error.value = true
     response.value = t('chatbot.error')
+    // Si échec, on oublie le serveur choisi pour retenter un autre la prochaine fois
+    localStorage.removeItem('rubie_server')
+    chosenServer.value = ''
   } finally {
     loading.value = false
   }
 }
 </script>
-
-<style scoped>
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.4s ease;
-}
-.slide-enter-from,
-.slide-leave-to {
-  transform: translateY(30px);
-  opacity: 0;
-}
-</style>
