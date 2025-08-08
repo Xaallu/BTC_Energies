@@ -158,9 +158,9 @@
                     class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
                     direction@btc-energies.fr
                   </a>
-                  <span class="italic text-[#8BC367]">
+                  <a href="tel:+33629560756" class="italic text-[#8BC367] transform transition-transform duration-200 hover:scale-105">
                     +33 6 29 56 07 56
-                  </span>
+                  </a>
                 </div>
 
               </form>

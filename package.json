@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/head": "^2.0.0",
     "axios": "^1.10.0",
     "gsap": "^3.12.7",
     "sass": "^1.86.0",
