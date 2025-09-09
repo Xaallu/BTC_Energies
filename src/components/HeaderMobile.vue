@@ -1,12 +1,12 @@
 <template>
-  <div class="flex items-center justify-between bg-[#061832] text-white p-4 lg:hidden fixed top-0 left-0 right-0 z-50">
+  <div class="flex items-center justify-between bg-[#061832] text-white p-0.1 lg:hidden fixed top-0 left-0 right-0 z-50">
     <!-- Logo -->
     <div class="flex items-center">
-      <img src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-24 w-auto" />
+      <img src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-14 w-auto" />
  </div>
 
   <div class="flex justify-center bg-[#06162b]">
-  <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto my-4" />
+  <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-14 w-auto my-4" />
 </div>
 
 
