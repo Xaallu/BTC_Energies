@@ -112,9 +112,11 @@
                 </div>
 
                 <!-- Bulle d'info -->
-                <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
-                            bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-                            z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+                <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
                   <div class="space-y-4">
                     <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Thibault_Nom") }}</h3>
 
@@ -184,9 +186,12 @@
                   </div>
 
                   <!-- Bulle d'info -->
-                  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
-                              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-                              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+                  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
+
                     <div class="space-y-4">
                       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_JMarc_Nom") }}</h3>
 
@@ -250,9 +255,11 @@
           </div>
 
           <!-- Bulle d'info -->
-          <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
-                      bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-                      z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+          <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
             <div class="space-y-4">
               <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Alain_Nom") }}</h3>
@@ -326,9 +333,11 @@
    
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+<div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Camille_Nom") }}</h3>
 
@@ -404,9 +413,11 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Remi_Nom") }}</h3>
 
@@ -481,9 +492,11 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Adell_Nom") }}</h3>
@@ -558,9 +571,11 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[53.5%] transform -translate-x-1/3 top-0 
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Olivier_Nom") }}</h3>
 
@@ -633,9 +648,11 @@
   </div>
 
   <!-- Bulle d'info -->
-  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+ <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Philippe_Nom") }}</h3>
@@ -726,9 +743,11 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh]
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
   
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Anais_Nom') }}</h3>
@@ -808,9 +827,11 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[72%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+ <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Cedric_Nom') }}</h3>
 
@@ -897,9 +918,11 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0 
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Xavier_Nom') }}</h3>
 
@@ -984,9 +1007,11 @@
   </div>
 
   <!-- Bulle d'info (Popover) -->
-  <div class="bulle-info absolute left-[40%] md:left-[71%] transform -translate-x-1/3 top-0
-              bg-white text-gray-700 p-6 rounded-lg shadow-2xl w-[75%] max-h-[90vh] 
-              z-[10] items-start overflow-auto bulle-scroll overflow-y-scroll h-96">
+  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
+                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
+                    w-[80%] sm:w-[70%] md:w-[75%]
+                    h-[80vh] sm:h-[70vh] md:h-96
+                    max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
       <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Rubie_Nom') }}</h3>
 
