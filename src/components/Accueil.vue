@@ -252,7 +252,14 @@
       v-for="(logo, index) in logosOdd"
       :key="index"
       :style="getLogoStyle(index, logosOdd.length)"
-      class="absolute w-[5.7rem] h-[5.7rem] overflow-hidden shadow-md bg-white p-1 transition-transform duration-300 ease-in-out"
+      class="absolute 
+         w-[4.5rem] h-[4.5rem]     <!-- taille par défaut : mobile -->
+         sm:w-[4.5rem] sm:h-[4.2rem] <!-- petit écran (≥640px : smartphone en mode paysage) -->
+         md:w-[6.5rem] md:h-[3.5rem] <!-- tablette (≥768px) -->
+         lg:w-[7.5rem] lg:h-[4.5rem] <!-- grand écran (≥1024px) -->
+         xl:w-[8rem] xl:h-[6rem]     <!-- très grand écran -->
+         overflow-hidden shadow-md bg-white p-1
+         transition-transform duration-300 ease-in-out"
       :class="{ 'scale-150 z-10': hoveredLogo === index }"
       @mouseenter="hoveredLogo = index"
       @mouseleave="hoveredLogo = null"
@@ -598,21 +605,38 @@ export default {
     };
   },
 
-  methods: {
-    getLogoStyle(index, total) {
-      const angle = (index / total) * 2 * Math.PI - Math.PI / 2;
-      const radius = 330;
-      const centerX = 220;
-      const centerY = 220;
-      const x = centerX + radius * Math.cos(angle) - 20;
-      const y = centerY + radius * Math.sin(angle) - 20;
-      return {
-        position: 'absolute',
-        left: `${x}px`,
-        top: `${y}px`
-      };
+methods: {
+  getLogoStyle(index, total) {
+    let radius, centerX, centerY;
+
+    if (window.innerWidth < 640) {
+      // 📱 Mobile
+      radius = 150;
+      centerX = 170;
+      centerY = 170;
+    } else if (window.innerWidth < 1024) {
+      // 💻 Tablette
+      radius = 220;
+      centerX = 220;
+      centerY = 220;
+    } else {
+      // 🖥️ Desktop (tes valeurs actuelles)
+      radius = 330;
+      centerX = 220;
+      centerY = 220;
     }
-  },
+
+    const angle = (index / total) * 2 * Math.PI - Math.PI / 2;
+    const x = centerX + radius * Math.cos(angle) - 20;
+    const y = centerY + radius * Math.sin(angle) - 20;
+
+    return {
+      position: "absolute",
+      left: `${x}px`,
+      top: `${y}px`
+    };
+  }
+},
 
   setup() {
     onMounted(() => {
