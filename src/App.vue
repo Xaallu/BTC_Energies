@@ -11,6 +11,9 @@
       </div>
     </div>
 
+ 
+    
+
     <!-- Rubie Chatbot flottant -->
     <RubieChat />
   </div>

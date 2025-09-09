@@ -100,7 +100,7 @@
   <!-- ░░░ Sidebar Mobile ░░░ -->
   <div
     class="fixed top-0 left-0 h-full w-72 bg-white text-gray-700 z-50
-           flex flex-col shadow-lg transition-transform duration-300 ease-in-out lg:hidden"
+           flex flex-col shadow-lg transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto"
     :class="props.isSidebarOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- Bouton fermeture -->
