@@ -45,6 +45,62 @@
     "s6_p1_Nous pouvons organiser": "Wir organisieren umfassende Sanierungen kontaminierter Flächen (ehemalige Deponien, Böden mit Schwermetallen) an."
   },
 
+  "Nos_engagements": {
+  "title": "Unsere Verpflichtungen für eine positive Wirkung",
+
+  "Pas_de_Pauvrete_title": "Keine Armut",
+  "Pas_de_Pauvrete_texte": "Wir planen, lokale Arbeitskräfte einzustellen – unabhängig vom Standort des Projekts, auch in Regionen mit geringer wirtschaftlicher Entwicklung. Wir investieren in lokale Unternehmen, unterstützen Start-ups und legen den Grundstein für einen wirksamen Kampf gegen die Armut.",
+
+  "Faim_title": "Kein Hunger",
+  "Faim_texte": "Wir ermöglichen die Entwicklung einer nachhaltigen Landwirtschaft, ohne die Böden zu übernutzen, und erlauben es lokalen Landwirten, einen Teil unserer Ressourcen zu nutzen, ohne enorme Transportkosten tragen zu müssen. Außerdem bieten wir ihnen ein zusätzliches Einkommen sowie Gärreste, die den Standards des ökologischen Landbaus entsprechen, um ihre Erträge zu maximieren. So können Landwirte vor Ort Nahrungsmittel anbauen.",
+
+  "BonneSante_title": "Gesundheit und Wohlergehen",
+  "BonneSante_texte": "Durch unsere Aktivitäten in der Abfallverwertung und die Produktion von Heilpflanzen fördern wir die Entwicklung und Synthese von Behandlungen gegen Süchte, von bestimmten Krankheiten verursachte Sterblichkeit sowie psychische und geistige Störungen. Außerdem verringern wir drastisch die Krankheiten, die durch Schadstoffe, Chemikalien und Abfallansammlungen verursacht werden.",
+
+  "education_title": "Zugang zu hochwertiger Bildung",
+  "edcucation_texte": "Wir könnten eine Vielzahl von Kompetenzen benötigen und werden Personal mit allen Arten von Qualifikationen einstellen. Unser Ziel ist es, intern nahezu das gesamte Bildungsspektrum abzudecken. Wir werden auch die Ausbildung und Studien vielversprechender junger Menschen finanzieren und fördern. Darüber hinaus investieren wir in Aufklärungskampagnen für die lokale Bevölkerung (insbesondere in Bezug auf Mülltrennung und -entsorgung).",
+
+  "egalite_title": "Geschlechtergleichheit",
+  "egalite_texte": "Unser Ziel ist es, eine vollständige Geschlechterparität zu erreichen. Die Gehälter werden auf Grundlage von Kompetenzen, Ergebnissen und erbrachter Arbeit vergeben. Es gibt keinerlei Lohndiskriminierung aufgrund des Geschlechts, und das Unternehmen gewährleistet gleiche Karriere- und Aufstiegschancen für alle. Außerdem achten wir bei unseren Standorten und Partnern darauf, keine Strukturen oder Staaten zu unterstützen, die diesem Prinzip zuwiderlaufen.",
+
+  "eauSalubre_title": "Zugang zu sauberem Wasser und Sanitärversorgung",
+  "eauSalubre_texte": "Wir bieten Lösungen an, um Wasser zu reinigen und es trinkbar oder für die Landwirtschaft nutzbar zu machen. Dadurch ermöglichen wir die Wiederverwendung dieser lebenswichtigen Ressource. Mit anderen Worten: Wir behandeln, verwerten und reinigen Abwässer und kontaminiertes Wasser. Indem wir die Einleitung von verschmutztem Wasser in die Natur verhindern, schützen wir Flüsse und ihre Ökosysteme und erleichtern so allen den Zugang zu sauberem Trinkwasser.",
+
+  "energieFiable_title": "Bezahlbare, zuverlässige, nachhaltige und moderne Energie",
+  "energieFiable_texte": "Unsere Energie ist zu 100 % erneuerbar, und wir nutzen sogar Wärme, um Strom zu erzeugen oder Gebäude zu beheizen. Dank unseres internationalen Expansionswillens und der Eigenschaften unseres Modells haben wir die Möglichkeit, erneuerbare Energien und Wärmenetze weltweit zu entwickeln.",
+
+  "emploi_title": "Zugang zu menschenwürdiger Arbeit",
+  "emploi_texte": "Aufgrund des innovativen Charakters des Projekts, seiner Fähigkeit, verschmutzte Gebiete für touristische Zwecke wieder nutzbar zu machen, und der Tatsache, dass unser Team hauptsächlich aus jungen Menschen besteht, sehen wir dies als ein zusätzliches Argument für die Schaffung nachhaltiger Arbeitsplätze.",
+
+  "industrie_title": "Industrie, Innovation und Infrastruktur",
+  "industrie_texte": "Die Kreislaufwirtschaft und die Autonomie in Bezug auf Energie und Ressourcen bilden die Grundlage unseres Modells. Mit dieser Energieautonomie entsteht zwangsläufig die Möglichkeit, ein ganzes wirtschaftliches und industrielles Ökosystem rund um erneuerbare Energien zu entwickeln.",
+
+  "reduction_title": "Ungleichheiten verringern",
+  "reduction_texte": "Unser Team besteht aus ebenso vielen Frauen wie Männern in Schlüsselpositionen und setzt sich aus Personen verschiedener Nationalitäten zusammen. Als zukünftiges multinationales Unternehmen liegt es uns am Herzen, Talente überall auf der Welt zu fördern. Alle unsere Mitarbeiterinnen und Mitarbeiter werden die gleichen Chancen haben und entsprechend ihrer Leistungen Zugang zu Schlüsselpositionen erhalten. Der CEO des Unternehmens ist selbst Inhaber einer RQTH und als behinderter Arbeitnehmer anerkannt.",
+
+  "villes_title": "Nachhaltige Städte und Gemeinden",
+  "villes_texte": "Eine saubere Stadt mit grüner Energieversorgung ist eine nachhaltige Stadt. Wir setzen uns dafür ein, die Energieautonomie dieser Gemeinschaften zu sichern und gleichzeitig grüne und kohlenstoffarme Mobilität zu fördern. Durch die Organisation erneuerbarer Wärme- und Kältenetze tragen wir auch dazu bei, Kosten zu senken und den Gas- und Stromverbrauch zu reduzieren.",
+
+  "consommation_title": "Verantwortungsvoller Konsum und Produktion",
+  "consommation_texte": "Dies ist das Herzstück unseres Modells: Wir verwerten fast alle schwer nutzbaren Materialien und Abfälle und verwandeln sie in Ressourcen. Wir werden auch Staaten bei ihrem Übergang zu einer Kreislaufwirtschaft und bei der verantwortungsvollen Abfallbewirtschaftung unterstützen. Außerdem bieten wir Unternehmen einen Abfallrücknahmeservice an, um das Abladen in die Natur zu verhindern.",
+
+  "lutteChangement_title": "Maßnahmen zum Klimaschutz",
+  "lutteChangement_texte": "Wir reduzieren die Treibhausgasemissionen, die bei der Zersetzung bestimmter Materialien entstehen, stoßen selbst keine Treibhausgase aus und tragen dazu bei, den Verbrauch fossiler Energien wie Kohle, die stark umweltschädlich sind, zu verringern oder sogar vollständig zu beseitigen. Durch die Nähe und Vernetzung unserer Anlagen mit Abfallkonzentrationsgebieten reduzieren wir zudem den Transportbedarf, indem wir vor Ort verwerten und produzieren.",
+
+  "conserver_title": "Ozeane, Meere und Meeresressourcen erhalten und nachhaltig nutzen",
+  "conserver_texte": "Wir reduzieren die Treibhausgasemissionen, die bei der Zersetzung bestimmter Materialien entstehen, stoßen selbst keine Treibhausgase aus und tragen dazu bei, den Verbrauch fossiler Energien wie Kohle, die stark umweltschädlich sind, zu verringern oder sogar vollständig zu beseitigen. Durch die Nähe und Vernetzung unserer Anlagen mit Abfallkonzentrationsgebieten reduzieren wir zudem den Transportbedarf, indem wir vor Ort verwerten und produzieren.",
+
+  "vieTerrestre_title": "Leben an Land",
+  "vieTerrestre_texte": "Unser Modell ermöglicht den Erhalt und die Wiederherstellung des Lebens im Boden. Indem wir die Verarmung des Bodens verhindern und ihn anreichern, reduzieren wir drastisch den Bedarf an chemischen Düngemitteln und die Erschöpfung der Böden. Durch die Förderung nachhaltiger Landwirtschaft und erneuerbarer Ressourcen schützen wir außerdem die biologische Vielfalt und stellen eine verantwortungsvolle Ressourcennutzung sicher.",
+
+  "justicePaix_title": "Frieden und Gerechtigkeit",
+  "justicePaix_texte": "Indem wir Hungersnöte verhindern, allen den Zugang zu Wasser sichern und die wirtschaftlichen Ungleichheiten innerhalb der lokalen Bevölkerung verringern, tragen wir dazu bei, Spannungen und Kriegsrisiken zu mindern.",
+
+  "Partenariats_title": "Partnerschaften zur Erreichung der Ziele",
+  "Partenariats_texte": "Unser Ansatz basiert auf Partnerschaften und erfordert das gemeinsame Handeln mehrerer privater Partner und öffentlicher Institutionen. Wir haben unser Modell klar und kostenlos kommuniziert, beschrieben und erklärt und den Gemeinden auch kostenlose Beratungsleistungen angeboten. Darüber hinaus planen wir internationale Investitionen, auch in Entwicklungsländern."
+},
+
+
 "team": {
   "title": "Unser Team",
   "titles": {

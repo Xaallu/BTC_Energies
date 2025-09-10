@@ -10,7 +10,7 @@
     "equipe": "Il nostro team",
     "contact": "Contatto",
     "etDemain": "E domani?",
-    "mentions": "Avviso legale"
+    "mentions": "Informazioni legali"
   },
 
   "__comment_page_index": "Traduzioni per la pagina iniziale (Accueil.vue)",
@@ -18,7 +18,7 @@
   "texte_bandeau_bleu": "Sviluppo, gestione e sfruttamento di progetti industriali",
   "nootre_constat": "La nostra diagnosi",
   "notre_equipe": "Il nostro team",
-  "legal_title": "Avviso legale",
+  "legal_title": "Informazioni legali",
   "legal_line1": "BTC Énergies (SAS) con capitale di 120 €, registrata presso il RCS di Tolosa - FRANCIA",
   "legal_line2": "Numero SIRET: 928 497 585 00010",
 
@@ -44,6 +44,61 @@
     "s6_title_Opérations de Dépollution": "Operazioni di bonifica",
     "s6_p1_Nous pouvons organiser": "Possiamo organizzare operazioni di riabilitazione su larga scala di terreni contaminati (vecchie discariche, suoli con metalli pesanti)."
   },
+
+  "Nos_engagements": {
+  "title": "I nostri impegni per un impatto positivo",
+
+  "Pas_de_Pauvrete_title": "Sconfiggere la povertà",
+  "Pas_de_Pauvrete_texte": "Prevediamo di assumere manodopera locale indipendentemente dall’area di implementazione, anche nelle regioni a basso sviluppo economico. Investiamo nelle imprese locali, sosteniamo le start-up e poniamo la prima pietra per una lotta efficace contro la povertà.",
+
+  "Faim_title": "Fame zero",
+  "Faim_texte": "Favoriamo lo sviluppo di un’agricoltura sostenibile senza sovrasfruttare i terreni, consentendo agli agricoltori locali di utilizzare parte delle nostre risorse senza dover sostenere enormi costi di trasporto. Offriamo loro anche un reddito aggiuntivo e digestato conforme agli standard dell’agricoltura biologica per massimizzare le rese. In questo modo, gli agricoltori possono produrre colture alimentari a livello locale.",
+
+  "BonneSante_title": "Salute e benessere",
+  "BonneSante_texte": "Attraverso le nostre attività di valorizzazione dei rifiuti e produzione di piante a scopo terapeutico, promuoviamo lo sviluppo e la sintesi di trattamenti contro le dipendenze, la mortalità causata da alcune patologie e i disturbi mentali e psicologici. Riduciamo inoltre drasticamente le malattie causate da inquinanti, sostanze chimiche e accumulo di rifiuti.",
+
+  "education_title": "Accesso a un’istruzione di qualità",
+  "edcucation_texte": "Potremmo aver bisogno di un’ampia varietà di competenze e assumeremo personale con tutti i tipi di qualifiche. Il nostro obiettivo è disporre internamente di quasi l’intero spettro educativo. Formeremo e finanzieremo anche gli studi di giovani promettenti. Inoltre, investiremo in campagne educative per le popolazioni locali (in particolare sulla raccolta differenziata e lo smaltimento dei rifiuti).",
+
+  "egalite_title": "Uguaglianza di genere",
+  "egalite_texte": "Il nostro obiettivo è raggiungere la piena parità di genere. Gli stipendi saranno attribuiti in base alle competenze, ai risultati e al lavoro svolto. Non ci sarà alcuna discriminazione salariale basata sul sesso e l’azienda garantirà a tutti le stesse opportunità di carriera e avanzamento. Saremo inoltre molto attenti ai nostri luoghi di insediamento e ai nostri partner, evitando di sostenere strutture o stati che non rispettano questo principio.",
+
+  "eauSalubre_title": "Accesso ad acqua pulita e ai servizi igienico-sanitari",
+  "eauSalubre_texte": "Offriamo soluzioni per purificare l’acqua, rendendola potabile o utilizzabile in agricoltura. In questo modo consentiamo il riutilizzo di questa risorsa vitale. In altre parole, trattiamo, valorizziamo e purifichiamo le acque reflue e contaminate. Evitando lo scarico di acqua inquinata in natura, preserviamo i fiumi e i loro ecosistemi. Ciò facilita anche l’accesso universale all’acqua potabile.",
+
+  "energieFiable_title": "Energia affidabile, sostenibile e moderna a costi accessibili",
+  "energieFiable_texte": "La nostra energia è 100% rinnovabile, e recuperiamo persino il calore per riscaldare o rigenerare elettricità. Grazie alla nostra volontà di espansione internazionale e alle caratteristiche del nostro modello, abbiamo la possibilità di sviluppare energie rinnovabili e reti di calore ovunque nel mondo.",
+
+  "emploi_title": "Accesso a un lavoro dignitoso",
+  "emploi_texte": "Grazie al carattere innovativo del progetto, alla sua capacità di riabilitare aree inquinate sfruttabili a fini turistici e al fatto che il nostro team sia composto principalmente da giovani, consideriamo questo un ulteriore argomento a favore della creazione di posti di lavoro sostenibili.",
+
+  "industrie_title": "Industria, innovazione e infrastrutture",
+  "industrie_texte": "L’economia circolare e l’autonomia in termini di energia e risorse sono la base del nostro modello. Con questa indipendenza energetica, arriva inevitabilmente la possibilità di sviluppare un intero ecosistema economico e industriale basato sulle energie rinnovabili.",
+
+  "reduction_title": "Riduzione delle disuguaglianze",
+  "reduction_texte": "Il nostro team comprende tante donne quanti uomini in posizioni chiave ed è composto anche da individui di diverse nazionalità. Come futura multinazionale, siamo determinati a valorizzare i talenti ovunque essi si trovino. Tutti i nostri dipendenti godranno delle stesse opportunità e accederanno a posizioni chiave in base al merito. L’amministratore delegato dell’azienda è lui stesso titolare di una RQTH ed è quindi riconosciuto come lavoratore disabile.",
+
+  "villes_title": "Città e comunità sostenibili",
+  "villes_texte": "Una città pulita e alimentata da energia verde è una città sostenibile. Ci impegniamo a garantire l’autonomia energetica di queste comunità promuovendo al contempo la mobilità verde e a basse emissioni di carbonio. Attraverso l’organizzazione di reti di riscaldamento e raffreddamento rinnovabili, contribuiamo anche a ridurre i costi e i consumi di gas ed elettricità.",
+
+  "consommation_title": "Consumo e produzione responsabili",
+  "consommation_texte": "Questo è il cuore del nostro modello: recuperiamo quasi tutti i materiali difficili da sfruttare e quasi tutti i rifiuti e li trasformiamo in risorse. Sosterremo inoltre gli stati nella loro transizione verso un’economia circolare e nella gestione responsabile dei rifiuti. Offriamo anche alle imprese un servizio di recupero dei rifiuti per evitare lo scarico in natura.",
+
+  "lutteChangement_title": "Lotta contro i cambiamenti climatici",
+  "lutteChangement_texte": "Riduciamo le emissioni di gas serra derivanti dalla decomposizione di alcune materie, non emettiamo gas serra e contribuiamo a ridurre o addirittura eliminare il consumo di energie fossili altamente inquinanti come il carbone. Grazie alla vicinanza e all’interconnessione dei nostri impianti con le aree di concentrazione dei rifiuti, riduciamo anche le esigenze di trasporto valorizzando e producendo in loco.",
+
+  "conserver_title": "Conservare e utilizzare in modo sostenibile gli oceani e le risorse marine",
+  "conserver_texte": "Riduciamo le emissioni di gas serra derivanti dalla decomposizione di alcune materie, non emettiamo gas serra e contribuiamo a ridurre o addirittura eliminare il consumo di energie fossili altamente inquinanti come il carbone. Grazie alla vicinanza e all’interconnessione dei nostri impianti con le aree di concentrazione dei rifiuti, riduciamo anche le esigenze di trasporto valorizzando e producendo in loco.",
+
+  "vieTerrestre_title": "Vita sulla Terra",
+  "vieTerrestre_texte": "Il nostro modello consente la conservazione e il ripristino della vita nel suolo. Evitando l’impoverimento del suolo e arricchendolo, riduciamo drasticamente il bisogno di fertilizzanti chimici e l’esaurimento del terreno. Promuovendo l’agricoltura sostenibile e l’uso di risorse rinnovabili, proteggiamo anche la biodiversità e assicuriamo un uso ragionevole delle risorse.",
+
+  "justicePaix_title": "Pace e giustizia",
+  "justicePaix_texte": "Evitando carestie, garantendo a tutti l’accesso all’acqua e riducendo le disuguaglianze economiche all’interno delle popolazioni locali, contribuiamo a limitare le tensioni e i rischi di guerra.",
+
+  "Partenariats_title": "Partnership per gli obiettivi",
+  "Partenariats_texte": "Il nostro approccio si basa sulla collaborazione e richiede l’azione congiunta di diversi partner privati e istituzioni pubbliche. Abbiamo comunicato, informato e descritto il nostro modello in modo chiaro e gratuito, e abbiamo anche fornito un servizio di consulenza gratuito alle comunità. Prevediamo inoltre investimenti internazionali, anche nei paesi in via di sviluppo."
+},
 
 
   "team": {

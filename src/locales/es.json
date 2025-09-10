@@ -45,6 +45,62 @@
     "s6_p1_Nous pouvons organiser": "Podemos organizar operaciones de rehabilitación masiva de terrenos contaminados (antiguos vertederos, suelos con metales pesados)."
   },
 
+  "Nos_engagements": {
+  "title": "Nuestros compromisos para un impacto positivo",
+
+  "Pas_de_Pauvrete_title": "Fin de la pobreza",
+  "Pas_de_Pauvrete_texte": "Planeamos contratar mano de obra local independientemente de la zona de implementación, incluso en regiones con bajo desarrollo económico. Invertimos en empresas locales, apoyamos a las start-ups y ponemos la primera piedra para una lucha eficaz contra la pobreza.",
+
+  "Faim_title": "Hambre cero",
+  "Faim_texte": "Facilitamos el desarrollo de una agricultura sostenible sin sobreexplotar los suelos, permitiendo a los agricultores locales utilizar parte de nuestros recursos sin incurrir en enormes costes de transporte. También les ofrecemos ingresos adicionales y digestato que cumple con los criterios de la agricultura ecológica para maximizar sus rendimientos. De este modo, los agricultores pueden producir cultivos alimentarios localmente.",
+
+  "BonneSante_title": "Salud y bienestar",
+  "BonneSante_texte": "A través de nuestras actividades de valorización de residuos y producción de plantas con fines terapéuticos, fomentamos el desarrollo y la síntesis de tratamientos contra las adicciones, la mortalidad causada por ciertas patologías y los trastornos mentales y psicológicos. También reducimos drásticamente las enfermedades causadas por contaminantes, productos químicos y acumulación de residuos.",
+
+  "education_title": "Acceso a una educación de calidad",
+  "edcucation_texte": "Podemos necesitar una amplia variedad de competencias y contrataremos personal con todo tipo de cualificaciones. Nuestro objetivo es contar internamente con casi todo el espectro educativo. También formaremos y financiaremos los estudios de jóvenes prometedores. Además, invertiremos en campañas educativas para las poblaciones locales (especialmente sobre el reciclaje y la eliminación de residuos).",
+
+  "egalite_title": "Igualdad de género",
+  "egalite_texte": "Nuestro objetivo es alcanzar la paridad total entre sexos. Los salarios se asignarán en función de las competencias, los resultados y el trabajo realizado. No habrá discriminación salarial por razón de sexo y la empresa garantizará las mismas oportunidades de carrera y ascenso para todos. También seremos muy vigilantes con respecto a los lugares de implantación y los socios, y evitaremos apoyar a estructuras o estados que no respeten este principio.",
+
+  "eauSalubre_title": "Acceso a agua limpia y saneamiento",
+  "eauSalubre_texte": "Ofrecemos soluciones para purificar el agua, haciéndola potable o utilizable en la agricultura. Así, permitimos la reutilización de este recurso vital. En otras palabras, tratamos, valorizamos y purificamos las aguas residuales y contaminadas. Al evitar el vertido de aguas sucias y contaminadas en la naturaleza, preservamos los ríos y sus ecosistemas. De este modo, también facilitamos el acceso al agua potable para todos.",
+
+  "energieFiable_title": "Energía asequible, fiable, sostenible y moderna",
+  "energieFiable_texte": "Nuestra energía es 100% renovable, incluso aprovechamos el calor para calefacción o para generar electricidad. Gracias a nuestra voluntad de expansión internacional y a las características de nuestro modelo, tenemos la capacidad de desarrollar el uso de energías renovables y redes de calor en todo el mundo.",
+
+  "emploi_title": "Acceso a empleos decentes",
+  "emploi_texte": "Dado el carácter innovador del proyecto, su capacidad para rehabilitar zonas contaminadas que pueden aprovecharse para actividades turísticas, y el hecho de que nuestro equipo esté compuesto principalmente por jóvenes, lo consideramos un argumento adicional a favor de la creación de empleos sostenibles.",
+
+  "industrie_title": "Industria, innovación e infraestructura",
+  "industrie_texte": "La economía circular y la autonomía en términos de energía y recursos son la base de nuestro modelo. Con esta independencia energética surge inevitablemente la posibilidad de desarrollar todo un ecosistema económico e industrial basado en energías renovables.",
+
+  "reduction_title": "Reducción de las desigualdades",
+  "reduction_texte": "Nuestro equipo cuenta con tantas mujeres como hombres en puestos clave y está compuesto por personas de varias nacionalidades. Como futura multinacional, tenemos el firme compromiso de atraer talento en cualquier lugar del mundo. Todos nuestros empleados disfrutarán de las mismas oportunidades y accederán a puestos clave en función de sus méritos. El propio director general de la empresa posee un RQTH y está reconocido como trabajador discapacitado.",
+
+  "villes_title": "Ciudades y comunidades sostenibles",
+  "villes_texte": "Una ciudad limpia y con electricidad verde es una ciudad sostenible. Nos comprometemos a garantizar la autonomía energética de estas comunidades al tiempo que promovemos la movilidad verde y baja en carbono. Mediante la organización de redes de calefacción y refrigeración renovables, también contribuimos a reducir gastos y el consumo de gas y electricidad.",
+
+  "consommation_title": "Consumo y producción responsables",
+  "consommation_texte": "Este es el núcleo de nuestro modelo: recuperamos casi todos los materiales y residuos difíciles de aprovechar y los transformamos en recursos. También apoyaremos y acompañaremos a los estados en su transición hacia una economía circular y en la gestión responsable de sus residuos. Asimismo, ofrecemos a las empresas un servicio de recogida de residuos para evitar su vertido en la naturaleza.",
+
+  "lutteChangement_title": "Acción por el clima",
+  "lutteChangement_texte": "Reducimos las emisiones de gases de efecto invernadero procedentes de la descomposición de ciertos materiales, no emitimos GEI y contribuimos a reducir e incluso eliminar el consumo de energías fósiles altamente contaminantes como el carbón. Gracias a la proximidad e interconexión de nuestras instalaciones con las zonas de concentración de residuos, también reducimos las necesidades de transporte al valorizar y producir localmente.",
+
+  "conserver_title": "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos",
+  "conserver_texte": "Reducimos las emisiones de gases de efecto invernadero procedentes de la descomposición de ciertos materiales, no emitimos GEI y contribuimos a reducir e incluso eliminar el consumo de energías fósiles altamente contaminantes como el carbón. Gracias a la proximidad e interconexión de nuestras instalaciones con las zonas de concentración de residuos, también reducimos las necesidades de transporte al valorizar y producir localmente.",
+
+  "vieTerrestre_title": "Vida de ecosistemas terrestres",
+  "vieTerrestre_texte": "Nuestro modelo permite la conservación y restauración de la vida en el suelo. Al evitar su empobrecimiento y enriquecerlo, reducimos drásticamente la necesidad de fertilizantes químicos y el agotamiento del suelo. Al promover la agricultura sostenible y el uso de recursos renovables, también protegemos la biodiversidad y garantizamos una explotación razonada de los recursos.",
+
+  "justicePaix_title": "Paz y justicia",
+  "justicePaix_texte": "Al evitar las hambrunas, garantizar el acceso al agua para todos y reducir las desigualdades económicas dentro de las poblaciones locales, ayudamos a limitar las tensiones y los riesgos de guerra.",
+
+  "Partenariats_title": "Alianzas para lograr los objetivos",
+  "Partenariats_texte": "Nuestro enfoque se basa en la asociación y requiere la acción conjunta de varios socios privados e instituciones públicas. Hemos comunicado, informado y descrito nuestro modelo con claridad y de forma gratuita, y también hemos prestado servicios de asesoría gratuitos a las comunidades. También prevemos inversiones internacionales, incluso en países en desarrollo."
+},
+
+
 "team": {
   "title": "Nuestro equipo",
   "titles": {
