@@ -47,6 +47,62 @@
     "s6_p1_Nous pouvons organiser": "We can organize large-scale remediation of polluted sites (former dumps, soils contaminated with heavy metals)."
   },
 
+    "Nos_engagements": {
+  "title": "Our commitments for a positive impact",
+
+  "Pas_de_Pauvrete_title": "No Poverty",
+  "Pas_de_Pauvrete_texte": "We plan to hire local labor regardless of the area of implementation, including in regions with low economic development. We invest in local businesses, support start-ups, and lay the foundation for an effective fight against poverty.",
+
+  "Faim_title": "Zero Hunger",
+  "Faim_texte": "We enable the development of sustainable agriculture without overexploiting the soil, allowing local farmers to use part of our resources without incurring massive transportation costs. We also provide them with additional income and digestate that meets organic farming standards to maximize their yields. This way, farmers can produce food crops locally.",
+
+  "BonneSante_title": "Good Health and Well-being",
+  "BonneSante_texte": "Through our activities in waste recovery and the production of therapeutic plants, we foster the development and synthesis of treatments against addictions, mortality caused by certain pathologies, and mental and psychological disorders. We also drastically reduce illnesses caused by pollutants, chemicals, and waste accumulation.",
+
+  "education_title": "Access to Quality Education",
+  "edcucation_texte": "We may require a wide range of skills and will hire personnel with all types of qualifications. Our goal is to have almost the entire educational spectrum represented internally. We will also train and finance the studies of promising young individuals. Additionally, we will invest in educational campaigns for local populations (notably in waste sorting and disposal).",
+
+  "egalite_title": "Gender Equality",
+  "egalite_texte": "We aim to achieve perfect gender parity. Salaries will be based on skills, performance, and work delivered. No wage discrimination will occur based on gender, and the company ensures equal career and advancement opportunities for all. We will also be vigilant in choosing our locations and partners, ensuring we do not support structures or states that go against this principle.",
+
+  "eauSalubre_title": "Access to Clean Water and Sanitation",
+  "eauSalubre_texte": "We provide solutions to purify water, making it drinkable or usable for agriculture. In doing so, we enable the re-use of this vital resource. In other words, we treat, recover, and purify wastewater and contaminated water. By preventing the release of polluted water into nature, we preserve rivers and their ecosystems. This also facilitates access to clean drinking water for all.",
+
+  "energieFiable_title": "Affordable, Reliable, Sustainable, and Modern Energy",
+  "energieFiable_texte": "Our energy is 100% renewable, and we even recover heat to generate electricity or provide heating. Through our ambition for international expansion and the features of our model, we can develop renewable energy and heat networks worldwide.",
+
+  "emploi_title": "Access to Decent Work",
+  "emploi_texte": "Given the innovative nature of our project, its ability to rehabilitate polluted areas for tourism, and the fact that our team is mainly composed of young people, we see this as a strong additional argument for generating sustainable jobs.",
+
+  "industrie_title": "Industry, Innovation, and Infrastructure",
+  "industrie_texte": "The circular economy and autonomy in energy and resources form the very foundation of our model. With this energy independence comes the inevitable opportunity to develop an entire economic and industrial ecosystem based on renewable energies.",
+
+  "reduction_title": "Reducing Inequalities",
+  "reduction_texte": "Our team includes as many women as men in key positions and is composed of individuals from various nationalities. As a future multinational, we are committed to recruiting talent wherever it is found. All employees will benefit from the same opportunities and access to key positions based on merit. The company’s CEO himself holds an RQTH and is officially recognized as a disabled worker.",
+
+  "villes_title": "Sustainable Cities and Communities",
+  "villes_texte": "A clean city powered by green electricity is a sustainable city. We are committed to ensuring the energy independence of these communities while promoting green and low-carbon mobility. By organizing renewable heat and cooling networks, we also contribute to reducing costs and lowering gas and electricity consumption.",
+
+  "consommation_title": "Responsible Consumption and Production",
+  "consommation_texte": "This is the core of our model: we recover almost all hard-to-reuse materials and waste and transform them into resources. We also support and assist states in transitioning toward a circular economy and in organizing responsible waste management. Companies are also offered a waste recovery service to prevent dumping into nature.",
+
+  "lutteChangement_title": "Climate Action",
+  "lutteChangement_texte": "We reduce greenhouse gas emissions from the decomposition of certain materials, emit no GHGs ourselves, and help reduce or even eliminate the consumption of fossil energy sources such as coal, which are highly polluting. Thanks to the proximity and interconnection of our facilities with waste concentration areas, we also reduce transportation needs by recovering and producing locally.",
+
+  "conserver_title": "Conserve and Sustainably Use the Oceans, Seas, and Marine Resources",
+  "conserver_texte": "We reduce greenhouse gas emissions from the decomposition of certain materials, emit no GHGs ourselves, and help reduce or even eliminate the consumption of fossil energy sources such as coal, which are highly polluting. Thanks to the proximity and interconnection of our facilities with waste concentration areas, we also reduce transportation needs by recovering and producing locally.",
+
+  "vieTerrestre_title": "Life on Land",
+  "vieTerrestre_texte": "Our model enables the conservation and restoration of soil life. By preventing soil depletion and enriching it, we drastically reduce the need for chemical fertilizers and soil exhaustion. By promoting sustainable agriculture and renewable resource use, we also protect biodiversity and ensure the responsible exploitation of resources.",
+
+  "justicePaix_title": "Peace and Justice",
+  "justicePaix_texte": "By preventing famines, ensuring access to water for all, and reducing economic inequalities among local populations, we help limit tensions and the risk of war.",
+
+  "Partenariats_title": "Partnerships for the Goals",
+  "Partenariats_texte": "Our approach is based on partnership and requires the joint action of several private partners and public institutions. We have communicated, informed, and described our model clearly and freely, and we have also provided free consulting services to communities. We also plan international investments, including in developing countries."
+},
+
+
 "team": {
   "title": "Our Team",
   "titles": {
@@ -276,9 +332,11 @@
     "equipe_Rubie_Bio2": "Her integration is based on three key pillars:\n\n- Well-being and mental health: Numerous studies show the beneficial effects of animal presence in reducing anxiety, improving mood, and lowering chronic stress. Her mere presence helps ease tensions and fosters a climate of calm, especially in demanding sectors like ours.\n\n- Social cohesion and attractiveness: Rubie has become a true mascot, encouraging informal exchanges and strengthening bonds among colleagues and partners. She brings a sense of gentleness to technical environments. Notably, some partners joined BTC Énergies in part because of the affection they developed for her.\n\n- Societal commitment and responsible image: This choice asserts BTC Énergies’ position as a socially innovative and life-respecting organization. It illustrates our ability to combine cutting-edge technology, environmental performance, and a deep sense of life.",
     "equipe_Rubie_Bio3": "Trained with care, dedicated, and fully integrated into our daily operations, she symbolizes our company’s vision: loyal, agile, and bold. At BTC Énergies, we believe that sustainable performance also comes from the heart  and Rubie is living proof of that.",
 
+    
     "clic2_Nous contacter": "Contact us",
     "Nos Coordonnées": "Our contact"
-  
+
+    
   
   },
 
