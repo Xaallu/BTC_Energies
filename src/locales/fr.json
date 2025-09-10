@@ -46,7 +46,64 @@
 
     "s6_title_Opérations de Dépollution": "Opérations de Dépollution",
     "s6_p1_Nous pouvons organiser": "Nous pouvons organiser des opérations de réhabilitation massive de terrains pollués (anciennes décharges, sols pollués aux métaux lourds)."
+},
+
+    "Nos_engagements": {
+    "title": "Nos engagements pour un impact positif",
+
+    "Pas_de_Pauvrete_title": "Pas de Pauvreté",
+    "Pas_de_Pauvrete_texte": "Nous prévoyons d’embaucher de la main d’œuvre locale quel que soit la zone d’implantation, y compris dans les zones à faible développement économique. Nous investissons dans les entreprises locales, encourageons les start-ups et posons la première pierre d’une lutte efficace contre la pauvreté.",
+
+    "Faim_title": "Faim zéro",
+    "Faim_texte":"Nous permettons l’avènement d’une agriculture durable sans surexploitation des sols et en permettant aux agriculteurs locaux d’exploiter une partie de nos ressources sans dépense colossale en matière de coût de transport. Nous proposons également à ces derniers un complément de revenu et du digestat conforme aux critères de l’agriculture biologique afin de maximiser leurs rendements. Nous permettons ainsi aux exploitants de produire sur place des cultures alimentaires.",
+
+    "BonneSante_title": "Bonne santé et bien-être",
+    "BonneSante_texte": "De part notre activité de valorisation de déchets et de production de plantes a visées thérapeutique, nous permettons le développement et la synthèses de traitement contre les addictions, la mortalité causée par certaines pathologies et les troubles mentaux et psychiques. Nous permettons également de réduire drastiquement les affections causées par les polluants, les produits chimiques et les amas de déchets.",
+
+    "education_title": "Accès à une éducation de qualité",
+    "edcucation_texte": "Nous sommes susceptible de faire appel à toute une variété de compétences et embaucherons un personnel disposant de tous types de qualifications. Nous souhaitons avoir, en interne, la quasi-totalité du spectre éducatif. Nous formerons et financeront également les études et la formation de jeunes prometteurs. Nous investirons également dans des campagnes d’éducation auprès des populations locales (notamment dans le cadre de l’apprentissage au tri et à la mise à la poubelle)",
+
+    "egalite_title": "Égalité entre les sexes",
+    "egalite_texte": "Nous avons pour objectif d’atteindre une parité parfaite entre les sexes. Les salaires seront attribués en fonction des compétences,du résultat et du travail fourni. Aucune discrimination salariale n’est mise en place en fonction du sexe et l’entreprise assure  tous les mêmes opportunités de carrière et d’avancement. Nous serons également très vigilant concernant nos lieux d’implantations et nos partenaires et veilleront à ne pas faciliter les structures ou les états n’allant pas dans ce sens.",
+
+    "eauSalubre_title": "Accès à l'eau salubre et à l'assainissement",
+    "eauSalubre_texte": "Nous proposons une solutions permettant de purifier l’eau, de la rendre potable ou exploitable dans l’agriculture. Ce faisant, nous permettons la ré-exploitation de cette ressource vitale. En d’autres termes, nous exploitons, valorisons et purifions les eaux usées et contaminées. En évitant le rejet en pleine nature d’eau souillé et polluée, nous préservons ainsi les courts d’eau et leurs écosystèmes. Ce faisant, nous permettons également un accès facilité à une eau potable pour tous.",
+
+    "energieFiable_title": "Énergies fiables, durables et modernes, à un coût abordable",
+    "energieFiable_texte": "Notre énergie est 100% renouvelable, nous exploitons même la chaleur pour chauffer ou recréer de l’électricité. De part notre volonté d’expansion a l’international et des caractéristiques de notre modèle, nous avons la possibilité de développer l’exploitation des énergies et des réseaux de chaleur renouvelables partout sur le globe.",
+
+    "emploi_title": "Accès à des emplois décents",
+    "emploi_texte": " De part le caractère innovant du projet, la possibilité pour ce dernier de permettre la réhabilitations de zones polluéeset pouvant être exploitée dans le cadre d’activités touristiques, le fait que notre équipe soit principalement composée de jeunes nous apparaît être un argument supplémentaire.",
+
+    "industrie_title": "Industrie, Innovation et Infrastructure",
+    "industrie_texte": "L’économie circulaire et l’autonomie en terme d’énergie et de ressources sont la base même de notre modèle.Avec cette autonomie énergétique, vient irrémédiablement la possibilité de développer tout un écosystème économique et industriel basé autour des énergies renouvelables.",
+
+    "reduction_title": "Réduction des inégalités",
+    "reduction_texte": "Notre équipe est comprend autant de femmes que d’hommes à des postes clés et est également composés d’individus de plusieurs nationalités. En tant que multinationale en devenir, nous avons à cœur de faire appels aux talents partout où ils sont. Chacun de nos employés bénéficieront des mêmes opportunités et accèderont à des postes clés en fonction de leurs mérites. Le PDG de l’entreprise est lui-même titulaire d’une RQTH et est donc reconnu travailleur handicapé.",
+
+    "villes_title": "Villes et communautés durables",
+    "villes_texte": "Une ville propre et bénéficiant d’une électivité verte c’est une ville durable. Nous avons à cœur d’assurer l’autonomieénergétique de ces ensembles tout en faisant la promotion des mobilités vertes et bas-carbone. Par l’organisation d’un réseau de chaleur et de froid issu de procédés renouvelables, nous participons également à la réduction des dépenses et à la baisse de la consommation de gaz et d’électricité.",
+
+    "consommation_title": "Consommation et production responsables",
+    "consommation_texte": "C’est le cœur de notre modèle : nous récupérons toute presque matière difficilement exploitable et presque tous déchetset nous les transformons en ressources. Nous encouragerons et accompagnement également les états dans leur politique de passag vers une économie circulaire et l’organisation responsable du traitement de leurs déchets. Nous permettons également aux entreprise un service de récupération de leurs déchets afin d’éviter leur déversement dans la nature.",
+
+    "lutteChangement_title": "Lutte contre les changements climatiques",
+    "lutteChangement_texte": "Nous réduisons les émissions de gaz à effet de serre issue de la décomposition de certaines matières, nous ne rejetons pas de GES et nous permettons la réduction voire la disparition totale de la consommation d’énergie fossile fortement émettrices de GES comme le charbon. Par la proximité et l’interconnexion de nos installations entre-elles étaient les zones de concentration de déchets, nous réduisons également les besoins de transport en valorisant et produisant sur place.",
+
+    "conserver_title": "Conserver et exploiter de manière durable les océans et les mers aux fins du développement durable",
+    "conserver_texte": "Nous réduisons les émissions de gaz à effet de serre issue de la décomposition de certaines matières, nous ne rejetons pas de GES et nous permettons la réduction voire la disparition totale de la consommation d’énergie fossile fortement émettrices de GES comme le charbon. Par la proximité et l’interconnexion de nos installations entre-elles étaient les zones de concentration de déchets, nous réduisons également les besoins de transport en valorisant et produisant sur place.",
+
+    "vieTerrestre_title": "Vie terrestre",
+    "vieTerrestre_texte": "Notre modèle permet la conservation et la restauration de la vie dans le sol. En évitant son appauvrissement et en l’enrichissant, nous limitons drastiquement les besoins en engrais chimiques et l’épuisement des sols. En facilitant l’agriculture durable et l’exploitation de ressources renouvelables, nous permettons également la protection de la biodiversité et assurons une exploitation raisonnée des ressources.",
+
+    "justicePaix_title": "Justice et paix",
+    "justicePaix_texte": "En évitant les famines, en assurant à tous un accès à l’eau et en réduisant les inégalités économiques au sein des populations locales : nous limitons les tensions et les risques de guerre.",
+
+    "Partenariats_title": "Partenariats pour la réalisation des objectifs",
+    "Partenariats_texte": "Notre démarche est basé sur le partenariat et nécessite l’action conjointe de plusieurs partenaires privés et d’institutions publiques.Nous avons communiqué, informé et décrit notre modèle avec précision et gratuitement et avons également fourni un service de conseil gratuit aux collectivités. Nous prévoyons également des investissements à l’internationale (y compris dans les pays en développement)."
   },
+  
+  
 
 "team": {
   "title": "Notre équipe",
@@ -284,6 +341,8 @@
     "equipe_Rubie_Bio1": "Dans le cadre de sa démarche RSE et de sa volonté affirmée de promouvoir un environnement de travail bienveillant et innovant, BTC Énergies a fait le choix singulier mais profondément humain d’intégrer un chien thérapeutique au sein de son équipe. Cette décision s’inscrit dans une vision holistique du bien-être au travail, où la performance et l’humain avancent main dans la patte.",
     "equipe_Rubie_Bio2": "Son intégration repose sur trois piliers clés :\n\n- Bien-être et santé mentale : De nombreuses études démontrent les effets bénéfiques de la présence animale sur la réduction de l’anxiété, l’amélioration de l’humeur et la diminution du stress chronique. Sa simple présence contribue à apaiser les tensions et à instaurer un climat de sérénité, notamment dans des secteurs aussi exigeants que le nôtre.\n\n- Cohésion sociale et attractivité : Rubie est devenue une véritable mascotte, favorisant les échanges informels et renforçant le lien entre collaborateurs et partenaires. Elle incarne une forme de douceur dans des environnements techniques. Fait remarquable : certains partenaires ont rejoint BTC Énergies en partie grâce à l’attachement développé pour elle.\n\n- Engagement sociétal et image responsable : Ce choix affirme notre engagement pour l’innovation sociale et le respect du vivant. Il illustre notre capacité à concilier haute technologie, performance environnementale et sens du vivant.",
     "equipe_Rubie_Bio3": "Dressée avec rigueur, dévouée et parfaitement intégrée à notre fonctionnement quotidien, elle symbolise notre vision de l’entreprise : fidèle, agile et audacieuse. Chez BTC Énergies, nous croyons que la performance durable passe aussi par le cœur, et Rubie en est la preuve vivante.",
+  
+    
     "clic2_Nous contacter": "Nous Contacter",
     "Nos Coordonnées": "Nos Coordonnées"
   },
