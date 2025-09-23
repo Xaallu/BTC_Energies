@@ -37,9 +37,6 @@ __pycache__/
 
 # 🔹 Clés et fichiers sensibles (ex: API keys)
 .env
-.env.local
-.env.development
-.env.production
 
 # 🔹 Scripts d'activation de l'environnement (Python, shell, etc.)
 activate

@@ -530,3 +530,13 @@ h1, h2, h3 {
 .emoji-compatible {
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", system-ui, sans-serif;
 }
+
+.cercle-central {
+  position: relative;
+  z-index: 1; /* sous les logos */
+}
+
+.logo-cercle {
+  position: absolute;
+  cursor: pointer;
+}

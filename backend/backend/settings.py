@@ -12,9 +12,15 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
+import os
+from dotenv import load_dotenv
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# ✅ Charge les variables depuis le fichier .env à la racine du projet
+load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
 
 
 # Quick-start development settings - unsuitable for production
@@ -24,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4^_t-krvgws1d!a9t9(7jmwj0i7@x5jd(*g20m3ah+wg*gd#h='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',                                 # dev
@@ -77,8 +83,10 @@ TEMPLATES = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Pour ton front Vue.js en dev
-    "https://btc-energies.fr",  # En prod
+    "http://localhost:5173",      # dev
+    "http://127.0.0.1:5173",      # dev (127.0.0.1 ≠ localhost)
+    "https://tangerine-babka-89b76d.netlify.app",  # Netlify
+    "https://btc-energies.fr",    # prod
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'
@@ -141,15 +149,14 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'xr.piallu@gmail.com'       #  adresse Gmail
-EMAIL_HOST_PASSWORD = 'stywseersufvijkt'         #  un mot de passe spécifique à l'application
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Static files (CSS, JavaScript, Images)

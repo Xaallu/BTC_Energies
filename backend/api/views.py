@@ -36,9 +36,6 @@ def contact_api(request):
         except ValidationError as e:
             return JsonResponse({"error": str(e)}, status=400)
 
-    
-        except ValidationError as e:
-            return JsonResponse({"error": str(e)}, status=400)
 
         sujets = {
             "fr": f"Nouveau message de {nom}",
@@ -60,7 +57,8 @@ def contact_api(request):
                 ["xr.piallu@gmail.com"],
                 fail_silently=False
             )
-            return JsonResponse({"status": "ok"})
+            return JsonResponse({"status": "ok", "message": "Message envoyé avec succès, nous reviendrons vers vous rapidement ✅"})
+
 
         except BadHeaderError:
             return JsonResponse({"error": "En-tête invalide."}, status=400)

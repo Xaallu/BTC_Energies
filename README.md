@@ -17,7 +17,12 @@ Bienvenue dans le projet de refonte du site web de **BTC Énergies** ! Ce projet
 - **Design** : Tailwind CSS pour des composants personnalisés et une mise en page flexible.
 - **APIs** : Intégration avec des services externes pour des fonctionnalités comme les cartes interactives et les outils de cartographie.
 
+
+znhn wmoi evgm lvut
 npm run dev
+
+ python manage.py runserver 0.0.0.0:8000
+
 
 npm run build
 
@@ -28,6 +33,10 @@ npm run build && npm run preview
 git remote -v
 
 Miroir
+
+git fetch origin
+git push --mirror backup
+
 
 git clone --mirror https://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@github.com/Xa-C24/BTC_Energies.git
 cd BTC_Energies.git

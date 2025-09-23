@@ -214,29 +214,32 @@ const envoyerFormulaire = async () => {
   }
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/contact/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        nom: nom.value,
-        email: email.value,
-        message: message.value,
-        langue: "fr" // Tu pourras le rendre dynamique plus tard
-      })
-    });
+const response = await fetch(import.meta.env.VITE_API_URL + "/api/contact/", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    nom: nom.value,
+    email: email.value,
+    message: message.value,
+    langue: localStorage.getItem("lang") || "fr"
+  })
+});
 
-    if (!response.ok) throw new Error("Erreur réseau");
+const data = await response.json(); // ✅ lecture de la réponse JSON
 
-    alert("Message envoyé avec succès, nous reviendrons vers vous dans les meilleurs délais.");
-    nom.value = "";
-    email.value = "";
-    message.value = "";
-
+    if (response.ok) {
+      alert(data.message || "✅ Message envoyé avec succès, nous reviendrons vers vous rapidement");
+      nom.value = "";
+      email.value = "";
+      message.value = "";
+    } else {
+      alert(data.error || "❌ Erreur lors de l'envoi du message.");
+    }
   } catch (error) {
     console.error(error);
-    alert("Erreur lors de l'envoi du formulaire. Veuillez vérifé les champs obligatoires et réessayer.");
+    alert("⚠️ Impossible de contacter le serveur. Vérifie ta connexion.");
   }
 };
 
