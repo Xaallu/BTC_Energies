@@ -254,7 +254,7 @@
       v-for="(logo, index) in logosOdd"
       :key="index"
       :style="getLogoStyle(index, logosOdd.length)"
-      class="absolute 
+      class="absolute z-20 
          w-[4.5rem] h-[4.5rem]     <!-- taille par défaut : mobile -->
          sm:w-[4.5rem] sm:h-[4.2rem] <!-- petit écran (≥640px : smartphone en mode paysage) -->
          md:w-[6.5rem] md:h-[3.5rem] <!-- tablette (≥768px) -->
@@ -624,9 +624,9 @@ methods: {
 
     if (window.innerWidth < 640) {
       // 📱 Mobile
-      radius = 150;
-      centerX = 170;
-      centerY = 170;
+      radius = 160;
+      centerX = 150;
+      centerY = 150;
     } else if (window.innerWidth < 1024) {
       // 💻 Tablette
       radius = 220;
@@ -646,7 +646,9 @@ methods: {
     return {
       position: "absolute",
       left: `${x}px`,
-      top: `${y}px`
+      top: `${y}px`,
+      zIndex: 10,          // ✅ force les icônes au-dessus du cercle central
+      cursor: "pointer"    // ✅ assure l’interaction (main au survol)
     };
   }
 },
