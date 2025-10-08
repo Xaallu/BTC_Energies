@@ -54,70 +54,70 @@
           </div>
 
 
-<br>
-<div class="w-full flex justify-center">
-<h1> Carte proposer par Opendata</h1>
-</div>
-
-<br>
-
-<div class="w-full flex justify-center">
-  
-  <iframe src="https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false"
-          width="1000"
-          height="400"
-          frameborder="0"
-          class="border-0">
-  </iframe>
-</div>
       <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
         <section class="min-h-screen flex items-center justify-center px-4 py-8">
           <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-            <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+            <div class="bg-white rounded-2xl shadow-md max-w-7xl w-full p-12">
 
-       <img src="/Promethée.png" alt="Nos services BTC Energies" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+        
+<!-- Frise -->
+<div class="relative w-full flex flex-col items-center my-16">
 
-            <br>
+  <!-- Flèche bleue de fond -->
+  <div
+    class="relative w-[60vw] h-56 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
+           flex items-center justify-between px-24 rounded-r-[20px] shadow-xl"
+  >
+    <!-- Pointe de flèche -->
+<div
+  class="absolute right-[-120px] top-1/2 transform -translate-y-1/2 
+         w-0 h-0 
+         border-t-[188px] border-t-transparent 
+         border-l-[160px] border-l-[#1a2f5e]
+         border-b-[140px] border-b-transparent"
+></div>
 
-    <p class="mb-6 leading-relaxed">
-      Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI) pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone. Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures, se portant volontaire pour répondre à cet appel ambitieux.
-    </p>
+    <!-- Logos -->
+    <div class="flex justify-between w-full relative z-10">
+      <div
+        v-for="(item, index) in items"
+        :key="index"
+        class="flex flex-col items-center cursor-pointer"
+        @click="activeIndex = index"
+      >
+        <div
+          class="flex items-center justify-center w-36 h-36
+                 rounded-full border-4 transition-all duration-300"
+          :class="activeIndex === index
+            ? 'border-[#05ff16] scale-105 bg-white'
+            : 'border-white bg-opacity-30 bg-white hover:scale-125'"
+        >
+          <img
+            :src="item.logo"
+            :alt="item.title"
+            class="w-44 h-44 object-contain"
+          />
+        </div>
+        <span
+          class="mt-3 text-base font-semibold tracking-wide"
+          :class="activeIndex === index ? 'text-[#05ff16]' : 'text-white'"
+        >
+          {{ item.title }}
+        </span>
+      </div>
+    </div>
+  </div>
 
-    <p class="mb-6 leading-relaxed">
-      Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies. 
-      </p>
-      Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle.
-    
-
-    <p class="mb-6 leading-relaxed">
-      Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes. Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
-    </p>
-
-    <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li>une production annuelle de 202 GWh/an de méthane bas-carbone ;</li>
-      <li>la valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.</li>
-    </ul>
-
-    <p class="mb-6 leading-relaxed">
-      Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
-    </p>
-
-    <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li>la gazéification hydrothermale à l’échelle industrielle ;</li>
-      <li>la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.</li>
-    </ul>
-
-    <p class="leading-relaxed">
-      Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
-    </p>
+  <!-- Texte affiché -->
+  <transition name="fade" mode="out-in">
+    <div
+      v-if="activeIndex !== null"
+      key="activeIndex"
+      class="max-w-6xl p-8 mt-12 text-center bg-gray-100 rounded-xl shadow-lg"
+      v-html="items[activeIndex].text"
+    ></div>
+  </transition>
+</div>
 
     </div>
    </div>
@@ -125,6 +125,8 @@
 
       
       </v-container>
+
+
             <!-- Bandeau bas -->
             <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
 
@@ -156,47 +158,211 @@ const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
 
-const envoyerFormulaire = async () => {
-  // Animation rebond bouton
-  if (boutonSoumettre.value) {
-    gsap.fromTo(boutonSoumettre.value, { scale: 1 }, {
-      scale: 1.55,
-      backgroundColor: "#10b981", // vert
-      duration: 0.15,
-      yoyo: true,
-      repeat: 1,
-      ease: 'power2.out'
-    });
-  }
+const activeIndex = ref(null)
 
-  try {
-    const response = await fetch("http://127.0.0.1:8000/api/contact/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        nom: nom.value,
-        email: email.value,
-        message: message.value,
-        langue: "fr" // Tu pourras le rendre dynamique plus tard
-      })
-    });
+const items = [
+  {
+    logo: '/Promethée.png',
+    title: 'Fin 2024',
+    text: `
+      <p>
+        Promethe Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI)
+        pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone.
+        Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures,
+        se portant volontaire pour répondre à cet appel ambitieux.
+      </p>
 
-    if (!response.ok) throw new Error("Erreur réseau");
+      
+      <br>
 
-    alert("Message envoyé avec succès, nous reviendrons vers vous dans les meilleurs délais.");
-    nom.value = "";
-    email.value = "";
-    message.value = "";
+      <h2 class="page-blanche_app-title">Carte proposé par OpenData</h2>
 
-  } catch (error) {
-    console.error(error);
-    alert("Erreur lors de l'envoi du formulaire. Veuillez vérifé les champs obligatoires et réessayer.");
-  }
-};
+      <iframe
+        src="https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false"
+        width="100%"
+        height="400"
+        frameborder="0"
+        class="border-0 mt-4 rounded-lg shadow"
+      ></iframe>
+
+      <br>
+      <br>
+
+       <p class="mb-6 leading-relaxed">
+      Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies.
+      Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle.
+     </p>
+
+     <br>
+     <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+      <br>
+
+      <h2 class="page-blanche_app-title">Nos locaux</h2>
+
+      <br>
+       <img src="/screenshotaux.png" alt="Nos services BTC Energies Nos locaux" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+
+       <br>
+       <br>
+       <br>
+
+      <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+       <br>
+
+       <p class="mb-6 leading-relaxed">
+      Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
+    </p>
+
+    <p class="mb-6 leading-relaxed">
+      Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes. Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
+    </p>
+      <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+
+     <p class="mb-6 leading-relaxed">
+      Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
+    </p>
+
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>une production annuelle de 202 GWh/an de méthane bas-carbone ;</li>
+      <li>la valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.</li>
+    </ul>
+
+    <p class="mb-6 leading-relaxed">
+      Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
+    </p>
+
+    <ul class="list-disc pl-6 mb-6 space-y-2">
+      <li>la gazéification hydrothermale à l’échelle industrielle ;</li>
+      <li>la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.</li>
+    </ul>
+<br>
+
+    <p class="leading-relaxed">
+      Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
+    </p>
+
+    <br>
+      <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+    `
+  },
 
 
+
+  {
+  logo: 'logo2nosprojets.png',
+  title: 'Mi-2025',
+  text: `
+    <p class="mb-6 leading-relaxed">
+      Mi-2025, le constat est sans appel : les entreprises porteuses de technologies censées répondre à nos besoins, ainsi qu’à ceux de plusieurs collectivités partenaires, se révèlent incapables d’apporter des solutions adaptées. Pire encore, les grands groupes, arc-boutés sur leurs positions dominantes, enterrent systématiquement les innovations émergentes et tentent activement de freiner nos avancées. Leur stratégie est claire : neutraliser toute initiative capable de remettre en cause leur hégémonie.
+    </p>
+
+    <p class="mb-6 leading-relaxed">
+      Face à cette situation critique, nous avons pris la décision de reprendre l’initiative et de déclencher une opération stratégique autour d’un consortium de R&D. Objectif : développer une technologie souveraine, affranchie des carcans imposés par les acteurs traditionnels, et capable de répondre aux besoins opérationnels réels, sans compromission.
+    </p>
+
+    
+    <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+
+    <p class="mb-6 leading-relaxed">
+      Très vite, des partenaires majeurs se sont mobilisés. Un institut de recherche de premier plan, deux cabinets d’ingénierie conseil aguerris aux projets complexes et une entreprise spécialisée dans l’Internet des Objets se sont engagés à nos côtés. Leur implication renforce immédiatement notre capacité à concevoir, tester et déployer une technologie de rupture.
+    </p>
+
+    <p class="mb-6 leading-relaxed">
+      Parallèlement, des investisseurs ont été approchés et manifestent un intérêt marqué. Certains envisagent cette initiative comme un vecteur stratégique pour les technologies duales, à la fois terrestres et spatiales. D’autres la considèrent comme un levier essentiel au développement des smart cities, où connectivité, résilience et autonomie deviennent des enjeux vitaux.
+    </p>
+
+    
+    <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+
+    <p class="mb-6 leading-relaxed">
+      Le cap est fixé : nous ne subirons plus. Le consortium prend forme, les compétences s’agrègent, les capitaux s’alignent. Ce projet ne se limite pas à combler les défaillances des solutions existantes : il vise à briser le verrouillage imposé par les grands groupes, à reprendre l’avantage technologique et à assurer notre indépendance. La manœuvre est engagée, et cette fois, nous sommes déterminés à imposer notre trajectoire.
+    </p>
+
+    <br>
+    <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+  `
+},
+
+
+
+
+{
+  logo: '/h2med.png',
+  title: 'Septembre 2025',
+  text: `
+    <p class="mb-6 leading-relaxed">
+      Le mois de septembre 2025 marque une avancée décisive dans notre trajectoire. 
+      Notre président, Thibault Béthencourt, a été élu représentant pour la France 
+      au sein de l’Alliance H2Med.
+    </p>
+
+    <p class="mb-6 leading-relaxed">
+      L’Alliance H2Med est le cadre de coopération internationale qui s’articule autour 
+      du projet H2Med, premier grand corridor européen d’hydrogène vert. 
+      Ce projet relie la péninsule ibérique à l’Europe centrale via la France, 
+      avec pour mission de sécuriser l’approvisionnement énergétique, 
+      d’accélérer la décarbonation industrielle et de positionner l’Europe 
+      comme leader mondial de l’hydrogène. 
+      Il regroupe les plus grands acteurs industriels et institutionnels 
+      impliqués dans la transition énergétique.
+    </p>
+
+    <br>
+    <img src="/H2medAlliance.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+  
+    
+    <br>
+    <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+
+    <p class="mb-6 leading-relaxed">
+      Dans ce contexte, notre réussite prend une dimension historique. 
+      Nous, start-up sans moyens considérables, parvenons à siéger à la même table 
+      que des mastodontes mondiaux tels que Thyssenkrupp, référence industrielle planétaire. 
+      Cette présence démontre que la pertinence de notre vision et la crédibilité 
+      de notre technologie l’emportent désormais sur la seule puissance financière.
+    </p>
+
+    <br>
+        <img src="/H2medCFI.png" alt="Nos Projets BTC Energies Alliance H2 med CFI" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+
+        <br>
+
+    <p class="mb-6 leading-relaxed">
+      Ce tournant confirme notre capacité à peser dans les décisions stratégiques, 
+      à défendre les intérêts de la France et à projeter notre savoir-faire 
+      sur la scène européenne et internationale. 
+      Là où beaucoup nous voyaient comme un acteur périphérique, 
+      nous nous imposons aujourd’hui comme une force de proposition incontournable.
+    </p>
+
+    <br>
+    <!-- Ligne de sépartion verte-->
+                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+
+    <br>
+  `
+  
+}
+
+]
 
 onMounted(() => {
   // ✅ Animation du logo
