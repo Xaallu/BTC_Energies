@@ -54,77 +54,71 @@
           </div>
 
 
+          <br>
+          <br>
+
       <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
-        <section class="min-h-screen flex items-center justify-center px-4 py-8">
-          <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-            <div class="bg-white rounded-2xl shadow-md max-w-7xl w-full p-12">
-
         
-<!-- Frise -->
-<div class="relative w-full flex flex-col items-center my-16">
-
-  <!-- Flèche bleue de fond -->
-  <div
-    class="relative w-[60vw] h-56 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
-           flex items-center justify-between px-24 rounded-r-[20px] shadow-xl"
-  >
-    <!-- Pointe de flèche -->
-<div
-  class="absolute right-[-120px] top-1/2 transform -translate-y-1/2 
-         w-0 h-0 
-         border-t-[188px] border-t-transparent 
-         border-l-[160px] border-l-[#1a2f5e]
-         border-b-[140px] border-b-transparent"
-></div>
-
-    <!-- Logos -->
-    <div class="flex justify-between w-full relative z-10">
+   <section class="flex flex-col items-center justify-center w-full">
       <div
-        v-for="(item, index) in items"
-        :key="index"
-        class="flex flex-col items-center cursor-pointer"
-        @click="activeIndex = index"
+        class="relative w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[75%] 
+               h-[350px] sm:h-[380px] md:h-[400px]
+               bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
+               flex flex-col items-center justify-center 
+               rounded-3xl shadow-2xl overflow-hidden"
       >
-        <div
-          class="flex items-center justify-center w-36 h-36
-                 rounded-full border-4 transition-all duration-300"
-          :class="activeIndex === index
-            ? 'border-[#05ff16] scale-105 bg-white'
-            : 'border-white bg-opacity-30 bg-white hover:scale-125'"
+        <!-- Ligne blanche -->
+        <div class="absolute top-1/2 left-0 w-full h-[4px] bg-white transform -translate-y-1/2"></div>
+
+        <!-- Points + Logos + Titres -->
+        <div class="relative flex justify-between items-center w-[90%] max-w-6xl mx-auto">
+          <div
+            v-for="(item, index) in items"
+            :key="index"
+            class="flex flex-col items-center text-center relative z-10"
+            @click="activeIndex = index"
+          >
+
+           <!-- Logo (au-dessus, légèrement détaché de la ligne) -->
+            <div
+          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
+                rounded-full overflow-hidden border-4 border-white shadow-md
+                mt-14 sm:mt-14 md:mt-14
+                transition-all duration-300 cursor-pointer"
+          :class="activeIndex === index 
+            ? 'scale-125 border-[#05ff16] shadow-[0_0_30px_#05ff16]' 
+            : 'hover:scale-125'"
         >
           <img
             :src="item.logo"
             :alt="item.title"
-            class="w-44 h-44 object-contain"
+            class="w-full h-full object-cover"
           />
         </div>
-        <span
-          class="mt-3 text-base font-semibold tracking-wide"
-          :class="activeIndex === index ? 'text-[#05ff16]' : 'text-white'"
-        >
-          {{ item.title }}
-        </span>
+
+            <!-- Titre -->
+            <span
+              class="mt-4 text-sm sm:text-base md:text-lg font-semibold tracking-wide"
+              :class="activeIndex === index ? 'text-[#05ff16]' : 'text-white'"
+            >
+              {{ item.title }}
+            </span>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Texte affiché -->
-  <transition name="fade" mode="out-in">
-    <div
-      v-if="activeIndex !== null"
-      key="activeIndex"
-      class="max-w-6xl p-8 mt-12 text-center bg-gray-100 rounded-xl shadow-lg"
-      v-html="items[activeIndex].text"
-    ></div>
-  </transition>
-</div>
+      <!-- Texte dynamique -->
+      <transition name="fade" mode="out-in">
+       <div
+  v-if="activeIndex !== null"
+  key="activeIndex"
+  class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
+  v-html="items[activeIndex].text"
+></div>
+      </transition>
+    </section>
+</v-container>
 
-    </div>
-   </div>
-</section>
-
-      
-      </v-container>
 
 
             <!-- Bandeau bas -->
@@ -165,6 +159,9 @@ const items = [
     logo: '/Promethée.png',
     title: 'Fin 2024',
     text: `
+           <img src="/Promethée.png" alt="Nos services BTC Energies Nos locaux" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+
+           <br>
       <p>
         Promethe Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI)
         pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone.
@@ -258,6 +255,10 @@ const items = [
   logo: 'logo2nosprojets.png',
   title: 'Mi-2025',
   text: `
+
+        <img src="/logo2nosprojets.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+<br>
+
     <p class="mb-6 leading-relaxed">
       Mi-2025, le constat est sans appel : les entreprises porteuses de technologies censées répondre à nos besoins, ainsi qu’à ceux de plusieurs collectivités partenaires, se révèlent incapables d’apporter des solutions adaptées. Pire encore, les grands groupes, arc-boutés sur leurs positions dominantes, enterrent systématiquement les innovations émergentes et tentent activement de freiner nos avancées. Leur stratégie est claire : neutraliser toute initiative capable de remettre en cause leur hégémonie.
     </p>
@@ -305,6 +306,11 @@ const items = [
   logo: '/h2med.png',
   title: 'Septembre 2025',
   text: `
+
+      <img src="/h2med.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+
+      <br>
+
     <p class="mb-6 leading-relaxed">
       Le mois de septembre 2025 marque une avancée décisive dans notre trajectoire. 
       Notre président, Thibault Béthencourt, a été élu représentant pour la France 
