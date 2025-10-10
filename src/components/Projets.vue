@@ -57,15 +57,22 @@
           <br>
           <br>
 
-      <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
-        
-   <section class="flex flex-col items-center justify-center w-full">
+    <v-container fluid class="min-h-screen px-0 py-0 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
+  <section class="bg-white rounded-l-none rounded-r-3xl shadow-2xl overflow-hidden py-12 px-8 md:px-16flex justify-center items-center min-h-screen w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
+
+    <!-- Cadre blanc (colle à la sidebar à gauche, bordure droite alignée) -->
+    <div
+  class="w-[calc(100%-10rem)] sm:w-[calc(100%-9rem)] md:w-[calc(100%-8rem)] 
+         "
+>
+
+      <!-- Frise -->
       <div
-        class="relative w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[75%] 
+        class="relative w-full
                h-[350px] sm:h-[380px] md:h-[400px]
                bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
                flex flex-col items-center justify-center 
-               rounded-3xl shadow-2xl overflow-hidden"
+               rounded-3xl shadow-lg overflow-hidden"
       >
         <!-- Ligne blanche -->
         <div class="absolute top-1/2 left-0 w-full h-[4px] bg-white transform -translate-y-1/2"></div>
@@ -78,23 +85,22 @@
             class="flex flex-col items-center text-center relative z-10"
             @click="activeIndex = index"
           >
-
-           <!-- Logo (au-dessus, légèrement détaché de la ligne) -->
+            <!-- Logo -->
             <div
-          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
-                rounded-full overflow-hidden border-4 border-white shadow-md
-                mt-14 sm:mt-14 md:mt-14
-                transition-all duration-300 cursor-pointer"
-          :class="activeIndex === index 
-            ? 'scale-125 border-[#05ff16] shadow-[0_0_30px_#05ff16]' 
-            : 'hover:scale-125'"
-        >
-          <img
-            :src="item.logo"
-            :alt="item.title"
-            class="w-full h-full object-cover"
-          />
-        </div>
+              class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
+                     rounded-full overflow-hidden border-4 border-white shadow-md
+                     mt-14 sm:mt-14 md:mt-14
+                     transition-all duration-300 cursor-pointer"
+              :class="activeIndex === index 
+                ? 'scale-125 border-[#05ff16] shadow-[0_0_30px_#05ff16]' 
+                : 'hover:scale-125'"
+            >
+              <img
+                :src="item.logo"
+                :alt="item.title"
+                class="w-full h-full object-cover"
+              />
+            </div>
 
             <!-- Titre -->
             <span
@@ -107,18 +113,18 @@
         </div>
       </div>
 
-      <!-- Texte dynamique -->
+       <!-- Texte dynamique -->
       <transition name="fade" mode="out-in">
-       <div
-  v-if="activeIndex !== null"
-  key="activeIndex"
-  class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
-  v-html="items[activeIndex].text"
-></div>
+        <div
+          v-if="activeIndex !== null"
+          key="activeIndex"
+          class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
+          v-html="items[activeIndex].text"
+        ></div>
       </transition>
-    </section>
+    </div>
+  </section>
 </v-container>
-
 
 
             <!-- Bandeau bas -->

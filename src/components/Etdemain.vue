@@ -170,52 +170,7 @@
             </div>
           </div>
         </div>
-
-         <!-- Video GIF haut de page -->
-                   <section class="w-full overflow-hidden relative">
-               <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-            
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  class="absolute top-0 left-0 w-full h-full object-cover object-center"
-                >
-                  <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-                  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-                </video>
-              </div>
-            </section>
-            
-            
-            <!-- Bandeau bleu -->
-            <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-              <div class="w-full max-w-[1200px] mx-auto px-4">
-            
-                <!-- Groupe centré mais décalé vers la gauche -->
-                <div class="text-center">
-                  <!-- Trait supérieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
-            
-                  <!-- Texte -->
-                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                       style="font-size: clamp(1.9rem, 2.6vw, 3rem);">
-                    {{ $t("equipe.Equipe_Titre") }}
-                  </h1>
-            
-                  <!-- Trait inférieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
-<br>
-                  <!-- Texte -->
-                  <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                      style="font-size: clamp(0.6rem, 1.4vw, 2rem);">
-                    {{ $t("equipe.Titre_equipe") }}
-                  </h1>
-                </div>
-            </div>
-            </div>
-            
+                        
       </v-row>
     </v-main>
   </v-app>

@@ -76,6 +76,7 @@
               <h2 class="text-3xl font-bold text-[#777777] mb-6 text-center">
                 {{ $t('nos_partenaires.titre1_Financement participatif') }}
               </h2>
+
               <!-- Trait vert-->
               <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
 
@@ -99,6 +100,20 @@
         <div class="text-center mb-20">
           <h2 class="text-3xl font-bold text-[#777777] mb-2">{{ $t('nos_partenaires.titre2_Nos partenaires') }}</h2>
 
+          <!-- Trait vert-->
+              <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
+
+              <p class="text-gray-500 text-xl">2025</p>
+          <div class="flex justify-center items-center my-6">
+            <a href="https://h2medproject.com/fr/le-premier-grand-corridor-dhydrogene-vert-deurope/"
+               target="_blank" rel="noopener noreferrer">
+              <img src="/h2med.png" alt="French Tech Tremplin"
+                   class="w-30 sm:w-30 md:w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
+            </a>
+          </div>
+          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text2_h2med') }}</p>
+
+          <br>
           <!-- Trait vert-->
               <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
 
