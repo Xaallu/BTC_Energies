@@ -58,22 +58,27 @@
           <br>
 
     <v-container fluid class="min-h-screen px-0 py-0 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
-  <section class="bg-white rounded-l-none rounded-r-3xl shadow-2xl overflow-hidden py-12 px-8 md:px-16flex justify-center items-center min-h-screen w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
+  <section class="flex justify-center items-center min-h-screen w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
 
     <!-- Cadre blanc (colle à la sidebar à gauche, bordure droite alignée) -->
     <div
-  class="w-[calc(100%-10rem)] sm:w-[calc(100%-9rem)] md:w-[calc(100%-8rem)] 
-         "
+  class="w-[calc(105%-10rem)] sm:w-[calc(105%-9rem)] md:w-[calc(105%-8rem)] 
+         bg-white rounded-l-none rounded-r-3xl shadow-2xl overflow-hidden py-12 px-8 md:px-16"
 >
+
+
 
       <!-- Frise -->
       <div
         class="relative w-full
-               h-[350px] sm:h-[380px] md:h-[400px]
-               bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
-               flex flex-col items-center justify-center 
-               rounded-3xl shadow-lg overflow-hidden"
+         h-[350px] sm:h-[380px] md:h-[400px]
+         bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
+         flex flex-col items-center justify-center 
+         rounded-3xl shadow-lg overflow-hidden frise-container"
       >
+
+    
+
         <!-- Ligne blanche -->
         <div class="absolute top-1/2 left-0 w-full h-[4px] bg-white transform -translate-y-1/2"></div>
 
@@ -87,14 +92,14 @@
           >
             <!-- Logo -->
             <div
-              class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
-                     rounded-full overflow-hidden border-4 border-white shadow-md
-                     mt-14 sm:mt-14 md:mt-14
-                     transition-all duration-300 cursor-pointer"
-              :class="activeIndex === index 
-                ? 'scale-125 border-[#05ff16] shadow-[0_0_30px_#05ff16]' 
-                : 'hover:scale-125'"
-            >
+                class="frise-logo w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
+                      rounded-full overflow-hidden border-4 border-white
+                      mt-14 sm:mt-14 md:mt-14
+                      transition-all duration-500 ease-out cursor-pointer"
+                :class="activeIndex === index 
+                  ? 'scale-125 border-[#05ff16] shadow-[0_0_35px_15px_#05ff16]' 
+                  : 'hover:scale-125 hover:shadow-[0_0_15px_3px_rgba(5,255,22,0.3)]'"
+              >
               <img
                 :src="item.logo"
                 :alt="item.title"
@@ -114,6 +119,17 @@
       </div>
 
        <!-- Texte dynamique -->
+
+           <!-- ❌ Bouton de fermeture -->
+        <button
+          v-if="activeIndex !== null"
+          @click="activeIndex = null"
+          class="absolute top-14 right-14 text-[#05ff16] hover:text-[#00cc11] 
+                text-3xl font-bold transition-all duration-300"
+        >
+          &times;
+        </button>
+
       <transition name="fade" mode="out-in">
         <div
           v-if="activeIndex !== null"
@@ -149,6 +165,7 @@ import { onMounted, ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Sidebar from './Sidebar.vue';
+import { watch } from 'vue';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -377,7 +394,121 @@ const items = [
 ]
 
 onMounted(() => {
-  // ✅ Animation du logo
+  // ✅ Animation séquentielle des logos (gauche → droite)
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.frise-container',
+      start: 'top 75%',
+      toggleActions: 'play none none none',
+      once: true
+    }
+  });
+
+  
+  // Attente DOM prêt
+  setTimeout(() => {
+    const logos = document.querySelectorAll('.frise-logo');
+
+    logos.forEach((logo, i) => {
+      // Apparition + halo vert
+      tl.fromTo(
+        logo,
+        {
+          opacity: 0,
+          scale: 0.5,
+          y: 50,
+          boxShadow: '0 0 0px rgba(5, 255, 22, 0)',
+        },
+        {
+          opacity: 1,
+          scale: 1,
+          y: 0,
+          duration: 1.1,
+          ease: 'power3.out',
+          boxShadow: '0 0 30px rgba(5, 255, 22, 0.8)',
+          onComplete: () => {
+            // le halo s’atténue après l’apparition
+            gsap.to(logo, {
+              boxShadow: '0 0 10px rgba(5, 255, 22, 0.3)',
+              duration: 0.8,
+              ease: 'power1.out'
+            });
+          }
+        },
+        i * 1.0 // ⏱️ intervalle de 1.2s entre chaque logo
+      );
+
+       // 🧠 Ajout du hover scale dynamique (sans CSS)
+      logo.addEventListener('mouseenter', () => {
+        gsap.to(logo, { scale: 1.25, duration: 0.3, ease: 'power2.out' })
+      })
+      logo.addEventListener('mouseleave', () => {
+        if (activeIndex.value !== i) {
+          gsap.to(logo, { scale: 1, duration: 0.3, ease: 'power2.out' })
+        }
+
+             logo.addEventListener('mouseleave', () => {
+          // Si le logo n’est pas celui sélectionné, il revient à la normale
+          if (activeIndex.value !== i) {
+            gsap.to(logo, {
+              scale: 1,
+              boxShadow: '0 0 25px 5px rgba(5,255,22,0.4)', // halo doux
+              borderColor: '#ffffff',
+              duration: 0.4,
+              ease: 'power2.out'
+            })
+          }
+        })
+      })
+   
+    });
+
+  
+
+  }, 300);
+
+// 🔥 Effet de halo vert animé sur le logo actif
+watch(activeIndex, (newIndex, oldIndex) => {
+  // Si un logo était précédemment sélectionné → on supprime l’effet pulsant
+  if (oldIndex !== null) {
+    const previousLogo = document.querySelectorAll('.frise-logo')[oldIndex]
+    if (previousLogo) {
+      gsap.killTweensOf(previousLogo)
+      gsap.to(previousLogo, {
+        boxShadow: '0 0 10px rgba(5, 255, 22, 0.3)', // revient à un halo discret
+        borderColor: '#ffffff',
+        duration: 0.5
+      })
+    }
+  }
+
+  // Si un nouveau logo est cliqué → halo vert pulsant
+  if (newIndex !== null) {
+    const selectedLogo = document.querySelectorAll('.frise-logo')[newIndex]
+    if (selectedLogo) {
+      gsap.to(selectedLogo, {
+        boxShadow: '0 0 25px 12px rgba(5, 255, 22, 0.9)',
+        borderColor: '#05ff16',
+        duration: 0.5,
+        ease: 'power2.out',
+        onComplete: () => {
+          // 🔁 effet “respiration” infini
+          gsap.to(selectedLogo, {
+            boxShadow: '0 0 35px 18px rgba(5, 255, 22, 0.6)',
+            repeat: -1,
+            yoyo: true,
+            duration: 1.6,
+            ease: 'sine.inOut'
+          })
+        }
+      })
+    }
+  }
+})
+
+
+
+  // ✅ Animation du logo Sidebar 
   if (logoSidebar.value) {
     gsap.fromTo(
       logoSidebar.value,
@@ -393,7 +524,7 @@ onMounted(() => {
           toggleActions: 'play reverse play reverse',
         },
       }
-    );
+    )
   }
 
   // ✅ Animation des traits verts
@@ -434,21 +565,6 @@ onMounted(() => {
       });
     });
   }
-
-   // Animation du container "Contact"
-   gsap.from(".gsap-mentions", {
-  scrollTrigger: {
-    trigger: ".gsap-mentions",
-    start: "top 65%", // déclenche un peu plus tôt
-    toggleActions: "play none none none",
-    once: true // animation ne se rejoue pas si on remonte
-  },
-  y: 70,             // décalage vertical plus prononcé
-  opacity: 0,
-  duration: 3.6,     // animation un peu plus rapide
-  ease: "power4.out", // easing plus naturel
-  stagger: 0.2       // si plusieurs éléments, ils s’animent en cascade
-});
 
  // Animation du texte du bandeau bleu
     gsap.utils.toArray('.bandeau_bleu-text').forEach((el) => {
