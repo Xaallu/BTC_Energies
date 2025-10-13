@@ -188,10 +188,30 @@
       "Nos Coordonnees": "Our Contact"
   },
 
+  
   "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
 
   "projets.titre": "In Projects",
 
+  "projets.promethee_fin2024_titre": "End of 2024",
+  "projets.mi2025_titre": "Mid-2025",
+  "projets.Septembre2025_titre": "September 2025",
+
+ "projets.promethee_fin2024_texte_html": "<p>Prometheus — End of 2024: NaTran officially launched its Call for Expressions of Interest (AMI) for the implementation of innovative solutions in the field of renewable and low-carbon gases. In a demanding context and under strong time pressure, BTC Energies positioned itself from the very beginning, volunteering to respond to this ambitious call.</p>",
+
+"projets.carte_opendata_titre": "Map provided by OpenData",
+
+"projets.promethee_fin2024_texte2_html": "<p>From the very start of operations, a small but determined team was mobilized. On the ground, our teams carried out prospecting phases, territorial analyses, and strategic drafting, despite a complex local environment marked by tensions and well-established resistance. The area targeted for the project had indeed been the subject of historical opposition for more than 20 years, both from local environmental associations and from a landowner firmly opposed to any form of industrial development.</p>",
+
+"projets.carte_Noslocaux_titre3": "Our facilities",
+
+"projets.promethee_fin2024_texte3_html": "<p>Faced with these obstacles, we chose not to rely solely on administrative procedures: BTC Energies was the only industrial player to meet directly with the landowner, adopting an approach of open and active dialogue. We presented our vision, our environmental ambition, and proposed genuine collaboration around the project.<br><br>This human and committed approach bore fruit: the landowner agreed to support the project, thus putting an end to two decades of opposition. This agreement paved the way for the project submission in a calm and transparent context. Thanks to the dedication of our employees and the decisive support of our industrial and institutional partners, we successfully overcame every step with rigor and determination.</p>",
+
+"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>The result is clear: the project led by BTC Energies was selected. It now stands as the second largest officially approved project in France in its category, with:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>an annual production of 202 GWh of low-carbon methane;</li><li>the recovery of 30,000 tons of Solid Recovered Fuels (SRF) through hydrothermal gasification.</li></ul><p class='mb-6 leading-relaxed'>Through this success, BTC Energies establishes itself as a national pioneer in two strategic fields:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>industrial-scale hydrothermal gasification;</li><li>the recovery of SRF through wet processing, a still underexploited sector with major potential.</li></ul><br>This project marks a major operational breakthrough in France’s energy transition and positions BTC Energies at the intersection of climate, technological, and industrial challenges.",
+
+  
+  
+  
   "__comment_page_partenaire": "Traductions pour la page Partenaire.vue",
 
   "nos_partenaires": {
