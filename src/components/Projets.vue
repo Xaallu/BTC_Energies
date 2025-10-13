@@ -57,7 +57,7 @@
           <br>
           <br>
 
-    <v-container fluid class="min-h-screen px-0 py-0 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
+    <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
   <section class="flex justify-center items-center min-h-screen w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
 
     <!-- Cadre blanc (colle à la sidebar à gauche, bordure droite alignée) -->
@@ -112,9 +112,12 @@
               class="mt-4 text-sm sm:text-base md:text-lg font-semibold tracking-wide"
               :class="activeIndex === index ? 'text-[#05ff16]' : 'text-white'"
             >
-              {{ item.title }}
+               {{ $t(item.title) }}
             </span>
+
           </div>
+
+          
         </div>
       </div>
 
@@ -130,14 +133,80 @@
           &times;
         </button>
 
-      <transition name="fade" mode="out-in">
+        <transition name="fade" mode="out-in">
+      <div
+        v-if="activeIndex !== null"
+        key="activeIndex"
+        class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
+      >
+        <!-- Premier texte -->
+        <div v-html="$t(items[activeIndex].text)"></div>
+        
+  <!-- Second titre -->
+        <h2
+          v-if="items[activeIndex].title2"
+          class="page-blanche_app-title mt-10"
+        >
+          {{ $t(items[activeIndex].title2) }}
+        </h2>
+
+       <!-- Iframe OpenData -->
+        <iframe
+          v-if="items[activeIndex].iframe"
+          :src="items[activeIndex].iframe"
+          width="100%"
+          height="400"
+          frameborder="0"
+          class="border-0 mt-4 rounded-lg shadow"
+        ></iframe>
+
+        
+        <!-- Deuxième texte -->
         <div
-          v-if="activeIndex !== null"
-          key="activeIndex"
-          class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
-          v-html="items[activeIndex].text"
+          v-if="items[activeIndex].text2"
+          v-html="$t(items[activeIndex].text2)"
+          class="mt-8"
         ></div>
-      </transition>
+
+        <br>
+    
+                 <!-- Troisième titre -->
+        <h2
+          v-if="items[activeIndex].title2"
+          class="page-blanche_app-title mt-10"
+        >
+          {{ $t(items[activeIndex].title3) }}
+        </h2>
+
+            <!-- 🖼️ Image Nos Locaux -->
+      <div
+        v-if="items[activeIndex].imglocaux"
+        v-html="items[activeIndex].imglocaux"
+        class="mt-6"
+      ></div>
+        <br>
+      
+       <!-- Troisième texte -->
+        <div
+          v-if="items[activeIndex].text3"
+          v-html="$t(items[activeIndex].text3)"
+          class="mt-8"
+        ></div>
+      
+        
+
+      <!-- Quatrième texte -->
+        <div
+          v-if="items[activeIndex].text4"
+          v-html="$t(items[activeIndex].text4)"
+          class="mt-8"
+        ></div>
+
+        
+      </div>
+
+      
+    </transition>
     </div>
   </section>
 </v-container>
@@ -179,104 +248,22 @@ const activeIndex = ref(null)
 
 const items = [
   {
-    logo: '/Promethée.png',
-    title: 'Fin 2024',
-    text: `
-           <img src="/Promethée.png" alt="Nos services BTC Energies Nos locaux" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-
-           <br>
-      <p>
-        Promethe Fin 2024, NaTran lançait officiellement son Appel à Manifestation d’Intérêt (AMI)
-        pour la mise en œuvre de solutions innovantes dans le domaine des gaz renouvelables et bas-carbone.
-        Dans un contexte exigeant et sous forte pression temporelle, BTC Énergies a pris position dès les premières heures,
-        se portant volontaire pour répondre à cet appel ambitieux.
-      </p>
-
-      
-      <br>
-
-      <h2 class="page-blanche_app-title">Carte proposé par OpenData</h2>
-
-      <iframe
-        src="https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false"
-        width="100%"
-        height="400"
-        frameborder="0"
-        class="border-0 mt-4 rounded-lg shadow"
-      ></iframe>
-
-      <br>
-      <br>
-
-       <p class="mb-6 leading-relaxed">
-      Dès le début des opérations, une équipe restreinte mais déterminée a été mobilisée. Sur le terrain, nos équipes ont mené des phases de prospection, d’analyse territoriale et de rédaction stratégique, malgré un environnement local complexe, des tensions et des résistances bien établies.
-      Le terrain ciblé pour le projet faisait en effet l’objet d’une opposition historique depuis plus de 20 ans, tant de la part d’associations écologistes locales que d’une propriétaire terrienne fermement opposée à toute forme d’implantation industrielle.
-     </p>
-
-     <br>
-     <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-      <br>
-
-      <h2 class="page-blanche_app-title">Nos locaux</h2>
-
-      <br>
-       <img src="/screenshotaux.png" alt="Nos services BTC Energies Nos locaux" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-
-       <br>
-       <br>
-       <br>
-
-      <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-       <br>
-
-       <p class="mb-6 leading-relaxed">
-      Face à ces blocages, nous avons choisi de ne pas nous contenter de démarches administratives : BTC Énergies a été le seul acteur industriel à se rendre directement auprès de la propriétaire, dans une logique de dialogue franc et d’écoute active. Nous lui avons présenté notre vision, notre ambition environnementale, et proposé une véritable collaboration autour du projet.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      Cette démarche humaine et engagée a porté ses fruits : la propriétaire a donné son accord pour accompagner l’implantation, mettant ainsi un terme à deux décennies d’opposition. Cet accord a ouvert la voie au dépôt du projet dans des conditions apaisées et transparentes. Grâce à l'engagement de nos collaborateurs et au soutien décisif de nos partenaires industriels et institutionnels, nous avons su franchir chaque étape avec rigueur et détermination.
-    </p>
-      <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-
-     <p class="mb-6 leading-relaxed">
-      Le résultat est sans appel : le projet porté par BTC Énergies a été sélectionné. Il constitue aujourd’hui le deuxième projet officiellement retenu le plus important de France dans sa catégorie, avec :
-    </p>
-
-    <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li>une production annuelle de 202 GWh/an de méthane bas-carbone ;</li>
-      <li>la valorisation de 30 000 tonnes de Combustibles Solides de Récupération (CSR) par gazéification hydrothermale.</li>
-    </ul>
-
-    <p class="mb-6 leading-relaxed">
-      Par cette réussite, BTC Énergies s’affirme comme un pionnier national dans deux domaines stratégiques :
-    </p>
-
-    <ul class="list-disc pl-6 mb-6 space-y-2">
-      <li>la gazéification hydrothermale à l’échelle industrielle ;</li>
-      <li>la valorisation des CSR par voie humide, filière encore peu exploitée mais au potentiel majeur.</li>
-    </ul>
-<br>
-
-    <p class="leading-relaxed">
-      Ce projet marque une avancée opérationnelle majeure dans la transition énergétique française et positionne BTC Énergies à la convergence des enjeux climatiques, technologiques et industriels.
-    </p>
-
-    <br>
-      <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-    `
+     logo: '/Promethée.png',
+    title: 'projets.promethee_fin2024_titre',
+    title2: 'projets.carte_opendata_titre',
+    title3: 'projets.carte_Noslocaux_titre3',
+    text: 'projets.promethee_fin2024_texte_html',
+    text2: 'projets.promethee_fin2024_texte2_html',
+    iframe: 'https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false',
+    imglocaux: '<img src="/screenshotaux.png" alt="Nos services BTC Énergies - Nos locaux" class="w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg" />',
+    text3: 'projets.promethee_fin2024_texte3_html',
+    text4: 'projets.promethee_fin2024_texte4_html',
   },
-
 
 
   {
   logo: 'logo2nosprojets.png',
-  title: 'Mi-2025',
+  title: 'projets.mi2025_titre',
   text: `
 
         <img src="/logo2nosprojets.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
@@ -327,7 +314,7 @@ const items = [
 
 {
   logo: '/h2med.png',
-  title: 'Septembre 2025',
+  title: 'projets.Septembre2025_titre',
   text: `
 
       <img src="/h2med.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
