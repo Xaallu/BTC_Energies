@@ -260,123 +260,22 @@ const items = [
     text4: 'projets.promethee_fin2024_texte4_html',
   },
 
-
   {
-  logo: 'logo2nosprojets.png',
-  title: 'projets.mi2025_titre',
-  text: `
+    logo: 'logo2nosprojets.png',
+    title: 'projets.mi2025_titre',
+    text: 'projets.mi2025_texte1_html',
+    text2: 'projets.mi2025_texte2_html',
+    text3: 'projets.mi2025_texte3_html'
+  },
 
-        <img src="/logo2nosprojets.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-<br>
+ {
+    logo: '/h2med.png',
+    title: 'projets.Septembre2025_titre',
+    text: 'projets.Septembre2025_texte1_html',
+    text2: 'projets.Septembre2025_texte2_html',
+    text3: 'projets.Septembre2025_texte3_html'
+  },
 
-    <p class="mb-6 leading-relaxed">
-      Mi-2025, le constat est sans appel : les entreprises porteuses de technologies censées répondre à nos besoins, ainsi qu’à ceux de plusieurs collectivités partenaires, se révèlent incapables d’apporter des solutions adaptées. Pire encore, les grands groupes, arc-boutés sur leurs positions dominantes, enterrent systématiquement les innovations émergentes et tentent activement de freiner nos avancées. Leur stratégie est claire : neutraliser toute initiative capable de remettre en cause leur hégémonie.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      Face à cette situation critique, nous avons pris la décision de reprendre l’initiative et de déclencher une opération stratégique autour d’un consortium de R&D. Objectif : développer une technologie souveraine, affranchie des carcans imposés par les acteurs traditionnels, et capable de répondre aux besoins opérationnels réels, sans compromission.
-    </p>
-
-    
-    <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-
-    <p class="mb-6 leading-relaxed">
-      Très vite, des partenaires majeurs se sont mobilisés. Un institut de recherche de premier plan, deux cabinets d’ingénierie conseil aguerris aux projets complexes et une entreprise spécialisée dans l’Internet des Objets se sont engagés à nos côtés. Leur implication renforce immédiatement notre capacité à concevoir, tester et déployer une technologie de rupture.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      Parallèlement, des investisseurs ont été approchés et manifestent un intérêt marqué. Certains envisagent cette initiative comme un vecteur stratégique pour les technologies duales, à la fois terrestres et spatiales. D’autres la considèrent comme un levier essentiel au développement des smart cities, où connectivité, résilience et autonomie deviennent des enjeux vitaux.
-    </p>
-
-    
-    <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-
-    <p class="mb-6 leading-relaxed">
-      Le cap est fixé : nous ne subirons plus. Le consortium prend forme, les compétences s’agrègent, les capitaux s’alignent. Ce projet ne se limite pas à combler les défaillances des solutions existantes : il vise à briser le verrouillage imposé par les grands groupes, à reprendre l’avantage technologique et à assurer notre indépendance. La manœuvre est engagée, et cette fois, nous sommes déterminés à imposer notre trajectoire.
-    </p>
-
-    <br>
-    <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-  `
-},
-
-
-
-
-{
-  logo: '/h2med.png',
-  title: 'projets.Septembre2025_titre',
-  text: `
-
-      <img src="/h2med.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-
-      <br>
-
-    <p class="mb-6 leading-relaxed">
-      Le mois de septembre 2025 marque une avancée décisive dans notre trajectoire. 
-      Notre président, Thibault Béthencourt, a été élu représentant pour la France 
-      au sein de l’Alliance H2Med.
-    </p>
-
-    <p class="mb-6 leading-relaxed">
-      L’Alliance H2Med est le cadre de coopération internationale qui s’articule autour 
-      du projet H2Med, premier grand corridor européen d’hydrogène vert. 
-      Ce projet relie la péninsule ibérique à l’Europe centrale via la France, 
-      avec pour mission de sécuriser l’approvisionnement énergétique, 
-      d’accélérer la décarbonation industrielle et de positionner l’Europe 
-      comme leader mondial de l’hydrogène. 
-      Il regroupe les plus grands acteurs industriels et institutionnels 
-      impliqués dans la transition énergétique.
-    </p>
-
-    <br>
-    <img src="/H2medAlliance.png" alt="Nos Projets BTC Energies Alliance H2 med" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-  
-    
-    <br>
-    <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-
-    <p class="mb-6 leading-relaxed">
-      Dans ce contexte, notre réussite prend une dimension historique. 
-      Nous, start-up sans moyens considérables, parvenons à siéger à la même table 
-      que des mastodontes mondiaux tels que Thyssenkrupp, référence industrielle planétaire. 
-      Cette présence démontre que la pertinence de notre vision et la crédibilité 
-      de notre technologie l’emportent désormais sur la seule puissance financière.
-    </p>
-
-    <br>
-        <img src="/H2medCFI.png" alt="Nos Projets BTC Energies Alliance H2 med CFI" class="w-full max-w-xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-
-        <br>
-
-    <p class="mb-6 leading-relaxed">
-      Ce tournant confirme notre capacité à peser dans les décisions stratégiques, 
-      à défendre les intérêts de la France et à projeter notre savoir-faire 
-      sur la scène européenne et internationale. 
-      Là où beaucoup nous voyaient comme un acteur périphérique, 
-      nous nous imposons aujourd’hui comme une force de proposition incontournable.
-    </p>
-
-    <br>
-    <!-- Ligne de sépartion verte-->
-                <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-    <br>
-  `
-  
-}
 
 ]
 
