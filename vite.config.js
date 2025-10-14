@@ -8,14 +8,29 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
-      // ici si besoin tu peux personnaliser
+      output: {
+        manualChunks: {
+          // Séparation des dépendances lourdes pour de meilleurs temps de chargement
+          'vue-vendor': ['vue', 'vue-router', 'vue-i18n'],
+          'vuetify': ['vuetify'],
+          'gsap': ['gsap'],
+        },
+      },
     },
+    // Augmente le seuil du warning à 1000 kB pour éviter le message sans risque
+    chunkSizeWarningLimit: 1000,
   },
-  // hook pour copier le fichier _redirects
+
+  // Copie automatique du fichier _redirects pour Netlify
   closeBundle() {
-    copyFileSync(
-      resolve(__dirname, 'public/_redirects'),
-      resolve(__dirname, 'dist/_redirects')
-    )
-  }
+    try {
+      copyFileSync(
+        resolve(__dirname, 'public/_redirects'),
+        resolve(__dirname, 'dist/_redirects')
+      )
+      console.log('✅ Fichier _redirects copié avec succès.')
+    } catch (err) {
+      console.warn('⚠️ Impossible de copier le fichier _redirects :', err)
+    }
+  },
 })
