@@ -187,6 +187,38 @@
   "Nos Coordonnees": "我们的联系方式"
 },
 
+
+
+"texte_bandeau_bleu_projet": "在项目中",
+"projets.promethee_fin2024_titre": "2024年底",
+"projets.mi2025_titre": "2025年中",
+"projets.Septembre2025_titre": "2025年9月",
+
+"projets.promethee_fin2024_texte_html": "<p>普罗米修斯计划 — 2024年底：NaTran 正式启动其《征求意向书》（AMI），以实施在可再生和低碳气体领域的创新解决方案。在一个要求严格、时间紧迫的环境中，BTC Energies 从一开始就积极响应这一雄心勃勃的号召，率先参与其中。</p>",
+
+"projets.carte_opendata_titre": "由 开放数据 提供的地图",
+
+"projets.promethee_fin2024_texte2_html": "<p>在项目启动之初，一支精干而坚定的团队被迅速动员。在现场，我们的团队在复杂的地方环境中开展了勘探、区域分析和战略撰写工作，克服了长期存在的紧张和阻力。该项目所在地事实上已成为当地环保组织和一位长期反对工业设施的地主长达 20 多年的抗争焦点。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.carte_Noslocaux_titre3": "我们的办公地点",
+
+"projets.promethee_fin2024_texte3_html": "<p>面对这些障碍，我们选择不仅仅依赖行政程序：BTC Energies 是唯一一家直接拜访土地所有者的工业企业，采取开放和积极对话的态度。我们向她展示了我们的愿景、环境雄心，并提出了围绕该项目的真正合作。<br><br>这种真诚而富有同理心的方式取得了成果：地主同意支持项目，结束了长达二十年的对立。这一协议为项目在平和透明的条件下提交奠定了基础。凭借员工的奉献精神以及工业与政府合作伙伴的关键支持，我们在每个阶段都以严谨和决心取得了成功。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>结果显而易见：由 BTC Energies 主导的项目已被正式选中。如今，它成为法国同类项目中规模第二大的获批项目，具有以下成果：</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>每年生产 202 GWh 的低碳甲烷；</li><li>通过水热气化工艺回收 30,000 吨固体回收燃料（CSR）。</li></ul><p class='mb-6 leading-relaxed'>凭借这一成功，BTC Energies 成为以下两个战略领域的国家先锋：</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>工业规模的水热气化；</li><li>湿法回收 CSR，这一尚未被充分利用但潜力巨大的领域。</li></ul><br>该项目标志着法国能源转型的重要运营进展，使 BTC Energies 处于气候、技术和工业挑战的交汇点。<div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte1_html": "<img src='/logo2nosprojets.png' alt='BTC Energies 项目 – H2Med 联盟' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>到 2025 年中，结论十分明确：那些声称能满足我们及多个合作地区需求的公司，事实证明无法提供合适的解决方案。更糟糕的是，大型企业固守其主导地位，系统性地压制新兴创新，并积极阻碍我们的进展。他们的策略十分清晰：消除任何可能挑战其垄断地位的创新举措。</p><p class='mb-6 leading-relaxed'>面对这一关键局面，我们决定重新掌握主动权，启动围绕研发联盟的战略行动。目标：开发一种自主技术，摆脱传统行业的限制，能够真正满足现实运营需求，毫不妥协。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte2_html": "<p class='mb-6 leading-relaxed'>很快，主要合作伙伴纷纷加入。一家顶级研究机构、两家在复杂项目中经验丰富的工程咨询公司以及一家专注于物联网的企业承诺与我们携手合作。他们的参与立即增强了我们设计、测试和部署突破性技术的能力。</p><p class='mb-6 leading-relaxed'>与此同时，我们接洽了多位投资者，他们表现出浓厚的兴趣。一些人将此举视为双用途技术（陆地和太空）战略发展的关键驱动力，另一些人则认为这对于智慧城市的建设至关重要，因为连通性、韧性和自主性已成为关键问题。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte3_html": "<p class='mb-6 leading-relaxed'>方向已定：我们不再被动等待。联盟逐渐成形，人才汇聚，资本到位。该项目不仅旨在弥补现有解决方案的不足，还旨在打破大型集团设置的技术壁垒，重新夺回技术优势，确保我们的独立性。行动已经展开，这一次，我们决心掌握自己的命运。</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte1_html": "<img src='/h2med.png' alt='BTC Energies 项目 – H2Med 联盟' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>2025 年 9 月标志着我们发展道路上的决定性一步。我们的总裁 Thibault Béthencourt 当选为法国在 H2Med 联盟中的代表。</p><p class='mb-6 leading-relaxed'>H2Med 联盟是围绕 H2Med 项目建立的国际合作框架——这是欧洲首个大型绿色氢气通道项目。该项目通过法国将伊比利亚半岛与中欧连接起来，旨在保障能源供应、加速工业脱碳，并使欧洲成为全球氢能领导者。它汇聚了能源转型领域的主要工业与机构参与者。</p><br><img src='/H2medAlliance.png' alt='BTC Energies 项目 – H2Med 联盟' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte2_html": "<p class='mb-6 leading-relaxed'>在这种背景下，我们的成功具有历史意义。作为一家资源有限的初创企业，我们如今能与世界工业巨头如 Thyssenkrupp 同桌而坐——这充分证明了我们愿景的前瞻性与技术的可信度，已超越纯粹的资本力量。</p><br><img src='/H2medCFI.png' alt='BTC Energies 项目 – H2Med CFI' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte3_html": "<p class='mb-6 leading-relaxed'>这一转折点确认了我们在战略决策中发挥影响力、捍卫法国利益以及在欧洲和国际舞台上展示自身技术实力的能力。曾经被视为边缘参与者的我们，如今已成为创新与合作中不可或缺的力量。</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+
 "__comment_page_partenaire": "合作伙伴页面（Partenaire.vue）翻译",
 
 "nos_partenaires": {

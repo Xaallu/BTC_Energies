@@ -153,9 +153,7 @@
     "clic3_Nos Coordonnees": "Nuestros Datos de Contacto"
   },
 
-  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
 
-  "projets.titre": "En Proyectos",
 
   "__comment_page_solutions": "Traducciones para la página Nuestras Soluciones (Solutions.vue)",
 
@@ -190,6 +188,41 @@
     "Nous contacter": "Contáctanos",
     "Nos Coordonnees": "Nuestros Datos de Contacto"
   },
+
+
+  "__comment_page_projets": "Traducciones para la página Nuestros Proyectos (Projets.vue)",
+
+"projets.titre": "Nuestros Proyectos",
+
+"projets.promethee_fin2024_titre": "Finales de 2024",
+"projets.mi2025_titre": "Mediados de 2025",
+"projets.Septembre2025_titre": "Septiembre de 2025",
+
+"projets.promethee_fin2024_texte_html": "<p>Prometheus — Finales de 2024: NaTran lanzó oficialmente su Convocatoria de Manifestación de Interés (AMI) para la implementación de soluciones innovadoras en el campo de los gases renovables y de bajas emisiones de carbono. En un contexto exigente y bajo una fuerte presión temporal, BTC Energies se posicionó desde el principio como voluntaria para responder a esta ambiciosa iniciativa.</p>",
+
+"projets.carte_opendata_titre": "Mapa proporcionado por OpenData",
+
+"projets.promethee_fin2024_texte2_html": "<p>Desde el inicio de las operaciones, se movilizó un equipo pequeño pero decidido. Sobre el terreno, nuestros equipos llevaron a cabo fases de prospección, análisis territorial y redacción estratégica, a pesar de un entorno local complejo, marcado por tensiones y resistencias arraigadas. El área seleccionada para el proyecto había sido objeto de oposición durante más de 20 años, tanto por parte de asociaciones ecologistas locales como de una propietaria firmemente opuesta a cualquier forma de implantación industrial.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.carte_Noslocaux_titre3": "Nuestras instalaciones",
+
+"projets.promethee_fin2024_texte3_html": "<p>Ante estos obstáculos, decidimos no limitarnos a los trámites administrativos: BTC Energies fue el único actor industrial que se reunió directamente con la propietaria, adoptando un enfoque de diálogo abierto y escucha activa. Le presentamos nuestra visión, nuestra ambición medioambiental y le propusimos una verdadera colaboración en torno al proyecto.<br><br>Este enfoque humano y comprometido dio sus frutos: la propietaria aceptó apoyar el proyecto, poniendo fin a dos décadas de oposición. Este acuerdo allanó el camino para la presentación del proyecto en un contexto sereno y transparente. Gracias al compromiso de nuestros empleados y al apoyo decisivo de nuestros socios industriales e institucionales, superamos cada etapa con rigor y determinación.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>El resultado es claro: el proyecto liderado por BTC Energies fue seleccionado. Hoy en día, es el segundo proyecto oficialmente aprobado más importante de Francia en su categoría, con:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>una producción anual de 202 GWh de metano bajo en carbono;</li><li>la valorización de 30 000 toneladas de Combustibles Sólidos Recuperados (CSR) mediante gasificación hidrotermal.</li></ul><p class='mb-6 leading-relaxed'>Con este éxito, BTC Energies se consolida como pionera nacional en dos áreas estratégicas:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>la gasificación hidrotermal a escala industrial;</li><li>la valorización de los CSR mediante procesos húmedos, un sector aún poco explotado pero con un enorme potencial.</li></ul><br>Este proyecto marca un avance operativo fundamental en la transición energética francesa y posiciona a BTC Energies en la convergencia de los retos climáticos, tecnológicos e industriales.<div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte1_html": "<img src='/logo2nosprojets.png' alt='Proyectos BTC Energies – Alianza H2 Med' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>A mediados de 2025, el veredicto era claro: las empresas que afirmaban ofrecer tecnologías capaces de satisfacer nuestras necesidades —así como las de varias comunidades asociadas— demostraron ser incapaces de proporcionar soluciones adecuadas. Peor aún, los grandes grupos, aferrados a sus posiciones dominantes, enterraron sistemáticamente las innovaciones emergentes y trataron activamente de frenar nuestros avances. Su estrategia era clara: neutralizar cualquier iniciativa capaz de desafiar su hegemonía.</p><p class='mb-6 leading-relaxed'>Ante esta situación crítica, decidimos tomar la iniciativa y lanzar una operación estratégica en torno a un consorcio de I+D. Objetivo: desarrollar una tecnología soberana, libre de las restricciones impuestas por los actores tradicionales, y capaz de responder a las necesidades operativas reales, sin compromisos.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte2_html": "<p class='mb-6 leading-relaxed'>Muy pronto, importantes socios se unieron al esfuerzo. Un instituto de investigación de primer nivel, dos consultoras de ingeniería con experiencia en proyectos complejos y una empresa especializada en el Internet de las Cosas se comprometieron a colaborar con nosotros. Su implicación fortaleció inmediatamente nuestra capacidad para diseñar, probar y desplegar una tecnología disruptiva.</p><p class='mb-6 leading-relaxed'>Al mismo tiempo, se contactó a inversores que mostraron un gran interés. Algunos ven esta iniciativa como un motor estratégico para las tecnologías de doble uso, tanto terrestres como espaciales. Otros la consideran una palanca esencial para el desarrollo de las ciudades inteligentes, donde la conectividad, la resiliencia y la autonomía son cuestiones vitales.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte3_html": "<p class='mb-6 leading-relaxed'>El rumbo está fijado: no volveremos a someternos. El consorcio toma forma, las competencias se reúnen, el capital se alinea. Este proyecto no se limita a compensar las deficiencias de las soluciones existentes: pretende romper el bloqueo impuesto por los grandes grupos, recuperar la ventaja tecnológica y garantizar nuestra independencia. La maniobra está en marcha, y esta vez, estamos decididos a imponer nuestro propio camino.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte1_html": "<img src='/h2med.png' alt='Proyectos BTC Energies – Alianza H2 Med' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>Septiembre de 2025 marca un paso decisivo en nuestra trayectoria. Nuestro presidente, Thibault Béthencourt, fue elegido representante de Francia dentro de la Alianza H2Med.</p><p class='mb-6 leading-relaxed'>La Alianza H2Med es el marco de cooperación internacional basado en el proyecto H2Med, el primer gran corredor europeo de hidrógeno verde. Este proyecto conecta la península ibérica con Europa central a través de Francia, con la misión de garantizar el suministro energético, acelerar la descarbonización industrial y posicionar a Europa como líder mundial en hidrógeno. Reúne a los principales actores industriales e institucionales implicados en la transición energética.</p><br><img src='/H2medAlliance.png' alt='Proyectos BTC Energies – Alianza H2 Med' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte2_html": "<p class='mb-6 leading-relaxed'>En este contexto, nuestro éxito adquiere una dimensión histórica. Nosotros, una start-up sin grandes recursos, logramos sentarnos en la misma mesa que gigantes industriales mundiales como Thyssenkrupp, referente industrial a nivel global. Esta presencia demuestra que la pertinencia de nuestra visión y la credibilidad de nuestra tecnología superan hoy en día el mero poder financiero.</p><br><img src='/H2medCFI.png' alt='Proyectos BTC Energies – Alianza H2 Med CFI' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte3_html": "<p class='mb-6 leading-relaxed'>Este punto de inflexión confirma nuestra capacidad para influir en las decisiones estratégicas, defender los intereses de Francia y proyectar nuestro saber hacer en la escena europea e internacional. Donde muchos nos veían como un actor periférico, hoy nos consolidamos como una fuerza de propuesta imprescindible.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+
 
   "__comment_page_partenaire": "Traducciones para la página Socios (Partenaire.vue)",
 

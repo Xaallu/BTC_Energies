@@ -179,9 +179,41 @@
     "Nos Coordonnees": "連絡先"
   },
 
-  "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
 
-  "projets.titre": "プロジェクト",
+
+  "__comment_page_projets": "「私たちのプロジェクト」ページの翻訳 (Projets.vue)",
+
+"projets.titre": "私たちのプロジェクト",
+"texte_bandeau_bleu_projet": "プロジェクト",
+
+"projets.promethee_fin2024_titre": "2024年末",
+"projets.mi2025_titre": "2025年中頃",
+"projets.Septembre2025_titre": "2025年9月",
+
+"projets.promethee_fin2024_texte_html": "<p>プロメテ — 2024年末：NaTran は再生可能および低炭素ガス分野における革新的なソリューションの実施を目的として、正式に「関心表明の呼びかけ（AMI）」を開始しました。要求の厳しい状況と時間的制約の中で、BTC Energies はこの野心的な取り組みにいち早く参加し、自発的に行動しました。</p>",
+
+"projets.carte_opendata_titre": "オープンデータ 提供の地図",
+
+"projets.promethee_fin2024_texte2_html": "<p>事業開始時から、小規模ながらも決意に満ちたチームが動員されました。現場では、複雑な地域環境や長年の対立構造にもかかわらず、我々のチームは調査、地域分析、戦略立案を実施しました。対象地域は、20年以上にわたり地元の環境団体および一人の土地所有者からの強い反対運動の中心地でした。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.carte_Noslocaux_titre3": "私たちの施設",
+
+"projets.promethee_fin2024_texte3_html": "<p>このような障害に直面し、私たちは行政手続きに頼るだけではなく、BTC Energies は土地所有者と直接会談した唯一の企業でした。誠実な対話と傾聴を基盤に、私たちは自社のビジョンと環境への取り組みを説明し、協働の可能性を提案しました。<br><br>この人間的で誠意あるアプローチは実を結び、所有者はプロジェクトの支援を約束し、20年間続いた反対運動は終結しました。この合意により、穏やかで透明性のある条件下でプロジェクトを提出できるようになりました。社員の献身と産業・行政パートナーの支援のおかげで、私たちは各段階を着実に乗り越えることができました。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>結果は明白です。BTC Energies が主導するこのプロジェクトは正式に選定されました。これは現在、フランス国内で同カテゴリーにおける第2位の規模を誇るプロジェクトであり、以下の成果を達成しています：</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>年間202 GWhの低炭素メタンの生産；</li><li>30,000トンの固形回収燃料（CSR）を水熱ガス化技術で再利用。</li></ul><p class='mb-6 leading-relaxed'>この成功により、BTC Energies は次の2つの戦略的分野で国内のパイオニアとしての地位を確立しました：</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>産業規模での水熱ガス化技術；</li><li>湿式プロセスによるCSRの再利用（未開拓ながら極めて有望な分野）。</li></ul><br>このプロジェクトはフランスのエネルギー転換における重要な運用上の進展を示し、BTC Energies を気候・技術・産業の交差点に位置づけます。<div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte1_html": "<img src='/logo2nosprojets.png' alt='BTC Energies プロジェクト – H2 Med アライアンス' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>2025年中頃、状況は明らかになりました。私たちおよび複数のパートナー自治体のニーズに応えると主張していた企業は、適切な解決策を提供することができませんでした。さらに悪いことに、大手企業は支配的地位を維持するために新たな革新を抑え込み、我々の進歩を意図的に妨げていました。その戦略は明確であり、自らの覇権を脅かすあらゆる動きを封じ込めることでした。</p><p class='mb-6 leading-relaxed'>このような危機的状況を前に、私たちは主導権を取り戻し、研究開発コンソーシアムを中心とした戦略的プロジェクトを立ち上げる決断を下しました。目標は、従来の制約から解放された主権的技術を開発し、現実的な運用ニーズに応えることです。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte2_html": "<p class='mb-6 leading-relaxed'>すぐに主要なパートナーが参加しました。著名な研究機関、複雑なプロジェクト経験を持つ2つのエンジニアリング会社、そしてIoT専門企業が私たちと協力を約束しました。彼らの参画によって、革新的な技術を設計・試験・展開する能力が即座に強化されました。</p><p class='mb-6 leading-relaxed'>同時に、投資家たちも関心を示しました。一部の投資家は、この取り組みを陸上および宇宙分野にまたがるデュアルテクノロジーの戦略的推進力と見なし、他の投資家は、接続性・回復力・自律性が不可欠なスマートシティの発展に向けた鍵と考えています。</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.mi2025_texte3_html": "<p class='mb-6 leading-relaxed'>方向性は明確です。もはや受け身ではありません。コンソーシアムが形を成し、スキルが集まり、資本が整いました。このプロジェクトは、既存ソリューションの欠点を補うだけでなく、大手企業が築いた障壁を打ち破り、技術的優位を取り戻し、独立性を確立することを目的としています。作戦は進行中であり、今回は自らの道を切り開く覚悟です。</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte1_html": "<img src='/h2med.png' alt='BTC Energies プロジェクト – H2Med アライアンス' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>2025年9月は、我々の歩みにおいて決定的な節目となりました。BTC Energies の代表である Thibault Béthencourt は、フランス代表として H2Med アライアンスの一員に選出されました。</p><p class='mb-6 leading-relaxed'>H2Med アライアンスは、ヨーロッパ初の大規模なグリーン水素回廊プロジェクト「H2Med」を中心とする国際的な協力枠組みです。このプロジェクトは、フランスを経由してイベリア半島と中欧を結び、エネルギー供給の安全確保、産業の脱炭素化促進、そしてヨーロッパを水素分野の世界的リーダーとして位置づけることを目的としています。エネルギー転換に関与する主要な産業および機関パートナーを集結させています。</p><br><img src='/H2medAlliance.png' alt='BTC Energies プロジェクト – H2Med アライアンス' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte2_html": "<p class='mb-6 leading-relaxed'>この状況の中で、私たちの成功は歴史的な意義を持ちます。限られた資金しか持たないスタートアップであるにもかかわらず、私たちは世界的産業大手 Thyssenkrupp などと同じテーブルに着くことができました。この事実は、私たちのビジョンの妥当性と技術の信頼性が、単なる資本力を凌駕したことを証明しています。</p><br><img src='/H2medCFI.png' alt='BTC Energies プロジェクト – H2Med CFI' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
+"projets.Septembre2025_texte3_html": "<p class='mb-6 leading-relaxed'>この転換点は、戦略的意思決定に影響を与え、フランスの利益を守り、我々の専門知識をヨーロッパおよび国際舞台で発信する能力を確認するものです。かつては周辺的な存在と見られていた私たちが、今ではイノベーションと協力の中核を担う存在となりました。</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+
 
   "__comment_page_partenaire": "「パートナー」ページ（Partenaire.vue）の翻訳",
 
