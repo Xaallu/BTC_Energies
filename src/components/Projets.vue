@@ -59,31 +59,30 @@
 
  <v-container
   fluid
-  class="px-0 py-0 m-0 w-full min-h-screen bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]"
+  class="px-0 py-0 m-0 w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]"
 >
+  <!-- Section principale -->
   <section
-    class="w-full flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]"
+  class="w-full flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 
+         bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e] overflow-x-hidden"
+
   >
+    <!-- ✅ Cadre blanc adaptatif -->
+        <div
+      class="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto
+            bg-white rounded-3xl shadow-2xl overflow-hidden
+            py-10 px-4 sm:px-8 md:px-12"
+    >
 
-    <!-- Cadre blanc (colle à la sidebar à gauche, bordure droite alignée) -->
-    <div
-  class="w-[calc(105%-10rem)] sm:w-[calc(105%-9rem)] md:w-[calc(105%-8rem)] 
-         bg-white rounded-l-none rounded-r-3xl shadow-2xl overflow-hidden py-12 px-8 md:px-16"
->
-
-
-
-      <!-- Frise -->
+      <!-- ✅ Frise interne -->
       <div
-        class="relative w-full
-         h-[350px] sm:h-[380px] md:h-[400px]
-         bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
-         flex flex-col items-center justify-center 
-         rounded-3xl shadow-lg overflow-hidden frise-container"
+        class="relative w-full 
+               min-h-[320px] sm:min-h-[360px] md:min-h-[400px]
+               bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
+               flex flex-wrap items-center justify-center gap-6
+               rounded-3xl shadow-lg overflow-hidden frise-container"
       >
-
-    
-
+       
         <!-- Ligne blanche -->
         <div class="absolute top-1/2 left-0 w-full h-[4px] bg-white transform -translate-y-1/2"></div>
 
