@@ -57,8 +57,13 @@
           <br>
           <br>
 
-    <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
-  <section class="flex justify-center items-center min-h-screen w-full bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]">
+ <v-container
+  fluid
+  class="px-0 py-0 m-0 w-full min-h-screen bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]"
+>
+  <section
+    class="w-full flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]"
+  >
 
     <!-- Cadre blanc (colle à la sidebar à gauche, bordure droite alignée) -->
     <div
@@ -278,42 +283,43 @@ const items = [
 
 
 ]
-
 onMounted(() => {
-  // ✅ Animation séquentielle des logos (gauche → droite)
+  // ✅ Timeline principale pour animer les logos de gauche à droite
+  // Elle se déclenche au scroll lorsque la section ".frise-container" entre dans le viewport
   const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: '.frise-container',
-      start: 'top 75%',
-      toggleActions: 'play none none none',
-      once: true
+      trigger: '.frise-container', // élément déclencheur
+      start: 'top 75%',            // commence quand le haut du container atteint 75% de la hauteur de la fenêtre
+      toggleActions: 'play none none none', // ne joue qu'une fois
+      once: true                   // empêche la répétition
     }
   });
 
-  
-  // Attente DOM prêt
+  // ⏳ Petit délai pour s’assurer que le DOM est complètement prêt
   setTimeout(() => {
+    // Sélectionne tous les logos de la frise
     const logos = document.querySelectorAll('.frise-logo');
 
+    // 🌀 Boucle sur chaque logo pour définir les animations d’apparition
     logos.forEach((logo, i) => {
-      // Apparition + halo vert
+      // Animation d’entrée : apparition progressive + effet de halo vert
       tl.fromTo(
         logo,
         {
-          opacity: 0,
-          scale: 0.5,
-          y: 50,
-          boxShadow: '0 0 0px rgba(5, 255, 22, 0)',
+          opacity: 0,                           // invisible au départ
+          scale: 0.5,                           // taille réduite
+          y: 50,                                // léger décalage vers le bas
+          boxShadow: '0 0 0px rgba(5, 255, 22, 0)', // pas de halo initial
         },
         {
-          opacity: 1,
-          scale: 1,
-          y: 0,
-          duration: 1.1,
-          ease: 'power3.out',
-          boxShadow: '0 0 30px rgba(5, 255, 22, 0.8)',
+          opacity: 1,                           // devient visible
+          scale: 1,                             // retrouve sa taille normale
+          y: 0,                                 // revient à la position d’origine
+          duration: 1.1,                        // durée de chaque animation
+          ease: 'power3.out',                   // easing fluide
+          boxShadow: '0 0 30px rgba(5, 255, 22, 0.8)', // halo vert à l’apparition
           onComplete: () => {
-            // le halo s’atténue après l’apparition
+            // Une fois le logo apparu, on réduit l’intensité du halo
             gsap.to(logo, {
               boxShadow: '0 0 10px rgba(5, 255, 22, 0.3)',
               duration: 0.8,
@@ -321,97 +327,110 @@ onMounted(() => {
             });
           }
         },
-        i * 1.0 // ⏱️ intervalle de 1.2s entre chaque logo
+        i * 1.0 // ⏱️ décalage temporel entre les apparitions des logos (1 seconde d’intervalle)
       );
 
-       // 🧠 Ajout du hover scale dynamique (sans CSS)
+      // 🧠 Animation au survol (hover)
+      // On gère ici le zoom du logo directement en JavaScript pour un effet GSAP plus fluide
+
+      // Quand la souris entre sur le logo
       logo.addEventListener('mouseenter', () => {
-        gsap.to(logo, { scale: 1.25, duration: 0.3, ease: 'power2.out' })
-      })
+        gsap.to(logo, { 
+          scale: 1.25,              // zoom léger
+          duration: 0.3,            // transition courte
+          ease: 'power2.out'        // easing doux
+        });
+      });
+
+      // Quand la souris quitte le logo
       logo.addEventListener('mouseleave', () => {
+        // Si le logo n’est pas celui actuellement sélectionné, il revient à la taille normale
         if (activeIndex.value !== i) {
-          gsap.to(logo, { scale: 1, duration: 0.3, ease: 'power2.out' })
+          gsap.to(logo, { 
+            scale: 1, 
+            duration: 0.3, 
+            ease: 'power2.out' 
+          });
         }
 
-             logo.addEventListener('mouseleave', () => {
-          // Si le logo n’est pas celui sélectionné, il revient à la normale
+        // 🔄 Deuxième gestion du "mouseleave" pour restaurer un halo doux
+        logo.addEventListener('mouseleave', () => {
           if (activeIndex.value !== i) {
             gsap.to(logo, {
               scale: 1,
-              boxShadow: '0 0 25px 5px rgba(5,255,22,0.4)', // halo doux
-              borderColor: '#ffffff',
+              boxShadow: '0 0 25px 5px rgba(5,255,22,0.4)', // halo vert plus discret
+              borderColor: '#ffffff',                       // bordure blanche
               duration: 0.4,
               ease: 'power2.out'
-            })
+            });
           }
-        })
-      })
-   
+        });
+      });
     });
 
+  }, 300); // fin du setTimeout
   
 
-  }, 300);
-
-// 🔥 Effet de halo vert animé sur le logo actif
-watch(activeIndex, (newIndex, oldIndex) => {
-  // Si un logo était précédemment sélectionné → on supprime l’effet pulsant
-  if (oldIndex !== null) {
-    const previousLogo = document.querySelectorAll('.frise-logo')[oldIndex]
-    if (previousLogo) {
-      gsap.killTweensOf(previousLogo)
-      gsap.to(previousLogo, {
-        boxShadow: '0 0 10px rgba(5, 255, 22, 0.3)', // revient à un halo discret
-        borderColor: '#ffffff',
-        duration: 0.5
-      })
+  // 🔥 Effet dynamique sur le logo actif (celui qui a été cliqué)
+  // On surveille la variable "activeIndex" pour déclencher les effets correspondants
+  watch(activeIndex, (newIndex, oldIndex) => {
+    // 🔁 Si un logo était déjà actif auparavant, on annule son effet pulsant
+    if (oldIndex !== null) {
+      const previousLogo = document.querySelectorAll('.frise-logo')[oldIndex];
+      if (previousLogo) {
+        gsap.killTweensOf(previousLogo); // arrête les animations en cours
+        gsap.to(previousLogo, {
+          boxShadow: '0 0 10px rgba(5, 255, 22, 0.3)', // halo discret
+          borderColor: '#ffffff',
+          duration: 0.5
+        });
+      }
     }
-  }
 
-  // Si un nouveau logo est cliqué → halo vert pulsant
-  if (newIndex !== null) {
-    const selectedLogo = document.querySelectorAll('.frise-logo')[newIndex]
-    if (selectedLogo) {
-      gsap.to(selectedLogo, {
-        boxShadow: '0 0 25px 12px rgba(5, 255, 22, 0.9)',
-        borderColor: '#05ff16',
-        duration: 0.5,
-        ease: 'power2.out',
-        onComplete: () => {
-          // 🔁 effet “respiration” infini
-          gsap.to(selectedLogo, {
-            boxShadow: '0 0 35px 18px rgba(5, 255, 22, 0.6)',
-            repeat: -1,
-            yoyo: true,
-            duration: 1.6,
-            ease: 'sine.inOut'
-          })
-        }
-      })
+    // 💡 Si un nouveau logo est sélectionné → on applique un halo vert "pulsant"
+    if (newIndex !== null) {
+      const selectedLogo = document.querySelectorAll('.frise-logo')[newIndex];
+      if (selectedLogo) {
+        gsap.to(selectedLogo, {
+          boxShadow: '0 0 25px 12px rgba(5, 255, 22, 0.9)', // halo intense au clic
+          borderColor: '#05ff16',
+          duration: 0.5,
+          ease: 'power2.out',
+          onComplete: () => {
+            // 🔁 Effet de “respiration” (le halo pulse en continu)
+            gsap.to(selectedLogo, {
+              boxShadow: '0 0 35px 18px rgba(5, 255, 22, 0.6)', // variation de halo
+              repeat: -1,    // boucle infinie
+              yoyo: true,    // va et vient entre les deux états
+              duration: 1.6, // vitesse du battement
+              ease: 'sine.inOut'
+            });
+          }
+        });
+      }
     }
-  }
-})
+  });
 
 
-
-  // ✅ Animation du logo Sidebar 
+  // ✅ Animation du logo dans la Sidebar (apparition douce au scroll)
   if (logoSidebar.value) {
     gsap.fromTo(
       logoSidebar.value,
-      { scale: 0, opacity: 0 },
+      { scale: 0, opacity: 0 }, // commence petit et invisible
       {
-        scale: 1,
-        opacity: 1,
-        duration: 4,
-        ease: 'back.out(1.7)',
+        scale: 1,               // taille normale
+        opacity: 1,             // devient visible
+        duration: 4,            // animation lente et fluide
+        ease: 'back.out(1.7)',  // effet ressort
         scrollTrigger: {
-          trigger: logoSidebar.value,
-          start: 'top 95%',
-          toggleActions: 'play reverse play reverse',
+          trigger: logoSidebar.value,          // déclencheur : le logo
+          start: 'top 95%',                    // commence presque hors écran
+          toggleActions: 'play reverse play reverse', // joue et rejoue selon le scroll
         },
       }
-    )
+    );
   }
+
 
   // ✅ Animation des traits verts
   gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
