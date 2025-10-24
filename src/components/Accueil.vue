@@ -28,7 +28,7 @@
     <!-- Groupe centré mais décalé vers la gauche -->
     <div class="text-center">
       <!-- Trait supérieur -->
-      <div class="w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -37,7 +37,7 @@
       </h1>
 
       <!-- Trait inférieur -->
-      <div class="w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
     </div>
 
   </div>
@@ -706,6 +706,27 @@ methods: {
           stagger: 0.20
         });
       });
+
+
+     // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.2,
+        ease: 'power2.out',
+        delay: 0.3,
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 90%',
+          toggleActions: 'play reverse play reverse',
+        },
+      }
+    );
+  });
+
 
       gsap.from(".bandeau_bleu-logo", {
         scrollTrigger: {
