@@ -1,4 +1,6 @@
-# Vue 3 + Vite
+
+
+
 
 ## Introduction
 
@@ -26,7 +28,7 @@ npm run dev
 
 npm run build
 
-netlify deploy --prod   [#05ff16] nouveau       ancien [#22B17A]
+netlify deploy --prod   [#05ff16]  nouveau       ancien [#22B17A]
 
 npm run build && npm run preview
 
@@ -53,3 +55,5 @@ git fetch -p origin
 git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git
 
 git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git 
+
+source venv/bin/activate     # Vue 3 + Vite
