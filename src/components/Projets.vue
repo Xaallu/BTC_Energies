@@ -266,7 +266,7 @@ const items = [
   },
 
   {
-    logo: 'logo2nosprojets.png',
+    logo: 'logo2nospro.png',
     title: 'projets.mi2025_titre',
     text: 'projets.mi2025_texte1_html',
     text2: 'projets.mi2025_texte2_html',
