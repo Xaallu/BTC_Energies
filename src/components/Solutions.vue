@@ -32,6 +32,27 @@
                 </div>
               </section>
 
+                      <!-- Bandeau bleu -->
+        <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+          <div class="w-full max-w-[1200px] mx-auto px-4">
+
+            <!-- Groupe centré -->
+            <div class="text-center">
+              <!-- Trait supérieur -->
+              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+
+              <!-- Texte -->
+              <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                  style="font-size: clamp(0.9rem, 2.9vw, 3.2rem);">
+                {{ $t("nos_solutions.title_nos solutions") }}
+              </h1>
+
+              <!-- Trait inférieur -->
+              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+            </div>
+
+          </div>
+        </div>
 
             <!-- Section Nos Solutions -->
              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
@@ -39,14 +60,11 @@
             
                 <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
                   <section class="bg-white py-10 px-6 md:px-16">
-                    <h2 class="page-blanche_app-title">
-                      {{ $t('nos_solutions.title_nos solutions') }}
-                    </h2>
+                    
                 <div class="flex justify-center mb-6">
-<br>              
+           
                   </div>
                  
-<br>
 
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
@@ -372,6 +390,12 @@ onMounted(() => {
     });
   });
 
+  const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
+      if (bandeauBleuText) {
+        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
+      }
+      
+
   // ✅ Animation du logo dans le bandeau
   if (logoBandeau.value) {
     gsap.from(logoBandeau.value, {
@@ -386,6 +410,26 @@ onMounted(() => {
       ease: 'back.out(1.7)',
     });
   }
+
+    // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.2,
+        ease: 'power2.out',
+        delay: 0.3,
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 90%',
+          toggleActions: 'play reverse play reverse',
+        },
+      }
+    );
+  });
+
 });
 
 useHead({

@@ -34,15 +34,38 @@
     
         
              <!-- Section Notre Constat -->
+
+              <!-- Bandeau bleu -->
+        <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+          <div class="w-full max-w-[1200px] mx-auto px-4">
+
+            <!-- Groupe centré -->
+            <div class="text-center">
+              <!-- Trait supérieur -->
+              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+
+              <!-- Texte -->
+              <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                  style="font-size: clamp(0.9rem, 2.9vw, 3.2rem);">
+                {{ $t("notre_constat.constat_titre") }}
+              </h1>
+
+              <!-- Trait inférieur -->
+              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+            </div>
+
+          </div>
+        </div>
+
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+                
                <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+                
             
                   <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
 
 
-                    <h2 class="page-blanche_app-title">
-                      {{ $t('notre_constat.constat_titre') }}
-                    </h2>
+                    
 
                     <br />
                     <br />
@@ -71,11 +94,13 @@
                   </v-col>
                 </v-row>
 
+                
                   <!-- Ligne de sépartion verte-->
                 <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
                 <br />
 
+                
                 <!-- Grid x2 -->
                 <v-row class="py-12 px-6 md:px-20 text-[#475C79]">
                   <v-col cols="12" md="6">
@@ -258,6 +283,30 @@ export default {
           ease: 'power2.out',
         })
       })
+
+      // ✅ Animation des traits verts
+  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
+    gsap.fromTo(
+      trait,
+      { scaleX: 0, transformOrigin: 'center' },
+      {
+        scaleX: 1,
+        duration: 1.2,
+        ease: 'power2.out',
+        delay: 0.3,
+        scrollTrigger: {
+          trigger: trait,
+          start: 'top 90%',
+          toggleActions: 'play reverse play reverse',
+        },
+      }
+    );
+  });
+  
+  const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
+      if (bandeauBleuText) {
+        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
+      }
 
       // Animation des paragraphes
       gsap.utils.toArray('p').forEach((el) => {
