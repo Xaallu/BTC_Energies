@@ -596,14 +596,14 @@ export default {
     return {
       team: [
         { name: 'Thibault Béthencourt', titleKey: 'president_ceo', roleKey: 'porteur_de_projet', phone: '+33 6 29 56 07 56', img: '/Trombi/T_B.png', slug: 'ThibaultBethencourt' },
-        { name: 'Jean-Marc BOUILLON', title: 'Directeur Général', roleKey: 'directeur_general', img: '/Trombi/JM_B.jpg', slug: 'JeanMarcBOUILLON' },
-        { name: 'Alain Degans', title: 'Chef de Projet Digital', roleKey: 'chef_projet_digital', img: '/Trombi/A_D.png', slug: 'AlainDEGANS' },
-        { name: 'Camille Faure', title: 'Responsable RH (HR Manager)', roleKey: 'responsable_rh', img: '/Trombi/C_F.png', slug: 'CamilleFaure' },
+        { name: 'Susanne Svensdotter', title: 'Directeur Général', roleKey: 'directeur_general', img: '/Trombi/S_S.png', slug: 'SusanneSvensdotter' },
+        { name: 'Charles de Magneval', title: 'Chef de Projet Digital', roleKey: 'chef_projet_digital', img: '/Trombi/C_dM1.png', slug: 'CharlesdeMagneval' },
+        //{ name: 'Camille Faure', title: 'Responsable RH (HR Manager)', roleKey: 'responsable_rh', img: '/Trombi/C_F.png', slug: 'CamilleFaure' },
         { name: 'Rémi Pichonneau', title: 'Responsable Technique (CTO)', roleKey: 'responsable_technique', img: '/Trombi/R_Pvf.png', slug: 'RemiPichonneau' },
         { name: 'Olivier Cot', title: 'Responsable Commercial (CBO)', roleKey: 'responsable_commercial', img: '/Trombi/O_C.png', slug: 'OlivierCot' },
         { name: 'Philippe Stuarik', title: 'Responsable QHSE (QSE Manager)', roleKey: 'responsable_qhse', img: '/Trombi/P_Svf.png', slug: 'PhilippeStuarik' },
         { name: 'Anaïs Olive', title: 'Cheffe de projet Outre Mer (Project Manager)', roleKey: 'cheffe_projet_outre_mer', img: '/Trombi/A_O.png', slug: 'AnaisOLIVE' },
-        { name: 'Cédric Chauvet', title: 'Directeur des Opération de Production', roleKey: 'developpeur_ia', img: '/Trombi/C_Cvf.png', slug: 'CedricChauvet' },
+        //{ name: 'Cédric Chauvet', title: 'Directeur des Opération de Production', roleKey: 'developpeur_ia', img: '/Trombi/C_Cvf.png', slug: 'CedricChauvet' },
         { name: 'Xavier Piedallu', title: 'Architecte Web Full-Stack', roleKey: 'architecte_web', img: '/Trombi/X_Pvf.png', slug: 'XavierPiedallu' },
         { name: 'Rubie', title: 'Responsable Bien-être au travail (Chief Happiness Officer)', roleKey: 'responsable_bien_etre', img: '/Trombi/Rubie.png', slug: 'Rubie' }
       ],

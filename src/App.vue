@@ -15,7 +15,7 @@
     
 
     <!-- Rubie Chatbot flottant -->
-    <RubieChat />
+    <!-- <RubieChat /> -->
   </div>
 </template>
 
@@ -24,8 +24,7 @@ import { ref } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import Footer from './components/Footer.vue'
 import HeaderMobile from './components/HeaderMobile.vue'
-import RubieChat from './components/RubieChat.vue'
-
+// import RubieChat from './components/RubieChat.vue'
 const isSidebarOpen = ref(false)
 
 const toggleSidebar = () => {
@@ -48,4 +47,3 @@ html, body {
   overflow-x: hidden;
 }
 </style>
-
