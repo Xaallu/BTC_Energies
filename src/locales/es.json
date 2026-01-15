@@ -270,14 +270,16 @@
   "equipe_JMarc_Bio4": "Figura clave del equipo, representa una garantía fundamental de credibilidad científica, industrial y de gestión, reforzando significativamente la solidez del proyecto, su capacidad de reducción del riesgo tecnológico y su relevancia frente a inversores, socios industriales e instituciones públicas implicadas en programas ambiciosos de I+D.",
 
 
-    "equipe_Alain_Nom": "Alain DEGANS",
-    "equipe_Alain_TitreCourt": "Responsable de Proyecto Digital – Cofundador de BTC Énergies",
-    "equipe_Alain_Etudes_Titre": "Formación:",
-    "equipe_Alain_Etudes_Detail": "Bac+5 en Gestión y Desarrollo de Actividades Comerciales (en curso)",
-    "equipe_Alain_Citation": "“Me uní a este proyecto con la convicción profunda de que podía tener un impacto positivo y duradero en nuestra sociedad. Para mí, BTC Énergies es ante todo una visión, un equipo unido y soluciones de futuro.”",
-    "equipe_Alain_Bio1": "Nacido en 2000, es el miembro más joven del equipo y también uno de los cofundadores de BTC Énergies. Formado en gestión de proyectos y marketing digital, se distingue por un espíritu emprendedor afianzado y una fuerte sensibilidad hacia los retos ecológicos y tecnológicos.",
-    "equipe_Alain_Bio2": "Guiado por una visión militante del emprendimiento, defiende con convicción el papel fundamental de la industria en la transición ecológica. Considera la gasificación hidrotermal (GH) como una tecnología clave para un desarrollo económico sostenible.",
-    "equipe_Alain_Bio3": "Perseverante, constante y con gran capacidad de entrega, se impone como uno de los miembros más resilientes del equipo.",
+  
+  "equipe_Alain_Nom": "Charles De MAGNEVAL",
+  "equipe_Alain_TitreCourt": "Director de Proyectos Digitales – Cofundador de BTC Énergies",
+  "equipe_Alain_Etudes_Titre": "Formación:",
+  "equipe_Alain_Etudes_Detail": "Nivel Máster (Bac+5): Gestión y Desarrollo de Actividades Comerciales (en curso)",
+  "equipe_Alain_Citation": "“Me uní a este proyecto con la firme convicción de que puede tener un impacto positivo y duradero en nuestra sociedad. Para mí, BTC Énergies es ante todo una visión, un equipo unido y soluciones orientadas al futuro.”",
+  "equipe_Alain_Bio1": "Con más de 30 años de experiencia, Charles es un pionero de la web en Francia, reconocido por su capacidad para diseñar, desplegar y gestionar sistemas informáticos y de software críticos al servicio del rendimiento industrial. Ha liderado más de 50 misiones para grandes grupos internacionales, demostrando de forma constante su capacidad para transformar la tecnología en una ventaja operativa y estratégica.",
+  "equipe_Alain_Bio2": "Su trayectoria se distingue por resultados medibles en el desempeño empresarial, con éxitos sostenidos en posiciones de liderazgo de mercado. Cuenta con una amplia experiencia multisectorial (banca, seguros, salud, gran distribución, energía), lo que le permite adaptar arquitecturas digitales robustas a entornos altamente regulados y exigentes. Con un profundo dominio técnico (CSS, Linux embebido, Java, aplicaciones empresariales), Charles es responsable del diseño y la integración de herramientas informáticas y soluciones de inteligencia artificial en el núcleo de nuestras máquinas e instalaciones industriales. Desempeña un papel clave en la digitalización de procesos, la optimización del rendimiento, la supervisión de sistemas y la mitigación del riesgo tecnológico del proyecto.",
+  "equipe_Alain_Bio3": "Dentro del equipo, constituye un pilar tecnológico fundamental, garantizando la fiabilidad, la escalabilidad y la inteligencia de las infraestructuras desarrolladas, y reforzando de manera significativa la credibilidad industrial y digital del programa de I+D.",
+
 
     "equipe_Camille_Nom": "Camille FAURE",
     "equipe_Camille_TitreCourt": "Responsable RRHH (HR Manager)",

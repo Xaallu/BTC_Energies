@@ -253,14 +253,15 @@
   "equipe_JMarc_Bio3": "Ihre Expertise erstreckt sich über fortschrittliche Entwicklung, Leistungsoptimierung, Prozesszuverlässigkeit sowie den Aufbau leistungsfähiger F&E-Organisationen, die langfristig messbare Ergebnisse liefern. Als Polyglottin (Französisch, Englisch, Schwedisch, Deutsch) mit umfassender internationaler Erfahrung agiert sie souverän in multikulturellen Umfeldern und komplexen Entscheidungsstrukturen.",
   "equipe_JMarc_Bio4": "Als Schlüsselfigur des Teams stellt sie einen zentralen Garant für wissenschaftliche, industrielle und managementbezogene Glaubwürdigkeit dar und stärkt maßgeblich die Robustheit des Projekts, dessen technologische Risikominimierung sowie dessen Attraktivität gegenüber Investoren, Industriepartnern und öffentlichen Institutionen, die in ambitionierte F&E-Programme eingebunden sind.",
 
-    "equipe_Alain_Nom": "Alain DEGANS",
-    "equipe_Alain_TitreCourt": "Digitalprojektleiter – Mitgründer von BTC Énergies",
-    "equipe_Alain_Etudes_Titre": "Ausbildung:",
-    "equipe_Alain_Etudes_Detail": "Bac+5 Management & Entwicklung kommerzieller Aktivitäten (laufend)",
-    "equipe_Alain_Citation": "„Ich habe mich diesem Projekt mit der tiefen Überzeugung angeschlossen, dass es einen positiven und dauerhaften Einfluss auf unsere Gesellschaft haben kann. Für mich ist BTC Énergies vor allem eine Vision, ein eingespieltes Team und zukunftsweisende Lösungen.“",
-    "equipe_Alain_Bio1": "Geboren im Jahr 2000, ist er das jüngste Mitglied des Teams und zugleich einer der Mitgründer von BTC Énergies. Er ist in Projektmanagement und digitalem Marketing ausgebildet und zeichnet sich durch einen ausgeprägten Unternehmergeist sowie ein starkes Bewusstsein für ökologische und technologische Herausforderungen aus.",
-    "equipe_Alain_Bio2": "Geleitet von einer engagierten Vorstellung des Unternehmertums, setzt er sich mit Überzeugung für die zentrale Rolle der Industrie in der ökologischen Transformation ein. Die hydrothermale Vergasung (GH) betrachtet er als Schlüsseltechnologie für eine nachhaltige wirtschaftliche Entwicklung.",
-    "equipe_Alain_Bio3": "Ausdauernd, konstant und mit großem Einsatz gehört er zu den belastbarsten Mitgliedern des Teams. Seine Energie und Zielstrebigkeit tragen wesentlich zum Fortschritt des Projekts bei.",
+   
+  "equipe_Alain_Nom": "Charles De MAGNEVAL",
+  "equipe_Alain_TitreCourt": "Digitaler Projektleiter – Mitgründer von BTC Énergies",
+  "equipe_Alain_Etudes_Titre": "Ausbildung:",
+  "equipe_Alain_Etudes_Detail": "Master-Niveau (Bac+5): Management und Entwicklung kommerzieller Aktivitäten (laufend)",
+  "equipe_Alain_Citation": "„Ich bin diesem Projekt beigetreten, weil ich tief davon überzeugt bin, dass es einen positiven und nachhaltigen Einfluss auf unsere Gesellschaft haben kann. Für mich ist BTC Énergies vor allem eine Vision, ein eng verbundenes Team und zukunftsorientierte Lösungen.“",
+  "equipe_Alain_Bio1": "Mit über 30 Jahren Erfahrung gilt Charles als einer der Pioniere des Webs in Frankreich und ist anerkannt für seine Fähigkeit, kritische IT- und Softwaresysteme zu konzipieren, zu implementieren und zu steuern, die direkt zur industriellen Leistungsfähigkeit beitragen. Er hat mehr als 50 Einsätze für große internationale Konzerne geleitet und dabei kontinuierlich bewiesen, dass er Technologie in einen operativen und strategischen Wettbewerbsvorteil verwandeln kann.",
+  "equipe_Alain_Bio2": "Sein Werdegang zeichnet sich durch messbare Ergebnisse in der Unternehmensperformance aus, mit nachhaltigen Erfolgen in führenden Marktpositionen. Er verfügt über eine breit gefächerte, branchenübergreifende Expertise (Banken, Versicherungen, Gesundheitswesen, Einzelhandel, Energie), die es ihm ermöglicht, robuste digitale Architekturen an stark regulierte und anspruchsvolle Umfelder anzupassen. Mit fundierten technischen Kenntnissen (CSS, Embedded Linux, Java, Enterprise-Anwendungen) verantwortet Charles die Konzeption und Integration von IT-Werkzeugen sowie KI-Lösungen im Kern unserer Maschinen und industriellen Anlagen. Er spielt eine Schlüsselrolle bei der Digitalisierung von Prozessen, der Leistungsoptimierung, der Systemüberwachung und der technologischen Risikominimierung des Projekts.",
+  "equipe_Alain_Bio3": "Innerhalb des Teams stellt er eine zentrale technologische Säule dar, die die Zuverlässigkeit, Skalierbarkeit und Intelligenz der entwickelten Infrastrukturen sicherstellt und die industrielle sowie digitale Glaubwürdigkeit des F&E-Programms maßgeblich stärkt.",
 
 
     "equipe_Camille_Nom": "Camille FAURE",

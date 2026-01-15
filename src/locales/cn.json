@@ -254,7 +254,7 @@
   "equipe_Thibault_Bio6": "他的国际经验结合实际观察与文化沉浸，构建出一个独特而宏大的愿景：将这项技术转化为应对能源转型与再工业化挑战的实际方案。他不断思考，持续为公司注入新想法。",
 
   
-  "equipe_JMarc_Nom": "工程博士 苏珊娜·斯文斯多特",
+  "equipe_JMarc_Nom": "ePhD Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "首席运营官（COO） / 总经理",
   "equipe_JMarc_Etudes_Titre": "学历：",
   "equipe_JMarc_Etudes_Detail": "工程师文凭：格勒诺布尔国立综合理工学院<br />博士学位：管理科学<br />认证：PMP®（项目管理协会），认证调解员（巴黎先贤祠-阿萨斯大学）",
@@ -265,14 +265,15 @@
   "equipe_JMarc_Bio4": "作为团队中的关键人物，她为项目带来了卓越的科学、工业及管理公信力，大幅增强了项目的整体稳健性、技术去风险能力，以及在投资者、工业合作伙伴和公共机构（参与高端研发计划）中的吸引力与可信度。",
 
 
-  "equipe_Alain_Nom": "Alain DEGANS",
-  "equipe_Alain_TitreCourt": "数字项目负责人 – BTC Énergies 联合创始人",
+  "equipe_Alain_Nom": "Charles De MAGNEVAL",
+  "equipe_Alain_TitreCourt": "数字项目负责人 —— BTC Énergies 联合创始人",
   "equipe_Alain_Etudes_Titre": "学历：",
-  "equipe_Alain_Etudes_Detail": "硕士在读：商业活动管理与发展",
-  "equipe_Alain_Citation": "“我加入这个项目，是出于对其为社会带来积极、持久影响的坚定信念。对我来说，BTC Énergies 是愿景、团队精神与未来解决方案的结合。”",
-  "equipe_Alain_Bio1": "出生于 2000 年，是团队中最年轻的成员，同时也是 BTC Énergies 的联合创始人之一。具有项目管理与数字营销背景，具备扎实的创业精神与对生态和技术问题的敏锐洞察。",
-  "equipe_Alain_Bio2": "他以激进企业精神为动力，坚定认为工业在生态转型中发挥着关键作用。他将水热气化（GH）视为实现可持续经济发展的核心技术。",
-  "equipe_Alain_Bio3": "他坚定不移、持续投入，展现出极强的韧性，是团队中最坚强的成员之一。",
+  "equipe_Alain_Etudes_Detail": "硕士（五年制）：商业活动管理与发展（在读）",
+  "equipe_Alain_Citation": "“我加入这个项目，是因为我坚信它能够对社会产生积极而持久的影响。对我而言，BTC Énergies 首先是一种愿景、一支团结的团队，以及面向未来的解决方案。”",
+  "equipe_Alain_Bio1": "凭借超过 30 年的从业经验，Charles 是法国互联网领域的先行者之一，以其在设计、部署和管理关键型信息系统与软件方面的能力而广受认可，这些系统直接服务于工业绩效的提升。他已为多家国际大型集团完成了 50 余项任务，持续证明了将技术转化为运营与战略优势的卓越能力。",
+  "equipe_Alain_Bio2": "他的职业生涯以可量化的企业绩效成果为特色，在多个市场领导地位的构建与巩固方面取得了长期成功。他拥有广泛的跨行业经验（银行、保险、医疗、零售、能源），能够将稳健的数字架构灵活应用于高度监管且要求严苛的环境之中。凭借深厚的技术功底（CSS、嵌入式 Linux、Java、企业级应用），Charles 负责设计并集成信息化工具及人工智能解决方案，使其成为公司机器设备与工业装置的核心组成部分。他在流程数字化、性能优化、系统监控以及项目技术风险控制方面发挥着关键作用。",
+  "equipe_Alain_Bio3": "在团队中，他是不可或缺的技术支柱，确保所开发基础设施的可靠性、可扩展性与智能化水平，显著增强了研发项目在工业与数字化层面的整体可信度。",
+
 
   "equipe_Camille_Nom": "Camille FAURE",
   "equipe_Camille_TitreCourt": "人力资源负责人（HR 经理）",
