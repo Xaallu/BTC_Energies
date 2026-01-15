@@ -39,16 +39,18 @@ Miroir
 
 
 
-git push --mirror https://REMOVED_TOKEN@github.com/Xa-C24/BTC_Energies-Backup.git
+<!-- git push --mirror https://github.com/Xa-C24/BTC_Energies-Backup.git (token removed) -->
 
 
 
+<!--
 #!/bin/bash
 cd ~/BTC_Energies
 git fetch origin
 git push --mirror mirror
 cd ~/BTC_Energies/BTC_Energies.git
-git push --mirror https://REMOVED_TOKEN@github.com/Xa-C24/BTC_Energies-Backup.git
+git push --mirror https://github.com/Xa-C24/BTC_Energies-Backup.git (token removed)
+-->
 
 
 source venv/bin/activate     # Vue 3 + Vite
