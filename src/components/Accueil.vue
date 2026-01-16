@@ -262,9 +262,13 @@
          xl:w-[8rem] xl:h-[6rem]     <!-- très grand écran -->
          overflow-hidden shadow-md bg-white p-1
          transition-transform duration-300 ease-in-out"
-      :class="{ 'scale-150 z-10': hoveredLogo === index }"
-      @mouseenter="hoveredLogo = index"
-      @mouseleave="hoveredLogo = null"
+      :class="{
+        'scale-150 z-10': hoveredLogo === index && !isMobile,
+        'scale-110 z-10': hoveredLogo === index && isMobile
+      }"
+      @mouseenter="handleLogoEnter(index)"
+      @mouseleave="handleLogoLeave"
+      @click="handleLogoClick(index)"
     >
       <img
         :src="logo"
@@ -613,12 +617,31 @@ export default {
         '/logo_impact/9industrie.png', '/logo_impact/10reduction.png', '/logo_impact/11villes.png', '/logo_impact/12consomations.png',
         '/logo_impact/13luttes.png', '/logo_impact/14conserver.png', '/logo_impact/15vie.png', '/logo_impact/16justice.png', '/logo_impact/17partenariats.png'
       ],
-      hoveredLogo: null
+      hoveredLogo: null,
+      isMobile: false
      
     };
   },
 
 methods: {
+  updateIsMobile() {
+    this.isMobile = window.innerWidth < 640;
+  },
+  handleLogoEnter(index) {
+    if (!this.isMobile) {
+      this.hoveredLogo = index;
+    }
+  },
+  handleLogoLeave() {
+    if (!this.isMobile) {
+      this.hoveredLogo = null;
+    }
+  },
+  handleLogoClick(index) {
+    if (this.isMobile) {
+      this.hoveredLogo = this.hoveredLogo === index ? null : index;
+    }
+  },
   getLogoStyle(index, total) {
     let radius, centerX, centerY;
 
@@ -651,6 +674,14 @@ methods: {
       cursor: "pointer"    // ✅ assure l’interaction (main au survol)
     };
   }
+},
+
+mounted() {
+  this.updateIsMobile();
+  window.addEventListener('resize', this.updateIsMobile);
+},
+beforeUnmount() {
+  window.removeEventListener('resize', this.updateIsMobile);
 },
 
   setup() {
