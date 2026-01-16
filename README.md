@@ -21,6 +21,8 @@ Bienvenue dans le projet de refonte du site web de **BTC Énergies** ! Ce projet
 
 
 znhn wmoi evgm lvut
+
+git pull
 npm run dev
 
 <<<<<<< HEAD
