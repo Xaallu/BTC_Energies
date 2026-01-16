@@ -461,6 +461,24 @@
   "siteoptimise": "网站已为桌面端优化",
   "Cookies": "曲奇",
   "Site conçu et": "网站由 BTC Énergies 设计与优化 •"
-}
+},
+
+"cookies": {
+    "title": "Cookie 管理",
+    "description": "我们使用技术性和访问量统计 cookies，以确保网站正常运行并不断改进。",
+    "currentChoice": "您当前的选择",
+    "policyLink": "查看 Cookie 政策",
+    "accept": "接受",
+    "decline": "拒绝",
+    "choice": {
+      "accepted": "已接受",
+      "declined": "已拒绝",
+      "unknown": "未定义"
+    }
+  },
+
+  "common": {
+    "close": "关闭"
+  }
 
 }

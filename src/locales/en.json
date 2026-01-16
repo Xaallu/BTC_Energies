@@ -491,6 +491,23 @@
     "siteoptimise": "Site optimised for the computer version",
     "Cookies": "Cookies",
     "Site conçu et": "Website designed and optimised by BTC Energies •"
-  }
+  },
   
+   "cookies": {
+    "title": "Cookie settings",
+    "description": "We use technical and audience measurement cookies to ensure the proper functioning of the site and improve it.",
+    "currentChoice": "Your current choice",
+    "policyLink": "View cookie policy",
+    "accept": "Accept",
+    "decline": "Decline",
+    "choice": {
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "unknown": "Not defined"
+    }
+  },
+
+  "common": {
+    "close": "Close"
+  }
 }

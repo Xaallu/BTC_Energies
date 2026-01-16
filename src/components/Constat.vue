@@ -59,17 +59,17 @@
 
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
                 
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 
             
-                  <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+                  <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
 
 
                     
 
                     <br />
                     <br />
-                    <div class="text-[#475C79] text-center font-bold">
+                    <div class="text-[#475C79] text-center font-bold text-sm sm:text-base">
                       <p>{{ $t('notre_constat.intro1_Le monde continue') }}</p>
                       <br />
                       <p>{{ $t('notre_constat.intro2_Ces solutions sont vastes') }}</p>
@@ -102,25 +102,25 @@
 
                 
                 <!-- Grid x2 -->
-                <v-row class="py-12 px-6 md:px-20 text-[#475C79]">
+                <v-row class="py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-20 text-[#475C79]">
                   <v-col cols="12" md="6">
-                    <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
+                    <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       {{ $t('notre_constat.titre2_Technologie') }}
                       <span class="text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                     </h3>
-                    <p class="indent-8">
+                    <p class="indent-0 sm:indent-8">
                       {{ $t('notre_constat.intro3_Les avancees technologiques') }}
                     </p>
                   </v-col>
                     <br>
 
                   <v-col cols="12" md="6">
-                    <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
+                    <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                      {{ $t('notre_constat.titre3_Durabilite environnementale') }} 
                       <span class="text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                     </h3>
                     
-                    <p class="indent-8">
+                    <p class="indent-0 sm:indent-8">
                       {{ $t('notre_constat.intro4_Face aux defis') }}
                     </p>
                   </v-col>
@@ -147,34 +147,34 @@
                 <br>
                 
                 <!-- Grid x3 -->
-                <v-row class="py-12 px-6 md:px-20 text-[#475C79]">
+                <v-row class="py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-20 text-[#475C79]">
                   <v-col cols="12" md="4">
-                    <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
+                    <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       <p>{{ $t('notre_constat.titre5_Environnement') }}</p>
                       <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                     </h3>
-                    <p class="indent-8">
+                    <p class="indent-0 sm:indent-8">
                       {{ $t('notre_constat.intro5_Nous nous sommes') }}
                     </p>
                   </v-col>
                       <br>
                   <v-col cols="12" md="4">
-                    <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
+                    <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       {{ $t('notre_constat.titre6_Economie circulaire') }}
                       <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                     </h3>
-                    <p class="indent-8">
+                    <p class="indent-0 sm:indent-8">
                      {{ $t('notre_constat.intro6_Nous croyons en la') }} 
                     </p>
                     <br>
                   </v-col>
 
                   <v-col cols="12" md="4">
-                    <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
+                    <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                      {{ $t('notre_constat.titre7_Innovation durable') }}
                       <span class="text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                     </h3>
-                    <p class="indent-8">
+                    <p class="indent-0 sm:indent-8">
                       {{ $t('notre_constat.intro7_Nous soutenons') }}
                     </p>
                   </v-col>
@@ -185,11 +185,11 @@
                 <!-- Texte final -->
                 <v-row justify="center">
                   <v-col cols="12" md="10">
-                    <p class="text-center text-[#475C79] font-bold">
+                    <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                       {{ $t('notre_constat.intro8_En tant qu entreprise') }}
                     </p>
                     <br />
-                    <p class="text-center text-[#475C79] font-bold">
+                    <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                      {{ $t('notre_constat.intro9_Notre industrie') }}
                     </p>
                     <div class="flex flex-col items-center text-center">
@@ -199,7 +199,7 @@
                   <a href="/solutions"
                   class="font-montserrat font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                     hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                    active:scale-95 active:shadow-inner flex items-center gap-2">                    
+                    active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">                    
                     {{ $t('notre_constat.clic1_Nos Solutions') }}
                   </a>
                 </div>
@@ -233,11 +233,11 @@
 
             <!-- Colonne 3 : Texte et bouton .-->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('notre_constat.clic2_Nous contacter') }}</h2>
+              <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('notre_constat.clic2_Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
+                       active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                       {{ $t('notre_constat.clic3_Nos Coordonnees') }}
               </a>
             </div>

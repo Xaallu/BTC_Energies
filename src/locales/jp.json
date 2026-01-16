@@ -461,5 +461,23 @@
     "siteoptimise": "デスクトップ版に最適化されたウェブサイト",
     "Cookies": "クッキー",
     "Site conçu et": "ウェブサイトのデザインと最適化はBTCエネジーが担当。"
+  },
+
+  "cookies": {
+    "title": "Cookie の設定",
+    "description": "当サイトでは、サイトの正常な動作および改善のために、技術的およびアクセス解析用の Cookie を使用しています。",
+    "currentChoice": "現在の選択",
+    "policyLink": "Cookie ポリシーを確認",
+    "accept": "同意する",
+    "decline": "拒否する",
+    "choice": {
+      "accepted": "同意済み",
+      "declined": "拒否済み",
+      "unknown": "未設定"
+    }
+  },
+
+  "common": {
+    "close": "閉じる"
   }
 }
