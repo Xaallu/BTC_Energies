@@ -251,27 +251,6 @@
     "equipe_Thibault_Bio5": "Poliglotta, avventuroso e viaggiatore instancabile, ha intrapreso a 17 anni un percorso di ideazione nutrito da un viaggio in 11 paesi e 3 continenti. Di fronte alle realtà energetiche e ambientali sul campo, ha sviluppato una comprensione globale delle sfide, individuando immediatamente il potenziale strategico della gassificazione idrotermale.",
     "equipe_Thibault_Bio6": "Le sue esperienze internazionali, tra osservazione pragmatica e immersione culturale, costituiscono una visione singolare e ambiziosa: trasformare questa tecnologia in una risposta concreta alle sfide della transizione energetica e della reindustrializzazione. La sua mente in costante fermento ne fa la fucina di idee dell’azienda.",
 
-<<<<<<< HEAD
-    "equipe_JMarc_Nom": "PhD Jean‑Marc BOUILLON",
-    "equipe_JMarc_TitreCourt": "Direttore Generale (COO)",
-    "equipe_JMarc_Etudes_Titre": "Formazione:",
-    "equipe_JMarc_Etudes_Detail": "Laurea in Ingegneria: Istituto Politecnico Nazionale di Grenoble<br />Dottorato: Scienze della Gestione<br />Certificazioni: PMP® (Project Management Institute), Mediatore diplomato (Università Panthéon‑Assas)",
-    "equipe_JMarc_Citation": "“Il mio impegno è valorizzare i talenti. Anche creare valore e radicare BTC Énergies nel panorama industriale francese e oltre. Il mio filo conduttore perma-industriale è meno plastica.”",
-    "equipe_JMarc_Bio1": "Laureato presso l’Istituto Politecnico Nazionale di Grenoble e dottore in scienze della gestione, ha oltre 35 anni di esperienza in innovazione, performance industriale e transizione ecologica. Esperto riconosciuto, autore impegnato e mediatore diplomato, è presidente eletto dell’Associazione dei Mediatori Diplomati e membro attivo di reti di riferimento come Polyméris e la Convention des Entreprises pour le Climat.",
-    "equipe_JMarc_Bio2": "Con oltre 25 anni in un gruppo multinazionale di livello mondiale, ha guidato progetti complessi per un valore totale di un miliardo di franchi svizzeri, dalla progettazione all’implementazione operativa. È anche Project Management Professional (PMP®️), certificato dal PMI. Rappresenta una leadership rigorosa, strategica e orientata all’impatto.",
-    "equipe_JMarc_Bio3": "La sua esperienza, il genio operativo e il rigore metodologico lo rendono uno dei pilastri della realizzazione industriale delle ambizioni di BTC Énergies, contribuendo concretamente alla trasformazione della nostra strategia in risultati tangibili.",
-  
-
-    "equipe_Alain_Nom": "Alain DEGANS",
-    "equipe_Alain_TitreCourt": "Responsabile del Progetto Digitale – Cofondatore di BTC Énergies",
-    "equipe_Alain_Etudes_Titre": "Formazione:",
-    "equipe_Alain_Etudes_Detail": "Laurea magistrale in Gestione e Sviluppo delle Attività Commerciali (in corso)",
-    "equipe_Alain_Citation": "“Mi sono unito a questo progetto con la profonda convinzione che potesse avere un impatto positivo e duraturo sulla nostra società. Per me, BTC Énergies è innanzitutto una visione, un team unito e soluzioni per il futuro.”",
-    "equipe_Alain_Bio1": "Nato nel 2000, è il membro più giovane del team e anche uno dei cofondatori di BTC Énergies. Formato nella gestione dei progetti e nel marketing digitale, si distingue per uno spirito imprenditoriale consolidato e una forte sensibilità verso le sfide ecologiche e tecnologiche.",
-    "equipe_Alain_Bio2": "Guidato da una visione militante dell’imprenditoria, difende con convinzione il ruolo fondamentale dell’industria nella transizione ecologica. Considera la gassificazione idrotermale (GH) come una tecnologia chiave per uno sviluppo economico sostenibile.",
-    "equipe_Alain_Bio3": "Perseverante, costante e dotato di grande capacità di impegno, si impone come uno dei membri più resilienti del team.",
-
-=======
    
   "equipe_JMarc_Nom": "Dra. Ing. Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "Directora de Operaciones (COO)",
@@ -296,7 +275,6 @@
 
 
   
->>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
     "equipe_Camille_Nom": "Camille FAURE",
     "equipe_Camille_TitreCourt": "Responsabile delle Risorse Umane (HR Manager)",
     "equipe_Camille_Titre2": "Responsabile della comunicazione",
@@ -315,15 +293,17 @@
     "equipe_Remi_Bio1": "Laureato in Ingegneria generale per la conduzione di progetti industriali e Master SYSPEC, ha accumulato 42 anni di esperienza in settori chiave come la produzione di energie rinnovabili, la gestione dei rifiuti (incenerimento, valorizzazione del gas di discarica) e la costruzione di data center.",
     "equipe_Remi_Bio2": "Nel corso della sua carriera ha contribuito all’installazione di 145 MW di potenza energetica, sufficienti ad alimentare 15 000 famiglie – l’equivalente di una città come Chambéry. I suoi fili conduttori sono lo sviluppo sostenibile e la transizione energetica, che guidano tutti i suoi progetti. Spinto da una visione futura, privilegia l’anticipazione e l’innovazione per offrire soluzioni responsabili e durature alle sfide ambientali e tecnologiche. La sua esperienza, versatilità e competenza lo rendono un esperto riconosciuto e influente in BTC Énergies.",
 
-    "equipe_Adell_Nom": "ADELL",
-    "equipe_Adell_TitreCourt": "Direzione Amministrativa e Finanziaria",
-    "equipe_Adell_Titre2": "Architetto della redditività, gestore dei flussi finanziari",
-    "equipe_Adell_Etudes_Titre": "Formazione:",
-    "equipe_Adell_Etudes_Detail": "Ingegneria meccanica / Master in gestione aziendale",
-    "equipe_Adell_Citation": "« Mi interessa costruire, accettare le sfide e creare strumenti al servizio di progetti innovativi. Il progetto BTC Énergies ha un forte carico tecnico e sociale che lo rende un progetto del futuro e un’azione concreta e rilevante. »",
-    "equipe_Adell_Bio2": "Ha partecipato anche a diversi progetti europei di dimensione internazionale, in collaborazione con Belgio, Regno Unito, Portogallo, Polonia, Germania e Spagna. Queste esperienze gli hanno permesso di sviluppare solide competenze in ingegneria dei progetti e raccolta fondi, coltivando allo stesso tempo un approccio interculturale e multidisciplinare. Parla correntemente inglese, spagnolo a livello conversazionale e ha conoscenze di portoghese e giapponese.",
-    "equipe_Adell_Bio3": "Di profilo pragmatico, moderato e rigoroso, si distingue per uno stile operativo diretto che favorisce l’efficacia, sia nel prendere decisioni che nella gestione dei dossier. Allo stesso tempo gerarchico nel suo approccio e autonomo nella sua azione, combina il rispetto della politica generale con una vera autonomia operativa. Questa combinazione gli conferisce una notevole capacità di discernimento, soprattutto nell’identificare disfunzioni e segnalarle in modo costruttivo e diretto.",
-    "equipe_Adell_Bio4": "La sua capacità di dialogare con tutte le parti coinvolte, dalla Presidenza alla direzione generale, passando per le funzioni operative, gli consente di garantire una qualità costante negli scambi, qualunque sia il suo interlocutore. Curioso e visionario, supera volentieri l’ambito della sua funzione per cogliere le questioni nel loro insieme, con il desiderio costante di servire al meglio le missioni affidategli. Queste qualità, unite a un profilo altamente qualificato ed esperto, fanno di lui uno dei motori dell’azienda.",
+
+  "equipe_Adell_Nom": "Marie-Pierre LEFEBVRE",
+  "equipe_Adell_TitreCourt": "Direttrice Amministrativa e Finanziaria",
+  "equipe_Adell_Titre2": "Architetta della redditività e responsabile della strutturazione finanziaria",
+  "equipe_Adell_Etudes_Titre": "Studi:",
+  "equipe_Adell_Etudes_Detail": "Laurea in Ingegneria Meccanica / Master in Gestione d’Impresa",
+  "equipe_Adell_Citation": "«Ciò che mi interessa è costruire, affrontare le sfide e sviluppare strumenti al servizio di progetti innovativi. Il progetto BTC Énergies presenta una rilevanza tecnica e sociale estremamente elevata, rendendolo un progetto orientato al futuro e una via d’azione concreta e pertinente.»",
+  "equipe_Adell_Bio1": "Marie-Pierre vanta oltre 30 anni di esperienza nel settore finanziario, maturata all’interno di PMI e in contesti industriali e contabili, con una profonda competenza in architettura finanziaria, visione strategica e leadership di prodotto. Nel corso della sua carriera, ha messo il proprio know-how al servizio di progetti diversi e complessi, che spaziano da fusioni aziendali e riorganizzazioni organizzative alla ridefinizione delle strutture azionarie e alla strutturazione delle funzioni amministrative e finanziarie. Ha inoltre guidato numerose missioni di ristrutturazione di aziende in difficoltà, contribuendo in modo determinante al recupero delle performance e alla sostenibilità a lungo termine delle loro attività.",
+  "equipe_Adell_Bio2": "Dotata di un profilo pragmatico, rigoroso ed equilibrato, si distingue per uno stile di lavoro diretto che favorisce l’efficienza sia nei processi decisionali sia nella gestione dei dossier. Pur mantenendo una chiara impostazione gerarchica, opera con piena autonomia, coniugando il rispetto delle linee strategiche con una reale indipendenza operativa. Questa combinazione le conferisce una spiccata capacità di discernimento, in particolare nell’individuare le disfunzioni e nel segnalarle in modo costruttivo e diretto.",
+  "equipe_Adell_Bio3": "La sua capacità di dialogare con tutte le parti interessate — dalla presidenza alla direzione generale fino alle funzioni operative — le consente di garantire una qualità di scambio costante, indipendentemente dagli interlocutori. Curiosa e visionaria, è incline a superare il perimetro stretto della propria funzione per affrontare le problematiche in modo globale, con l’obiettivo costante di servire al meglio le missioni affidatele. Il suo percorso professionale, arricchito in particolare dal coinvolgimento in French Tech Tremplin, così come il suo profilo altamente qualificato ed esperto, la rendono una figura motrice e strutturante per le organizzazioni che accompagna.",
+
 
     "equipe_Olivier_Nom": "Olivier COT",
     "equipe_Olivier_TitreCourt": "Responsabile Commerciale (CBO)",

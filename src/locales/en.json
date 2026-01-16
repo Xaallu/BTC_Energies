@@ -262,26 +262,6 @@
     "equipe_Thibault_Bio4": "This milestone confirms the relevance of the solution developed by Thibault BÉTHENCOURT, as well as the growing recognition of his commitment, vision, and execution capabilities. A visionary, creative entrepreneur with a strong focus on innovation, he represents a bold and disruptive approach to industry, making him a unique and notable figure in the energy transition ecosystem.",
     "equipe_Thibault_Bio5": "A polyglot, passionate adventurer, and intrepid traveler, he began his path of ideation at the age of 17 with a world tour through 11 countries and 3 continents. Confronted with energy and environmental realities on the ground, he developed a global understanding of these issues, which immediately enabled him to identify the strategic potential of hydrothermal gasification.",
     "equipe_Thibault_Bio6": "His international experiences blending pragmatic observation with cultural immersion shaped a singular and ambitious vision: to make this technology a concrete response to the challenges of energy transition and reindustrialization. His ever-stimulated mind makes him the company’s idea generator.",
-<<<<<<< HEAD
-
-     "equipe_JMarc_Nom": "ePhD Jean-Marc BOUILLON",
-    "equipe_JMarc_TitreCourt": "General Director (COO)",
-    "equipe_JMarc_Etudes_Titre": "Studies:",
-    "equipe_JMarc_Etudes_Detail": "Engineering Degree: Grenoble Institute of Technology<br />Doctorate: Management Sciences<br />Certifications: PMP® (Project Management Institute), Certified Mediator (Université Panthéon-Assas)",
-    "equipe_JMarc_Citation": "“My commitment is to highlight talents, create value, and anchor BTC Énergies in the French industrial landscape and beyond. My perma-industrial guiding thread: less plastic.”",
-    "equipe_JMarc_Bio1": "Graduated from Grenoble Institute of Technology and PhD in management sciences, he brings over 35 years of experience in innovation, industrial performance, and ecological transition. A recognized expert, committed author, and certified mediator from Université Panthéon-Assas, he is the elected President of their Association of Certified Mediators and an active member of reference networks such as Polyméris and the Convention of Companies for the Climate.",
-    "equipe_JMarc_Bio2": "With over 25 years of experience in a multinational group, a global leader, he has led complex projects totaling the equivalent of one billion Swiss francs, from study to operational implementation. He is also a Project Management Professional (PMP®️) certified by the Project Management Institute, the world's leading project management organization. He embodies rigorous, strategic, and impact-driven leadership.",
-    "equipe_JMarc_Bio3": "His experience, operational genius, and methodological rigor make him one of the key pillars of BTC Énergies' industrial ambitions, actively contributing to turning our strategy into tangible results.",
-    
-     "equipe_Alain_Nom": "Alain DEGANS",
-    "equipe_Alain_TitreCourt": "Digital Project Manager – Co-founder of BTC Énergies",
-    "equipe_Alain_Etudes_Titre": "Studies:",
-    "equipe_Alain_Etudes_Detail": "Master's degree: Management and Development of Business Activities (in progress)",
-    "equipe_Alain_Citation": "“I joined this project with the deep conviction that it could have a positive and lasting impact on our society. For me, BTC Énergies is above all a vision, a united team, and forward-looking solutions.”",
-    "equipe_Alain_Bio1": "Born in 2000, he is the youngest member of the team, but also one of the co-founders of BTC Énergies. Trained in project management and digital marketing, he stands out for his strong entrepreneurial mindset and acute awareness of ecological and technological issues.",
-    "equipe_Alain_Bio2": "Driven by a committed vision of entrepreneurship, he firmly defends the fundamental role of industry in the ecological transition. He sees hydrothermal gasification (HG) as a key technology for sustainable economic development.",
-    "equipe_Alain_Bio3": "Persistent, consistent, and endowed with great self-sacrifice, he is one of the most resilient members of the team.",
-=======
     
 
   "equipe_JMarc_Nom": "Dr.-Eng. Susanne SVENSDOTTER",
@@ -304,7 +284,6 @@
   "equipe_Alain_Bio2": "His career is marked by measurable improvements in corporate performance, with long-term successes in market leadership positions. He brings extensive cross-sector expertise (banking, insurance, healthcare, retail, energy), enabling him to adapt robust digital architectures to highly regulated and demanding environments. With deep technical expertise (CSS, embedded Linux, Java, enterprise applications), Charles is responsible for the design and integration of IT tools and artificial intelligence solutions at the core of our machines and industrial installations. He plays a key role in process digitalization, performance optimization, system supervision, and technological risk mitigation across the project.",
   "equipe_Alain_Bio3": "Within the team, he serves as a major technological pillar, ensuring the reliability, scalability, and intelligence of the developed infrastructures, and significantly strengthening the industrial and digital credibility of the R&D program.",
 
->>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 
     "equipe_Camille_Nom": "Camille FAURE",
     "equipe_Camille_TitreCourt": "HR Manager",
@@ -324,16 +303,17 @@
     "equipe_Remi_Bio1": "Holder of an engineering degree in industrial project management and a Master’s in SYSPEC, he has 42 years of experience in key fields such as renewable energy production, waste management (incineration, landfill gas recovery), and data center construction.",
     "equipe_Remi_Bio2": "Over the course of his career, he contributed to the installation of 145 MW of energy capacity, enough to power 15,000 households the size of a city like Chambéry. His guiding principles are sustainable development and energy transition. Future-oriented, he emphasizes anticipation and innovation to deliver responsible and durable solutions to environmental and technological challenges. His expertise, versatility, and hard-earned wisdom make him a respected expert and influential figure within BTC Énergies.",
 
-      "equipe_Adell_Nom": "ADELL",
-    "equipe_Adell_TitreCourt": "Administrative and Financial Director",
-    "equipe_Adell_Titre2": "Profitability architect, financial structuring project manager",
-    "equipe_Adell_Etudes_Titre": "Studies:",
-    "equipe_Adell_Etudes_Detail": "Engineering degree in Mechanical Engineering / Master’s degree in Business Management",
-    "equipe_Adell_Citation": "“What interests me is building, taking on challenges, and implementing tools to support innovative projects. The BTC Énergies project carries a strong technical and societal charge, making it a project of the future and a concrete, relevant course of action.”",
-    "equipe_Adell_Bio1": "Holder of an engineering degree in mechanical engineering and a master’s degree in business management, he has 35 years of experience in industry, services, and institutions dedicated to local economic development such as Chambers of Commerce and Industry (CCI) or development agencies. Throughout his career, he has applied his expertise to diverse and complex projects, ranging from structural mergers to the functional reorganization of companies, including shareholder restructuring and financial-administrative frameworks.",
-    "equipe_Adell_Bio2": "He has also taken part in several European projects with international scope, involving collaborations with Belgium, the United Kingdom, Portugal, Poland, Germany, and Spain. These experiences enabled him to develop strong project engineering and funding search skills, along with an intercultural and cross-functional approach. He is fluent in English, conversational in Spanish, and has notions of Portuguese and Japanese.",
-    "equipe_Adell_Bio3": "With a pragmatic, moderate, and rigorous profile, he stands out with a direct working style that promotes efficiency in both decision-making and operational execution. Both hierarchical in posture and autonomous in action, he combines respect for general policies with operational independence. This balance gives him valuable discernment, especially in identifying dysfunctions and addressing them constructively and clearly.",
-    "equipe_Adell_Bio4": "His ability to communicate with all stakeholders from the presidency to executive management and operational teams  ensures constant quality interaction regardless of audience. Curious and visionary, he willingly goes beyond the boundaries of his role to understand issues in their entirety, always seeking to best serve the missions entrusted to him. These qualities, along with his highly qualified and experienced profile, make him one of the driving forces of the company.",
+    
+  "equipe_Adell_Nom": "Marie-Pierre LEFEBVRE",
+  "equipe_Adell_TitreCourt": "Administrative and Financial Director",
+  "equipe_Adell_Titre2": "Architect of profitability and lead designer of financial structuring",
+  "equipe_Adell_Etudes_Titre": "Education:",
+  "equipe_Adell_Etudes_Detail": "Engineering Degree in Mechanical Engineering / Master’s Degree in Business Management",
+  "equipe_Adell_Citation": "“What interests me is building, taking on challenges, and developing tools that serve innovative projects. The BTC Énergies project carries an exceptionally strong technical and societal dimension, making it a forward-looking initiative and a concrete, relevant path for action.”",
+  "equipe_Adell_Bio1": "Marie-Pierre brings more than 30 years of experience in finance, acquired within SMEs as well as industrial and accounting environments, with deep expertise in financial architecture, strategic vision, and product leadership. Throughout her career, she has placed her know-how at the service of diverse and complex projects, ranging from corporate mergers and organizational restructuring to the redefinition of shareholding structures and the structuring of administrative and financial functions. She has also led numerous restructuring assignments for companies in difficulty, playing a decisive role in restoring performance and ensuring the long-term sustainability of their operations.",
+  "equipe_Adell_Bio2": "With a pragmatic, rigorous, and measured profile, she stands out for a direct working style that promotes efficiency, both in decision-making and in the handling of matters. While maintaining a clear hierarchical posture, she operates with full autonomy, combining respect for strategic orientations with genuine operational independence. This balance gives her a strong capacity for discernment, particularly in identifying organizational dysfunctions and addressing them in a constructive and straightforward manner.",
+  "equipe_Adell_Bio3": "Her ability to engage in dialogue with all stakeholders — from the presidency and executive management to operational teams — enables her to maintain a consistently high quality of exchange, regardless of the interlocutor. Curious and forward-thinking, she readily goes beyond the strict scope of her role to approach issues holistically, always with the objective of best serving the missions entrusted to her. Her career path, notably enriched by her involvement in French Tech Tremplin, together with her highly qualified and experienced profile, makes her a driving and structuring force for the organizations she supports.",
+
 
     "equipe_Olivier_Nom": "Olivier COT",
   "equipe_Olivier_TitreCourt": "Chief Business Officer (CBO)",
