@@ -220,10 +220,10 @@
     <br>
     <br> 
 <br> 
-        <!-- Bloc 3 Alain DEGANS -->
+        <!-- Bloc 3 Charles de MAGNEVAL -->
            <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
            
-            <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+            <div id="CharlesdeMagneval" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
               <!-- Image à gauche -->
               <div class="flex-shrink-0">
                 <img
@@ -449,11 +449,11 @@
 <br>
 <br> 
 
-    <!-- Bloc Adell -->
+    <!-- Bloc Marie-Pierre Lefebvre -->
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Contenu principal -->
-  <div  id="Adell" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6">
+  <div  id="MariePierreLefebvre" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6">
 
     <!-- Image à gauche (si ajoutée plus tard) -->
      <!-- Image à gauche -->
