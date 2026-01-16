@@ -23,12 +23,21 @@ Bienvenue dans le projet de refonte du site web de **BTC Énergies** ! Ce projet
 znhn wmoi evgm lvut
 npm run dev
 
+<<<<<<< HEAD
  python manage.py runserver 0.0.0.0:8000
+=======
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 
 
 npm run build
 
+<<<<<<< HEAD
 netlify deploy --prod   [#05ff16]  nouveau       ancien [#22B17A]
+=======
+netlify deploy --prod  
+
+ [#05ff16]  nouveau       ancien [#22B17A]
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 
 npm run build && npm run preview
 
@@ -36,6 +45,7 @@ git remote -v
 
 Miroir
 
+<<<<<<< HEAD
 git fetch origin
 git push --mirror backup
 
@@ -57,3 +67,22 @@ git push --mirror https://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@github.com/Xa
 git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git 
 
 source venv/bin/activate     # Vue 3 + Vite
+=======
+
+
+
+
+
+
+<!--
+#!/bin/bash
+cd ~/BTC_Energies
+git fetch origin
+git push --mirror mirror
+cd ~/BTC_Energies/BTC_Energies.git
+git push --mirror https://github.com/Xa-C24/BTC_Energies-Backup.git (token removed)
+-->
+
+
+source venv/bin/activate     # Vue 3 + Vite
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52

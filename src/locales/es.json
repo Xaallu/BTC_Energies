@@ -258,6 +258,7 @@
     "equipe_Thibault_Bio5": "Políglota, aventurero y viajero intrépido, emprendió a los 17 años un recorrido de ideación alimentado por un viaje por 11 países y 3 continentes. Al enfrentarse a las realidades energéticas y ambientales sobre el terreno, afinó una comprensión global de los retos, lo cual le permitió identificar de inmediato el potencial estratégico de la gasificación hidrotermal.",
     "equipe_Thibault_Bio6": "Sus experiencias internacionales, entre observación pragmática e inmersión cultural, configuran una visión singular y ambiciosa: convertir esta tecnología en una respuesta tangible a los desafíos de la transición energética y reindustrialización. Su mente siempre activa hace de él la caja de ideas de la empresa.",
 
+<<<<<<< HEAD
     "equipe_JMarc_Nom": "PhD Jean‑Marc BOUILLON",
     "equipe_JMarc_TitreCourt": "Director General (COO)",
     "equipe_JMarc_Etudes_Titre": "Formación:",
@@ -275,6 +276,30 @@
     "equipe_Alain_Bio1": "Nacido en 2000, es el miembro más joven del equipo y también uno de los cofundadores de BTC Énergies. Formado en gestión de proyectos y marketing digital, se distingue por un espíritu emprendedor afianzado y una fuerte sensibilidad hacia los retos ecológicos y tecnológicos.",
     "equipe_Alain_Bio2": "Guiado por una visión militante del emprendimiento, defiende con convicción el papel fundamental de la industria en la transición ecológica. Considera la gasificación hidrotermal (GH) como una tecnología clave para un desarrollo económico sostenible.",
     "equipe_Alain_Bio3": "Perseverante, constante y con gran capacidad de entrega, se impone como uno de los miembros más resilientes del equipo.",
+=======
+    
+  "equipe_JMarc_Nom": "Dra. Ing. Susanne SVENSDOTTER",
+  "equipe_JMarc_TitreCourt": "Directora de Operaciones (COO)",
+  "equipe_JMarc_Etudes_Titre": "Formación:",
+  "equipe_JMarc_Etudes_Detail": "Título de Ingeniera: Institut National Polytechnique de Grenoble<br />Doctorado: Ciencias de la Gestión<br />Certificaciones: PMP® (Project Management Institute), Mediadora certificada (Université Panthéon-Assas)",
+  "equipe_JMarc_Citation": "“Mi compromiso es hacer brillar el talento, crear valor y anclar firmemente a BTC Énergies en el panorama industrial francés y más allá. Mi hilo conductor industrial a largo plazo es simple: menos plástico.”",
+  "equipe_JMarc_Bio1": "Doctora (PhD), titulada con un MBA y un MSc, cuenta con más de 25 años de experiencia en investigación y desarrollo en turbomáquinas y en la excelencia de los procesos industriales, dentro de entornos tecnológicos altamente críticos y fuertemente regulados. Su trayectoria combina una sólida experiencia científica de alto nivel, la dirección de programas complejos de I+D y un liderazgo estratégico que abarca desde la investigación inicial hasta la industrialización.",
+  "equipe_JMarc_Bio2": "Ha desempeñado funciones de gobierno corporativo y asesoramiento estratégico como Trustee, consejera independiente (NED) y asesora de consejos de administración (Board Advisor), aportando una visión a largo plazo, una disciplina rigurosa de gestión de riesgos y una elevada exigencia de desempeño. Ha colaborado con actores industriales y académicos de primer nivel, entre ellos Rolls-Royce Aviation, Baker Hughes, Imperial College y HEC Paris, en proyectos de alto impacto tecnológico, económico e industrial.",
+  "equipe_JMarc_Bio3": "Su experiencia abarca el diseño avanzado, la optimización del rendimiento, la fiabilidad de los procesos y la estructuración de organizaciones de I+D de alto rendimiento, capaces de ofrecer resultados medibles a lo largo del tiempo. Políglota (francés, inglés, sueco y alemán) y con una amplia experiencia internacional, se desenvuelve con soltura en entornos multiculturales y en cadenas de decisión complejas.",
+  "equipe_JMarc_Bio4": "Figura clave del equipo, representa una garantía fundamental de credibilidad científica, industrial y de gestión, reforzando significativamente la solidez del proyecto, su capacidad de reducción del riesgo tecnológico y su relevancia frente a inversores, socios industriales e instituciones públicas implicadas en programas ambiciosos de I+D.",
+
+
+  
+  "equipe_Alain_Nom": "Charles De MAGNEVAL",
+  "equipe_Alain_TitreCourt": "Director de Proyectos Digitales – Cofundador de BTC Énergies",
+  "equipe_Alain_Etudes_Titre": "Formación:",
+  "equipe_Alain_Etudes_Detail": "Nivel Máster (Bac+5): Gestión y Desarrollo de Actividades Comerciales (en curso)",
+  "equipe_Alain_Citation": "“Me uní a este proyecto con la firme convicción de que puede tener un impacto positivo y duradero en nuestra sociedad. Para mí, BTC Énergies es ante todo una visión, un equipo unido y soluciones orientadas al futuro.”",
+  "equipe_Alain_Bio1": "Con más de 30 años de experiencia, Charles es un pionero de la web en Francia, reconocido por su capacidad para diseñar, desplegar y gestionar sistemas informáticos y de software críticos al servicio del rendimiento industrial. Ha liderado más de 50 misiones para grandes grupos internacionales, demostrando de forma constante su capacidad para transformar la tecnología en una ventaja operativa y estratégica.",
+  "equipe_Alain_Bio2": "Su trayectoria se distingue por resultados medibles en el desempeño empresarial, con éxitos sostenidos en posiciones de liderazgo de mercado. Cuenta con una amplia experiencia multisectorial (banca, seguros, salud, gran distribución, energía), lo que le permite adaptar arquitecturas digitales robustas a entornos altamente regulados y exigentes. Con un profundo dominio técnico (CSS, Linux embebido, Java, aplicaciones empresariales), Charles es responsable del diseño y la integración de herramientas informáticas y soluciones de inteligencia artificial en el núcleo de nuestras máquinas e instalaciones industriales. Desempeña un papel clave en la digitalización de procesos, la optimización del rendimiento, la supervisión de sistemas y la mitigación del riesgo tecnológico del proyecto.",
+  "equipe_Alain_Bio3": "Dentro del equipo, constituye un pilar tecnológico fundamental, garantizando la fiabilidad, la escalabilidad y la inteligencia de las infraestructuras desarrolladas, y reforzando de manera significativa la credibilidad industrial y digital del programa de I+D.",
+
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 
     "equipe_Camille_Nom": "Camille FAURE",
     "equipe_Camille_TitreCourt": "Responsable RRHH (HR Manager)",

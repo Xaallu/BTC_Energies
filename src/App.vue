@@ -15,7 +15,11 @@
     
 
     <!-- Rubie Chatbot flottant -->
+<<<<<<< HEAD
     <RubieChat />
+=======
+    <!-- <RubieChat /> -->
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
   </div>
 </template>
 
@@ -24,8 +28,12 @@ import { ref } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import Footer from './components/Footer.vue'
 import HeaderMobile from './components/HeaderMobile.vue'
+<<<<<<< HEAD
 import RubieChat from './components/RubieChat.vue'
 
+=======
+// import RubieChat from './components/RubieChat.vue'
+>>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 const isSidebarOpen = ref(false)
 
 const toggleSidebar = () => {
