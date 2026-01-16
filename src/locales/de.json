@@ -461,5 +461,23 @@
     "siteoptimise": "Website für Desktopversion optimiert",
     "Cookies": "Cookies",
     "Site conçu et": "Website entworfen und optimiert von BTC Énergies •"
+  },
+
+   "cookies": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden technische Cookies und Cookies zur Reichweitenmessung, um den ordnungsgemäßen Betrieb der Website sicherzustellen und sie zu verbessern.",
+    "currentChoice": "Ihre aktuelle Auswahl",
+    "policyLink": "Cookie-Richtlinie anzeigen",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "choice": {
+      "accepted": "Akzeptiert",
+      "declined": "Abgelehnt",
+      "unknown": "Nicht definiert"
+    }
+  },
+
+  "common": {
+    "close": "Schließen"
   }
 }
