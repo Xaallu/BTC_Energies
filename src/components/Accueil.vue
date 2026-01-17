@@ -281,6 +281,7 @@
     <div
       v-if="hoveredLogo === 0"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[380px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
       <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
         {{ $t('Nos_engagements.Pas_de_Pauvrete_title') }}</h3>
@@ -295,6 +296,7 @@
         <div
       v-if="hoveredLogo === 1"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
         {{ $t('Nos_engagements.Faim_title') }}</h3>
@@ -309,6 +311,7 @@
         <div
       v-if="hoveredLogo === 2"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -325,6 +328,7 @@
         <div
       v-if="hoveredLogo === 3"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -340,6 +344,7 @@
         <div
       v-if="hoveredLogo === 4"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
         {{ $t('Nos_engagements.egalite_title') }}</h3>
@@ -355,6 +360,7 @@
     <div
       v-if="hoveredLogo === 5"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
         {{ $t('Nos_engagements.eauSalubre_title') }}</h3>
@@ -369,6 +375,7 @@
     <div
       v-if="hoveredLogo === 6"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -384,6 +391,7 @@
     <div
       v-if="hoveredLogo === 7"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -399,6 +407,7 @@
     <div
       v-if="hoveredLogo === 8"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
      <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -414,6 +423,7 @@
     <div
       v-if="hoveredLogo === 9"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
      <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -429,6 +439,7 @@
     <div
       v-if="hoveredLogo === 10"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
      <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -444,6 +455,7 @@
     <div
       v-if="hoveredLogo === 11"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -459,6 +471,7 @@
     <div
       v-if="hoveredLogo === 12"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -474,6 +487,7 @@
     <div
       v-if="hoveredLogo === 13"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -489,6 +503,7 @@
     <div
       v-if="hoveredLogo === 14"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -504,6 +519,7 @@
     <div
       v-if="hoveredLogo === 15"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
      <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -519,6 +535,7 @@
     <div
       v-if="hoveredLogo === 16"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
 
     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
@@ -642,6 +659,11 @@ methods: {
   handleLogoClick(index) {
     if (this.isMobile) {
       this.hoveredLogo = this.hoveredLogo === index ? null : index;
+    }
+  },
+  handleBubbleClick() {
+    if (this.isMobile) {
+      this.hoveredLogo = null;
     }
   },
   getLogoStyle(index, total) {
