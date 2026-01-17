@@ -107,11 +107,11 @@
   "title": "Our Team",
   "titles": {
     "president_ceo": "President (CEO)",
-    "directeur_general": "General Director"
+    "directeur_general": "Chief Executive Officer"
   },
   "roles": {
     "porteur_de_projet": "Project Leader",
-    "directeur_general": "General Director",
+    "directeur_general": "Chief Executive Officer",
     "chef_projet_digital": "Digital Project Manager",
     "responsable_rh": "HR Manager",
     "responsable_technique": "Technical Manager (CTO)",
