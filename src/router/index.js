@@ -8,18 +8,25 @@ import Equipe from '../components/Equipe.vue'
 import Contact from '../components/Contact.vue'
 import Etdemain from '../components/Etdemain.vue'
 import MentionsLegales from '../components/MentionsLegales.vue'
+import NotFound from '../components/NotFound.vue'
 import gsap from 'gsap'  // ✅ Assure-toi d'avoir bien installé GSAP
 
 const routes = [
   { path: '/', name: 'Accueil', component: Accueil },
   { path: '/constat', name: 'Constat', component: Constat },
-  { path: '/Solutions', name: 'Solutions', component: Solutions },
-  { path: '/Projets', name: 'Projets', component: Projets },
+  { path: '/solutions', name: 'Solutions', component: Solutions },
+  { path: '/projets', name: 'Projets', component: Projets },
   { path: '/partenaires', name: 'Partenaires', component: Partenaire },
   { path: '/equipe', name: 'Equipe', component: Equipe },
   { path: '/contact', name: 'Contact', component: Contact },
-  { path: '/EtDemain', name: 'Demain', component: Etdemain },
+  { path: '/etdemain', name: 'Demain', component: Etdemain },
   { path: '/mentions-legales', name: 'Mentions Legales', component: MentionsLegales },
+  { path: '/Constat', redirect: '/constat' },
+  { path: '/Solutions', redirect: '/solutions' },
+  { path: '/Projets', redirect: '/projets' },
+  { path: '/Partenaires', redirect: '/partenaires' },
+  { path: '/EtDemain', redirect: '/etdemain' },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   {
     path: '/equipe/:slug',
     redirect: to => ({
