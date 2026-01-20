@@ -33,13 +33,13 @@
      
 
             <!-- Bandeau bleu -->
-<div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-  <div class="w-full max-w-[1200px] mx-auto px-4">
+<div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+  <div class="w-full max-w-[1200px] mx-auto px-4 sm:px-6">
 
     <!-- Groupe centré mais décalé vers la gauche -->
     <div class="text-center">
       <!-- Trait supérieur -->
-      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -49,7 +49,7 @@
 
         <!-- Trait inférieur -->
           <div 
-            class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+            class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
           
 <br><br>
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -66,14 +66,14 @@
         
              <!-- Section Notre Constat -->
                <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
              
 
               
 
-              <h2 class="text-3xl font-bold text-[#777777] mb-6 text-center">
+              <h2 class="text-2xl sm:text-3xl font-bold text-[#777777] mb-6 text-center">
                 {{ $t('nos_partenaires.titre1_Financement participatif') }}
               </h2>
 
@@ -83,11 +83,11 @@
               <div class="flex justify-center items-center my-6">
             <a href="https://fr.ulule.com/projet-promethee-energies-renouvelables/"
                target="_blank" rel="noopener noreferrer">
-              <img src="/partenaire/ulule.png" alt="Ulule" class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img src="/partenaire/ulule.png" alt="Ulule" class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
 
-          <p class="text-gray-400 text-xl text-center">{{ $t('nos_partenaires.text2_Cliquez sur') }}</p>
+          <p class="text-gray-400 text-sm sm:text-base text-center">{{ $t('nos_partenaires.text2_Cliquez sur') }}</p>
 
           <p class="mb-10"></p>
         
@@ -98,48 +98,48 @@
 
                   <!-- Partenaires -->
         <div class="text-center mb-20">
-          <h2 class="text-3xl font-bold text-[#777777] mb-2">{{ $t('nos_partenaires.titre2_Nos partenaires') }}</h2>
+          <h2 class="text-2xl sm:text-3xl font-bold text-[#777777] mb-2">{{ $t('nos_partenaires.titre2_Nos partenaires') }}</h2>
 
           <!-- Trait vert-->
               <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
 
-              <p class="text-gray-500 text-xl">2025</p>
+              <p class="text-gray-500 text-sm sm:text-base">2025</p>
           <div class="flex justify-center items-center my-6">
             <a href="https://h2medproject.com/fr/le-premier-grand-corridor-dhydrogene-vert-deurope/"
                target="_blank" rel="noopener noreferrer">
               <img src="/h2med.png" alt="French Tech Tremplin"
-                   class="w-30 sm:w-30 md:w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-30 sm:w-30 md:w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text2_h2med') }}</p>
+          <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text2_h2med') }}</p>
 
           <br>
           <!-- Trait vert-->
               <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
 
-          <p class="text-gray-500 text-xl">2024</p>
+          <p class="text-gray-500 text-sm sm:text-base">2024</p>
           <div class="flex justify-center items-center my-6">
             <a href="https://www.lafrenchtechtoulouse.com/outils-pour-entrepreneurs/programmes/creation-et-amorcage/"
                target="_blank" rel="noopener noreferrer">
               <img src="/partenaire/lafrenchtechtremplin.png" alt="French Tech Tremplin"
-                   class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text2_French Tech') }}</p>
+          <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text2_French Tech') }}</p>
           
           <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
         </div>
        
 
         <div class="text-center">
-          <p class="text-gray-500 text-xl">2024 - 2025</p>
+          <p class="text-gray-500 text-sm sm:text-base">2024 - 2025</p>
           <div class="flex justify-center items-center my-6">
             <a href="https://lafrenchtechtoulouse.com" target="_blank" rel="noopener noreferrer">
               <img src="/partenaire/lafrenchtechtoulouse.png" alt="French Tech Toulouse"
-                   class="w-30 hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
-          <p class="text-gray-500 text-xl">{{ $t('nos_partenaires.text3_French Tech Tou') }}</p>
+          <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text3_French Tech Tou') }}</p>
         </div>
         
                 
@@ -154,7 +154,7 @@
                 <!-- Texte final -->
                 <v-row justify="center">
                   <v-col cols="12" md="10">
-                    <p class="text-center text-[#475C79] font-bold">
+                    <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                       {{ $t('nos_partenaires.text4_Chez BTC Energies') }}
                     </p>
                     <br />
@@ -192,11 +192,11 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white"> {{ $t('nos_solutions.Nous contacter') }}</h2>
+              <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white"> {{ $t('nos_solutions.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
+                       active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                 {{ $t('nos_solutions.Nos Coordonnees') }}
               </a>
             </div>

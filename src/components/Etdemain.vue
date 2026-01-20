@@ -34,13 +34,13 @@
             
             
             <!-- Bandeau bleu -->
-            <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-              <div class="w-full max-w-[1200px] mx-auto px-4">
+            <div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+              <div class="w-full max-w-[1200px] mx-auto px-4 sm:px-6">
             
                 <!-- Groupe centré mais décalé vers la gauche -->
                 <div class="text-center">
                   <!-- Trait supérieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+                  <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
             
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -49,7 +49,7 @@
                   </h1>
             
                   <!-- Trait inférieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+                  <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
 <br>
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -67,45 +67,45 @@
               <section>
               
              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
-                  <section class="bg-white py-10 px-6 md:px-16">
+                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+                  <section class="bg-white py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-16">
 
-                  <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+                  <div class="gsap-bloc sm:hover:scale-[1.08] transition-transform duration-300 ease-in-out">
                     
 
                     <!-- Titre principal -->
-                <h1 class="text-3xl font-bold text-[#777777] text-left">
+                <h1 class="text-2xl sm:text-3xl font-bold text-[#777777] text-left">
                   {{ $t('Etdemain.titrePrincipal') }}
                 </h1>
                 <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
-                <div class="mb-8"></div> 
+                <div class="mb-6 sm:mb-8"></div> 
 
                 <!-- Image -->
-                <div class="flex justify-center mt-8">
+                <div class="flex justify-center mt-6 sm:mt-8">
                   <img
                     src="/etdemain.png"
                     alt="Avenir de BTC Energie"
-                    class="w-[320px] sm:w-[500px] md:w-[650px] h-auto object-contain transition-transform duration-300 ease-in-out hover:scale-110"
+                    class="w-[240px] sm:w-[420px] md:w-[560px] lg:w-[650px] max-w-full h-auto object-contain transition-transform duration-300 ease-in-out sm:hover:scale-110"
                   />
                 </div>
 
                 <!-- Intro -->
-                <p class="text-[#475C79] font-bold text-center mt-6">
+                <p class="text-[#475C79] font-bold text-center mt-6 text-sm sm:text-base max-w-2xl mx-auto">
                   {{ $t('Etdemain.intro') }}
                 </p>
 
                 <!-- Bloc 1 -->
-                <div class="gsap-bloc mt-12">
+                <div class="gsap-bloc mt-8 sm:mt-12">
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto"></div>
-                  <div class="mb-8"></div>
+                  <div class="mb-6 sm:mb-8"></div>
 
-                  <p class="text-gray-600">
+                  <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                     {{ $t('Etdemain.bloc1_phrase') }}
                   </p>
 
-                  <ul class="list-disc pl-8 text-gray-600 space-y-2 mt-4">
+                  <ul class="list-disc pl-5 sm:pl-8 text-gray-600 text-sm sm:text-base space-y-1 sm:space-y-2 mt-4">
                     <li>{{ $t('Etdemain.bloc1_liste1') }}</li>
                     <li>{{ $t('Etdemain.bloc1_liste2') }}</li>
                     <li>{{ $t('Etdemain.bloc1_liste3') }}</li>
@@ -113,20 +113,20 @@
                 </div>
 
                 <!-- Bloc 2 -->
-                <div class="gsap-bloc mt-12">
+                <div class="gsap-bloc mt-8 sm:mt-12">
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-                  <div class="mb-8"></div>
+                  <div class="mb-6 sm:mb-8"></div>
 
-                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase1') }}</p>
+                  <p class="text-gray-600 text-sm sm:text-base leading-relaxed">{{ $t('Etdemain.bloc2_phrase1') }}</p>
                   <div class="mb-4"></div>
-                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase2') }}</p>
+                  <p class="text-gray-600 text-sm sm:text-base leading-relaxed">{{ $t('Etdemain.bloc2_phrase2') }}</p>
                   <div class="mb-4"></div>
-                  <p class="text-gray-600">{{ $t('Etdemain.bloc2_phrase3') }}</p>
+                  <p class="text-gray-600 text-sm sm:text-base leading-relaxed">{{ $t('Etdemain.bloc2_phrase3') }}</p>
 
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-10"></div>
-                  <div class="mb-8"></div>
+                  <div class="mb-6 sm:mb-8"></div>
 
-                  <p class="text-3xl text-[#8BC367] font-semibold text-center mt-6">
+                  <p class="text-xl sm:text-2xl md:text-3xl text-[#8BC367] font-semibold text-center mt-6">
                     {{ $t('Etdemain.citation') }}
                   </p>
                 </div>
@@ -160,11 +160,11 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('Etdemain.Nous contacter') }}</h2>
+              <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('Etdemain.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
+                       active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                 {{ $t('Etdemain.Nos Coordonnées') }}
               </a>
             </div>

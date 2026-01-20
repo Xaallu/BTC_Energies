@@ -36,9 +36,9 @@
               <div class="w-full max-w-[1200px] mx-auto px-4">
 
                 <!-- Groupe centré mais décalé vers la gauche -->
-                <div class="text-center">
+                <div class="text-center px-2 sm:px-0">
                   <!-- Trait supérieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+                  <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
 
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -48,7 +48,7 @@
 
                     <!-- Trait inférieur -->
                       <div 
-                        class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+                        class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
                       
             <br><br>
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -66,8 +66,8 @@
 
 <br>
       <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
-        <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
-          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+        <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
 
                     <!-- Ligne de séparation verte -->
              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -78,7 +78,7 @@
         <v-row justify="center">
           <v-col cols="12" md="10">
             
-            <h4 class="text-center text-[#475C79] font-bold">
+            <h4 class="text-center text-[#475C79] font-bold text-sm sm:text-base">
               {{ $t('contact.introForm1') }}<br />
               {{ $t('contact.introForm2') }}
             </h4>
@@ -91,11 +91,11 @@
 
         <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
-        <form @submit.prevent="envoyerFormulaire" class="space-y-6">
+        <form @submit.prevent="envoyerFormulaire" class="space-y-5 sm:space-y-6">
 
           <!-- Champ Nom -->
           <div class="w-full max-w-lg mx-auto">
-            <label for="nom" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+            <label for="nom" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.nomLabel') }}
             </label>
             <input
@@ -104,13 +104,13 @@
               type="text"
               required
               :placeholder="$t('contact.nomPlaceholder')"
-              class="w-full px-4 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              class="w-full px-4 py-3 border border-gray-500 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
 
           <!-- Champ Email -->
           <div class="w-full max-w-lg mx-auto">
-            <label for="email" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+            <label for="email" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.emailLabel') }}
             </label>
             <input
@@ -119,13 +119,13 @@
               type="email"
               required
               placeholder="@"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
             </div>
 
            <!-- Champ Message -->
           <div class="w-full max-w-lg mx-auto">
-            <label for="message" class="block text-left text-lg font-semibold text-[#3E3E3E] mb-2">
+            <label for="message" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.messageLabel') }}
             </label>
             <textarea
@@ -134,7 +134,7 @@
               rows="7"
               required
               :placeholder="$t('contact.messagePlaceholder')"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             ></textarea>
           </div>
 
@@ -143,7 +143,7 @@
             <button
               ref="boutonSoumettre"
               type="submit"
-              class="bg-[#1f2937] text-white font-bold py-3 px-12 rounded-full shadow transition duration-300"
+              class="bg-[#1f2937] text-white font-bold py-3 px-10 sm:px-12 rounded-full shadow transition duration-300 w-full sm:w-auto text-sm sm:text-base"
             >
               {{ $t('contact.boutonEnvoyer') }}
             </button>
@@ -153,9 +153,9 @@
             <div class="mb-8"></div>
 
                 <!-- Bloc Contact -->
-                <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-base md:text-lg px-2">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-sm sm:text-base md:text-lg px-2">
                   <a href="mailto:direction@btc-energies.fr"
-                    class="inline-block text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
+                    class="inline-block text-base sm:text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
                     direction@btc-energies.fr
                   </a>
                   <a href="tel:+33629560756" class="italic text-[#8BC367] transform transition-transform duration-200 hover:scale-105">

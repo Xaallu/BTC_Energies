@@ -17,7 +17,7 @@
       <v-col>    
 
            <!-- Bloc vidéo -->
-      <section class="video-banner relative w-full h-[90vh] overflow-hidden">
+      <section class="video-banner relative w-full h-[60vh] sm:h-[70vh] lg:h-[90vh] overflow-hidden">
         <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
           <source src="/videos/animation_eau2.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la lecture de vidéos HTML5.
@@ -25,13 +25,13 @@
    
         <!-- Logo -->
         <div class="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-20 h-auto max-w-full" />
+          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-16 sm:w-20 h-auto max-w-full" />
         </div>
 
             <!-- Texte centré -->
               <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 font-serif z-10">
                 
-                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">{{ $t('MentionsLégales.titre') }}</h2>
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-white">{{ $t('MentionsLégales.titre') }}</h2>
 
                 <!-- Trait visible sous le texte -->
                 <div class="w-24 h-[2px] bg-white opacity-90"></div>
@@ -44,7 +44,7 @@
            <!-- Section Mentions Légales -->
             
          
-           <v-container class="bg-gray-100 flex flex-col items-start px-4 py-8 gsap-mentions">
+           <v-container class="bg-gray-100 flex flex-col items-start px-3 sm:px-4 md:px-6 py-6 sm:py-8 gsap-mentions">
 
 
 
@@ -56,21 +56,21 @@
             </div>
 
               <!-- Bloc principal : Logo à gauche / Infos à droite -->
-            <div class="flex flex-col md:flex-row items-start justify-start gap-12 w-full px-4">
+            <div class="flex flex-col md:flex-row items-start justify-start gap-6 sm:gap-8 md:gap-12 w-full px-2 sm:px-4">
 
                 <!-- Colonne gauche : Logo + Coordonnées -->
-                <div class="flex flex-col items-center md:items-start ml-6">
+                <div class="flex flex-col items-center md:items-start ml-0 md:ml-6">
                 <img
                   src="/favicon2.jpg"
                   alt="Logo BTC Energies"
-                  class="w-full max-w-[340px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110 mb-4"
+                  class="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out sm:hover:scale-110 mb-4"
                 />
               </div>
 
 
              <!-- CGU -->
-          <div id="cgu" class="mt-20 text-gray-800 max-w-4xl mx-auto">
-            <h1 class="text-gray-600 text-3xl space-y-3">{{ $t('MentionsLégales.titreCGU') }}</h1>
+          <div id="cgu" class="mt-12 sm:mt-20 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+            <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreCGU') }}</h1>
 
             <!-- Titre souligner-->
             <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
@@ -80,48 +80,48 @@
             <p class="mb-4"><span class="ml-5"></span>{{ $t('MentionsLégales.cguIntro') }}</p>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit"></p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">{{ $t('MentionsLégales.accesTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">{{ $t('MentionsLégales.accesTitre') }}</h2>
            <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.accesTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">{{ $t('MentionsLégales.proprieteTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">{{ $t('MentionsLégales.proprieteTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">
               {{ $t('MentionsLégales.proprieteTexte') }}
             </p>
 
 
-            <h2 class="text-gray-600 text-xl space-y-3">{{ $t('MentionsLégales.responsabiliteTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">{{ $t('MentionsLégales.responsabiliteTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.responsabiliteTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3 mt-6">{{ $t('MentionsLégales.droitTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3 mt-6">{{ $t('MentionsLégales.droitTitre') }}</h2>
             <p>{{ $t('MentionsLégales.droitTexte') }}</p>
           </div>
 
           <!-- Politique de confidentialité -->
-          <div id="confidentialite" class="mt-20 text-gray-800 max-w-4xl mx-auto">
-            <h1 class="text-gray-600 text-3xl space-y-3">{{ $t('MentionsLégales.titreConfidentialite') }}</h1>
+          <div id="confidentialite" class="mt-12 sm:mt-20 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+            <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreConfidentialite') }}</h1>
             <div class="w-20 h-1 bg-[#8BC367] rounded-full mt-2"></div>
 
             <div class="mb-8"></div>
 
-            <h2 class="text-gray-600 text-xl space-y-3">1. {{ $t('MentionsLégales.donneesTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">1. {{ $t('MentionsLégales.donneesTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.donneesTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">2. {{ $t('MentionsLégales.finaliteTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">2. {{ $t('MentionsLégales.finaliteTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.finaliteTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">3. {{ $t('MentionsLégales.legaleTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">3. {{ $t('MentionsLégales.legaleTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.legaleTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">4. {{ $t('MentionsLégales.destinatairesTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">4. {{ $t('MentionsLégales.destinatairesTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.destinatairesTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">5. {{ $t('MentionsLégales.dureeTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">5. {{ $t('MentionsLégales.dureeTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.dureeTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">6. {{ $t('MentionsLégales.droitsTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">6. {{ $t('MentionsLégales.droitsTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.droitsTexte') }}</p>
 
-            <h2 class="text-gray-600 text-xl space-y-3">7. {{ $t('MentionsLégales.cookiesTitre') }}</h2>
+            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">7. {{ $t('MentionsLégales.cookiesTitre') }}</h2>
             <p>{{ $t('MentionsLégales.cookiesTexte') }}</p>
           </div>
 
@@ -140,8 +140,8 @@
 
       <div class="w-full flex justify-center">
   <div class="flex-1 max-w-4xl">
-        <ul class="text-gray-600 text-xl space-y-3">
-           <h2 class="text-gray-600 text-3xl space-y-3">{{ $t('MentionsLégales.contactTitre') }}</h2>
+        <ul class="text-gray-600 text-base sm:text-lg md:text-xl space-y-3">
+           <h2 class="text-gray-600 text-xl sm:text-2xl md:text-3xl space-y-3">{{ $t('MentionsLégales.contactTitre') }}</h2>
            <div class="w-12 h-1 bg-[#8BC367] rounded-full mt-2"></div>
  
 
@@ -169,24 +169,24 @@
 
          <!-- Coordonnées -->
         <div class="mt-4 space-y-2 text-left">
-                <p class="text-lg italic font-semibold text-gray-700">
+                <p class="text-base sm:text-lg italic font-semibold text-gray-700">
           {{ $t('MentionsLégales.telephoneLabel') }}
           <span class="text-[#8BC367]">{{ $t('MentionsLégales.telephoneNumero') }}</span>
         </p>
-        <p class="text-lg italic font-semibold text-gray-700">
+        <p class="text-base sm:text-lg italic font-semibold text-gray-700">
             {{ $t('MentionsLégales.emailLabel') }}
           </p>
 
           <!-- Adresses email vertes, sans effet hover visible -->
           <a
             href="mailto:direction@btc-energies.fr"
-            class="block text-xl text-[#8BC367] hover:text-[#8BC367] visited:text-[#8BC367] focus:text-[#8BC367] active:text-[#8BC367] transition-transform duration-200 hover:scale-105"
+            class="block text-base sm:text-lg md:text-xl text-[#8BC367] hover:text-[#8BC367] visited:text-[#8BC367] focus:text-[#8BC367] active:text-[#8BC367] transition-transform duration-200 sm:hover:scale-105"
           >
             direction@btc-energies.fr
           </a>
           <a
             href="mailto:kermon31@gmail.com"
-             class="block text-xl text-[#8BC367] hover:text-[#8BC367] visited:text-[#8BC367] focus:text-[#8BC367] active:text-[#8BC367] no-underline transition-transform duration-200 hover:scale-105"
+             class="block text-base sm:text-lg md:text-xl text-[#8BC367] hover:text-[#8BC367] visited:text-[#8BC367] focus:text-[#8BC367] active:text-[#8BC367] no-underline transition-transform duration-200 sm:hover:scale-105"
           >
             kermon31@gmail.com
           </a>
@@ -202,7 +202,7 @@
 
         <!-- Bloc RCS & TVA parfaitement centré avec alignement propre -->
         <div class="w-full flex justify-center px-4">
-        <p class="text-gray-700 text-base text-center max-w-4xl">
+        <p class="text-gray-700 text-sm sm:text-base text-center max-w-4xl leading-relaxed">
           <span class="font-semibold">{{ $t('MentionsLégales.rcsLabel') }}</span>
           {{ $t('MentionsLégales.rcsValue') }}
           <span class="mx-4 text-[#8BC367]">|</span>
@@ -236,11 +236,11 @@
 
             <!-- Colonne 3 : Texte et bouton -->
             <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('MentionsLégales.Nous contacter') }}</h2>
+              <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('MentionsLégales.Nous contacter') }}</h2>
               <a href="/contact"
                 class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                        hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
+                       active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                 {{ $t('MentionsLégales.Nos Coordonnées') }}
               </a>
             </div>

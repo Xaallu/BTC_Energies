@@ -32,13 +32,13 @@
           </v-col>
 
           <!-- Bandeau bleu -->
-<div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+<div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
   <div class="w-full max-w-[1200px] mx-auto px-4">
 
     <!-- Groupe centré -->
     <div class="text-center">
       <!-- Trait supérieur -->
-      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -47,7 +47,7 @@
       </h1>
 
       <!-- Trait inférieur -->
-      <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+      <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
     </div>
 
   </div>
@@ -64,7 +64,7 @@
 >
   <!-- Section principale -->
   <section
-  class="w-full flex flex-col items-center justify-center py-12 sm:py-16 md:py-20 
+  class="w-full flex flex-col items-center justify-center py-12 sm:py-16 md:py-12 sm:py-16 lg:py-20 
          bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e] overflow-x-hidden"
 
   >
@@ -78,7 +78,7 @@
       <!-- ✅ Frise interne -->
       <div
         class="relative w-full 
-               min-h-[320px] sm:min-h-[360px] md:min-h-[400px]
+               min-h-[260px] sm:min-h-[320px] md:min-h-[360px] lg:min-h-[400px]
                bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
                flex flex-wrap items-center justify-center gap-6
                rounded-3xl shadow-lg overflow-hidden frise-container"
@@ -97,7 +97,7 @@
           >
             <!-- Logo -->
             <div
-                class="frise-logo w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32  
+                class="frise-logo w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32  
                       rounded-full overflow-hidden border-4 border-white
                       mt-14 sm:mt-14 md:mt-14
                       transition-all duration-500 ease-out cursor-pointer"
@@ -114,7 +114,7 @@
 
             <!-- Titre -->
             <span
-              class="mt-4 text-sm sm:text-base md:text-lg font-semibold tracking-wide"
+              class="mt-4 text-xs sm:text-sm md:text-lg font-semibold tracking-wide"
               :class="activeIndex === index ? 'text-[#05ff16]' : 'text-white'"
             >
                {{ $t(item.title) }}
@@ -132,8 +132,8 @@
         <button
           v-if="activeIndex !== null"
           @click="activeIndex = null"
-          class="absolute top-14 right-14 text-[#05ff16] hover:text-[#00cc11] 
-                text-3xl font-bold transition-all duration-300"
+          class="absolute top-6 right-6 sm:top-10 sm:right-10 text-[#05ff16] hover:text-[#00cc11] 
+                text-2xl sm:text-3xl font-bold transition-all duration-300"
         >
           &times;
         </button>
@@ -142,7 +142,7 @@
       <div
         v-if="activeIndex !== null"
         key="activeIndex"
-        class="max-w-5xl p-6 sm:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
+        class="max-w-5xl p-4 sm:p-6 md:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
       >
         <!-- Premier texte -->
         <div v-html="$t(items[activeIndex].text)"></div>
@@ -162,7 +162,7 @@
           width="100%"
           height="400"
           frameborder="0"
-          class="border-0 mt-4 rounded-lg shadow"
+          class="border-0 mt-4 rounded-lg shadow h-[320px] sm:h-[360px] md:h-[400px]"
         ></iframe>
 
         

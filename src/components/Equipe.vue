@@ -38,7 +38,7 @@
                 <!-- Groupe centré mais décalé vers la gauche -->
                 <div class="text-center">
                   <!-- Trait supérieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+                  <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
             
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -47,7 +47,7 @@
                   </h1>
             
                   <!-- Trait inférieur -->
-                  <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+                  <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
 <br>
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
@@ -69,34 +69,34 @@
 
               
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
 <br>
 <br>           
                   <!-- bloc 1 -->
                   <div class="gsap-bloc relative group hover:scale-[1.04] transition-transform duration-300 ease-in-out">
                     
-                <div id="ThibaultBethencourt" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc overflow-visible">
+                <div id="ThibaultBethencourt" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc overflow-visible">
                   <!-- Image à gauche -->
                   <div class="flex-shrink-0">
                     <img
                       src="/Trombi/T_B2.png"
                       alt="Thibault BÉTHENCOURT"
-                      class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                      class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                     />
                   </div>
 
                   <!-- Texte à droite -->
                   <div class="flex-1">
                     <div class="text-left mb-4">
-                      <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Thibault_Nom") }}</h2>
+                      <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Thibault_Nom") }}</h2>
                       <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
                     </div>
 
                     <br />
 
-                    <ul class="text-gray-600 text-lg space-y-1">
+                    <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                       <li><strong>{{ $t("equipe.equipe_Thibault_TitreCourt") }}</strong></li>
                       <li>{{ $t("equipe.equipe_Thibault_CEO") }}</li>
                       <li class="text-[#25A875]">{{ $t("equipe.equipe_Thibault_Tel") }}</li>
@@ -113,14 +113,14 @@
 
                 <!-- Bulle d'info -->
                 <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
                   <div class="space-y-4">
-                    <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Thibault_Nom") }}</h3>
+                    <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Thibault_Nom") }}</h3>
 
-                    <ul class="text-gray-600 text-lg space-y-1">
+                    <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                       <li><strong>{{ $t("equipe.equipe_Thibault_TitreCourt") }}</strong></li>
                       <li>{{ $t("equipe.equipe_Thibault_CEO") }}</li>
                       <li class="text-[#25A875]">{{ $t("equipe.equipe_Thibault_Tel") }}</li>
@@ -148,32 +148,33 @@
 <br> 
 <br>
 <br> 
-<br> 
+
 
                 <!-- Bloc J-M Bouillon  -->
                <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
                 
-                  <div id="SusanneSvensdotter" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+                  <div id="SusanneSvensdotter" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
                     <!-- Image à gauche -->
                     <div class="flex-shrink-0">
                       <img
                         src="/Trombi/S_S.png"
                         alt="ePhD Susanne Svensdotter"
-                        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                       />
                     </div>
 
                     <!-- Texte à droite -->
                     <div class="flex-1">
                       <div class="text-left mb-4">
-                        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_JMarc_Nom") }}</h2>
+                        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_JMarc_Nom") }}</h2>
                         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
                       </div>
 
                       <br />
 
-                      <ul class="text-gray-600 text-lg space-y-1">
+                      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                         <li><strong>{{ $t("equipe.equipe_JMarc_TitreCourt") }}</strong></li>
+                        <li>{{ $t("equipe.equipe_JMarc_Titre2") }}</li>
                       </ul>
 
                       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -187,16 +188,17 @@
 
                   <!-- Bulle d'info -->
                   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
                     <div class="space-y-4">
-                      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_JMarc_Nom") }}</h3>
+                      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_JMarc_Nom") }}</h3>
 
-                      <ul class="text-gray-600 text-lg space-y-1">
+                      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                         <li><strong>{{ $t("equipe.equipe_JMarc_TitreCourt") }}</strong></li>
+                        <li>{{ $t("equipe.equipe_JMarc_Titre2") }}</li>
                       </ul>
 
                       <div class="mt-4">
@@ -219,30 +221,30 @@
     <br> 
     <br>
     <br> 
-<br> 
+
         <!-- Bloc 3 Alain DEGANS -->
            <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
            
-            <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+            <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
               <!-- Image à gauche -->
               <div class="flex-shrink-0">
                 <img
                   src="/Trombi/C_dM.png"
                   alt="Charles De MAGNEVAL"
-                  class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                  class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                 />
               </div>
 
             <!-- Texte à droite -->
             <div class="flex-1">
               <div class="text-left mb-4">
-                <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Alain_Nom") }}</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Alain_Nom") }}</h2>
                 <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
               </div>
 
               <br />
 
-              <ul class="text-gray-600 text-lg space-y-1">
+              <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                 <li><strong>{{ $t("equipe.equipe_Alain_TitreCourt") }}</strong></li>
               </ul>
 
@@ -257,15 +259,15 @@
 
           <!-- Bulle d'info -->
           <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
             <div class="space-y-4">
-              <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Alain_Nom") }}</h3>
+              <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Alain_Nom") }}</h3>
 
-              <ul class="text-gray-600 text-lg space-y-1">
+              <ul class="text-gray-600 text-base sm:text-lg space-y-1">
                 <li><strong>{{ $t("equipe.equipe_Alain_TitreCourt") }}</strong></li>
               </ul>
 
@@ -287,14 +289,13 @@
 
 <br>            
 <br>
-<br> 
-<br> 
-<br>     
+
+    
            <!-- Bloc Camille FAURE 
         <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
           
 
-  <div  id="CamilleFaure" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div  id="CamilleFaure" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <div class="flex-shrink-0">
       <img
         src="/Trombi/C_F.png"
@@ -305,13 +306,13 @@
 
     <div class="flex-1">
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Camille_Nom") }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Camille_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Camille_TitreCourt") }}</strong></li>
         <li>{{ $t("equipe.equipe_Camille_Titre2") }}</li>
       </ul>
@@ -327,14 +328,14 @@
    
 
 <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Camille_Nom") }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Camille_Nom") }}</h3>
 
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Camille_TitreCourt") }}</strong></li>
         <li>{{ $t("equipe.equipe_Camille_Titre2") }}</li>
         <li class="text-[#25A875]">{{ $t("equipe.equipe_Camille_Tel") }}</li>
@@ -360,18 +361,17 @@
 <br>
 <br> 
 <br>
-<br> 
-<br> 
+
                 <!-- Bloc 5 Rémi PICHONNEAU -->
   <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-    <div id="RemiPichonneau" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+    <div id="RemiPichonneau" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
 
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/R_Pvf.png"
         alt="Rémi PICHONNEAU"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
@@ -379,14 +379,14 @@
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Remi_Nom") }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Remi_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Remi_TitreCourt") }}</strong></li>
       </ul>
 
@@ -403,18 +403,18 @@
 
   <!-- Bulle d'info -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Remi_Nom") }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Remi_Nom") }}</h3>
 
        <!-- Colonnes -->
     <div class="flex flex-col md:flex-row md:items-center md:justify-between">
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Remi_TitreCourt") }}</strong></li>
       </ul>
 
@@ -445,15 +445,15 @@
 
   
 <br>
-<br> <br>
-<br>
 <br> 
+<br>
+ 
 
     <!-- Bloc Adell -->
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Contenu principal -->
-  <div  id="Adell" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6">
+  <div  id="Adell" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6">
 
     <!-- Image à gauche (si ajoutée plus tard) -->
      <!-- Image à gauche -->
@@ -461,22 +461,22 @@
       <img
         src="/Trombi/MP_L.png"
         alt="Marie-Pierre LEFEBVRE"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
     <!-- Texte à droite -->
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Adell_Nom") }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Adell_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
         <br>
 
         <!-- Détails -->
-        <ul class="text-gray-600 text-lg space-y-1">
+        <ul class="text-gray-600 text-base sm:text-lg space-y-1">
           <li><strong>{{ $t("equipe.equipe_Adell_TitreCourt") }}</strong></li>
         </ul>
-        <ul class="text-gray-600 text-lg space-y-1">
+        <ul class="text-gray-600 text-base sm:text-lg space-y-1">
           <li>{{ $t("equipe.equipe_Adell_Titre2") }}</li>
         </ul>
 
@@ -491,16 +491,16 @@
 
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Adell_Nom") }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Adell_Nom") }}</h3>
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Adell_TitreCourt") }}</strong></li>
         <li>{{ $t("equipe.equipe_Adell_Titre2") }}</li>
       </ul>
@@ -527,18 +527,16 @@
 <br>
 <br> 
 <br>
-<br>
-<br> 
-<br> 
+
                   <!-- Bloc Olivier COT -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
-  <div id="OlivierCot" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="OlivierCot" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/O_C.png"
         alt="Olivier COT"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
@@ -546,14 +544,14 @@
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Olivier_Nom") }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Olivier_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Olivier_TitreCourt") }}</strong></li>
       </ul>
 
@@ -570,14 +568,14 @@
 
   <!-- Bulle d'info -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Olivier_Nom") }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Olivier_Nom") }}</h3>
 
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Olivier_TitreCourt") }}</strong></li>
       </ul>
 
@@ -601,21 +599,20 @@
 <br>
 <br> 
 <br> 
-<br> 
-<br> 
+
 
                  <!-- Bloc Philippe SUTARIK -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Titre + image -->
-  <div id= "PhilippeStuarik" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id= "PhilippeStuarik" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/P_Svf.png"
         alt="Philippe Sutarik"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
@@ -623,14 +620,14 @@
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Philippe_Nom") }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Philippe_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Philippe_TitreCourt") }}</strong></li>
       </ul>
 
@@ -647,19 +644,19 @@
 
   <!-- Bulle d'info -->
  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t("equipe.equipe_Philippe_Nom") }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t("equipe.equipe_Philippe_Nom") }}</h3>
 
        <!-- Colonnes -->
     <div class="flex flex-col md:flex-row md:items-center md:justify-between">
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t("equipe.equipe_Philippe_TitreCourt") }}</strong></li>
       </ul>
 
@@ -699,18 +696,17 @@
 <br>
 <br>
 <br>
-<br> 
-<br> 
+
              <!-- Bloc 7 Anais OLIVIER -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div id="AnaisOLIVE" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="AnaisOLIVE" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/A_O.png"
         alt="Anaïs Olive"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
@@ -718,14 +714,14 @@
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Anais_Nom') }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Anais_Nom') }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Anais_TitreCourt') }}</strong></li>
       </ul>
 
@@ -742,16 +738,16 @@
 
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
   
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Anais_Nom') }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t('equipe.equipe_Anais_Nom') }}</h3>
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Anais_TitreCourt') }}</strong></li>
       </ul>
 
@@ -783,32 +779,31 @@
 <br>
 <br>
 <br>
-<br> 
-<br> 
+ 
     <!-- Bloc 8 Cedric CHAUVET 
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
       
-      <div id="CedricChauvet" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+      <div id="CedricChauvet" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
       
         <div class="flex-shrink-0">
           <img
             src="/Trombi/C_Cvf.png"
             alt="Cédric Chauvet"
-            class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+            class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
           />
         </div>
 
     <div class="flex-1">
       
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Cedric_Nom') }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Cedric_Nom') }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br>
 
       
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Cedric_TitreCourt') }}</strong></li>
       </ul>
 
@@ -825,18 +820,18 @@
 
  
  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Cedric_Nom') }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t('equipe.equipe_Cedric_Nom') }}</h3>
 
        
     <div class="flex flex-col md:flex-row md:items-center md:justify-between">
 
       
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Cedric_TitreCourt') }}</strong></li>
       </ul>
 
@@ -872,17 +867,18 @@
 </div>
 -->
 <br>
+<br>
 <br> 
              <!-- Bloc 9 Xavier Piedallu -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div id="XavierPiedallu" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="XavierPiedallu" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/X_Pvf.png"
         alt="Xavier Piedallu"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
@@ -890,14 +886,14 @@
     <div class="flex-1">
       <!-- Titre + soulignement -->
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Xavier_Nom') }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Xavier_Nom') }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
 
       <br />
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Xavier_TitreCourt') }}</strong></li>
         <li>{{ $t('equipe.equipe_Xavier_TitreDetail') }}</li>
       </ul>
@@ -916,12 +912,12 @@
 
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Xavier_Nom') }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t('equipe.equipe_Xavier_Nom') }}</h3>
 
       <!-- Colonnes -->
     <div class="flex flex-col md:flex-row md:items-center md:justify-between">
@@ -930,7 +926,7 @@
     
     
     <!-- Détails -->
-    <ul class="text-gray-600 text-lg space-y-1">
+    <ul class="text-gray-600 text-base sm:text-lg space-y-1">
       <li><strong>{{ $t('equipe.equipe_Xavier_TitreCourt') }}</strong></li>
       <li>{{ $t('equipe.equipe_Xavier_TitreDetail') }}</li>
     </ul>
@@ -971,28 +967,28 @@
 
 
 <br>
-
+<br>
 <br>
                   <!-- Bloc Rubie -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
-  <div id="Rubie" class="flex flex-col md:flex-row items-start gap-8 bg-white rounded-lg shadow-md p-6 gsap-bloc">
+  <div id="Rubie" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
       <img
         src="/Trombi/Rubie.png"
         alt="Rubie"
-        class="w-48 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
       />
     </div>
 
     <!-- Texte à droite -->
     <div class="flex-1">
       <div class="text-left mb-4">
-        <h2 class="text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Rubie_Nom') }}</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Rubie_Nom') }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
         <br />
-        <ul class="text-gray-600 text-lg space-y-1">
+        <ul class="text-gray-600 text-base sm:text-lg space-y-1">
           <li><strong>{{ $t('equipe.equipe_Rubie_TitreFr') }}</strong></li>
         </ul>
         <p class="text-gray-600 mt-1">{{ $t('equipe.equipe_Rubie_TitreEn') }}</p>
@@ -1005,15 +1001,15 @@
 
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
-                    bg-white text-gray-700 p-6 rounded-lg shadow-2xl
-                    w-[80%] sm:w-[70%] md:w-[75%]
+                    bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
+                    w-[92%] sm:w-[80%] md:w-[75%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
-      <h3 class="font-bold text-2xl">{{ $t('equipe.equipe_Rubie_Nom') }}</h3>
+      <h3 class="font-bold text-xl sm:text-2xl">{{ $t('equipe.equipe_Rubie_Nom') }}</h3>
 
       <!-- Détails -->
-      <ul class="text-gray-600 text-lg space-y-1">
+      <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Rubie_TitreFr') }}</strong></li>
         <p class="text-gray-600 mt-1">{{ $t('equipe.equipe_Rubie_TitreEn') }}</p>
       </ul>
@@ -1048,8 +1044,8 @@
         </v-col>
 
         <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-              <div class="grid grid-cols-3 items-center text-white px-8 py-6">
+            <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+              <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6 sm:gap-0">
 
                 <!-- Colonne 1 : Logo -->
                 <div class="flex justify-center">
@@ -1066,12 +1062,12 @@
 
                 <!-- Colonne 3 : Texte et bouton -->
                 <div class="flex flex-col items-center text-center">
-                  <h2 class="font-montserrat font-semibold text-4xl mb-4 text-white">{{ $t('equipe.clic2_Nous contacter') }}</h2>
+                  <h2 class="font-montserrat font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('equipe.clic2_Nous contacter') }}</h2>
 
                   <a href="/contact"
                   class="font-montserrat font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                           hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                          active:scale-95 active:shadow-inner flex items-center gap-2">
+                          active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
                             <span class="text-lg"></span>
                             {{ $t('equipe.Nos Coordonnées') }}
                   </a>

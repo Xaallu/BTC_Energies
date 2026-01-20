@@ -199,7 +199,7 @@
         <h2 class="page-blanche_app-title">{{ $t('notre_equipe') }}</h2>
         <br><br>
 
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
   <router-link
     v-for="member in team"
     :key="member.name"
@@ -210,7 +210,7 @@
       <img
         :src="member.img"
         :alt="member.name"
-        class="mx-auto w-40 h-40 sm:w-56 sm:h-56 object-cover rounded-xl"
+        class="mx-auto w-28 h-28 sm:w-40 sm:h-40 md:w-52 md:h-52 lg:w-56 lg:h-56 object-cover rounded-xl"
       />
 
       <p class="profile-name font-semibold text-sm sm:text-base mt-2">
@@ -600,7 +600,7 @@ export default {
     return {
       team: [
         { name: 'Thibault Béthencourt', titleKey: 'president_ceo', roleKey: 'porteur_de_projet', phone: '+33 6 29 56 07 56', img: '/Trombi/T_B.png', slug: 'ThibaultBethencourt' },
-        { name: 'Susanne Svensdotter', title: 'Directeur Général', roleKey: 'directeur_general', img: '/Trombi/S_S.png', slug: 'SusanneSvensdotter' },
+        { name: 'Susanne Svensdotter', titleKey: 'ingenieur_mecanique', roleKey: 'directeur_general', img: '/Trombi/S_S.png', slug: 'SusanneSvensdotter' },
         { name: 'Charles de Magneval', title: 'Chef de Projet Digital', roleKey: 'chef_projet_digital', img: '/Trombi/C_dM1.png', slug: 'CharlesdeMagneval' },
         //{ name: 'Camille Faure', title: 'Responsable RH (HR Manager)', roleKey: 'responsable_rh', img: '/Trombi/C_F.png', slug: 'CamilleFaure' },
         { name: 'Rémi Pichonneau', title: 'Responsable Technique (CTO)', roleKey: 'responsable_technique', img: '/Trombi/R_Pvf.png', slug: 'RemiPichonneau' },

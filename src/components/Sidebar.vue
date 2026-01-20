@@ -99,20 +99,20 @@
 
   <!-- ░░░ Sidebar Mobile ░░░ -->
   <div
-    class="fixed top-0 left-0 h-full w-72 bg-white text-gray-700 z-50
+    class="fixed top-0 left-0 h-full w-[80vw] max-w-[320px] bg-white text-gray-700 z-50
            flex flex-col shadow-lg transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto"
     :class="props.isSidebarOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- Bouton fermeture -->
-    <button @click="toggleSidebar" class="absolute top-4 right-4 text-3xl">&times;</button>
+    <button @click="toggleSidebar" class="absolute top-4 right-4 text-3xl p-1">&times;</button>
 
-    <div class="flex flex-col h-full pt-16 px-6">
-      <div class="mb-8 flex justify-center">
-        <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-24 w-auto" />
+    <div class="flex flex-col h-full pt-14 px-5">
+      <div class="mb-6 flex justify-center">
+        <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-20 w-auto" />
       </div>
 
       <!-- Sélecteur de langue -->
-        <div class="relative mt-6 w-22">
+        <div class="relative mt-4 w-22">
           <button
             @click="toggleDropdown"
             class="w-full text-xs px-4 py-2 rounded bg-[#475C79] text-white hover:bg-[#3a4e6a]
@@ -154,7 +154,7 @@
         </div>
 
       <!-- Menu Mobile -->
-      <ul class="flex-grow space-y-4 border-t border-gray-200 pt-4">
+      <ul class="flex-grow space-y-3 border-t border-gray-200 pt-4">
         <li
           v-for="(item, index) in menuItems"
           :key="index"
@@ -162,7 +162,7 @@
         >
           <router-link
             :to="item.route"
-            class="block text-gray-700 hover:text-green-600 font-medium"
+            class="block text-gray-700 hover:text-green-600 font-medium text-sm"
             @click="handleLinkClick"
           >
             {{ $t(item.label) }}

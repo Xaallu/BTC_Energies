@@ -1,6 +1,6 @@
 ﻿<template>
-  <footer class="footer-global text-white text-sm">
-    <div class="max-w-[1200px] mx-auto px-6 py-6 text-center">
+  <footer class="footer-global text-white text-xs sm:text-sm">
+    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
         {{ $t('Footer.Site conçu et') }}
@@ -18,8 +18,8 @@
       @click.self="closeCookies"
     >
       <div class="w-full max-w-lg rounded-2xl bg-white text-gray-900 shadow-2xl">
-  <div class="flex items-center justify-between border-b border-gray-200 px-6 py-4">
-    <h2 id="cookies-title" class="text-lg font-semibold text-gray-900">
+  <div class="flex items-center justify-between border-b border-gray-200 px-4 sm:px-6 py-4">
+    <h2 id="cookies-title" class="text-base sm:text-lg font-semibold text-gray-900">
       {{ $t('cookies.title') }}
     </h2>
     <button
@@ -32,7 +32,7 @@
     </button>
   </div>
 
-  <div class="px-6 py-5 text-sm leading-relaxed text-gray-700">
+  <div class="px-4 sm:px-6 py-5 text-xs sm:text-sm leading-relaxed text-gray-700">
     <p class="mb-4">
       {{ $t('cookies.description') }}
     </p>
@@ -46,10 +46,10 @@
     </router-link>
   </div>
 
-  <div class="flex flex-col gap-3 border-t border-gray-200 px-6 py-4 sm:flex-row sm:justify-end">
+  <div class="flex flex-col gap-3 border-t border-gray-200 px-4 sm:px-6 py-4 sm:flex-row sm:justify-end">
     <button
       type="button"
-      class="rounded-full border border-red-200 bg-red-50 px-5 py-2 text-sm font-semibold text-red-700 hover:bg-red-100"
+      class="rounded-full border border-red-200 bg-red-50 px-5 py-2 text-xs sm:text-sm font-semibold text-red-700 hover:bg-red-100 w-full sm:w-auto"
       @click="setCookiesChoice('declined')"
     >
       {{ $t('cookies.decline') }}
@@ -57,7 +57,7 @@
 
     <button
       type="button"
-      class="rounded-full bg-[#0d5f2c] px-5 py-2 text-sm font-semibold text-white hover:bg-[#0b4d24]"
+      class="rounded-full bg-[#0d5f2c] px-5 py-2 text-xs sm:text-sm font-semibold text-white hover:bg-[#0b4d24] w-full sm:w-auto"
       @click="setCookiesChoice('accepted')"
     >
       {{ $t('cookies.accept') }}
@@ -117,4 +117,3 @@ export default {
   background-color: #0d111c;
 }
 </style>
-
