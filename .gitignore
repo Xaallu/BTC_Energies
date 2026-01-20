@@ -43,3 +43,6 @@ activate
 activate.csh
 activate.fish
 Activate.ps1
+
+# Local Netlify folder
+.netlify

@@ -15,6 +15,19 @@ from django.utils.translation import gettext_lazy as _
 import os
 from dotenv import load_dotenv
 
+def _env_bool(name, default=False):
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in ("1", "true", "yes", "on")
+
+
+def _env_list(name, default=None):
+    value = os.getenv(name)
+    if value is None:
+        return default or []
+    return [item.strip() for item in value.split(",") if item.strip()]
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,17 +40,20 @@ load_dotenv(Path(__file__).resolve().parent.parent.parent / ".env")
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4^_t-krvgws1d!a9t9(7jmwj0i7@x5jd(*g20m3ah+wg*gd#h='
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-4^_t-krvgws1d!a9t9(7jmwj0i7@x5jd(*g20m3ah+wg*gd#h=")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = _env_bool("DJANGO_DEBUG", False)
 
-ALLOWED_HOSTS = [
-    'localhost',                                 # dev
-    '127.0.0.1',                                 # dev
-    'tangerine-babka-89b76d.netlify.app',        # votre front déployé
-    'btc-energies.fr',                           # votre domaine “officiel” si vous en avez un
-]
+ALLOWED_HOSTS = _env_list(
+    "DJANGO_ALLOWED_HOSTS",
+    [
+        "localhost",                                 # dev
+        "127.0.0.1",                                 # dev
+        "tangerine-babka-89b76d.netlify.app",        # front deploye
+        "btc-energies.fr",                           # domaine prod
+    ],
+)
 
 
 # Application definition
@@ -82,12 +98,25 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",      # dev
-    "http://127.0.0.1:5173",      # dev (127.0.0.1 ≠ localhost)
-    "https://tangerine-babka-89b76d.netlify.app",  # Netlify
-    "https://btc-energies.fr",    # prod
-]
+CORS_ALLOWED_ORIGINS = _env_list(
+    "CORS_ALLOWED_ORIGINS",
+    [
+        "http://localhost:5173",      # dev
+        "http://127.0.0.1:5173",      # dev (127.0.0.1 = localhost)
+        "https://tangerine-babka-89b76d.netlify.app",
+        "https://btc-energies.fr",
+    ],
+)
+
+CSRF_TRUSTED_ORIGINS = _env_list(
+    "CSRF_TRUSTED_ORIGINS",
+    [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://tangerine-babka-89b76d.netlify.app",
+        "https://btc-energies.fr",
+    ],
+)
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
@@ -163,8 +192,24 @@ LOCALE_PATHS = [
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+SECURE_SSL_REDIRECT = _env_bool("DJANGO_SECURE_SSL_REDIRECT", not DEBUG)
+SESSION_COOKIE_SECURE = _env_bool("DJANGO_SESSION_COOKIE_SECURE", not DEBUG)
+CSRF_COOKIE_SECURE = _env_bool("DJANGO_CSRF_COOKIE_SECURE", not DEBUG)
+SECURE_HSTS_SECONDS = int(
+    os.getenv("DJANGO_SECURE_HSTS_SECONDS", "0" if DEBUG else "3600")
+)
+SECURE_HSTS_INCLUDE_SUBDOMAINS = _env_bool(
+    "DJANGO_SECURE_HSTS_INCLUDE_SUBDOMAINS", not DEBUG
+)
+SECURE_HSTS_PRELOAD = _env_bool("DJANGO_SECURE_HSTS_PRELOAD", not DEBUG)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

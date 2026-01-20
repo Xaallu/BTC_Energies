@@ -540,3 +540,67 @@ h1, h2, h3 {
   position: absolute;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  .page-blanche_app-wrapper {
+    padding: 1.5rem 2rem;
+  }
+
+  .page-blanche_app-title {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+
+  .page-blanche_app-logo img {
+    width: 120px;
+  }
+
+  .page-blanche_app-content {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bandeau_bleu {
+    width: 100%;
+  }
+
+  .page-blanche_app-wrapper {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .page-blanche_app-title {
+    font-size: 1.7rem;
+    max-width: 100%;
+  }
+
+  .page-blanche_app-logo img {
+    width: 100px;
+  }
+
+  .page-blanche_app-content h3 {
+    font-size: 20px;
+  }
+
+  .page-blanche_app-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-blanche_app-wrapper {
+    padding: 1rem;
+  }
+
+  .page-blanche_app-title {
+    font-size: 1.45rem;
+  }
+
+  .page-blanche_app-content h3 {
+    font-size: 18px;
+  }
+
+  .page-blanche_app-content p {
+    font-size: 14px;
+  }
+}

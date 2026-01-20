@@ -31,13 +31,9 @@ npm run dev
 
 npm run build
 
-<<<<<<< HEAD
-netlify deploy --prod   [#05ff16]  nouveau       ancien [#22B17A]
-=======
 netlify deploy --prod  
 
  [#05ff16]  nouveau       ancien [#22B17A]
->>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52
 
 npm run build && npm run preview
 
