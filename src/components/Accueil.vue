@@ -72,7 +72,7 @@
                 <!-- bloc 1 -->
         <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center" >
           <v-col cols="12" md="2" class="page-blanche_app-logo">
-            <img src="/logo1app.png" alt="Nos services BTC Energies">
+            <img height="141" width="144" decoding="async" loading="lazy" src="/logo1app.png" alt="Nos services BTC Energies">
           </v-col>
           <v-col cols="12" md="10" class="page-blanche_app-content">
             <h3 class="font-semibold text-[#475C79]">
@@ -87,7 +87,7 @@
                 <!-- bloc 2 -->
             <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo2app.png" alt="Nos services BTC Energies">
+                <img height="135" width="154" decoding="async" loading="lazy" src="/logo2app.png" alt="Nos services BTC Energies">
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
@@ -105,7 +105,7 @@
               <!-- bloc 3 -->
             <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo3app.png" alt="Nos services BTC Energies">
+                <img height="158" width="167" decoding="async" loading="lazy" src="/logo3app.png" alt="Nos services BTC Energies">
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
@@ -123,7 +123,7 @@
             <!-- bloc 4 -->
             <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo4app.png" alt="Nos services BTC Energies">
+                <img height="158" width="171" decoding="async" loading="lazy" src="/logo4app.png" alt="Nos services BTC Energies">
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
@@ -139,7 +139,7 @@
              <!-- bloc 5 -->
              <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo5app.png" alt="Nos services BTC Energies">
+                <img height="158" width="171" decoding="async" loading="lazy" src="/logo5app.png" alt="Nos services BTC Energies">
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
@@ -155,7 +155,7 @@
             <!-- bloc 6 -->
             <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
-                <img src="/logo6app.png" alt="Nos services BTC Energies">
+                <img height="158" width="272" decoding="async" loading="lazy" src="/logo6app.png" alt="Nos services BTC Energies">
               </v-col>
               <v-col cols="12" md="10" class="page-blanche_app-content">
                 <h3 class="font-semibold text-[#475C79]">
@@ -547,7 +547,7 @@
     
     <!-- Colonne 1 : Logo (centré mobile + desktop) -->
     <div class="flex justify-center sm:justify-start">
-      <img
+      <img height="526" width="595" decoding="async" loading="lazy"
         src="/logo_sidebar.png"
         ref="logoSidebar"
         alt="BTC Énergies Logo"

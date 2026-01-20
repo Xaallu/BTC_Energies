@@ -220,7 +220,7 @@
             <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
 
               <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
-                <img
+                <img height="526" width="595" decoding="async" loading="lazy"
                   ref="logoSidebar"
                   src="/logo_sidebar.png"
                   alt="BTC Énergies Logo"
@@ -260,7 +260,7 @@ const items = [
     text: 'projets.promethee_fin2024_texte_html',
     text2: 'projets.promethee_fin2024_texte2_html',
     iframe: 'https://odre.opendatasoft.com/explore/embed/dataset/projets-ami-gh-2024/custom/?&static=false&datasetcard=false',
-    imglocaux: '<img src="/screenshotaux.png" alt="Nos services BTC Énergies - Nos locaux" class="w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg" />',
+    imglocaux: '<img height="300" width="513" decoding="async" loading="lazy" src="/screenshotaux.png" alt="Nos services BTC Énergies - Nos locaux" class="w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg" />',
     text3: 'projets.promethee_fin2024_texte3_html',
     text4: 'projets.promethee_fin2024_texte4_html',
   },

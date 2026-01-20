@@ -69,7 +69,7 @@
              <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
                <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
                   <section class="bg-white py-6 sm:py-10 px-3 sm:px-6 md:px-10 lg:px-16">
 
                   <div class="gsap-bloc sm:hover:scale-[1.08] transition-transform duration-300 ease-in-out">
@@ -84,7 +84,7 @@
 
                 <!-- Image -->
                 <div class="flex justify-center mt-6 sm:mt-8">
-                  <img
+                  <img height="403" width="585" decoding="async" loading="lazy"
                     src="/etdemain.png"
                     alt="Avenir de BTC Energie"
                     class="w-[240px] sm:w-[420px] md:w-[560px] lg:w-[650px] max-w-full h-auto object-contain transition-transform duration-300 ease-in-out sm:hover:scale-110"
@@ -147,7 +147,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
-              <img
+              <img height="526" width="595" decoding="async" loading="lazy"
                 src="/logo_sidebar.png"
                 ref="logoSidebar"
                 alt="BTC Énergies Logo"
@@ -263,4 +263,5 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/etdemain' }],
 });
 </script>
+
 

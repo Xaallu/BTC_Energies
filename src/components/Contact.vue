@@ -64,7 +64,7 @@
           </v-col>
       <v-container fluid class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8 gsap-mentions">
         <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
-          <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+          <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
 
                     <!-- Ligne de séparation verte -->
              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -168,7 +168,7 @@
             <!-- Bandeau bas -->
             <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
               <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
-                <img
+                <img height="526" width="595" decoding="async" loading="lazy"
                   ref="logoSidebar"
                   src="/logo_sidebar.png"
                   alt="BTC Énergies Logo"
@@ -342,4 +342,5 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/contact' }]
 });
 </script>
+
 

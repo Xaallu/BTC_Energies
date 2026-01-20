@@ -10,7 +10,7 @@
            outline-none focus:outline-none focus:ring-0 focus-visible:outline-none"
   >
     <div class="w-14 h-14 rounded-full border-4 border-[#8BC34A] overflow-hidden">
-      <img
+      <img height="340" width="340" decoding="async" loading="lazy"
         src="/Rubie_chatbot.png"
         alt="Rubie Chatbot"
         class="w-full h-full object-cover"
@@ -38,7 +38,7 @@
               {{ $t('chatbot.title') }}
             </h3>
             <div class="w-12 h-12 rounded-full border-4 border-[#8BC34A] overflow-hidden">
-              <img
+              <img height="340" width="340" decoding="async" loading="lazy"
                 src="/Rubie_chatbot.png"
                 alt="Rubie portrait"
                 class="w-full h-full object-cover rounded-full"

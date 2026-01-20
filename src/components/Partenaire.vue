@@ -68,7 +68,7 @@
                <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
                <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-              <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+              <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
              
 
               
@@ -83,7 +83,7 @@
               <div class="flex justify-center items-center my-6">
             <a href="https://fr.ulule.com/projet-promethee-energies-renouvelables/"
                target="_blank" rel="noopener noreferrer">
-              <img src="/partenaire/ulule.png" alt="Ulule" class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img height="227" width="239" decoding="async" loading="lazy" src="/partenaire/ulule.png" alt="Ulule" class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
 
@@ -107,7 +107,7 @@
           <div class="flex justify-center items-center my-6">
             <a href="https://h2medproject.com/fr/le-premier-grand-corridor-dhydrogene-vert-deurope/"
                target="_blank" rel="noopener noreferrer">
-              <img src="/h2med.png" alt="French Tech Tremplin"
+              <img height="496" width="795" decoding="async" loading="lazy" src="/h2med.png" alt="French Tech Tremplin"
                    class="w-30 sm:w-30 md:w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
@@ -121,7 +121,7 @@
           <div class="flex justify-center items-center my-6">
             <a href="https://www.lafrenchtechtoulouse.com/outils-pour-entrepreneurs/programmes/creation-et-amorcage/"
                target="_blank" rel="noopener noreferrer">
-              <img src="/partenaire/lafrenchtechtremplin.png" alt="French Tech Tremplin"
+              <img height="262" width="264" decoding="async" loading="lazy" src="/partenaire/lafrenchtechtremplin.png" alt="French Tech Tremplin"
                    class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
@@ -135,7 +135,7 @@
           <p class="text-gray-500 text-sm sm:text-base">2024 - 2025</p>
           <div class="flex justify-center items-center my-6">
             <a href="https://lafrenchtechtoulouse.com" target="_blank" rel="noopener noreferrer">
-              <img src="/partenaire/lafrenchtechtoulouse.png" alt="French Tech Toulouse"
+              <img height="296" width="250" decoding="async" loading="lazy" src="/partenaire/lafrenchtechtoulouse.png" alt="French Tech Toulouse"
                    class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
@@ -179,7 +179,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
-              <img
+              <img height="526" width="595" decoding="async" loading="lazy"
                 src="/logo_sidebar.png"
                 ref="logoSidebar"
                 alt="BTC Énergies Logo"
@@ -324,4 +324,5 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/partenaires' }]
 });
 </script>
+
 

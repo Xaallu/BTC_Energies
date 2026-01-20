@@ -62,7 +62,7 @@
                <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 
             
-                  <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+                  <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
 
 
                     
@@ -129,7 +129,7 @@
                 <!-- Image + légendes -->
                 <v-row justify="center" class="my-6">
                   <v-col cols="12" md="8" class="text-center">
-                    <img src="/Q_C_C.png" alt="Nos services BTC Energies" class="w-full max-w-3xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+                    <img height="654" width="855" decoding="async" loading="lazy" src="/Q_C_C.png" alt="Nos services BTC Energies" class="w-full max-w-3xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
                     <div class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-sm mt-2 text-gray-600">
                       <p>{{ $t('notre_constat.um') }}</p>
                       <p>{{ $t('notre_constat.ugh') }}</p>
@@ -212,7 +212,7 @@
           <div class="bandeau_bleu img grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
-              <img
+              <img height="526" width="595" decoding="async" loading="lazy"
                 src="/logo_sidebar.png"
                 ref="logoSidebar"
                 alt="BTC Énergies Logo"
@@ -407,3 +407,4 @@ export default {
   }
 }
 </style>
+

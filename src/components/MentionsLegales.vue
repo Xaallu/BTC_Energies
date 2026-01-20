@@ -25,7 +25,7 @@
    
         <!-- Logo -->
         <div class="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-14 sm:w-16 h-auto max-w-full" />
+          <img height="526" width="595" decoding="async" loading="lazy" src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-14 sm:w-16 h-auto max-w-full" />
         </div>
 
             <!-- Texte centré -->
@@ -60,7 +60,7 @@
 
                 <!-- Colonne gauche : Logo + Coordonnées -->
                 <div class="flex flex-col items-center md:items-start ml-0 md:ml-6">
-                <img
+                <img height="1735" width="1793" decoding="async" loading="lazy"
                   src="/favicon2.jpg"
                   alt="Logo BTC Energies"
                   class="w-full max-w-[220px] sm:max-w-[280px] md:max-w-[320px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out sm:hover:scale-110 mb-4"
@@ -223,7 +223,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
-              <img
+              <img height="526" width="595" decoding="async" loading="lazy"
                 src="/logo_sidebar.png"
                 ref="logoSidebar"
                 alt="BTC Énergies Logo"

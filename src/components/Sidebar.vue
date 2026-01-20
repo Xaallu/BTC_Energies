@@ -9,8 +9,8 @@
       
       <!-- === Haut === -->
       <div class="flex flex-col items-center">
-        <img ref="logoL" src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-32 w-auto mb-2" />
-        <img ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto mt-4" />
+        <img height="526" width="595" decoding="async" loading="lazy" ref="logoL" src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-32 w-auto mb-2" />
+        <img height="115" width="267" decoding="async" loading="lazy" ref="logoS" src="/LeSoDeDe.png" alt="Les solutions de demain" class="h-24 w-auto mt-4" />
 
         <!-- Sélecteur de langue -->
         <div class="relative mt-6 w-22">
@@ -108,7 +108,7 @@
 
     <div class="flex flex-col h-full pt-12 sm:pt-14 px-4 sm:px-5">
       <div class="mb-5 sm:mb-6 flex justify-center">
-        <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-16 sm:h-20 w-auto" />
+        <img height="2479" width="3508" decoding="async" loading="lazy" src="/favicon.jpg" alt="BTC Énergies Logo" class="h-16 sm:h-20 w-auto" />
       </div>
 
       <!-- Sélecteur de langue -->

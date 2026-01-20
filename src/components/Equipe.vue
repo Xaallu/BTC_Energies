@@ -71,7 +71,7 @@
               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
                <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
 <br>
 <br>           
                   <!-- bloc 1 -->
@@ -80,7 +80,7 @@
                 <div id="ThibaultBethencourt" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc overflow-visible">
                   <!-- Image à gauche -->
                   <div class="flex-shrink-0">
-                    <img
+                    <img height="282" width="276" decoding="async" loading="lazy"
                       src="/Trombi/T_B2.png"
                       alt="Thibault BÉTHENCOURT"
                       class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -156,7 +156,7 @@
                   <div id="SusanneSvensdotter" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
                     <!-- Image à gauche -->
                     <div class="flex-shrink-0">
-                      <img
+                      <img height="926" width="926" decoding="async" loading="lazy"
                         src="/Trombi/S_S.png"
                         alt="ePhD Susanne Svensdotter"
                         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -228,7 +228,7 @@
             <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
               <!-- Image à gauche -->
               <div class="flex-shrink-0">
-                <img
+                <img height="881" width="528" decoding="async" loading="lazy"
                   src="/Trombi/C_dM.png"
                   alt="Charles De MAGNEVAL"
                   class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -297,7 +297,7 @@
 
   <div  id="CamilleFaure" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <div class="flex-shrink-0">
-      <img
+      <img height="298" width="298" decoding="async" loading="lazy"
         src="/Trombi/C_F.png"
         alt="Camille Faure"
         class="w-12 md:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -368,7 +368,7 @@
 
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="298" width="299" decoding="async" loading="lazy"
         src="/Trombi/R_Pvf.png"
         alt="Rémi PICHONNEAU"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -458,7 +458,7 @@
     <!-- Image à gauche (si ajoutée plus tard) -->
      <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="375" width="378" decoding="async" loading="lazy"
         src="/Trombi/MP_L.png"
         alt="Marie-Pierre LEFEBVRE"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -533,7 +533,7 @@
   <div id="OlivierCot" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="298" width="299" decoding="async" loading="lazy"
         src="/Trombi/O_C.png"
         alt="Olivier COT"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -609,7 +609,7 @@
     
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="298" width="299" decoding="async" loading="lazy"
         src="/Trombi/P_Svf.png"
         alt="Philippe Sutarik"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -703,7 +703,7 @@
   <div id="AnaisOLIVE" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="292" width="289" decoding="async" loading="lazy"
         src="/Trombi/A_O.png"
         alt="Anaïs Olive"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -786,7 +786,7 @@
       <div id="CedricChauvet" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
       
         <div class="flex-shrink-0">
-          <img
+          <img height="292" width="225" decoding="async" loading="lazy"
             src="/Trombi/C_Cvf.png"
             alt="Cédric Chauvet"
             class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -875,7 +875,7 @@
   <div id="XavierPiedallu" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="298" width="299" decoding="async" loading="lazy"
         src="/Trombi/X_Pvf.png"
         alt="Xavier Piedallu"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -975,7 +975,7 @@
   <div id="Rubie" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
     <div class="flex-shrink-0">
-      <img
+      <img height="296" width="295" decoding="async" loading="lazy"
         src="/Trombi/Rubie.png"
         alt="Rubie"
         class="w-32 sm:w-40 md:w-48 lg:w-60 h-auto rounded-md object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -1049,7 +1049,7 @@
 
                 <!-- Colonne 1 : Logo -->
                 <div class="flex justify-center">
-                  <img
+                  <img height="526" width="595" decoding="async" loading="lazy"
                     src="/logo_sidebar.png"
                     ref="logoSidebar"
                     alt="BTC Énergies Logo"
@@ -1232,5 +1232,6 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/equipe' }]
 });
 </script>
+
 
 

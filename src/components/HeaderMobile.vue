@@ -2,11 +2,11 @@
   <div class="flex items-center justify-between gap-2 bg-[#061832] text-white px-2 sm:px-4 py-2 sm:py-3 lg:hidden fixed top-0 left-0 right-0 z-50">
     <!-- Logo -->
     <div class="flex items-center shrink-0">
-      <img src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-9 sm:h-11 md:h-12 w-auto" />
+      <img height="526" width="595" decoding="async" loading="lazy" src="/logo_sidebar.png" alt="BTC Énergies Logo" class="h-9 sm:h-11 md:h-12 w-auto" />
     </div>
 
     <div class="flex-1 flex justify-center">
-      <img
+      <img height="115" width="267" decoding="async" loading="lazy"
         ref="logoS"
         src="/LeSoDeDe.png"
         alt="Les solutions de demain"

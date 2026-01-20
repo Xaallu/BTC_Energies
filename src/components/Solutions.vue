@@ -58,7 +58,7 @@
             <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
                <div class="w-full px-4 sm:px-8 md:px-10 lg:px-14 xl:px-16">
             
-                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-8">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-8">
                   <section class="bg-white py-6 sm:py-10 px-4 sm:px-6 md:px-12">
                     
                 <div class="flex justify-center mb-6">
@@ -70,7 +70,7 @@
 
                <!-- Logo 1 -->
           <div class="flex justify-center items-center my-6">
-            <img
+            <img height="135" width="117" decoding="async" loading="lazy"
               src="/solutions/logo1.png"
               alt="Nos services BTC Energies"
               class="w-30 transition-transform duration-300 ease-in-out"
@@ -96,7 +96,7 @@
     <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
           <!-- Logo 2 -->
           <div class="flex justify-center items-center my-6">
-            <img
+            <img height="161" width="176" decoding="async" loading="lazy"
               src="/solutions/logo4.png"
               alt="Nos services BTC Energies"
               class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
@@ -120,7 +120,7 @@
       <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
           <!-- Logo 3 -->
           <div class="flex justify-center items-center my-6">
-            <img
+            <img height="131" width="136" decoding="async" loading="lazy"
               src="/solutions/logo3.png"
               alt="Nos services BTC Energies"
               class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
@@ -163,7 +163,7 @@
 
               <!-- image 1 -->
           <div class="flex justify-center items-center my-6">
-            <img
+            <img height="543" width="770" decoding="async" loading="lazy"
               src="/solutions/Solution1.png"
               alt="Nos services BTC Energies"
             />
@@ -193,7 +193,7 @@
 
                  <!-- image 2 -->
           <div class="flex justify-center items-center my-6">
-            <img
+            <img height="551" width="778" decoding="async" loading="lazy"
               src="/solutions/Solution2.png"
               alt="Nos services BTC Energies"
             />
@@ -214,7 +214,7 @@
 
               <!-- image 3 -->
               <div class="flex justify-center items-center my-6">
-            <img
+            <img height="553" width="778" decoding="async" loading="lazy"
               src="/solutions/Solution3.png"
               alt="Nos services BTC Energies"
              />
@@ -231,7 +231,7 @@
 
            <!-- image 4 -->
            <div class="flex justify-center items-center my-6">
-            <img
+            <img height="541" width="776" decoding="async" loading="lazy"
               src="/solutions/Solution4.png"
               alt="Nos services BTC Energies"/>
           </div>
@@ -247,7 +247,7 @@
 
         <!-- image 5 -->
         <div class="flex justify-center items-center my-6">
-            <img
+            <img height="543" width="776" decoding="async" loading="lazy"
               src="/solutions/Solution5.png"
               alt="Nos services BTC Energies"/>
           </div>
@@ -263,7 +263,7 @@
 
         <!-- image 6 -->
         <div class="flex justify-center items-center my-6">
-            <img
+            <img height="545" width="773" decoding="async" loading="lazy"
               src="/solutions/Solution6.png"
               alt="Nos services BTC Energies"
             />
@@ -291,7 +291,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
             <!-- Colonne 1 : Logo -->
             <div class="flex justify-center">
-              <img
+              <img height="526" width="595" decoding="async" loading="lazy"
                 src="/logo_sidebar.png"
                 ref="logoSidebar"
                 alt="BTC Énergies Logo"
@@ -444,5 +444,6 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }]
 });
 </script>
+
 
 
