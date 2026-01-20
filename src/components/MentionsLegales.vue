@@ -259,6 +259,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
 import Sidebar from './Sidebar.vue';
+import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
@@ -290,6 +291,21 @@ onMounted(() => {
     ease: 'back.out(1.7)',
   });
 });
+
+useHead({
+  title: 'Mentions legales - BTC Energies',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Mentions legales, politique de confidentialite et informations legales de BTC Energies.',
+    },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/mentions-legales' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+  ],
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/mentions-legales' }],
+});
 </script>
+
 
 

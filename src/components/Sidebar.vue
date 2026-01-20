@@ -203,13 +203,13 @@ const currentLang = computed(
 /* ░░░ Menu ░░░ */
 const menuItems = [
   { label: 'menu.accueil',        route: '/' },
-  { label: 'menu.constat',        route: '/Constat' },
-  { label: 'menu.solutions',      route: '/Solutions' },
-  { label: 'menu.projets',        route: '/Projets' },
-  { label: 'menu.partenaires',    route: '/Partenaires' },
+  { label: 'menu.constat',        route: '/constat' },
+  { label: 'menu.solutions',      route: '/solutions' },
+  { label: 'menu.projets',        route: '/projets' },
+  { label: 'menu.partenaires',    route: '/partenaires' },
   { label: 'menu.equipe',         route: '/equipe' },
   { label: 'menu.contact',        route: '/contact' },
-  { label: 'menu.etDemain',       route: '/EtDemain' },
+  { label: 'menu.etDemain',       route: '/etdemain' },
   { label: 'menu.mentions',       route: '/mentions-legales' },
 ]
 

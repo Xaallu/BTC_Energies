@@ -437,9 +437,12 @@ useHead({
     },
     { name: 'keywords', content: 'vente d’énergies, gazéification, effluents, déchets, dépollution, valorisation, BTC Énergies, solutions écologiques, recyclage industriel' },
     { property: 'og:title', content: 'BTC Énergies – Services énergétiques et environnementaux' },
-    { property: 'og:description', content: 'Des solutions innovantes pour valoriser vos déchets et produire de l’énergie verte.' }
+    { property: 'og:description', content: 'Des solutions innovantes pour valoriser vos déchets et produire de l’énergie verte.' },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/solutions' },
+    { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/nos-services' }]
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }]
 });
 </script>
+
 

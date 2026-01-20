@@ -183,6 +183,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
 import Sidebar from './Sidebar.vue';
+import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
@@ -247,4 +248,19 @@ onMounted(async () => {
   });
   
 });
+
+useHead({
+  title: 'Et Demain - BTC Energies',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Decouvrez la vision de BTC Energies pour demain : innovation, transition energetique et engagement durable.',
+    },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/etdemain' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+  ],
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/etdemain' }],
+});
 </script>
+

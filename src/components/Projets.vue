@@ -239,6 +239,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Sidebar from './Sidebar.vue';
 import { watch } from 'vue';
+import { useHead } from '@vueuse/head';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -497,4 +498,19 @@ onMounted(() => {
     );
   });
 });
+
+useHead({
+  title: 'Projets - BTC Energies',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Suivez les projets BTC Energies : developpement, innovation et solutions durables pour la transition energetique.',
+    },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/projets' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+  ],
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
+});
 </script>
+

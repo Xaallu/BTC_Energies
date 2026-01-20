@@ -795,9 +795,14 @@ beforeUnmount() {
       property: 'og:image',
       content: 'https://btc-energies.fr/favicon.jpg',
     },
+    {
+      property: 'og:url',
+      content: 'https://www.btc-energies.fr/',
+    },
     { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
   ],
-  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/' }],
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/' }],
 });
 
 

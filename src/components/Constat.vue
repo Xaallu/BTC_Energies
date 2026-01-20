@@ -359,13 +359,14 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://btc-energies.com/constat',
+          content: 'https://www.btc-energies.fr/constat',
         },
         {
           name: 'twitter:card',
           content: 'summary_large_image',
         },
       ],
+      link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/constat' }],
     });
 
 </script>

@@ -317,8 +317,11 @@ useHead({
     },
     { name: 'keywords', content: 'partenaire Enedis, partenaire GDF, valorisation énergétique, BTC Énergies, transition énergétique, partenariat énergie, biogaz industriel' },
     { property: 'og:title', content: 'BTC Énergies – Partenaire de GDF et Enedis' },
-    { property: 'og:description', content: 'BTC Énergies, expert en valorisation énergétique, travaille avec GDF, Enedis et les acteurs de la transition écologique.' }
+    { property: 'og:description', content: 'BTC Énergies, expert en valorisation énergétique, travaille avec GDF, Enedis et les acteurs de la transition écologique.' },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/partenaires' },
+    { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/partenaires-gdf-enedis' }]
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/partenaires' }]
 });
 </script>
+

@@ -1225,9 +1225,12 @@ useHead({
     },
     { name: 'keywords', content: 'équipe BTC Énergies, experts énergie, développeur durable, ingénieur environnement, architecte web, QHSE' },
     { property: 'og:title', content: 'L’équipe BTC Énergies' },
-    { property: 'og:description', content: 'Découvrez notre équipe : des profils complémentaires pour un même objectif – l’innovation écologique.' }
+    { property: 'og:description', content: 'Découvrez notre équipe : des profils complémentaires pour un même objectif – l’innovation écologique.' },
+    { property: 'og:url', content: 'https://www.btc-energies.fr/equipe' },
+    { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://btc-energies.fr/equipe' }]
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/equipe' }]
 });
 </script>
+
 
