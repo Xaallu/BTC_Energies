@@ -83,7 +83,7 @@
               <div class="flex justify-center items-center my-6">
             <a href="https://fr.ulule.com/projet-promethee-energies-renouvelables/"
                target="_blank" rel="noopener noreferrer">
-              <img height="227" width="239" decoding="async" loading="lazy" src="/partenaire/ulule.png" alt="Ulule" class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
+              <img height="227" width="239" decoding="async" loading="lazy" src="/partenaire/ulule.png" alt="Ulule" class="w-32 sm:w-36 md:w-40 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
 
@@ -108,7 +108,7 @@
             <a href="https://h2medproject.com/fr/le-premier-grand-corridor-dhydrogene-vert-deurope/"
                target="_blank" rel="noopener noreferrer">
               <img height="496" width="795" decoding="async" loading="lazy" src="/h2med.png" alt="French Tech Tremplin"
-                   class="w-30 sm:w-30 md:w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-36 sm:w-40 md:w-44 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
           <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text2_h2med') }}</p>
@@ -122,7 +122,7 @@
             <a href="https://www.lafrenchtechtoulouse.com/outils-pour-entrepreneurs/programmes/creation-et-amorcage/"
                target="_blank" rel="noopener noreferrer">
               <img height="262" width="264" decoding="async" loading="lazy" src="/partenaire/lafrenchtechtremplin.png" alt="French Tech Tremplin"
-                   class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-32 sm:w-36 md:w-40 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
           <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text2_French Tech') }}</p>
@@ -136,7 +136,7 @@
           <div class="flex justify-center items-center my-6">
             <a href="https://lafrenchtechtoulouse.com" target="_blank" rel="noopener noreferrer">
               <img height="296" width="250" decoding="async" loading="lazy" src="/partenaire/lafrenchtechtoulouse.png" alt="French Tech Toulouse"
-                   class="w-24 sm:w-28 md:w-30 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
+                   class="w-32 sm:w-36 md:w-40 sm:hover:scale-110 transition-transform duration-300 ease-in-out" />
             </a>
           </div>
           <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text3_French Tech Tou') }}</p>
