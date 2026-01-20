@@ -108,12 +108,8 @@ export default {
 
 <style scoped>
 .footer-global {
-  width: 100vw;
+  width: 100%;
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
   background-color: #0d111c;
 }
 </style>
