@@ -107,11 +107,12 @@
   "title": "Our Team",
   "titles": {
     "president_ceo": "President (CEO)",
-    "directeur_general": "General Director"
+    "directeur_general": "Managing Director",
+    "ingenieur_mecanique": "Mechanical Engineer"
   },
   "roles": {
     "porteur_de_projet": "Project Leader",
-    "directeur_general": "General Director",
+    "directeur_general": "Managing Director",
     "chef_projet_digital": "Digital Project Manager",
     "responsable_rh": "HR Manager",
     "responsable_technique": "Technical Manager (CTO)",
@@ -266,6 +267,7 @@
 
   "equipe_JMarc_Nom": "Dr.-Eng. Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "Chief Operating Officer (COO)",
+  "equipe_JMarc_Titre2": "Mechanical Engineer",
   "equipe_JMarc_Etudes_Titre": "Education:",
   "equipe_JMarc_Etudes_Detail": "Engineering Degree: Institut National Polytechnique de Grenoble<br />PhD: Management Sciences<br />Certifications: PMP® (Project Management Institute), Certified Mediator (Université Panthéon-Assas)",
   "equipe_JMarc_Citation": "“My commitment is to make talent shine, create value, and firmly anchor BTC Énergies within the French industrial landscape and beyond. My long-term industrial guiding principle is simple: less plastic.”",

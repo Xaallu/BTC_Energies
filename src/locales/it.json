@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment_page_sidebar": "Traduzioni per la pagina iniziale (Sidebar.vue)",
 
   "menu": {
@@ -104,11 +104,13 @@
   "team": {
   "title": "Il nostro team",
   "titles": {
-    "president_ceo": "Presidente (CEO)"
+    "president_ceo": "Presidente (CEO)",
+    "ingenieur_mecanique": "Ingegnere Meccanico"
   },
+
   "roles": {
     "porteur_de_projet": "Sponsor del progetto",
-    "directeur_general": "Direttore Generale",
+    "directeur_general": "Direttrice Generale",
     "chef_projet_digital": "Responsabile del progetto digitale",
     "responsable_rh": "Responsabile Risorse Umane",
     "responsable_technique": "Responsabile Tecnico (CTO)",
@@ -254,6 +256,7 @@
    
   "equipe_JMarc_Nom": "Dra. Ing. Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "Directora de Operaciones (COO)",
+   "equipe_JMarc_Titre2": "Ingegnere Meccanico",
   "equipe_JMarc_Etudes_Titre": "Formación:",
   "equipe_JMarc_Etudes_Detail": "Título de Ingeniera: Institut National Polytechnique de Grenoble<br />Doctorado: Ciencias de la Gestión<br />Certificaciones: PMP® (Project Management Institute), Mediadora certificada (Université Panthéon-Assas)",
   "equipe_JMarc_Citation": "“Mi compromiso es hacer brillar el talento, crear valor y anclar firmemente a BTC Énergies en el panorama industrial francés y más allá. Mi hilo conductor industrial a largo plazo es simple: menos plástico.”",

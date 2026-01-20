@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment_page_sidebar": "ホームページの翻訳（Sidebar.vue）",
 
   "menu": {
@@ -105,12 +105,13 @@
   "team": {
     "title": "私たちのチーム",
     "titles": {
-      "president_ceo": "代表取締役（CEO）"
+      "president_ceo": "代表取締役（CEO）",
+      "ingenieur_mecanique": "機械エンジニア"
     },
 
     "roles": {
       "porteur_de_projet": "プロジェクト推進者",
-      "directeur_general": "総支配人（ジェネラルディレクター）",
+      "directeur_general": "代表取締役",
       "chef_projet_digital": "デジタルプロジェクトマネージャー",
       "responsable_rh": "人事責任者（HRマネージャー）",
       "responsable_technique": "技術責任者（CTO）",
@@ -252,6 +253,7 @@
   
   "equipe_JMarc_Nom": "工学博士 スザンヌ・スヴェンスドッター",
   "equipe_JMarc_TitreCourt": "最高執行責任者（COO）",
+  "equipe_JMarc_Titre2": "機械エンジニア",
   "equipe_JMarc_Etudes_Titre": "学歴：",
   "equipe_JMarc_Etudes_Detail": "工学修士号：グルノーブル国立理工科大学<br />博士号：経営科学<br />資格：PMP®（プロジェクトマネジメント協会）、認定メディエーター（パリ・パンテオン＝アサス大学）",
   "equipe_JMarc_Citation": "「私の使命は、人材の可能性を最大限に引き出し、価値を創造し、BTC Énergies をフランス、そして国際的な産業界に確固たる存在として根付かせることです。私の長期的な産業の軸は明確です。― プラスチックを減らすこと。」",

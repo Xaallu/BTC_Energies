@@ -104,7 +104,8 @@
   "team": {
     "title": "我们的团队",
     "titles": {
-      "president_ceo": "总裁（首席执行官）"
+      "president_ceo": "总裁（首席执行官）",
+      "ingenieur_mecanique": "机械工程师"
     },
     "roles": {
       "porteur_de_projet": "项目发起人",
@@ -254,8 +255,9 @@
   "equipe_Thibault_Bio6": "他的国际经验结合实际观察与文化沉浸，构建出一个独特而宏大的愿景：将这项技术转化为应对能源转型与再工业化挑战的实际方案。他不断思考，持续为公司注入新想法。",
 
   
-  "equipe_JMarc_Nom": "ePhD Susanne SVENSDOTTER",
+  "equipe_JMarc_Nom": "PhD Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "首席运营官（COO） / 总经理",
+  "equipe_JMarc_Titre2": "机械工程师",
   "equipe_JMarc_Etudes_Titre": "学历：",
   "equipe_JMarc_Etudes_Detail": "工程师文凭：格勒诺布尔国立综合理工学院<br />博士学位：管理科学<br />认证：PMP®（项目管理协会），认证调解员（巴黎先贤祠-阿萨斯大学）",
   "equipe_JMarc_Citation": "“我的使命，是让人才发光发热，同时创造价值，并将 BTC Énergies 深度扎根于法国乃至国际工业版图之中。我的长期工业主线很简单：减少塑料。”",

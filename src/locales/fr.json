@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment_page_sidebar" : "Traductions pour la page d'accueil (Sidebar.vue)",
 
   "menu": {
@@ -108,12 +108,14 @@
 "team": {
   "title": "Notre équipe",
   "titles": {
-    "president_ceo": "Président (CEO)"
-    
+    "president_ceo": "Président (CEO)",
+    "ingenieur_mecanique": "Ing\u00e9nieur en M\u00e9canique"
+   
+
   },
   "roles": {
     "porteur_de_projet": "Porteur de Projet",
-    "directeur_general": "Directeur Général",
+    "directeur_general": "Directrice Générale",
     "chef_projet_digital": "Chef de Projet Digital",
     "responsable_rh": "Responsable RH (HR Manager)",
     "responsable_technique": "Responsable Technique (CTO)",
@@ -264,8 +266,9 @@
     "equipe_Thibault_Bio5": "Polyglotte, aventurier passionné et voyageur intrépide, il débute dès l’âge de 17 ans un parcours d’idéation nourri par un tour du monde à travers 11 pays et 3 continents. Confronté aux réalités énergétiques et environnementales sur le terrain, il affine une compréhension globale des enjeux, ce qui lui a permis d’identifier immédiatement le potentiel stratégique de la gazéification hydrothermale.",
     "equipe_Thibault_Bio6": "Ses expériences internationales, entre observation pragmatique et immersion culturelle, façonnent une vision singulière et ambitieuse : faire de cette technologie une réponse concrète aux défis de la transition énergétique et de la ré-industrialisation. Son esprit en constante émulation fait de lui la boîte à idées de l’entreprise.",
     
-    "equipe_JMarc_Nom": "ePhD Susanne SVENSDOTTER",
+    "equipe_JMarc_Nom": "PhD Susanne SVENSDOTTER",
     "equipe_JMarc_TitreCourt": "Directrice Générale (COO)",
+    "equipe_JMarc_Titre2": "Ingénieur en Mécanique",
     "equipe_JMarc_Etudes_Titre": "Études :",
     "equipe_JMarc_Etudes_Detail": "Diplôme d'Ingénieur : Institut National Polytechnique de Grenoble<br />Doctorat : Sciences de Gestion<br />Certifications : PMP® (Project Management Institute), Médiateur diplômé (Université Panthéon-Assas)",
     "equipe_JMarc_Citation": "“Mon engagement, c’est faire rayonner les talents. C’est aussi créer de la valeur et ancrer BTC Énergies dans le paysage industriel français et au-delà. Mon fil rouge perma-industriel, c’est moins de plastique”.",
@@ -503,3 +506,6 @@
     "close": "Fermer"
   }
 }
+
+
+
