@@ -4,7 +4,7 @@
   "menu": {
     "accueil": "Accueil",
     "constat": "Notre Constat",
-    "solutions": "Nos solutions",
+    "solutions": "Nos Solutions",
     "projets": "Nos Projets",
     "partenaires": "Financements et Partenaires",
     "equipe": "Notre équipe",
@@ -506,6 +506,5 @@
     "close": "Fermer"
   }
 }
-
 
 
