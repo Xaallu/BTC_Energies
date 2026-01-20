@@ -48,14 +48,14 @@
 
       <!-- Nos services -->
       <v-container fluid class="page-blanche_app py-10">
-        <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
+        <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
 
           <h2 class="page-blanche_app-title">{{ $t('services.title_Nos services') }}</h2>
-          <br><br>
+          <div class="h-6 sm:h-8 md:h-10"></div>
 
           <!-- blocs services -->
           <v-row
-          class="page-blanche_app-block bg-white shadow-md rounded-xl py-4 px-6"
+          class="page-blanche_app-block bg-white shadow-md rounded-xl py-4 px-4 sm:px-6"
           align="center"
           v-for="(service, index) in services"
           :key="index"
@@ -70,7 +70,7 @@
             </v-col>
           </v-row>
                 <!-- bloc 1 -->
-        <v-row class="page-blanche_app-block bg-white" align="center" >
+        <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center" >
           <v-col cols="12" md="2" class="page-blanche_app-logo">
             <img src="/logo1app.png" alt="Nos services BTC Energies">
           </v-col>
@@ -85,7 +85,7 @@
         </v-row>
 
                 <!-- bloc 2 -->
-            <v-row class="page-blanche_app-block bg-white" align="center">
+            <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo2app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -103,7 +103,7 @@
             </v-row>
 
               <!-- bloc 3 -->
-            <v-row class="page-blanche_app-block bg-white" align="center">
+            <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo3app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -121,7 +121,7 @@
             </v-row>
 
             <!-- bloc 4 -->
-            <v-row class="page-blanche_app-block bg-white" align="center">
+            <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo4app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -137,7 +137,7 @@
             </v-row>
 
              <!-- bloc 5 -->
-             <v-row class="page-blanche_app-block bg-white" align="center">
+             <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo5app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -153,7 +153,7 @@
             </v-row>
 
             <!-- bloc 6 -->
-            <v-row class="page-blanche_app-block bg-white" align="center">
+            <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center">
               <v-col cols="12" md="2" class="page-blanche_app-logo">
                 <img src="/logo6app.png" alt="Nos services BTC Energies">
               </v-col>
@@ -197,9 +197,9 @@
       <!-- Notre équipe -->
       
         <h2 class="page-blanche_app-title">{{ $t('notre_equipe') }}</h2>
-        <br><br>
+        <div class="h-6 sm:h-8 md:h-10"></div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-2 sm:px-0">
   <router-link
     v-for="member in team"
     :key="member.name"
@@ -235,19 +235,17 @@
     </div>
   </router-link>
 
-</div>
+        </div>
 
-<br><br>
-<h2 class="page-blanche_app-title">
-   {{ $t('Nos_engagements.title') }}
-</h2>
+        <div class="h-8 sm:h-10 md:h-12"></div>
+        <h2 class="page-blanche_app-title">
+           {{ $t('Nos_engagements.title') }}
+        </h2>
 
-<br><br>
-<br><br>
-<br>
+        <div class="h-6 sm:h-8 md:h-10"></div>
 
-<div class="my-10 flex justify-center">
-  <div class="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px]">
+        <div class="my-8 sm:my-10 flex justify-center px-2 sm:px-0">
+          <div class="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] max-w-[90vw] max-h-[90vw]">
 
     <!-- Logos ODD en cercle -->
     <div
@@ -529,10 +527,9 @@
       </p>
     </div>
   </div>
-</div>
+        </div>
 
-<br><br>
-<br><br>
+        <div class="h-8 sm:h-10 md:h-12"></div>
 <!-- Trait décoratif -->
 <div class="w-[120px] h-[2px] mx-auto my-4" style="background-color: #8BC367;"></div>
 
