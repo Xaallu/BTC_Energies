@@ -11,13 +11,13 @@
     </div>
     <div
       v-if="showCookiesPanel"
-      class="fixed inset-0 z-50 flex items-center justify-center px-4 py-6 bg-black/60"
+      class="fixed inset-0 z-50 flex items-end sm:items-center justify-center px-3 sm:px-4 py-4 sm:py-6 bg-black/60"
       role="dialog"
       aria-modal="true"
       aria-labelledby="cookies-title"
       @click.self="closeCookies"
     >
-      <div class="w-full max-w-lg rounded-2xl bg-white text-gray-900 shadow-2xl">
+      <div class="w-full max-w-lg rounded-t-2xl sm:rounded-2xl bg-white text-gray-900 shadow-2xl max-h-[90vh] overflow-y-auto">
   <div class="flex items-center justify-between border-b border-gray-200 px-4 sm:px-6 py-4">
     <h2 id="cookies-title" class="text-base sm:text-lg font-semibold text-gray-900">
       {{ $t('cookies.title') }}

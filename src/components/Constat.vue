@@ -57,27 +57,24 @@
           </div>
         </div>
 
-              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+              <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
                 
-               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+               <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 
             
-                  <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+                  <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
 
 
                     
 
-                    <br />
-                    <br />
+                    <div class="h-4 sm:h-6"></div>
                     <div class="text-[#475C79] text-center font-bold text-sm sm:text-base">
                       <p>{{ $t('notre_constat.intro1_Le monde continue') }}</p>
-                      <br />
+                      <div class="h-3"></div>
                       <p>{{ $t('notre_constat.intro2_Ces solutions sont vastes') }}</p>
                     </div>
                     
-
-                <br />
-                <br />
+                <div class="h-6 sm:h-8"></div>
                 <!-- Vidéo YouTube responsive -->
                 <v-row justify="center">
                   <v-col cols="12" md="10">
@@ -98,11 +95,11 @@
                   <!-- Ligne de sépartion verte-->
                 <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-                <br />
+                <div class="h-4 sm:h-6"></div>
 
                 
                 <!-- Grid x2 -->
-                <v-row class="py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-20 text-[#475C79]">
+                <v-row class="py-6 sm:py-10 px-2 sm:px-6 md:px-10 lg:px-16 text-[#475C79]">
                   <v-col cols="12" md="6">
                     <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       {{ $t('notre_constat.titre2_Technologie') }}
@@ -112,9 +109,8 @@
                       {{ $t('notre_constat.intro3_Les avancees technologiques') }}
                     </p>
                   </v-col>
-                    <br>
 
-                  <v-col cols="12" md="6">
+                  <v-col cols="12" md="6" class="mt-6 md:mt-0">
                     <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                      {{ $t('notre_constat.titre3_Durabilite environnementale') }} 
                       <span class="text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
@@ -128,13 +124,13 @@
 
                 <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-                <br />
+                <div class="h-4 sm:h-6"></div>
 
                 <!-- Image + légendes -->
                 <v-row justify="center" class="my-6">
                   <v-col cols="12" md="8" class="text-center">
                     <img src="/Q_C_C.png" alt="Nos services BTC Energies" class="w-full max-w-3xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
-                    <div class="flex justify-center items-center gap-4 text-sm mt-2 text-gray-600">
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-sm mt-2 text-gray-600">
                       <p>{{ $t('notre_constat.um') }}</p>
                       <p>{{ $t('notre_constat.ugh') }}</p>
                     </div>
@@ -144,10 +140,10 @@
                 <!-- Ligne de sépartion verte-->
                 <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-                <br>
+                <div class="h-4 sm:h-6"></div>
                 
                 <!-- Grid x3 -->
-                <v-row class="py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-20 text-[#475C79]">
+                <v-row class="py-6 sm:py-10 px-2 sm:px-6 md:px-10 lg:px-16 text-[#475C79]">
                   <v-col cols="12" md="4">
                     <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       <p>{{ $t('notre_constat.titre5_Environnement') }}</p>
@@ -157,8 +153,7 @@
                       {{ $t('notre_constat.intro5_Nous nous sommes') }}
                     </p>
                   </v-col>
-                      <br>
-                  <v-col cols="12" md="4">
+                  <v-col cols="12" md="4" class="mt-6 md:mt-0">
                     <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                       {{ $t('notre_constat.titre6_Economie circulaire') }}
                       <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
@@ -166,10 +161,9 @@
                     <p class="indent-0 sm:indent-8">
                      {{ $t('notre_constat.intro6_Nous croyons en la') }} 
                     </p>
-                    <br>
                   </v-col>
 
-                  <v-col cols="12" md="4">
+                  <v-col cols="12" md="4" class="mt-6 md:mt-0">
                     <h3 class="text-center text-green-600 text-xl sm:text-2xl font-semibold mb-4 relative">
                      {{ $t('notre_constat.titre7_Innovation durable') }}
                       <span class="text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
@@ -180,22 +174,20 @@
                   </v-col>
                 </v-row>
 
-                <br>
-                <br>
+                <div class="h-6 sm:h-8"></div>
                 <!-- Texte final -->
                 <v-row justify="center">
                   <v-col cols="12" md="10">
                     <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                       {{ $t('notre_constat.intro8_En tant qu entreprise') }}
                     </p>
-                    <br />
+                    <div class="h-3"></div>
                     <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                      {{ $t('notre_constat.intro9_Notre industrie') }}
                     </p>
                     <div class="flex flex-col items-center text-center">
                   
-                  <br>
-                  <br>
+                  <div class="h-4 sm:h-6"></div>
                   <a href="/solutions"
                   class="font-montserrat font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
                     hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg

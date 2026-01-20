@@ -99,16 +99,16 @@
 
   <!-- ░░░ Sidebar Mobile ░░░ -->
   <div
-    class="fixed top-0 left-0 h-full w-[80vw] max-w-[320px] bg-white text-gray-700 z-50
+    class="fixed top-0 left-0 h-full w-[84vw] max-w-[320px] bg-white text-gray-700 z-50
            flex flex-col shadow-lg transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto"
     :class="props.isSidebarOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- Bouton fermeture -->
-    <button @click="toggleSidebar" class="absolute top-4 right-4 text-3xl p-1">&times;</button>
+    <button @click="toggleSidebar" class="absolute top-3 right-3 text-2xl sm:text-3xl p-1">&times;</button>
 
-    <div class="flex flex-col h-full pt-14 px-5">
-      <div class="mb-6 flex justify-center">
-        <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-20 w-auto" />
+    <div class="flex flex-col h-full pt-12 sm:pt-14 px-4 sm:px-5">
+      <div class="mb-5 sm:mb-6 flex justify-center">
+        <img src="/favicon.jpg" alt="BTC Énergies Logo" class="h-16 sm:h-20 w-auto" />
       </div>
 
       <!-- Sélecteur de langue -->
@@ -154,7 +154,7 @@
         </div>
 
       <!-- Menu Mobile -->
-      <ul class="flex-grow space-y-3 border-t border-gray-200 pt-4">
+      <ul class="flex-grow space-y-2 sm:space-y-3 border-t border-gray-200 pt-4">
         <li
           v-for="(item, index) in menuItems"
           :key="index"
@@ -162,7 +162,7 @@
         >
           <router-link
             :to="item.route"
-            class="block text-gray-700 hover:text-green-600 font-medium text-sm"
+            class="block py-1 text-gray-700 hover:text-green-600 font-medium text-sm sm:text-base"
             @click="handleLinkClick"
           >
             {{ $t(item.label) }}
@@ -273,3 +273,5 @@ onBeforeUnmount(() => {
 .menu-scroll      { scrollbar-width: none; -ms-overflow-style: none; }
 .menu-scroll::-webkit-scrollbar { display: none; }
 </style>
+
+

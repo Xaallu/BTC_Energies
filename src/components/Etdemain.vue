@@ -50,7 +50,7 @@
             
                   <!-- Trait inférieur -->
                   <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
-<br>
+                  <div class="h-4 sm:h-6"></div>
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
                       style="font-size: clamp(0.6rem, 1.4vw, 2rem);">
@@ -66,11 +66,11 @@
             
               <section>
               
-             <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+             <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
+               <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
-                  <section class="bg-white py-8 sm:py-10 px-4 sm:px-6 md:px-12 lg:px-16">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+                  <section class="bg-white py-6 sm:py-10 px-3 sm:px-6 md:px-10 lg:px-16">
 
                   <div class="gsap-bloc sm:hover:scale-[1.08] transition-transform duration-300 ease-in-out">
                     
@@ -80,7 +80,7 @@
                   {{ $t('Etdemain.titrePrincipal') }}
                 </h1>
                 <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
-                <div class="mb-6 sm:mb-8"></div> 
+                <div class="h-5 sm:h-8"></div> 
 
                 <!-- Image -->
                 <div class="flex justify-center mt-6 sm:mt-8">
@@ -97,9 +97,9 @@
                 </p>
 
                 <!-- Bloc 1 -->
-                <div class="gsap-bloc mt-8 sm:mt-12">
+                <div class="gsap-bloc mt-6 sm:mt-12">
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto"></div>
-                  <div class="mb-6 sm:mb-8"></div>
+                  <div class="h-5 sm:h-8"></div>
 
                   <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                     {{ $t('Etdemain.bloc1_phrase') }}
@@ -113,9 +113,9 @@
                 </div>
 
                 <!-- Bloc 2 -->
-                <div class="gsap-bloc mt-8 sm:mt-12">
+                <div class="gsap-bloc mt-6 sm:mt-12">
                   <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-                  <div class="mb-6 sm:mb-8"></div>
+                  <div class="h-5 sm:h-8"></div>
 
                   <p class="text-gray-600 text-sm sm:text-base leading-relaxed">{{ $t('Etdemain.bloc2_phrase1') }}</p>
                   <div class="mb-4"></div>
@@ -123,8 +123,8 @@
                   <div class="mb-4"></div>
                   <p class="text-gray-600 text-sm sm:text-base leading-relaxed">{{ $t('Etdemain.bloc2_phrase3') }}</p>
 
-                  <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-10"></div>
-                  <div class="mb-6 sm:mb-8"></div>
+                  <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-8 sm:mt-10"></div>
+                  <div class="h-5 sm:h-8"></div>
 
                   <p class="text-xl sm:text-2xl md:text-3xl text-[#8BC367] font-semibold text-center mt-6">
                     {{ $t('Etdemain.citation') }}

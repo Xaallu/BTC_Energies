@@ -32,7 +32,7 @@
           </v-col>
 
           <!-- Bandeau bleu -->
-<div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+<div class="w-full py-10 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
   <div class="w-full max-w-[1200px] mx-auto px-4">
 
     <!-- Groupe centré -->
@@ -55,8 +55,7 @@
 
 
 
-          <br>
-          <br>
+          <div class="h-6 sm:h-8"></div>
 
  <v-container
   fluid
@@ -64,15 +63,15 @@
 >
   <!-- Section principale -->
   <section
-  class="w-full flex flex-col items-center justify-center py-12 sm:py-16 md:py-12 sm:py-16 lg:py-20 
+  class="w-full flex flex-col items-center justify-center py-8 sm:py-16 lg:py-20 
          bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e] overflow-x-hidden"
 
   >
     <!-- ✅ Cadre blanc adaptatif -->
         <div
       class="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto
-            bg-white rounded-3xl shadow-2xl overflow-hidden
-            py-10 px-4 sm:px-8 md:px-12"
+            bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden
+            py-8 sm:py-10 px-3 sm:px-8 md:px-12"
     >
 
       <!-- ✅ Frise interne -->
@@ -173,7 +172,7 @@
           class="mt-8"
         ></div>
 
-        <br>
+        <div class="h-4 sm:h-6"></div>
     
                  <!-- Troisième titre -->
         <h2
@@ -189,7 +188,7 @@
         v-html="items[activeIndex].imglocaux"
         class="mt-6"
       ></div>
-        <br>
+        <div class="h-4 sm:h-6"></div>
       
        <!-- Troisième texte -->
         <div
@@ -225,7 +224,7 @@
                   ref="logoSidebar"
                   src="/logo_sidebar.png"
                   alt="BTC Énergies Logo"
-                  class="w-40 h-auto max-h-32"
+                  class="w-28 sm:w-40 h-auto max-h-32"
                 />
               </div>
             </div>

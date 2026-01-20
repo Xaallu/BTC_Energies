@@ -114,7 +114,7 @@
                 <!-- Bulle d'info -->
                 <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
                   <div class="space-y-4">
@@ -189,7 +189,7 @@
                   <!-- Bulle d'info -->
                   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
@@ -260,7 +260,7 @@
           <!-- Bulle d'info -->
           <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
@@ -329,7 +329,7 @@
 
 <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -404,7 +404,7 @@
   <!-- Bulle d'info -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -492,7 +492,7 @@
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
@@ -569,7 +569,7 @@
   <!-- Bulle d'info -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -645,7 +645,7 @@
   <!-- Bulle d'info -->
  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
 
@@ -739,7 +739,7 @@
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
   
@@ -821,7 +821,7 @@
  
  <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -913,7 +913,7 @@
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -1002,7 +1002,7 @@
   <!-- Bulle d'info (Popover) -->
   <div class="bulle-info absolute left-1/2 md:left-[62.5%] transform -translate-x-1/2 top-0
                     bg-white text-gray-700 p-4 sm:p-6 rounded-lg shadow-2xl
-                    w-[92%] sm:w-[80%] md:w-[75%]
+                    w-[96%] sm:w-[92%] md:w-[85%]
                     h-[80vh] sm:h-[70vh] md:h-96
                     max-h-[90vh] z-[10] items-start overflow-y-auto bulle-scroll">
     <div class="space-y-4">
@@ -1230,3 +1230,4 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://btc-energies.fr/equipe' }]
 });
 </script>
+

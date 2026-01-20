@@ -49,8 +49,8 @@
                     <!-- Trait inférieur -->
                       <div 
                         class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
-                      
-            <br><br>
+
+                  <div class="h-4 sm:h-6"></div>
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
                       style="font-size: clamp(0.7rem, 1.4vw, 2rem);">
                     {{ $t("contact.texteIntroHead") }}
@@ -62,18 +62,14 @@
             </div>
 
           </v-col>
-
-
-<br>
-      <v-container fluid class="min-h-screen flex items-center justify-center px-4 py-8 gsap-mentions">
-        <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
-          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+      <v-container fluid class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8 gsap-mentions">
+        <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+          <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
 
                     <!-- Ligne de séparation verte -->
              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-
-  <br>
+  <div class="h-4 sm:h-6"></div>
     <!-- Texte en tête -->
         <v-row justify="center">
           <v-col cols="12" md="10">
@@ -87,10 +83,10 @@
 
             <!-- Ligne de séparation verte -->
       <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-      <br />
+      <div class="h-4 sm:h-6"></div>
 
         <!-- Formulaire de Contact -->
-      <div class="page-blanche_app-wrapper pl-4 sm:pl-6 md:pl-10 lg:pl-24">
+      <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
         <form @submit.prevent="envoyerFormulaire" class="space-y-5 sm:space-y-6">
 
           <!-- Champ Nom -->
@@ -150,10 +146,10 @@
           </div>
 
            <!-- Espace -->
-            <div class="mb-8"></div>
+            <div class="h-6 sm:h-8"></div>
 
                 <!-- Bloc Contact -->
-                <div class="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-sm sm:text-base md:text-lg px-2">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-2 sm:gap-4 text-sm sm:text-base md:text-lg px-2 text-center md:text-left">
                   <a href="mailto:direction@btc-energies.fr"
                     class="inline-block text-base sm:text-xl text-[#8BC367] hover:text-[#8BC367] no-underline hover:no-underline transform transition-transform duration-200 hover:scale-105">
                     direction@btc-energies.fr
@@ -176,7 +172,7 @@
                   ref="logoSidebar"
                   src="/logo_sidebar.png"
                   alt="BTC Énergies Logo"
-                  class="w-40 h-auto max-h-32"
+                  class="w-28 sm:w-40 h-auto max-h-32"
                 />
               </div>
             </div>

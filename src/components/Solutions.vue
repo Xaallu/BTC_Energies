@@ -33,7 +33,7 @@
               </section>
 
                       <!-- Bandeau bleu -->
-        <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+        <div class="w-full py-10 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
           <div class="w-full max-w-[1200px] mx-auto px-4">
 
             <!-- Groupe centré -->
@@ -55,11 +55,11 @@
         </div>
 
             <!-- Section Nos Solutions -->
-             <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+            <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
+               <div class="w-full px-4 sm:px-8 md:px-10 lg:px-14 xl:px-16">
             
-                <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
-                  <section class="bg-white py-10 px-6 md:px-16">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-8">
+                  <section class="bg-white py-6 sm:py-10 px-4 sm:px-6 md:px-12">
                     
                 <div class="flex justify-center mb-6">
            
@@ -91,7 +91,7 @@
             <li>4. {{ $t('nos_solutions.text4_Melange') }}</li>
           </ol>
       </div>
-<br><br>
+<div class="h-6 sm:h-8"></div>
 
     <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
           <!-- Logo 2 -->
@@ -115,7 +115,7 @@
           </ol>
       </div>   
 
-<br><br>
+<div class="h-6 sm:h-8"></div>
  
       <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
           <!-- Logo 3 -->
@@ -140,22 +140,21 @@
             <li>3. {{ $t('nos_solutions.text3_Matiere minérale') }}</li>
           </ol>
         </div>  
-  <br><br>
+  <div class="h-6 sm:h-8"></div>
 
         <!-- Ligne de sépartion verte-->
         <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
           <!-- Notre offre de services -->
          
-    <br>
-    <br>    
+    <div class="h-6 sm:h-8"></div>    
     
         <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
             <h2 class="page-blanche_app-title ">
                {{ $t('nos_solutions.titre_Notre offre de services') }}
               </h2>
-              <br><br>
+              <div class="h-6 sm:h-8"></div>
               <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
              {{ $t('nos_solutions.texteOffre_Nous pouvons traiter') }}</p>
           </div>        
@@ -175,14 +174,13 @@
           <p class="text-center">{{ $t('nos_solutions.texteOffre_Nous proposons') }}</p>
           </ol>
       </div>
-<br>
+<div class="h-4 sm:h-6"></div>
   
 
         <!-- Ligne de sépartion verte-->
         <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-<br>
-<br>
+<div class="h-6 sm:h-8"></div>
           <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
               <h2 class="page-blanche_app-title">
@@ -210,7 +208,7 @@
           </ol>
         </div> 
       </div>
-<br>
+<div class="h-4 sm:h-6"></div>
 
         <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
@@ -227,7 +225,7 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_LHydrogène est') }}</p>
           </ol>
         </div>
-<br>
+<div class="h-4 sm:h-6"></div>
 
       <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
@@ -243,8 +241,7 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_Le CO2 est') }}</p>
         </ol>
       </div> 
-<br>
-<br>
+<div class="h-6 sm:h-8"></div>
 
       <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
@@ -260,8 +257,7 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_Leau chargee dazote') }}</p>
         </ol>
       </div> 
-<br>
-<br>
+<div class="h-6 sm:h-8"></div>
 
       <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
 
@@ -446,3 +442,4 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://btc-energies.fr/nos-services' }]
 });
 </script>
+

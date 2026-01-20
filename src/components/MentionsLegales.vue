@@ -17,7 +17,7 @@
       <v-col>    
 
            <!-- Bloc vidéo -->
-      <section class="video-banner relative w-full h-[60vh] sm:h-[70vh] lg:h-[90vh] overflow-hidden">
+      <section class="video-banner relative w-full h-[50vh] sm:h-[60vh] lg:h-[80vh] overflow-hidden">
         <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
           <source src="/videos/animation_eau2.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la lecture de vidéos HTML5.
@@ -25,7 +25,7 @@
    
         <!-- Logo -->
         <div class="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
-          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-16 sm:w-20 h-auto max-w-full" />
+          <img src="/logo_sansfond.png" alt="Logo BTC Énergies" class="w-14 sm:w-16 h-auto max-w-full" />
         </div>
 
             <!-- Texte centré -->
@@ -44,7 +44,7 @@
            <!-- Section Mentions Légales -->
             
          
-           <v-container class="bg-gray-100 flex flex-col items-start px-3 sm:px-4 md:px-6 py-6 sm:py-8 gsap-mentions">
+           <v-container class="bg-gray-100 flex flex-col items-start px-3 sm:px-4 md:px-6 lg:px-8 py-5 sm:py-8 gsap-mentions">
 
 
 
@@ -56,26 +56,26 @@
             </div>
 
               <!-- Bloc principal : Logo à gauche / Infos à droite -->
-            <div class="flex flex-col md:flex-row items-start justify-start gap-6 sm:gap-8 md:gap-12 w-full px-2 sm:px-4">
+            <div class="flex flex-col md:flex-row items-start justify-start gap-5 sm:gap-8 md:gap-12 w-full px-0 sm:px-4">
 
                 <!-- Colonne gauche : Logo + Coordonnées -->
                 <div class="flex flex-col items-center md:items-start ml-0 md:ml-6">
                 <img
                   src="/favicon2.jpg"
                   alt="Logo BTC Energies"
-                  class="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out sm:hover:scale-110 mb-4"
+                  class="w-full max-w-[220px] sm:max-w-[280px] md:max-w-[320px] h-auto rounded-md object-cover transition-transform duration-300 ease-in-out sm:hover:scale-110 mb-4"
                 />
               </div>
 
 
              <!-- CGU -->
-          <div id="cgu" class="mt-12 sm:mt-20 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+          <div id="cgu" class="w-full mt-8 sm:mt-16 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreCGU') }}</h1>
 
             <!-- Titre souligner-->
             <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-2"></div>
 
-            <div class="mb-8"></div>
+            <div class="h-6 sm:h-8"></div>
 
             <p class="mb-4"><span class="ml-5"></span>{{ $t('MentionsLégales.cguIntro') }}</p>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit"></p>
@@ -97,11 +97,11 @@
           </div>
 
           <!-- Politique de confidentialité -->
-          <div id="confidentialite" class="mt-12 sm:mt-20 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+          <div id="confidentialite" class="w-full mt-8 sm:mt-16 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreConfidentialite') }}</h1>
             <div class="w-20 h-1 bg-[#8BC367] rounded-full mt-2"></div>
 
-            <div class="mb-8"></div>
+            <div class="h-6 sm:h-8"></div>
 
             <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">1. {{ $t('MentionsLégales.donneesTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.donneesTexte') }}</p>
@@ -126,19 +126,19 @@
           </div>
 
 
-                  <div class="mb-8"></div>
+                  <div class="h-6 sm:h-8"></div>
                     
               </div>
 
                 <!-- Ligne de sépartion verte-->
         <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-12 mx-auto mt-6"></div>
 
-<div class="mb-8"></div>
+<div class="h-6 sm:h-8"></div>
 
     <!-- Colonne droite : Infos légales -->
 
 
-      <div class="w-full flex justify-center">
+      <div class="w-full flex justify-center px-2 sm:px-4">
   <div class="flex-1 max-w-4xl">
         <ul class="text-gray-600 text-base sm:text-lg md:text-xl space-y-3">
            <h2 class="text-gray-600 text-xl sm:text-2xl md:text-3xl space-y-3">{{ $t('MentionsLégales.contactTitre') }}</h2>
@@ -150,7 +150,7 @@
   <span class="text-[#8BC367]">direction@btc-energies.fr</span>
 </li>
 
-  <div class="mb-8"></div>
+  <div class="h-6 sm:h-8"></div>
 
           <li><strong>{{ $t('MentionsLégales.raisonSociale') }}</strong></li>
           <li>{{ $t('MentionsLégales.formeJuridique') }}</li>
@@ -160,11 +160,11 @@
         <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-12 mx-auto mt-6"></div>
         </ul>
 
-        <div class="mb-8"></div>
+        <div class="h-6 sm:h-8"></div>
 
         
 
-        <div class="mb-8"></div>
+        <div class="h-6 sm:h-8"></div>
 
 
          <!-- Coordonnées -->
@@ -198,10 +198,10 @@
       <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
         <!-- Marge interne -->
-        <div class="mb-4"></div>
+        <div class="h-3 sm:h-4"></div>
 
         <!-- Bloc RCS & TVA parfaitement centré avec alignement propre -->
-        <div class="w-full flex justify-center px-4">
+        <div class="w-full flex justify-center px-3 sm:px-4">
         <p class="text-gray-700 text-sm sm:text-base text-center max-w-4xl leading-relaxed">
           <span class="font-semibold">{{ $t('MentionsLégales.rcsLabel') }}</span>
           {{ $t('MentionsLégales.rcsValue') }}
@@ -291,4 +291,5 @@ onMounted(() => {
   });
 });
 </script>
+
 

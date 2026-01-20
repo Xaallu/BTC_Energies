@@ -51,7 +51,7 @@
           <div 
             class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
           
-<br><br>
+      <div class="h-4 sm:h-6"></div>
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
            style="font-size: clamp(0.7rem, 1.4vw, 2rem);">
         {{ $t("nos_partenaires.textHe_Pour realiser") }}
@@ -65,10 +65,10 @@
     
         
              <!-- Section Notre Constat -->
-               <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
-               <div class="px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
+               <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
+               <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
-              <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
+              <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full p-5 sm:p-6 md:p-8">
              
 
               
@@ -89,12 +89,12 @@
 
           <p class="text-gray-400 text-sm sm:text-base text-center">{{ $t('nos_partenaires.text2_Cliquez sur') }}</p>
 
-          <p class="mb-10"></p>
+          <div class="h-6 sm:h-8"></div>
         
           
           <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-          <p class="mb-8"></p>
+          <div class="h-6 sm:h-8"></div>
 
                   <!-- Partenaires -->
         <div class="text-center mb-20">
@@ -113,7 +113,7 @@
           </div>
           <p class="text-gray-500 text-sm sm:text-base">{{ $t('nos_partenaires.text2_h2med') }}</p>
 
-          <br>
+          <div class="h-4 sm:h-6"></div>
           <!-- Trait vert-->
               <div class="w-16 h-0.5 bg-[#B2D799] mx-auto mb-8"></div>
 
@@ -145,19 +145,19 @@
                 
 
               
-                <br>
+                <div class="h-4 sm:h-6"></div>
 
                 <!-- Ligne de sépartion verte-->
                <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-                <br />
+                <div class="h-4 sm:h-6"></div>
                 <!-- Texte final -->
                 <v-row justify="center">
                   <v-col cols="12" md="10">
                     <p class="text-center text-[#475C79] font-bold text-sm sm:text-base">
                       {{ $t('nos_partenaires.text4_Chez BTC Energies') }}
                     </p>
-                    <br />
+                    <div class="h-3"></div>
                    
                   
                   </v-col>
