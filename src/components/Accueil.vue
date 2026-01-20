@@ -244,7 +244,7 @@
 
         <div class="h-6 sm:h-8 md:h-10"></div>
 
-        <div class="my-8 sm:my-10 flex justify-center px-2 sm:px-0">
+        <div class="logos-section mb-8 sm:mb-10 flex justify-center px-2 sm:px-0">
           <div class="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] max-w-[90vw] max-h-[90vw]">
 
     <!-- Logos ODD en cercle -->
@@ -823,14 +823,14 @@ beforeUnmount() {
 }
 </style>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import '../assets/styles.css';
+<style scoped>
+.logos-section {
+  margin-top: calc(3rem + 3cm);
+}
 
-.video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+@media (min-width: 640px) {
+  .logos-section {
+    margin-top: calc(4rem + 3cm);
+  }
 }
 </style>
