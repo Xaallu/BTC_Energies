@@ -14,7 +14,7 @@
       </v-col>
 
       <!-- Contenu principal avec la vidéo -->
-      <v-col>    
+      <v-col class="pa-0">
 
               <section class="w-full overflow-hidden relative">
                  <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
@@ -57,12 +57,11 @@
           </div>
         </div>
 
-              <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
-                
+              <v-container fluid class="min-h-screen px-0 py-6 sm:py-8">
+               
                <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
                 
-            
-                  <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
+                  <div class="constat-card bg-white rounded-xl sm:rounded-2xl shadow-md w-full mx-auto p-5 sm:p-6 md:p-8">
 
 
                     
@@ -406,5 +405,20 @@ export default {
     width: 100%;
   }
 }
-</style>
 
+.constat-card {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .constat-card {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .constat-card {
+    max-width: 1080px;
+  }
+}
+</style>
