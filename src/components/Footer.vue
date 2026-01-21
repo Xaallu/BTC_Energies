@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <footer class="footer-global text-white text-xs sm:text-sm">
     <div class="w-full sm:max-w-[1200px] sm:mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
-        {{ $t('Footer.Site con�u et') }}
+        {{ $t('Footer.Site conçu et') }}
         <a href="#" @click.prevent="openCookies" class="underline hover:text-gray-300">
           {{ $t('Footer.Cookies') }}
         </a>
