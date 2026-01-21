@@ -1,6 +1,6 @@
 ﻿<template>
   <footer class="footer-global text-white text-xs sm:text-sm">
-    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
+    <div class="w-full sm:max-w-[1200px] sm:mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
         {{ $t('Footer.Site conçu et') }}

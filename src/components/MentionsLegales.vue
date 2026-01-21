@@ -69,7 +69,7 @@
 
 
              <!-- CGU -->
-          <div id="cgu" class="w-full mt-8 sm:mt-16 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+          <div id="cgu" class="w-full mt-8 sm:mt-16 text-gray-800 sm:max-w-4xl sm:mx-auto text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreCGU') }}</h1>
 
             <!-- Titre souligner-->
@@ -97,7 +97,7 @@
           </div>
 
           <!-- Politique de confidentialité -->
-          <div id="confidentialite" class="w-full mt-8 sm:mt-16 text-gray-800 max-w-4xl mx-auto text-sm sm:text-base">
+          <div id="confidentialite" class="w-full mt-8 sm:mt-16 text-gray-800 sm:max-w-4xl sm:mx-auto text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreConfidentialite') }}</h1>
             <div class="w-20 h-1 bg-[#8BC367] rounded-full mt-2"></div>
 

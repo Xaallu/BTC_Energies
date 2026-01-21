@@ -69,7 +69,7 @@
   >
     <!-- ✅ Cadre blanc adaptatif -->
         <div
-      class="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto
+      class="w-full sm:w-[90%] md:w-[85%] lg:w-[80%] sm:mx-auto
             bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden
             py-8 sm:py-10 px-3 sm:px-8 md:px-12"
     >

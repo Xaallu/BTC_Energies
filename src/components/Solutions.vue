@@ -58,7 +58,7 @@
             <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
                <div class="w-full px-4 sm:px-8 md:px-10 lg:px-14 xl:px-16">
             
-                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-8">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto p-5 sm:p-8">
                   <section class="bg-white py-6 sm:py-10 px-4 sm:px-6 md:px-12">
                     
                 <div class="flex justify-center mb-6">

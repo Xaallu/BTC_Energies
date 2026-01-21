@@ -9,8 +9,8 @@
         </v-col>
 
         <v-col>
-          <section class="w-full min-h-[70vh] flex items-center justify-center px-4 py-10">
-            <div class="max-w-xl w-full text-center bg-white rounded-2xl shadow-md p-6 sm:p-8">
+          <section class="w-full min-h-[70vh] flex items-center justify-center px-3 sm:px-4 py-10">
+            <div class="w-full sm:max-w-xl sm:mx-auto text-center bg-white rounded-2xl shadow-md p-6 sm:p-8">
               <h1 class="text-3xl sm:text-4xl font-bold text-[#475C79]">404</h1>
               <p class="mt-3 text-base sm:text-lg text-gray-600">
                 Cette page n'existe pas ou a ete deplacee.

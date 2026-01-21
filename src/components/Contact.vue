@@ -64,7 +64,7 @@
           </v-col>
       <v-container fluid class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8 gsap-mentions">
         <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
-          <div class="bg-white rounded-xl sm:rounded-2xl shadow-md max-w-5xl w-full mx-auto p-5 sm:p-6 md:p-8">
+          <div class="bg-white rounded-xl sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto p-5 sm:p-6 md:p-8">
 
                     <!-- Ligne de séparation verte -->
              <div class="bandeau_bleu-trait border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -90,7 +90,7 @@
         <form @submit.prevent="envoyerFormulaire" class="space-y-5 sm:space-y-6">
 
           <!-- Champ Nom -->
-          <div class="w-full max-w-lg mx-auto">
+          <div class="w-full sm:max-w-lg sm:mx-auto">
             <label for="nom" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.nomLabel') }}
             </label>
@@ -105,7 +105,7 @@
           </div>
 
           <!-- Champ Email -->
-          <div class="w-full max-w-lg mx-auto">
+          <div class="w-full sm:max-w-lg sm:mx-auto">
             <label for="email" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.emailLabel') }}
             </label>
@@ -120,7 +120,7 @@
             </div>
 
            <!-- Champ Message -->
-          <div class="w-full max-w-lg mx-auto">
+          <div class="w-full sm:max-w-lg sm:mx-auto">
             <label for="message" class="block text-left text-base sm:text-lg font-semibold text-[#3E3E3E] mb-2">
               {{ $t('contact.messageLabel') }}
             </label>
