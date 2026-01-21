@@ -32,7 +32,7 @@
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(0.7rem, 1.6vw, 2rem);">
+           style="font-size: clamp(1rem, 1.9vw, 2rem);">
         {{ $t("texte_bandeau_bleu") }}
       </h1>
 
@@ -834,3 +834,4 @@ beforeUnmount() {
   }
 }
 </style>
+

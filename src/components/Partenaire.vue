@@ -43,7 +43,7 @@
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(0.7rem, 2.6vw, 2rem);">
+           style="font-size: clamp(1rem, 2.8vw, 2rem);">
         {{ $t("nos_partenaires.Financements et partenaires") }}
       </h1>
 
@@ -53,7 +53,7 @@
           
       <div class="h-4 sm:h-6"></div>
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(0.7rem, 1.4vw, 2rem);">
+           style="font-size: clamp(0.9rem, 1.7vw, 2rem);">
         {{ $t("nos_partenaires.textHe_Pour realiser") }}
       </h1>
     </div>
@@ -324,5 +324,6 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/partenaires' }]
 });
 </script>
+
 
 

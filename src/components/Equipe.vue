@@ -42,7 +42,7 @@
             
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                       style="font-size: clamp(1.9rem, 2.6vw, 3rem);">
+                       style="font-size: clamp(2.1rem, 2.8vw, 3rem);">
                     {{ $t("equipe.Equipe_Titre") }}
                   </h1>
             
@@ -51,7 +51,7 @@
 <br>
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                      style="font-size: clamp(0.6rem, 1.4vw, 2rem);">
+                      style="font-size: clamp(0.9rem, 1.7vw, 2rem);">
                     {{ $t("equipe.Titre_equipe") }}
                   </h1>
                 </div>
@@ -1232,6 +1232,7 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/equipe' }]
 });
 </script>
+
 
 
 

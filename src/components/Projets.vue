@@ -42,7 +42,7 @@
 
       <!-- Texte -->
       <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-           style="font-size: clamp(0.9rem, 2.9vw, 3.2rem);">
+           style="font-size: clamp(1.1rem, 3.1vw, 3.2rem);">
         {{ $t("texte_bandeau_bleu_projet") }}
       </h1>
 
@@ -513,4 +513,5 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
 });
 </script>
+
 
