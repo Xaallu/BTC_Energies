@@ -10,7 +10,7 @@
         ref="logoS"
         src="/LeSoDeDe.png"
         alt="Les solutions de demain"
-        class="h-7 sm:h-9 md:h-11 w-auto max-w-[160px] sm:max-w-[200px] md:max-w-[240px]"
+        class="h-10 sm:h-12 md:h-14 w-auto max-w-[190px] sm:max-w-[220px] md:max-w-[260px]"
       />
     </div>
 
@@ -35,4 +35,3 @@ button:focus {
   outline-offset: 2px;
 }
 </style>
-
