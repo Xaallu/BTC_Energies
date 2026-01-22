@@ -467,9 +467,30 @@
 
 "cookies": {
     "title": "Cookie 管理",
-    "description": "我们使用技术性和访问量统计 cookies，以确保网站正常运行并不断改进。",
+    "description": "我们使用技术性和访问量统计 Cookie，以确保网站正常运行并不断改进。",
+    "bannerTitle": "本网站使用 Cookie",
+    "bannerSubtitle": "…并让您控制想要启用的 Cookie",
+    "panelTitle": "Cookie 管理面板",
+    "panelIntro": "允许这些服务即表示您同意其存储和读取 Cookie，并使用必要的跟踪技术。",
     "currentChoice": "您当前的选择",
     "policyLink": "查看 Cookie 政策",
+    "privacyLink": "隐私政策",
+    "manage": "自定义",
+    "acceptAll": "全部接受",
+    "declineAll": "全部拒绝",
+    "savePreferences": "保存我的选择",
+    "preferencesTitle": "所有服务的偏好设置",
+    "necessaryTitle": "必要 Cookie",
+    "necessaryDescription": "这些 Cookie 对网站正常运行是必需的，无法禁用。",
+    "necessaryList": "已存储的 Cookie：has_js、tarteaucitron、btc_cookie_consent、btc_cookie_prefs。",
+    "alwaysOn": "始终启用",
+    "audienceTitle": "受众统计",
+    "audienceDescription": "通过收集浏览统计数据帮助我们改进网站。",
+    "audienceServiceName": "Google Analytics (Universal)",
+    "audienceServiceDesc": "该服务可能会存储受众统计 Cookie。",
+    "allow": "允许",
+    "deny": "禁止",
+    "learnMore": "了解更多",
     "accept": "接受",
     "decline": "拒绝",
     "choice": {
@@ -478,9 +499,12 @@
       "unknown": "未定义"
     }
   },
-
   "common": {
     "close": "关闭"
   }
 
 }
+
+
+
+

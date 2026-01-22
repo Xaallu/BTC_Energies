@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment_page_sidebar": "Übersetzungen für die Startseite (Sidebar.vue)",
 
   "menu": {
@@ -469,8 +469,29 @@
    "cookies": {
     "title": "Cookie-Einstellungen",
     "description": "Wir verwenden technische Cookies und Cookies zur Reichweitenmessung, um den ordnungsgemäßen Betrieb der Website sicherzustellen und sie zu verbessern.",
+    "bannerTitle": "Diese Website verwendet Cookies",
+    "bannerSubtitle": "...und gibt Ihnen die Kontrolle darüber, welche Sie aktivieren möchten",
+    "panelTitle": "Cookie-Verwaltung",
+    "panelIntro": "Wenn Sie diese Dienste zulassen, stimmen Sie dem Speichern und Auslesen von Cookies sowie dem Einsatz notwendiger Tracking-Technologien zu.",
     "currentChoice": "Ihre aktuelle Auswahl",
     "policyLink": "Cookie-Richtlinie anzeigen",
+    "privacyLink": "Datenschutzerklärung",
+    "manage": "Anpassen",
+    "acceptAll": "Alle akzeptieren",
+    "declineAll": "Alle ablehnen",
+    "savePreferences": "Auswahl speichern",
+    "preferencesTitle": "Einstellungen für alle Dienste",
+    "necessaryTitle": "Erforderliche Cookies",
+    "necessaryDescription": "Diese Cookies sind für den Betrieb der Website erforderlich und können nicht deaktiviert werden.",
+    "necessaryList": "Gesetzte Cookies: has_js, tarteaucitron, btc_cookie_consent, btc_cookie_prefs.",
+    "alwaysOn": "Immer aktiv",
+    "audienceTitle": "Reichweitenmessung",
+    "audienceDescription": "Hilft uns, die Website zu verbessern, indem Navigationsstatistiken erfasst werden.",
+    "audienceServiceName": "Google Analytics (Universal)",
+    "audienceServiceDesc": "Dieser Dienst kann Cookies zur Reichweitenmessung setzen.",
+    "allow": "Zulassen",
+    "deny": "Blockieren",
+    "learnMore": "Mehr erfahren",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "choice": {
@@ -479,8 +500,11 @@
       "unknown": "Nicht definiert"
     }
   },
-
   "common": {
     "close": "Schließen"
   }
 }
+
+
+
+

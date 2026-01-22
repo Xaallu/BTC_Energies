@@ -1,4 +1,4 @@
-﻿{
+{
   "__comment_page_sidebar": "ホームページの翻訳（Sidebar.vue）",
 
   "menu": {
@@ -466,10 +466,31 @@
   },
 
   "cookies": {
-    "title": "Cookie の設定",
-    "description": "当サイトでは、サイトの正常な動作および改善のために、技術的およびアクセス解析用の Cookie を使用しています。",
+    "title": "クッキー設定",
+    "description": "当サイトでは、正常な動作と改善のために技術的およびアクセス解析用の Cookie を使用しています。",
+    "bannerTitle": "このサイトはクッキーを使用しています",
+    "bannerSubtitle": "…有効にするクッキーを管理できます",
+    "panelTitle": "クッキー管理パネル",
+    "panelIntro": "これらのサービスを許可すると、Cookie の保存・読み取りおよび必要なトラッキング技術の使用に同意したことになります。",
     "currentChoice": "現在の選択",
     "policyLink": "Cookie ポリシーを確認",
+    "privacyLink": "プライバシーポリシー",
+    "manage": "カスタマイズ",
+    "acceptAll": "すべて許可",
+    "declineAll": "すべて拒否",
+    "savePreferences": "選択を保存",
+    "preferencesTitle": "すべてのサービスの設定",
+    "necessaryTitle": "必須クッキー",
+    "necessaryDescription": "これらのクッキーはサイトの正常動作に必要で、無効にできません。",
+    "necessaryList": "保存される Cookie：has_js、tarteaucitron、btc_cookie_consent、btc_cookie_prefs。",
+    "alwaysOn": "常に有効",
+    "audienceTitle": "アクセス解析",
+    "audienceDescription": "閲覧統計を収集してサイト改善に役立てます。",
+    "audienceServiceName": "Google Analytics (Universal)",
+    "audienceServiceDesc": "このサービスはアクセス解析用の Cookie を保存する場合があります。",
+    "allow": "許可",
+    "deny": "拒否",
+    "learnMore": "詳細を見る",
     "accept": "同意する",
     "decline": "拒否する",
     "choice": {
