@@ -6,7 +6,7 @@
     </div>
 
     <div class="flex-1 flex justify-center">
-      <img height="115" width="267" decoding="async" loading="lazy"
+      <img height="215" width="367" decoding="async" loading="lazy"
         ref="logoS"
         src="/LeSoDeDe.png"
         alt="Les solutions de demain"

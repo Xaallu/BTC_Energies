@@ -1,321 +1,240 @@
 <template>
-  
-      <!-- Sidebar -->
-      <v-col cols="12" md="2" class="pa-0">
-        <div class="sidebar">
-          <Sidebar />
+  <div class="solutions-page min-h-screen bg-[#f8fafc]">
+    <Header />
+
+    <section class="w-full overflow-hidden relative">
+      <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          class="absolute top-0 left-0 w-full h-full object-cover object-center"
+        >
+          <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+        </video>
+      </div>
+    </section>
+
+    <section class="w-full py-10 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
+      <div class="w-full max-w-[1200px] mx-auto px-4">
+        <div class="text-center">
+          <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+          <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+              style="font-size: clamp(1.1rem, 3.1vw, 3.2rem);">
+            {{ $t("nos_solutions.title_nos solutions") }}
+          </h1>
+          <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
         </div>
-      </v-col>
+      </div>
+    </section>
 
-       <div class="main-content-wrapper ">
-        <!-- Contenu principal -->
-        <v-col class="pa-0 ma-0">
-          <div class="main-content">
-            <Header />
+    <main class="w-full px-4 sm:px-6 md:px-8 py-10">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="bg-white rounded-2xl sm:rounded-[30px] shadow-xl w-full p-6 sm:p-8 lg:p-10">
+          <section class="py-6 sm:py-10 px-4 sm:px-6 md:px-12 space-y-10">
 
-           <!-- Video GIF haut de page -->
-      
-               <!-- Video GIF haut de page -->
-                <section class="w-full overflow-hidden relative">
-            <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-              
-                  <video
-                    autoplay
-                    loop
-                    muted
-                    playsinline
-                    class="absolute top-0 left-0 w-full h-full object-cover object-center"
-                  >
-                    <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-                    Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-                  </video>
-                </div>
-              </section>
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="135" width="117" decoding="async" loading="lazy"
+                  src="/solutions/logo1.png"
+                  alt="Nos services BTC Energies"
+                  class="w-30 transition-transform duration-300 ease-in-out"
+                />
+              </div>
 
-                      <!-- Bandeau bleu -->
-        <div class="w-full py-10 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-          <div class="w-full max-w-[1200px] mx-auto px-4">
+              <div class="indent-8 text-left mb-6">
+                <h2 class="text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.titre2_Preparation') }}</h2>
+                <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
+              </div>
 
-            <!-- Groupe centré -->
-            <div class="text-center">
-              <!-- Trait supérieur -->
-              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
-
-              <!-- Texte -->
-              <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                  style="font-size: clamp(1.1rem, 3.1vw, 3.2rem);">
-                {{ $t("nos_solutions.title_nos solutions") }}
-              </h1>
-
-              <!-- Trait inférieur -->
-              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+              <ol class="indent-12 text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <li>1. {{ $t('nos_solutions.text1_Recuperation') }} </li>
+                <li>2. {{ $t('nos_solutions.text2_Tri et separation') }}</li>
+                <li>3. {{ $t('nos_solutions.text3_Broyage') }}</li>
+                <li>4. {{ $t('nos_solutions.text4_Melange') }}</li>
+              </ol>
             </div>
 
-          </div>
-        </div>
+            <div class="h-10 sm:h-12"></div>
 
-            <!-- Section Nos Solutions -->
-            <v-container class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8">
-               <div class="w-full px-4 sm:px-8 md:px-10 lg:px-14 xl:px-16">
-            
-                <div class="bg-white rounded-xl sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto p-5 sm:p-8">
-                  <section class="bg-white py-6 sm:py-10 px-4 sm:px-6 md:px-12">
-                    
-                <div class="flex justify-center mb-6">
-           
-                  </div>
-                 
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="161" width="176" decoding="async" loading="lazy"
+                  src="/solutions/logo4.png"
+                  alt="Nos services BTC Energies"
+                  class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </div>
 
-    <div class="gsap-bloc">
+              <div class="indent-8 text-left mb-6">
+                <h2 class="text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.titreVal_Valorisation') }}</h2>
+                <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
+              </div>
 
-               <!-- Logo 1 -->
-          <div class="flex justify-center items-center my-6">
-            <img height="135" width="117" decoding="async" loading="lazy"
-              src="/solutions/logo1.png"
-              alt="Nos services BTC Energies"
-              class="w-30 transition-transform duration-300 ease-in-out"
-            />
-          </div>
+              <ol class="text-center text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p>{{ $t('nos_solutions.Val_La Gazéification Hydrothermale') }}</p>
+              </ol>
+            </div>
 
-          <!-- Titre 1 + soulignement -->
-          <div class="indent-8 text-left mb-6">
-            <h2 class=" text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.titre2_Preparation') }}</h2>
-            <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
-          </div>
+            <div class="h-10 sm:h-12"></div>
 
-            <!-- Liste -->
-          <ol class="indent-12 text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <li>1. {{ $t('nos_solutions.text1_Recuperation') }} </li>
-            <li>2. {{ $t('nos_solutions.text2_Tri et separation') }}</li>
-            <li>3. {{ $t('nos_solutions.text3_Broyage') }}</li>
-            <li>4. {{ $t('nos_solutions.text4_Melange') }}</li>
-          </ol>
-      </div>
-<div class="h-10 sm:h-12"></div>
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="131" width="136" decoding="async" loading="lazy"
+                  src="/solutions/logo3.png"
+                  alt="Nos services BTC Energies"
+                  class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </div>
 
-    <div class="gsap-bloc">
-          <!-- Logo 2 -->
-          <div class="flex justify-center items-center my-6">
-            <img height="161" width="176" decoding="async" loading="lazy"
-              src="/solutions/logo4.png"
-              alt="Nos services BTC Energies"
-              class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
-            />
-          </div>
+              <div class="indent-8 text-left mb-6">
+                <h2 class="text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.Exploitation') }}</h2>
+                <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
+              </div>
 
-          <!-- Titre 2 + soulignement -->
-          <div class="indent-8 text-left mb-6">
-            <h2 class="text-3xl font-bold text-[#777777]"> {{ $t('nos_solutions.titreVal_Valorisation') }}</h2>
-            <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
-          </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <li>1. {{ $t('nos_solutions.text1_Gaz produits') }} </li>
+                <li>2. {{ $t('nos_solutions.text2_Eau récupérée') }}</li>
+                <li>3. {{ $t('nos_solutions.text3_Matiere minérale') }}</li>
+              </ol>
+            </div>
 
-            <!-- Liste -->
-          <ol class="text-center text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <p>{{ $t('nos_solutions.Val_La Gazéification Hydrothermale') }}</p>
-          </ol>
-      </div>   
+            <div class="h-10 sm:h-12"></div>
+            <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+            <div class="h-10 sm:h-12"></div>
 
-<div class="h-10 sm:h-12"></div>
- 
-      <div class="gsap-bloc">
-          <!-- Logo 3 -->
-          <div class="flex justify-center items-center my-6">
-            <img height="131" width="136" decoding="async" loading="lazy"
-              src="/solutions/logo3.png"
-              alt="Nos services BTC Energies"
-              class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
-            />
-          </div>
-
-          <!-- Titre 2 + soulignement -->
-          <div class="indent-8 text-left mb-6">
-            <h2 class="text-3xl font-bold text-[#777777]">{{ $t('nos_solutions.Exploitation') }}</h2>
-            <div class="ml-8 w-14 h-0.5 bg-[#8BC367] rounded-full mt-1"></div>
-          </div>
-
-            <!-- Liste -->
-            <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-            <li>1. {{ $t('nos_solutions.text1_Gaz produits') }} </li>
-            <li>2. {{ $t('nos_solutions.text2_Eau récupérée') }}</li>
-            <li>3. {{ $t('nos_solutions.text3_Matiere minérale') }}</li>
-          </ol>
-        </div>  
-  <div class="h-10 sm:h-12"></div>
-
-        <!-- Ligne de sépartion verte-->
-        <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-          <!-- Notre offre de services -->
-         
-    <div class="h-10 sm:h-12"></div>    
-    
-        <div class="gsap-bloc">
-
-            <h2 class="page-blanche_app-title ">
-               {{ $t('nos_solutions.titre_Notre offre de services') }}
+            <div class="gsap-bloc space-y-6">
+              <h2 class="page-blanche_app-title text-center">
+                {{ $t('nos_solutions.titre_Notre offre de services') }}
               </h2>
-              <div class="h-10 sm:h-12"></div>
               <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
-             {{ $t('nos_solutions.texteOffre_Nous pouvons traiter') }}</p>
-          </div>        
+                {{ $t('nos_solutions.texteOffre_Nous pouvons traiter') }}
+              </p>
+            </div>
 
-          <div class="gsap-bloc">
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="543" width="770" decoding="async" loading="lazy"
+                  src="/solutions/Solution1.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p class="text-center">{{ $t('nos_solutions.texteOffre_Nous proposons') }}</p>
+              </ol>
+            </div>
 
-              <!-- image 1 -->
-          <div class="flex justify-center items-center my-6">
-            <img height="543" width="770" decoding="async" loading="lazy"
-              src="/solutions/Solution1.png"
-              alt="Nos services BTC Energies"
-            />
-          </div>
+            <div class="h-8 sm:h-10"></div>
+            <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
+            <div class="h-10 sm:h-12"></div>
 
-            <!-- Liste image 1 -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteOffre_Nous proposons') }}</p>
-          </ol>
-      </div>
-<div class="h-8 sm:h-10"></div>
-  
-
-        <!-- Ligne de sépartion verte-->
-        <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
-
-<div class="h-10 sm:h-12"></div>
-          <div class="gsap-bloc">
-
-              <h2 class="page-blanche_app-title">
+            <div class="gsap-bloc">
+              <h2 class="page-blanche_app-title text-center">
                 {{ $t('nos_solutions.titre_Nos produits fini') }}
               </h2>
-          </div> 
+            </div>
 
-
-        <div class="gsap-bloc">
-
-                 <!-- image 2 -->
-          <div class="flex justify-center items-center my-6">
-            <img height="551" width="778" decoding="async" loading="lazy"
-              src="/solutions/Solution2.png"
-              alt="Nos services BTC Energies"
-            />
-          </div>
-        
-
-        <div class="hover:scale-[1.04] transition-transform duration-300 ease-in-out">
-
-          <!-- Liste image 2 -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteproduits_Nous destinons') }}</p>
-          </ol>
-        </div> 
-      </div>
-<div class="h-8 sm:h-10"></div>
-
-        <div class="gsap-bloc">
-
-              <!-- image 3 -->
+            <div class="gsap-bloc space-y-6">
               <div class="flex justify-center items-center my-6">
-            <img height="553" width="778" decoding="async" loading="lazy"
-              src="/solutions/Solution3.png"
-              alt="Nos services BTC Energies"
-             />
-          </div>
+                <img height="551" width="778" decoding="async" loading="lazy"
+                  src="/solutions/Solution2.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <div class="hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+                <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                  <p class="text-center">{{ $t('nos_solutions.texteproduits_Nous destinons') }}</p>
+                </ol>
+              </div>
+            </div>
 
-          <!-- Liste image 3 -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteproduits_LHydrogène est') }}</p>
-          </ol>
+            <div class="h-8 sm:h-10"></div>
+
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="553" width="778" decoding="async" loading="lazy"
+                  src="/solutions/Solution3.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p class="text-center">{{ $t('nos_solutions.texteproduits_LHydrogène est') }}</p>
+              </ol>
+            </div>
+
+            <div class="h-8 sm:h-10"></div>
+
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="541" width="776" decoding="async" loading="lazy"
+                  src="/solutions/Solution4.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p class="text-center">{{ $t('nos_solutions.texteproduits_Le CO2 est') }}</p>
+              </ol>
+            </div>
+
+            <div class="h-10 sm:h-12"></div>
+
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="543" width="776" decoding="async" loading="lazy"
+                  src="/solutions/Solution5.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p class="text-center">{{ $t('nos_solutions.texteproduits_Leau chargee dazote') }}</p>
+              </ol>
+            </div>
+
+            <div class="h-10 sm:h-12"></div>
+
+            <div class="gsap-bloc">
+              <div class="flex justify-center items-center my-6">
+                <img height="545" width="773" decoding="async" loading="lazy"
+                  src="/solutions/Solution6.png"
+                  alt="Nos services BTC Energies"
+                />
+              </div>
+              <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
+                <p class="text-center">{{ $t('nos_solutions.texteproduits_La matiere minerale') }}</p>
+              </ol>
+            </div>
+
+          </section>
         </div>
-<div class="h-8 sm:h-10"></div>
-
-      <div class="gsap-bloc">
-
-           <!-- image 4 -->
-           <div class="flex justify-center items-center my-6">
-            <img height="541" width="776" decoding="async" loading="lazy"
-              src="/solutions/Solution4.png"
-              alt="Nos services BTC Energies"/>
-          </div>
-
-          <!-- Liste image 4 -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteproduits_Le CO2 est') }}</p>
-        </ol>
-      </div> 
-<div class="h-10 sm:h-12"></div>
-
-      <div class="gsap-bloc">
-
-        <!-- image 5 -->
-        <div class="flex justify-center items-center my-6">
-            <img height="543" width="776" decoding="async" loading="lazy"
-              src="/solutions/Solution5.png"
-              alt="Nos services BTC Energies"/>
-          </div>
-      
-          <!-- Liste image 5 -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteproduits_Leau chargee dazote') }}</p>
-        </ol>
-      </div> 
-<div class="h-10 sm:h-12"></div>
-
-      <div class="gsap-bloc">
-
-        <!-- image 6 -->
-        <div class="flex justify-center items-center my-6">
-            <img height="545" width="773" decoding="async" loading="lazy"
-              src="/solutions/Solution6.png"
-              alt="Nos services BTC Energies"
-            />
-        </div>
-
-          <!-- Liste image 6  -->
-          <ol class="text-gray-500 text-bolt text-xl space-y-2 px-6">
-          <p class="text-center">{{ $t('nos_solutions.texteproduits_La matiere minerale') }} </p>
-        </ol>
       </div>
-          
-        </section>
+    </main>
+
+    <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+      <div class="max-w-[1200px] mx-auto px-4 sm:px-8 py-6 grid grid-cols-1 sm:grid-cols-3 items-center text-white gap-6">
+        <div class="flex justify-center">
+          <img height="526" width="595" decoding="async" loading="lazy"
+            src="/logo_sidebar.png"
+            ref="logoSidebar"
+            alt="BTC Énergies Logo"
+            class="w-28 sm:w-40 h-auto max-h-32"
+          />
+        </div>
+        <div></div>
+        <div class="flex flex-col items-center text-center">
+          <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('nos_solutions.Nous contacter') }}</h2>
+          <a href="/contact"
+            class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
+                   hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
+                   active:scale-95 active:shadow-inner flex items-center gap-2"
+          >
+            {{ $t('nos_solutions.Nos Coordonnees') }}
+          </a>
+        </div>
       </div>
     </div>
-  </v-container>
-  
-</div>
-
-
-            
-        </v-col>
-
-              <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-          <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
-            <!-- Colonne 1 : Logo -->
-            <div class="flex justify-center">
-              <img height="526" width="595" decoding="async" loading="lazy"
-                src="/logo_sidebar.png"
-                ref="logoSidebar"
-                alt="BTC Énergies Logo"
-                class="w-28 sm:w-40 h-auto max-h-32"
-              />
-            </div>
-
-            <!-- Colonne 2 : Vide ou contenu futur -->
-            <div></div>
-
-            <!-- Colonne 3 : Texte et bouton -->
-            <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('nos_solutions.Nous contacter') }}</h2>
-              <a href="/contact"
-                class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
-                       hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
-                {{ $t('nos_solutions.Nos Coordonnees') }}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
- 
+  </div>
 </template>
 
 <style>
@@ -334,14 +253,11 @@ video {
 }
 </style>
 
-
 <script setup>
 import { onMounted, ref, nextTick } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
-import Sidebar from './Sidebar.vue';
-import Footer from './Footer.vue';
 import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
@@ -391,12 +307,10 @@ onMounted(async () => {
   });
 
   const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
-      if (bandeauBleuText) {
-        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
-      }
-      
+  if (bandeauBleuText) {
+    gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
+  }
 
-  // ✅ Animation du logo dans le bandeau
   if (logoSidebar.value) {
     gsap.from(logoSidebar.value, {
       scrollTrigger: {
@@ -411,7 +325,6 @@ onMounted(async () => {
     });
   }
 
-    // ✅ Animation des traits verts
   gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
     gsap.fromTo(
       trait,
@@ -429,7 +342,6 @@ onMounted(async () => {
       }
     );
   });
-
 });
 
 useHead({
@@ -448,10 +360,3 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }]
 });
 </script>
-
-
-
-
-
-
-

@@ -275,255 +275,19 @@
       />
     </div>
 
-    <!-- Bulle d'info (uniquement pour le logo 1 / index 0) -->
     <div
-      v-if="hoveredLogo === 0"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[380px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      v-for="bubble in bubbleInfos"
+      :key="bubble.index"
+      v-if="hoveredLogo === bubble.index"
+      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
+      @click="handleBubbleClick"
     >
       <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.Pas_de_Pauvrete_title') }}</h3>
+        {{ $t(bubble.titleKey) }}
+      </h3>
 
       <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.Pas_de_Pauvrete_texte') }}
-      </p>
-
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 2 / index 1) -->
-        <div
-      v-if="hoveredLogo === 1"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.Faim_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.Faim_texte') }}
-      </p>
-    
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 3 / index 2) -->
-        <div
-      v-if="hoveredLogo === 2"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.BonneSante_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.BonneSante_texte') }}
-      </p>
-      
-    
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 4 / index 3) -->
-        <div
-      v-if="hoveredLogo === 3"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.education_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.edcucation_texte') }}
-      </p>
-      
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 5 / index 4) -->
-        <div
-      v-if="hoveredLogo === 4"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.egalite_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.egalite_texte') }}
-      </p>
-      
-      
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 6 / index 5) -->
-    <div
-      v-if="hoveredLogo === 5"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.eauSalubre_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.eauSalubre_texte') }}
-      </p>
-      
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 7 / index 6) -->
-    <div
-      v-if="hoveredLogo === 6"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.energieFiable_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.energieFiable_texte') }}
-      </p>
-      
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 8 / index 7) -->
-    <div
-      v-if="hoveredLogo === 7"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.emploi_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.emploi_texte') }}
-      </p>
-      
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 9 / index 8) -->
-    <div
-      v-if="hoveredLogo === 8"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.industrie_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.industrie_texte') }}
-      </p>
-      
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 10 / index 9) -->
-    <div
-      v-if="hoveredLogo === 9"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.reduction_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.reduction_texte') }}
-      </p>
-     
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 11 / index 10) -->
-    <div
-      v-if="hoveredLogo === 10"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.villes_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.villes_texte') }}
-      </p>
-    
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 12 / index 11) -->
-    <div
-      v-if="hoveredLogo === 11"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.consommation_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.consommation_texte') }}
-      </p>
-      
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 13 / index 12) -->
-    <div
-      v-if="hoveredLogo === 12"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.lutteChangement_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.lutteChangement_texte') }}
-      </p>
-     
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 14 / index 13) -->
-    <div
-      v-if="hoveredLogo === 13"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.conserver_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.conserver_texte') }}
-      </p>
-      
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 15 / index 14) -->
-    <div
-      v-if="hoveredLogo === 14"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.vieTerrestre_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.vieTerrestre_texte') }}
-      </p>
-    
-    </div>
-
-    <!-- Bulle d'info (uniquement pour le logo 16 / index 15) -->
-    <div
-      v-if="hoveredLogo === 15"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-     <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.justicePaix_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.justicePaix_texte') }}
-      </p>
-
-    </div>
-
-     <!-- Bulle d'info (uniquement pour le logo 17 / index 16) -->
-    <div
-      v-if="hoveredLogo === 16"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-    >
-
-    <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t('Nos_engagements.Partenariats_title') }}</h3>
-
-      <p class="font-serif text-lg leading-relaxed">
-      {{ $t('Nos_engagements.Partenariats_texte') }}
+        {{ $t(bubble.textKey) }}
       </p>
     </div>
   </div>
@@ -614,6 +378,25 @@ export default {
         '/logo_impact/9industrie.png', '/logo_impact/10reduction.png', '/logo_impact/11villes.png', '/logo_impact/12consomations.png',
         '/logo_impact/13luttes.png', '/logo_impact/14conserver.png', '/logo_impact/15vie.png', '/logo_impact/16justice.png', '/logo_impact/17partenariats.png'
       ],
+      bubbleInfos: [
+        { index: 0, titleKey: 'Nos_engagements.Pas_de_Pauvrete_title', textKey: 'Nos_engagements.Pas_de_Pauvrete_texte' },
+        { index: 1, titleKey: 'Nos_engagements.Faim_title', textKey: 'Nos_engagements.Faim_texte' },
+        { index: 2, titleKey: 'Nos_engagements.BonneSante_title', textKey: 'Nos_engagements.BonneSante_texte' },
+        { index: 3, titleKey: 'Nos_engagements.education_title', textKey: 'Nos_engagements.edcucation_texte' },
+        { index: 4, titleKey: 'Nos_engagements.egalite_title', textKey: 'Nos_engagements.egalite_texte' },
+        { index: 5, titleKey: 'Nos_engagements.eauSalubre_title', textKey: 'Nos_engagements.eauSalubre_texte' },
+        { index: 6, titleKey: 'Nos_engagements.energieFiable_title', textKey: 'Nos_engagements.energieFiable_texte' },
+        { index: 7, titleKey: 'Nos_engagements.emploi_title', textKey: 'Nos_engagements.emploi_texte' },
+        { index: 8, titleKey: 'Nos_engagements.industrie_title', textKey: 'Nos_engagements.industrie_texte' },
+        { index: 9, titleKey: 'Nos_engagements.reduction_title', textKey: 'Nos_engagements.reduction_texte' },
+        { index: 10, titleKey: 'Nos_engagements.villes_title', textKey: 'Nos_engagements.villes_texte' },
+        { index: 11, titleKey: 'Nos_engagements.consommation_title', textKey: 'Nos_engagements.consommation_texte' },
+        { index: 12, titleKey: 'Nos_engagements.lutteChangement_title', textKey: 'Nos_engagements.lutteChangement_texte' },
+        { index: 13, titleKey: 'Nos_engagements.conserver_title', textKey: 'Nos_engagements.conserver_texte' },
+        { index: 14, titleKey: 'Nos_engagements.vieTerrestre_title', textKey: 'Nos_engagements.vieTerrestre_texte' },
+        { index: 15, titleKey: 'Nos_engagements.justicePaix_title', textKey: 'Nos_engagements.justicePaix_texte' },
+        { index: 16, titleKey: 'Nos_engagements.Partenariats_title', textKey: 'Nos_engagements.Partenariats_texte' }
+      ],
       hoveredLogo: null,
       isMobile: false
      
@@ -638,6 +421,9 @@ methods: {
     if (this.isMobile) {
       this.hoveredLogo = this.hoveredLogo === index ? null : index;
     }
+  },
+  handleBubbleClick() {
+    this.hoveredLogo = null;
   },
   getLogoStyle(index, total) {
     let radius, centerX, centerY;
@@ -834,4 +620,3 @@ beforeUnmount() {
   }
 }
 </style>
-
