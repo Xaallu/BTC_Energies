@@ -66,7 +66,7 @@
                   </div>
                  
 
-    <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
+    <div class="gsap-bloc">
 
                <!-- Logo 1 -->
           <div class="flex justify-center items-center my-6">
@@ -91,9 +91,9 @@
             <li>4. {{ $t('nos_solutions.text4_Melange') }}</li>
           </ol>
       </div>
-<div class="h-6 sm:h-8"></div>
+<div class="h-10 sm:h-12"></div>
 
-    <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+    <div class="gsap-bloc">
           <!-- Logo 2 -->
           <div class="flex justify-center items-center my-6">
             <img height="161" width="176" decoding="async" loading="lazy"
@@ -115,9 +115,9 @@
           </ol>
       </div>   
 
-<div class="h-6 sm:h-8"></div>
+<div class="h-10 sm:h-12"></div>
  
-      <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+      <div class="gsap-bloc">
           <!-- Logo 3 -->
           <div class="flex justify-center items-center my-6">
             <img height="131" width="136" decoding="async" loading="lazy"
@@ -140,26 +140,26 @@
             <li>3. {{ $t('nos_solutions.text3_Matiere minérale') }}</li>
           </ol>
         </div>  
-  <div class="h-6 sm:h-8"></div>
+  <div class="h-10 sm:h-12"></div>
 
         <!-- Ligne de sépartion verte-->
         <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
           <!-- Notre offre de services -->
          
-    <div class="h-6 sm:h-8"></div>    
+    <div class="h-10 sm:h-12"></div>    
     
-        <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+        <div class="gsap-bloc">
 
             <h2 class="page-blanche_app-title ">
                {{ $t('nos_solutions.titre_Notre offre de services') }}
               </h2>
-              <div class="h-6 sm:h-8"></div>
+              <div class="h-10 sm:h-12"></div>
               <p class="text-[#475C79] font-bold text-xl text-center max-w-4xl mx-auto">
              {{ $t('nos_solutions.texteOffre_Nous pouvons traiter') }}</p>
           </div>        
 
-          <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+          <div class="gsap-bloc">
 
               <!-- image 1 -->
           <div class="flex justify-center items-center my-6">
@@ -174,14 +174,14 @@
           <p class="text-center">{{ $t('nos_solutions.texteOffre_Nous proposons') }}</p>
           </ol>
       </div>
-<div class="h-4 sm:h-6"></div>
+<div class="h-8 sm:h-10"></div>
   
 
         <!-- Ligne de sépartion verte-->
         <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
-<div class="h-6 sm:h-8"></div>
-          <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+<div class="h-10 sm:h-12"></div>
+          <div class="gsap-bloc">
 
               <h2 class="page-blanche_app-title">
                 {{ $t('nos_solutions.titre_Nos produits fini') }}
@@ -189,7 +189,7 @@
           </div> 
 
 
-        <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+        <div class="gsap-bloc">
 
                  <!-- image 2 -->
           <div class="flex justify-center items-center my-6">
@@ -208,9 +208,9 @@
           </ol>
         </div> 
       </div>
-<div class="h-4 sm:h-6"></div>
+<div class="h-8 sm:h-10"></div>
 
-        <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+        <div class="gsap-bloc">
 
               <!-- image 3 -->
               <div class="flex justify-center items-center my-6">
@@ -225,9 +225,9 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_LHydrogène est') }}</p>
           </ol>
         </div>
-<div class="h-4 sm:h-6"></div>
+<div class="h-8 sm:h-10"></div>
 
-      <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+      <div class="gsap-bloc">
 
            <!-- image 4 -->
            <div class="flex justify-center items-center my-6">
@@ -241,9 +241,9 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_Le CO2 est') }}</p>
         </ol>
       </div> 
-<div class="h-6 sm:h-8"></div>
+<div class="h-10 sm:h-12"></div>
 
-      <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+      <div class="gsap-bloc">
 
         <!-- image 5 -->
         <div class="flex justify-center items-center my-6">
@@ -257,9 +257,9 @@
           <p class="text-center">{{ $t('nos_solutions.texteproduits_Leau chargee dazote') }}</p>
         </ol>
       </div> 
-<div class="h-6 sm:h-8"></div>
+<div class="h-10 sm:h-12"></div>
 
-      <div class="gsap-bloc hover:scale-[1.04] transition-transform duration-300 ease-in-out">
+      <div class="gsap-bloc">
 
         <!-- image 6 -->
         <div class="flex justify-center items-center my-6">
@@ -336,7 +336,7 @@ video {
 
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, nextTick } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
@@ -344,12 +344,14 @@ import Sidebar from './Sidebar.vue';
 import Footer from './Footer.vue';
 import { useHead } from '@vueuse/head';
 
-const logoBandeau = ref(null);
+const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
   // ✅ Animation sur les blocs avec gsap-bloc
   gsap.utils.toArray(".gsap-bloc").forEach((bloc) => {
+    gsap.set(bloc, { transformOrigin: 'center' });
     // Animation d'entrée au scroll
     gsap.from(bloc, {
       scale: window.innerWidth > 768 ? 1.1 : 1.04,
@@ -373,6 +375,7 @@ onMounted(() => {
         duration: 0.4,
         ease: 'power2.out',
         boxShadow: '0px 12px 24px rgba(0, 0, 0, 0.4)',
+        overwrite: 'auto',
       });
     });
 
@@ -382,6 +385,7 @@ onMounted(() => {
         duration: 0.6,
         ease: 'power2.out',
         boxShadow: 'none',
+        overwrite: 'auto',
       });
     });
   });
@@ -393,8 +397,8 @@ onMounted(() => {
       
 
   // ✅ Animation du logo dans le bandeau
-  if (logoBandeau.value) {
-    gsap.from(logoBandeau.value, {
+  if (logoSidebar.value) {
+    gsap.from(logoSidebar.value, {
       scrollTrigger: {
         trigger: '.bandeau_bleu',
         start: 'top 90%',
@@ -444,6 +448,9 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }]
 });
 </script>
+
+
+
 
 
 

@@ -121,8 +121,43 @@
             <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">6. {{ $t('MentionsLégales.droitsTitre') }}</h2>
             <p class="mb-4 relative pb-2 border-b-2 border-[#8BC367] w-fit">{{ $t('MentionsLégales.droitsTexte') }}</p>
 
-            <h2 class="text-gray-600 text-lg sm:text-xl space-y-3">7. {{ $t('MentionsLégales.cookiesTitre') }}</h2>
+            <h2 id="cookies" class="text-gray-600 text-lg sm:text-xl space-y-3">7. {{ $t('MentionsLégales.cookiesTitre') }}</h2>
             <p>{{ $t('MentionsLégales.cookiesTexte') }}</p>
+
+            <div class="mt-6 space-y-6 text-gray-700">
+              <div>
+                <h3 class="text-gray-600 text-base sm:text-lg font-semibold">Protection de la vie privée</h3>
+                <p class="mt-2 text-sm sm:text-base">
+                  Nous veillons à limiter la collecte de données et à n’utiliser que les informations nécessaires à l’amélioration du service. Les données ne sont jamais revendues et ne sont partagées qu’avec nos prestataires techniques dans le cadre strict de leur mission.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-gray-600 text-base sm:text-lg font-semibold">Mesure d’audience</h3>
+                <p class="mt-2 text-sm sm:text-base">
+                  Les cookies de mesure d’audience nous aident à comprendre la fréquentation du site et à améliorer les contenus. Vous pouvez les accepter ou les refuser à tout moment depuis le panneau de gestion des cookies.
+                </p>
+              </div>
+
+              <div>
+                <h3 class="text-gray-600 text-base sm:text-lg font-semibold">Types de cookies utilisés</h3>
+                <ul class="mt-2 list-disc pl-5 text-sm sm:text-base space-y-1">
+                  <li><strong>Cookies essentiels</strong> : indispensables au fonctionnement du site (ex. conservation de votre choix).</li>
+                  <li><strong>Cookies de mesure d’audience</strong> : statistiques anonymisées de navigation.</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="text-gray-600 text-base sm:text-lg font-semibold">Gérer vos cookies dans votre navigateur</h3>
+                <p class="mt-2 text-sm sm:text-base">Vous pouvez configurer votre navigateur pour bloquer ou supprimer les cookies :</p>
+                <ul class="mt-2 list-disc pl-5 text-sm sm:text-base space-y-1">
+                  <li><strong>Chrome</strong> : Paramètres → Confidentialité et sécurité → Cookies.</li>
+                  <li><strong>Firefox</strong> : Paramètres → Vie privée et sécurité.</li>
+                  <li><strong>Safari</strong> : Réglages → Confidentialité.</li>
+                  <li><strong>Edge</strong> : Paramètres → Cookies et autorisations de site.</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
 
@@ -306,6 +341,10 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/mentions-legales' }],
 });
 </script>
+
+
+
+
 
 
 
