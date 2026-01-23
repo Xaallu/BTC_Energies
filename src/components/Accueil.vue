@@ -53,23 +53,7 @@
           <h2 class="page-blanche_app-title">{{ $t('services.title_Nos services') }}</h2>
           <div class="h-6 sm:h-8 md:h-10"></div>
 
-          <!-- blocs services -->
-          <v-row
-          class="page-blanche_app-block bg-white shadow-md rounded-xl py-4 px-4 sm:px-6"
-          align="center"
-          v-for="(service, index) in services"
-          :key="index"
-          >
-
-            <v-col cols="12" md="2" class="page-blanche_app-logo">
-              <img :src="service.logo" :alt="service.title" />
-            </v-col>
-            <v-col cols="12" md="10" class="page-blanche_app-content">
-              <h3 class="font-semibold text-[#475C79]">{{ service.title }}</h3>
-              <p v-for="(text, i) in service.description" :key="i">{{ text }}</p>
-            </v-col>
-          </v-row>
-                <!-- bloc 1 -->
+          <!-- bloc 1 -->
         <v-row class="page-blanche_app-block bg-white rounded-xl py-4 px-4 sm:px-6" align="center" >
           <v-col cols="12" md="2" class="page-blanche_app-logo">
             <img height="141" width="144" decoding="async" loading="lazy" src="/logo1app.png" alt="Nos services BTC Energies">
@@ -278,7 +262,7 @@
     <div
       v-for="bubble in bubbleInfos"
       :key="bubble.index"
-      v-if="hoveredLogo === bubble.index"
+      v-if="bubble && hoveredLogo === bubble.index"
       class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
       @click="handleBubbleClick"
     >
