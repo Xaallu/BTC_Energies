@@ -30,10 +30,10 @@
       </div>
     </section>
 
-    <main class="w-full px-4 sm:px-6 md:px-8 py-10">
-      <div class="max-w-[1200px] mx-auto">
-        <div class="bg-white rounded-2xl sm:rounded-[30px] shadow-xl w-full p-6 sm:p-8 lg:p-10">
-          <section class="py-6 sm:py-10 px-4 sm:px-6 md:px-12 space-y-10">
+    <main class="w-full px-0 sm:px-6 md:px-8 py-10">
+      <div class="w-full sm:max-w-[1200px] sm:mx-auto">
+        <div class="bg-white rounded-none sm:rounded-[30px] shadow-xl w-full px-4 py-8 sm:p-8 lg:p-10">
+          <section class="py-6 sm:py-10 px-0 sm:px-6 md:px-12 space-y-10">
 
             <div class="gsap-bloc">
               <div class="flex justify-center items-center my-6">
