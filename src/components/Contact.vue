@@ -4,7 +4,7 @@
      <v-row no-gutters class="pa-0 ma-0">
 
         <!-- Sidebar -->
-      <v-col cols="12" md="2" class="pa-0">
+      <v-col cols="12" md="2" class="pa-0 hidden">
         <div class="sidebar">
           <Sidebar />
         </div>
@@ -342,6 +342,7 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/contact' }]
 });
 </script>
+
 
 
 

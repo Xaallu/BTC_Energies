@@ -1,6 +1,7 @@
 // main.js
 
 import { createApp } from 'vue'
+import { createHead } from '@vueuse/head'
 import App from './App.vue'
 
 // Styles globaux
@@ -37,11 +38,14 @@ const i18n = createI18n({
 
 // Création de l’application Vue
 const app = createApp(App)
+const head = createHead()
 
 // Ajout des plugins
 app.use(vuetify)
 app.use(router)
 app.use(i18n)
+app.use(head)
 
 // Montre l'application
 app.mount('#app')
+

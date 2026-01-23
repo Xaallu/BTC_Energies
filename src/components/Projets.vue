@@ -4,7 +4,7 @@
      <v-row no-gutters class="pa-0 ma-0">
 
         <!-- Sidebar -->
-      <v-col cols="12" md="2" class="pa-0">
+      <v-col cols="12" md="2" class="pa-0 hidden">
         <div class="sidebar">
           <Sidebar />
         </div>
@@ -15,22 +15,20 @@
         <v-col>  
                 <!-- Video GIF haut de page -->
                 <section class="w-full overflow-hidden relative">
-            <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-
-              <video
-                autoplay
-                loop
-                muted
-                playsinline
-                class="absolute top-0 left-0 w-full h-full object-cover object-center"
-              >
-                <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-              </video>
-            </div>
-          </section>
-          </v-col>
-
+                 <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+              
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    class="absolute top-0 left-0 w-full h-full object-cover object-center"
+                  >
+                    <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                    Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                  </video>
+                </div>
+              </section>
           <!-- Bandeau bleu -->
 <div class="w-full py-10 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
   <div class="w-full max-w-[1200px] mx-auto px-4">
@@ -228,6 +226,7 @@
                 />
               </div>
             </div>
+        </v-col>
       </v-row>
     </v-main>
   </v-app>
@@ -513,5 +512,6 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
 });
 </script>
+
 
 

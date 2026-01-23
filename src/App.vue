@@ -4,7 +4,7 @@
     <Sidebar :isSidebarOpen="isSidebarOpen" @toggleSidebar="toggleSidebar" />
 
     <!-- Contenu principal -->
-    <div class="layout-wrapper lg:ml-72">
+    <div class="layout-wrapper lg:ml-[260px]">
       <div class="layout-content">
         <router-view />
         <Footer />

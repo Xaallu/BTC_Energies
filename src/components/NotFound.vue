@@ -2,7 +2,7 @@
   <v-app>
     <v-main class="pa-0 ma-0">
       <v-row no-gutters class="pa-0 ma-0">
-        <v-col cols="12" md="2" class="pa-0">
+        <v-col cols="12" md="2" class="pa-0 hidden">
           <div class="sidebar">
             <Sidebar />
           </div>
@@ -34,4 +34,5 @@
 <script setup>
 import Sidebar from './Sidebar.vue'
 </script>
+
 
