@@ -82,6 +82,7 @@
                         allowfullscreen
                       ></iframe>
                     </div>
+                  </v-col>
                 </v-row>
 
                 
@@ -128,6 +129,7 @@
                       <p>{{ $t('notre_constat.um') }}</p>
                       <p>{{ $t('notre_constat.ugh') }}</p>
                     </div>
+                  </v-col>
                 </v-row>
 
                 <!-- Ligne de sépartion verte-->
@@ -192,6 +194,7 @@
                     {{ $t('notre_constat.clic1_Nos Solutions') }}
                   </a>
                 </div>
+                  </v-col>
                 </v-row>
 
                 <!-- Ligne de sépartion verte-->
