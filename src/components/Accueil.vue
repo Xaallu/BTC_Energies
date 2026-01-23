@@ -286,46 +286,8 @@
       </v-container>
 
     </v-main>
-
-
-    <!-- Bandeau bas de page - Mentions Légales -->
-  <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#85867D)]">
-  
-    <div class="flex flex-col sm:grid sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
-    
-    <!-- Colonne 1 : Logo (centré mobile + desktop) -->
-    <div class="flex justify-center sm:justify-start">
-      <img height="526" width="595" decoding="async" loading="lazy"
-        src="/logo_sidebar.png"
-        ref="logoSidebar"
-        alt="BTC Énergies Logo"
-        class="w-28 sm:w-40 h-auto max-h-32"
-      />
-    </div>
-
-    <!-- Colonne 2 : Vide sur desktop -->
-    
-
-            <!-- Colonne 3 : Mentions légales -->
-              <div class="flex flex-col items-center text-center">
-                <h2 class="font-bold text-white text-xl mb-1">{{ $t('legal_title') }}</h2>
-
-                <p class="text-[10px] sm:text-[13px] inline-block">
-                  {{ $t('legal_line1') }}
-                </p>
-
-                <p class="text-[10px] sm:text-[13px] inline-block pl-6 sm:pl-12">
-                  {{ $t('legal_line2') }}
-                </p>
-              </div>
-
-
-  </div>
-</div>
-
   </div>
 </template>
-
 <script>
 import { onMounted } from 'vue';
 import gsap from 'gsap';

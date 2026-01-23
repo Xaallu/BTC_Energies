@@ -1,4 +1,32 @@
 ﻿<template>
+  <div class="page-footer-bandeau bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
+    <div class="max-w-[1200px] mx-auto px-4 sm:px-8 py-6 grid grid-cols-1 sm:grid-cols-3 items-center text-white gap-6">
+      <div class="flex justify-center">
+        <img
+          height="526"
+          width="595"
+          decoding="async"
+          loading="lazy"
+          src="/logo_sidebar.png"
+          alt="BTC Énergies Logo"
+          class="w-28 sm:w-40 h-auto max-h-32"
+          ref="footerLogo"
+        />
+      </div>
+      <div></div>
+      <div class="flex flex-col items-center text-center">
+        <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('nos_solutions.Nous contacter') }}</h2>
+        <a
+          href="/contact"
+          class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg active:scale-95 active:shadow-inner flex items-center gap-2"
+        >
+          {{ $t('nos_solutions.Nos Coordonnees') }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+
   <footer class="footer-global text-white text-xs sm:text-sm">
     <div class="w-full sm:max-w-[1200px] sm:mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
@@ -185,81 +213,141 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   data() {
     return {
       showCookiesPanel: false,
       cookieChoice: null,
-      cookiePrefs: {
-        necessary: true,
-        audience: false
-      }
-    };
+      cookiePrefs: { necessary: true, audience: false },
+
+      footerLogoTween: null,
+      footerLogoTrigger: null,
+    }
   },
+
   computed: {
     shouldShowBanner() {
-      return !this.cookieChoice && !this.showCookiesPanel;
+      return !this.cookieChoice && !this.showCookiesPanel
     },
     cookieChoiceLabel() {
-      if (this.cookieChoice === 'accepted') return this.$t('cookies.choice.accepted');
-      if (this.cookieChoice === 'declined') return this.$t('cookies.choice.declined');
-      return this.$t('cookies.choice.unknown');
+      if (this.cookieChoice === 'accepted') return this.$t('cookies.choice.accepted')
+      if (this.cookieChoice === 'declined') return this.$t('cookies.choice.declined')
+      return this.$t('cookies.choice.unknown')
     }
   },
+
+  watch: {
+    // ✅ footer persistant : on réarme l’anim à chaque navigation
+    $route() {
+      this.$nextTick(() => {
+        this.initFooterLogoAnimation()
+      })
+    },
+  },
+
   mounted() {
-    const storedChoice = localStorage.getItem('btc_cookie_consent');
-    if (storedChoice) {
-      this.cookieChoice = storedChoice;
-    }
-    const storedPrefs = localStorage.getItem('btc_cookie_prefs');
+    // --- ton code cookies ---
+    const storedChoice = localStorage.getItem('btc_cookie_consent')
+    if (storedChoice) this.cookieChoice = storedChoice
+
+    const storedPrefs = localStorage.getItem('btc_cookie_prefs')
     if (storedPrefs) {
       try {
-        const parsed = JSON.parse(storedPrefs);
+        const parsed = JSON.parse(storedPrefs)
         this.cookiePrefs = {
           necessary: true,
-          audience: Boolean(parsed.audience)
-        };
-      } catch (error) {
-        this.cookiePrefs = { necessary: true, audience: false };
+          audience: Boolean(parsed.audience),
+        }
+      } catch (e) {
+        this.cookiePrefs = { necessary: true, audience: false }
       }
     }
+
+    // ✅ init anim logo
+    this.$nextTick(() => {
+      this.initFooterLogoAnimation()
+    })
   },
+
+  beforeUnmount() {
+    // ✅ cleanup ciblé (ne tue pas les autres triggers du site)
+    if (this.footerLogoTween) this.footerLogoTween.kill()
+    if (this.footerLogoTrigger) this.footerLogoTrigger.kill()
+  },
+
   methods: {
+    initFooterLogoAnimation() {
+      const el = this.$refs.footerLogo
+      if (!el) return
+
+      // kill ancien si existant
+      if (this.footerLogoTween) this.footerLogoTween.kill()
+      if (this.footerLogoTrigger) this.footerLogoTrigger.kill()
+
+      // état initial (sinon le logo reste visible et pas d’anim)
+      gsap.set(el, { scale: 0, opacity: 0, transformOrigin: 'center center' })
+
+      // on crée un ScrollTrigger et on le garde
+      this.footerLogoTrigger = ScrollTrigger.create({
+        trigger: el,
+        start: 'top 85%',
+        toggleActions: 'play none none none',
+        invalidateOnRefresh: true,
+      })
+
+      // tween attaché au trigger
+      this.footerLogoTween = gsap.to(el, {
+        scale: 1,
+        opacity: 1,
+        duration: 2.2,
+        ease: 'power3.out',
+        immediateRender: false,
+        scrollTrigger: this.footerLogoTrigger,
+      })
+
+      // refresh SPA + images lazy
+      ScrollTrigger.refresh()
+    },
+
+    // --- tes méthodes cookies (inchangées) ---
     openCookies() {
-      this.showCookiesPanel = true;
+      this.showCookiesPanel = true
     },
     closeCookies() {
-      this.showCookiesPanel = false;
+      this.showCookiesPanel = false
     },
     setCookiesChoice(choice) {
-      this.cookieChoice = choice;
-      localStorage.setItem('btc_cookie_consent', choice);
-      this.cookiePrefs = {
-        necessary: true,
-        audience: choice === 'accepted'
-      };
-      localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs));
-      this.showCookiesPanel = false;
+      this.cookieChoice = choice
+      localStorage.setItem('btc_cookie_consent', choice)
+      this.cookiePrefs = { necessary: true, audience: choice === 'accepted' }
+      localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs))
+      this.showCookiesPanel = false
     },
     setAudiencePreference(value) {
-      this.cookiePrefs.audience = value;
+      this.cookiePrefs.audience = value
     },
     acceptAll() {
-      this.setCookiesChoice('accepted');
+      this.setCookiesChoice('accepted')
     },
     declineAll() {
-      this.setCookiesChoice('declined');
+      this.setCookiesChoice('declined')
     },
     savePreferences() {
-      const choice = this.cookiePrefs.audience ? 'accepted' : 'declined';
-      this.cookieChoice = choice;
-      localStorage.setItem('btc_cookie_consent', choice);
-      localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs));
-      this.showCookiesPanel = false;
+      const choice = this.cookiePrefs.audience ? 'accepted' : 'declined'
+      this.cookieChoice = choice
+      localStorage.setItem('btc_cookie_consent', choice)
+      localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs))
+      this.showCookiesPanel = false
     }
   }
 }
 </script>
+
 
 <style scoped>
 .footer-global {

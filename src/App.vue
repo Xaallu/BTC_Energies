@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <HeaderMobile @toggleSidebar="toggleSidebar" />
-    <Sidebar :isSidebarOpen="isSidebarOpen" @toggleSidebar="toggleSidebar" />
+    <v-app>
+      <HeaderMobile @toggleSidebar="toggleSidebar" />
+      <Sidebar :isSidebarOpen="isSidebarOpen" @toggleSidebar="toggleSidebar" />
 
-    <!-- Contenu principal -->
-    <div class="layout-wrapper lg:ml-[260px]">
-      <div class="layout-content">
-        <router-view />
-        <Footer />
+      <!-- Contenu principal -->
+      <div class="layout-wrapper lg:ml-[260px]">
+        <div class="layout-content">
+          <router-view />
+          
+          <Footer />
+        </div>
       </div>
-    </div>
 
- 
-    
-
-    <!-- Rubie Chatbot flottant -->
-    <!-- <RubieChat /> -->
+      <!-- Rubie Chatbot flottant -->
+      <!-- <RubieChat /> -->
+    </v-app>
   </div>
 </template>
 
@@ -26,6 +26,7 @@ import { useHead } from '@vueuse/head'
 import { useI18n } from 'vue-i18n'
 import Sidebar from './components/Sidebar.vue'
 import Footer from './components/Footer.vue'
+// import FooterBand from './components/FooterBand.vue'
 import HeaderMobile from './components/HeaderMobile.vue'
 // import RubieChat from './components/RubieChat.vue'
 
@@ -142,4 +143,3 @@ html, body {
   overflow-x: hidden;
 }
 </style>
-

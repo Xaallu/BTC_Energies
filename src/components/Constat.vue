@@ -3,26 +3,27 @@
   <v-app>
     
   <v-main class="pa-0 ma-0">
-    <div class="main-content">
+    <div class="main-content-wrapper ">
+      <div class="constat-body w-full flex flex-col gap-10">
 <!-- Contenu principal avec la vidéo -->
-      
 
-              <section class="w-full overflow-hidden relative">
-                 <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-              
-                  <video
-                    autoplay
-                    loop
-                    muted
-                    playsinline
-                    class="absolute top-0 left-0 w-full h-full object-cover object-center"
-                  >
-                    <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-                    Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-                  </video>
-                </div>
-              </section>
-    
+              <!-- Video GIF haut de page -->
+         <section class="w-full overflow-hidden relative">
+               <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+            
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="absolute top-0 left-0 w-full h-full object-cover object-center"
+                >
+                  <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                </video>
+              </div>
+            </section>
+
         
              <!-- Section Notre Constat -->
 
@@ -33,24 +34,30 @@
             <!-- Groupe centré -->
             <div class="text-center">
               <!-- Trait supérieur -->
-              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
+              <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mb-8 sm:mb-12 mx-auto"></div>
 
               <!-- Texte -->
               <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
-                  style="font-size: clamp(0.9rem, 2.9vw, 3.2rem);">
+                  style="font-size: clamp(2.1rem, 2.8vw, 3rem);">
                 {{ $t("notre_constat.constat_titre") }}
               </h1>
 
               <!-- Trait inférieur -->
-              <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mt-12 mx-auto"></div>
+              <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
+<br>
+              <!-- Texte secondaire -->
+              <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
+                  style="font-size: clamp(0.9rem, 1.7vw, 2rem);">
+                {{ $t("texte_bandeau_bleu") }}
+              </h1>
             </div>
 
           </div>
         </div>
 
-              <v-container class="min-h-screen flex items-center justify-center px-4 py-8">
+              <v-container fluid class="min-h-screen px-0 py-8">
                 
-               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+               <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-6xl w-full mx-auto lg:mx-0 ">
                 
             
                   <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
@@ -204,36 +211,9 @@
              
             </div>
           </v-container>
-            
+      </div>
 
-                 <!-- Bandeau bas -->
-        <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-          <div class="bandeau_bleu img grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
-            <!-- Colonne 1 : Logo -->
-            <div class="flex justify-center">
-              <img
-                src="/logo_sidebar.png"
-                ref="logoSidebar"
-                alt="BTC Énergies Logo"
-                class="w-28 sm:w-40 h-auto max-h-32"
-              />
-            </div>
-
-            <!-- Colonne 2 : Vide ou contenu futur -->
-            <div></div>
-
-            <!-- Colonne 3 : Texte et bouton .-->
-            <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('notre_constat.clic2_Nous contacter') }}</h2>
-              <a href="/contact"
-                class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
-                       hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center gap-2">
-                      {{ $t('notre_constat.clic3_Nos Coordonnees') }}
-              </a>
-            </div>
-          </div>
-        </div>
+      
         </div>
       
     </v-main>
@@ -365,12 +345,11 @@ export default {
 
 
 <style scoped>
-
 .v-main {
   padding: 0 !important;
   margin: 0 !important;
-  width: 100vw;
-  max-width: 100vw;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 .v-application--wrap {
@@ -390,6 +369,25 @@ export default {
   display: block;
 }
 
+.main-content-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-height: calc(100vh - 140px);
+}
+
+.constat-body {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* ✅ Version mobile */
 @media (max-width: 960px) {
   .video-full-width_gif {
@@ -398,4 +396,3 @@ export default {
   }
 }
 </style>
-

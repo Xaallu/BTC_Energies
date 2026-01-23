@@ -604,3 +604,7 @@ h1, h2, h3 {
     font-size: 14px;
   }
 }
+
+.bandeau_bleu.mt-6:not(.page-footer-bandeau) {
+  display: none !important;
+}

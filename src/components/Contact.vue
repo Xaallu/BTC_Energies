@@ -166,16 +166,7 @@
       
       </v-container>
             <!-- Bandeau bas -->
-            <div class="w-full mt-10 bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-              <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
-                <img height="526" width="595" decoding="async" loading="lazy"
-                  ref="logoSidebar"
-                  src="/logo_sidebar.png"
-                  alt="BTC Énergies Logo"
-                  class="w-28 sm:w-40 h-auto max-h-32"
-                />
-              </div>
-            </div>
+           
       </v-row>
     </v-main>
   </v-app>
