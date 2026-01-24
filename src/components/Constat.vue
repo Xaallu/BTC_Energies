@@ -335,14 +335,24 @@ useHead({
   align-items: center;
   gap: 2rem;
   min-height: calc(100vh - 140px);
-  padding-left: 150px;
+  padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
 }
 
 @media (max-width: 1280px) {
   .main-content-wrapper {
-    padding-left: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content-wrapper,
+  .constat-body {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
   }
 }
 
