@@ -156,7 +156,8 @@
 
   "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
 
-  "projets.titre": "In Progetti",
+  "projets.titre": "Nos Projets",
+  "texte_bandeau_bleu_projet": "Nos Projets",
 
 
    "__comment_page_solutions": "Traduzioni per la pagina La nostra diagnosi (Solutions.vue)",
@@ -514,4 +515,3 @@
   }
 
   }
-

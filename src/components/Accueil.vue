@@ -245,8 +245,8 @@
          overflow-hidden shadow-md bg-white p-1
          transition-transform duration-300 ease-in-out"
       :class="{
-        'scale-150 z-10': hoveredLogo === index && !isMobile,
-        'scale-110 z-10': hoveredLogo === index && isMobile
+        'scale-150 z-10': (!isMobile && (hoveredLogo === index || activeBubbleIndex === index)),
+        'scale-110 z-10': isMobile && activeBubbleIndex === index
       }"
       @mouseenter="handleLogoEnter(index)"
       @mouseleave="handleLogoLeave"
@@ -259,21 +259,32 @@
       />
     </div>
 
-    <div
-      v-for="bubble in bubbleInfos"
-      :key="bubble.index"
-      v-if="bubble && hoveredLogo === bubble.index"
-      class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center"
-      @click="handleBubbleClick"
-    >
-      <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
-        {{ $t(bubble.titleKey) }}
-      </h3>
+    <template v-for="bubble in bubbleInfos" :key="bubble.index">
+      <transition name="bubble-pop" appear>
+        <div
+          v-if="bubble && activeBubbleIndex === bubble.index"
+          class="absolute top-1/2 left-1/2 w-[280px] sm:w-[350px] bg-white p-4 rounded-xl shadow-xl text-sm sm:text-base text-gray-800 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center cursor-pointer"
+          @click="handleBubbleClick"
+        >
+          <button
+            type="button"
+            class="absolute top-3 right-3 w-8 h-8 rounded-full bg-[#0f9d58] text-white flex items-center justify-center text-lg shadow-md hover:bg-[#0b7a3d]"
+            aria-label="Fermer le popup"
+            @click.stop="handleBubbleClick"
+          >
+            <span class="leading-none font-bold">×</span>
+          </button>
 
-      <p class="font-serif text-lg leading-relaxed">
-        {{ $t(bubble.textKey) }}
-      </p>
-    </div>
+          <h3 class="font-serif font-bold text-xl mb-2" style="color: #8BC34A;">
+            {{ $t(bubble.titleKey) }}
+          </h3>
+
+          <p class="font-serif text-lg leading-relaxed">
+            {{ $t(bubble.textKey) }}
+          </p>
+        </div>
+      </transition>
+    </template>
   </div>
         </div>
 
@@ -344,7 +355,8 @@ export default {
         { index: 16, titleKey: 'Nos_engagements.Partenariats_title', textKey: 'Nos_engagements.Partenariats_texte' }
       ],
       hoveredLogo: null,
-      isMobile: false
+      isMobile: false,
+      activeBubbleIndex: null
      
     };
   },
@@ -364,12 +376,10 @@ methods: {
     }
   },
   handleLogoClick(index) {
-    if (this.isMobile) {
-      this.hoveredLogo = this.hoveredLogo === index ? null : index;
-    }
+    this.activeBubbleIndex = this.activeBubbleIndex === index ? null : index;
   },
   handleBubbleClick() {
-    this.hoveredLogo = null;
+    this.activeBubbleIndex = null;
   },
   getLogoStyle(index, total) {
     let radius, centerX, centerY;
@@ -564,5 +574,16 @@ beforeUnmount() {
   .logos-section {
     margin-top: calc(4rem + 3cm);
   }
+}
+
+.bubble-pop-enter-active,
+.bubble-pop-leave-active {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.bubble-pop-enter-from,
+.bubble-pop-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.85);
 }
 </style>

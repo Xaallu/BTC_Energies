@@ -156,7 +156,7 @@
 
 "__comment_page_projets": "Traductions pour la page Nos Projets (Projets.vue)",
 
-  "projets.titre": "在项目中",
+"projets.titre": "Nos Projets",
   "projets.texteIntroHead": "Nos projets pour un avenir durable",
 
 "__comment_page_solutions": "“我们的解决方案”（Solutions.vue）页面翻译",
@@ -190,7 +190,7 @@
 
 
 
-"texte_bandeau_bleu_projet": "在项目中",
+"texte_bandeau_bleu_projet": "Nos Projets",
 "projets.promethee_fin2024_titre": "2024年底",
 "projets.mi2025_titre": "2025年中",
 "projets.Septembre2025_titre": "2025年9月",
@@ -504,7 +504,6 @@
   }
 
 }
-
 
 
 

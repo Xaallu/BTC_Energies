@@ -10,7 +10,6 @@
           src="/logo_sidebar.png"
           alt="BTC Énergies Logo"
           class="w-28 sm:w-40 h-auto max-h-32"
-          ref="footerLogo"
         />
       </div>
       <div></div>
@@ -213,20 +212,12 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
-
 export default {
   data() {
     return {
       showCookiesPanel: false,
       cookieChoice: null,
       cookiePrefs: { necessary: true, audience: false },
-
-      footerLogoTween: null,
-      footerLogoTrigger: null,
     }
   },
 
@@ -238,20 +229,10 @@ export default {
       if (this.cookieChoice === 'accepted') return this.$t('cookies.choice.accepted')
       if (this.cookieChoice === 'declined') return this.$t('cookies.choice.declined')
       return this.$t('cookies.choice.unknown')
-    }
-  },
-
-  watch: {
-    // ✅ footer persistant : on réarme l’anim à chaque navigation
-    $route() {
-      this.$nextTick(() => {
-        this.initFooterLogoAnimation()
-      })
     },
   },
 
   mounted() {
-    // --- ton code cookies ---
     const storedChoice = localStorage.getItem('btc_cookie_consent')
     if (storedChoice) this.cookieChoice = storedChoice
 
@@ -267,54 +248,9 @@ export default {
         this.cookiePrefs = { necessary: true, audience: false }
       }
     }
-
-    // ✅ init anim logo
-    this.$nextTick(() => {
-      this.initFooterLogoAnimation()
-    })
-  },
-
-  beforeUnmount() {
-    // ✅ cleanup ciblé (ne tue pas les autres triggers du site)
-    if (this.footerLogoTween) this.footerLogoTween.kill()
-    if (this.footerLogoTrigger) this.footerLogoTrigger.kill()
   },
 
   methods: {
-    initFooterLogoAnimation() {
-      const el = this.$refs.footerLogo
-      if (!el) return
-
-      // kill ancien si existant
-      if (this.footerLogoTween) this.footerLogoTween.kill()
-      if (this.footerLogoTrigger) this.footerLogoTrigger.kill()
-
-      // état initial (sinon le logo reste visible et pas d’anim)
-      gsap.set(el, { scale: 0, opacity: 0, transformOrigin: 'center center' })
-
-      // on crée un ScrollTrigger et on le garde
-      this.footerLogoTrigger = ScrollTrigger.create({
-        trigger: el,
-        start: 'top 85%',
-        toggleActions: 'play none none none',
-        invalidateOnRefresh: true,
-      })
-
-      // tween attaché au trigger
-      this.footerLogoTween = gsap.to(el, {
-        scale: 1,
-        opacity: 1,
-        duration: 2.2,
-        ease: 'power3.out',
-        immediateRender: false,
-        scrollTrigger: this.footerLogoTrigger,
-      })
-
-      // refresh SPA + images lazy
-      ScrollTrigger.refresh()
-    },
-
-    // --- tes méthodes cookies (inchangées) ---
     openCookies() {
       this.showCookiesPanel = true
     },
@@ -343,8 +279,8 @@ export default {
       localStorage.setItem('btc_cookie_consent', choice)
       localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs))
       this.showCookiesPanel = false
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -356,4 +292,3 @@ export default {
   background-color: #0d111c;
 }
 </style>
-

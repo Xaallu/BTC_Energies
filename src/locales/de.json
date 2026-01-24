@@ -181,7 +181,8 @@
 
   "__comment_page_projets": "Übersetzungen für die Seite Unsere Projekte (Projets.vue)",
 
-"projets.titre": "Unsere Projekte",
+"projets.titre": "Nos Projets",
+"texte_bandeau_bleu_projet": "Nos Projets",
 
 "projets.promethee_fin2024_titre": "Ende 2024",
 "projets.mi2025_titre": "Mitte 2025",
@@ -504,7 +505,6 @@
     "close": "Schließen"
   }
 }
-
 
 
 
