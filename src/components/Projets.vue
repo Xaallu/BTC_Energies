@@ -1,7 +1,6 @@
 <template>
-  <v-app>
-    <v-main class="pa-0 ma-0">
-     <v-row no-gutters class="pa-0 ma-0">
+  <div class="main-content-wrapper">
+    <v-row no-gutters class="pa-0 ma-0">
 
         <!-- Sidebar -->
       <v-col cols="12" md="2" class="pa-0 hidden">
@@ -22,6 +21,8 @@
                     loop
                     muted
                     playsinline
+                    preload="metadata"
+                    poster="/screenshotaux.png"
                     class="absolute top-0 left-0 w-full h-full object-cover object-center"
                   >
                     <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
@@ -53,7 +54,7 @@
 
 
 
-          <div class="h-6 sm:h-8"></div>
+          <div class="h-20 sm:h-22"></div>
 
  <v-container
   fluid
@@ -105,6 +106,7 @@
               <img
                 :src="item.logo"
                 :alt="item.title"
+                loading="lazy"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -214,22 +216,11 @@
 </v-container>
 
 
-            <!-- Bandeau bas -->
-            <div class="w-full mt-10 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-
-              <div class="max-w-5xl mx-auto px-4 py-6 flex justify-center items-center text-white">
-                <img height="526" width="595" decoding="async" loading="lazy"
-                  ref="logoSidebar"
-                  src="/logo_sidebar.png"
-                  alt="BTC Énergies Logo"
-                  class="w-28 sm:w-40 h-auto max-h-32"
-                />
-              </div>
-            </div>
+            
+            
         </v-col>
-      </v-row>
-    </v-main>
-  </v-app>
+        </v-row>
+  </div>
 </template>
 
 <script setup>
@@ -247,6 +238,11 @@ const nom = ref('');
 const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
+
+const prefersReducedMotion =
+  typeof window !== 'undefined' && window.matchMedia
+    ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    : false;
 
 const activeIndex = ref(null)
 
@@ -285,14 +281,26 @@ const items = [
 onMounted(() => {
   // ✅ Timeline principale pour animer les logos de gauche à droite
   // Elle se déclenche au scroll lorsque la section ".frise-container" entre dans le viewport
-  const tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: '.frise-container', // élément déclencheur
-      start: 'top 75%',            // commence quand le haut du container atteint 75% de la hauteur de la fenêtre
-      toggleActions: 'play none none none', // ne joue qu'une fois
-      once: true                   // empêche la répétition
-    }
-  });
+  const shouldAnimate = !prefersReducedMotion;
+  const tl = shouldAnimate
+    ? gsap.timeline({
+        scrollTrigger: {
+          trigger: '.frise-container',
+          start: 'top 75%',
+          toggleActions: 'play none none none',
+          once: true
+        }
+      })
+    : null;
+
+  if (!shouldAnimate) {
+    gsap.set('.frise-logo', {
+      scale: 1,
+      opacity: 1,
+      boxShadow: '0 0 10px rgba(5, 255, 22, 0.2)'
+    });
+    return;
+  }
 
   // ⏳ Petit délai pour s’assurer que le DOM est complètement prêt
   setTimeout(() => {
@@ -347,23 +355,12 @@ onMounted(() => {
         if (activeIndex.value !== i) {
           gsap.to(logo, { 
             scale: 1, 
-            duration: 0.3, 
+            borderColor: '#ffffff',
+            boxShadow: '0 0 25px 5px rgba(5,255,22,0.4)', // halo vert plus discret
+            duration: 0.4,
             ease: 'power2.out' 
           });
         }
-
-        // 🔄 Deuxième gestion du "mouseleave" pour restaurer un halo doux
-        logo.addEventListener('mouseleave', () => {
-          if (activeIndex.value !== i) {
-            gsap.to(logo, {
-              scale: 1,
-              boxShadow: '0 0 25px 5px rgba(5,255,22,0.4)', // halo vert plus discret
-              borderColor: '#ffffff',                       // bordure blanche
-              duration: 0.4,
-              ease: 'power2.out'
-            });
-          }
-        });
       });
     });
 
@@ -512,6 +509,3 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
 });
 </script>
-
-
-

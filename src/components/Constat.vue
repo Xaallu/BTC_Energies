@@ -6,6 +6,8 @@
         loop
         muted
         playsinline
+        preload="metadata"
+        poster="/screenshotaux.png"
         class="absolute top-0 left-0 w-full h-full object-cover object-center"
       >
         <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
@@ -96,7 +98,7 @@
 
             <v-row justify="center" class="my-6">
               <v-col cols="12" md="8" class="text-center">
-                <img src="/Q_C_C.png" alt="Nos services BTC Energies" class="w-full max-w-3xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
+                  <img src="/Q_C_C.png" alt="Nos services BTC Energies" loading="lazy" class="w-full max-w-3xl mx-auto class=w-full transition-transform duration-500 transform hover:scale-105" />
                 <div class="flex justify-center items-center gap-4 text-sm mt-2 text-gray-600">
                   <p>{{ $t('notre_constat.um') }}</p>
                   <p>{{ $t('notre_constat.ugh') }}</p>
@@ -179,10 +181,20 @@ import { useHead } from '@vueuse/head'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const prefersReducedMotion =
+  typeof window !== 'undefined' && typeof window.matchMedia === 'function'
+    ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    : false;
+
 export default {
   name: 'Constat',
   setup() {
     onMounted(() => {
+      if (prefersReducedMotion) {
+        gsap.set('.bandeau_bleu-trait', { scaleX: 1 });
+        gsap.set('.bandeau_bleu-text', { opacity: 1 });
+        return;
+      }
       // Animation d'apparition progressive des titres <h3>
       gsap.utils.toArray('h3').forEach((el) => {
         gsap.from(el, {

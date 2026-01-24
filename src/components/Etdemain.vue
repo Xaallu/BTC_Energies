@@ -10,13 +10,13 @@
         </v-col>
 
         <!-- Contenu principal -->
-        <v-col class="pa-0 ma-0">
+        <v-col class="pa-0 ma-0 etdemain-page">
           <div class="main-content">
             <Header />
 
 
              <!-- Video GIF haut de page -->
-                   <section class="w-full overflow-hidden relative">
+                   <section class="w-full overflow-hidden relative etdemain-hero">
                <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
             
                 <video
@@ -24,6 +24,8 @@
                   loop
                   muted
                   playsinline
+                  preload="metadata"
+                  poster="/screenshotaux.png"
                   class="absolute top-0 left-0 w-full h-full object-cover object-center"
                 >
                   <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
@@ -34,8 +36,8 @@
             
             
             <!-- Bandeau bleu -->
-            <div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-              <div class="w-full max-w-[1200px] mx-auto px-4 sm:px-6">
+            <div class="w-full py-12 sm:py-16 lg:py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)] etdemain-banner">
+              <div class="w-full max-w-[1200px] mx-auto px-4 sm:px-6 etdemain-banner-inner">
             
                 <!-- Groupe centré mais décalé vers la gauche -->
                 <div class="text-center">
@@ -66,10 +68,10 @@
             
               <section>
               
-             <v-container fluid class="min-h-screen flex items-center justify-center px-0 sm:px-4 py-6 sm:py-8">
-               <div class="w-full px-0 sm:px-6 md:px-10 lg:px-12 xl:px-16">
-            
-                <div class="bg-white rounded-none sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto px-4 py-6 sm:p-6 md:p-8">
+             <v-container fluid class="min-h-screen flex items-center justify-center px-0 sm:px-4 py-6 sm:py-8 etdemain-content-wrapper">
+               <div class="w-full px-0 sm:px-6 md:px-10 lg:px-12 xl:px-16 etdemain-content-inner">
+
+                <div class="bg-white rounded-none sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto px-4 py-6 sm:p-6 md:p-8 etdemain-white-block">
                   <section class="bg-white py-6 sm:py-10 px-3 sm:px-6 md:px-10 lg:px-16">
 
                   <div class="gsap-bloc sm:hover:scale-[1.08] transition-transform duration-300 ease-in-out">
@@ -84,7 +86,7 @@
 
                 <!-- Image -->
                 <div class="flex justify-center mt-6 sm:mt-8">
-                  <img height="403" width="585" decoding="async" loading="lazy"
+                <img height="403" width="585" decoding="async" loading="lazy"
                     src="/etdemain.png"
                     alt="Avenir de BTC Energie"
                     class="w-[240px] sm:w-[420px] md:w-[560px] lg:w-[650px] max-w-full h-auto object-contain transition-transform duration-300 ease-in-out sm:hover:scale-110"
@@ -142,34 +144,7 @@
         </div>
       </v-col>
 
-        <!-- Bandeau bas -->
-        <div class="bandeau_bleu mt-6 w-full bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
-          <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6">
-            <!-- Colonne 1 : Logo -->
-            <div class="flex justify-center">
-              <img height="526" width="595" decoding="async" loading="lazy"
-                src="/logo_sidebar.png"
-                ref="logoSidebar"
-                alt="BTC Énergies Logo"
-                class="w-28 sm:w-40 h-auto max-h-32"
-              />
-            </div>
-
-            <!-- Colonne 2 : Vide ou contenu futur -->
-            <div></div>
-
-            <!-- Colonne 3 : Texte et bouton -->
-            <div class="flex flex-col items-center text-center">
-              <h2 class="font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('Etdemain.Nous contacter') }}</h2>
-              <a href="/contact"
-                class="font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
-                       hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                       active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
-                {{ $t('Etdemain.Nos Coordonnées') }}
-              </a>
-            </div>
-          </div>
-        </div>
+   
                         
       </v-row>
     </v-main>
@@ -187,9 +162,20 @@ import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
+const prefersReducedMotion =
+  typeof window !== 'undefined' && typeof window.matchMedia === 'function'
+    ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    : false;
 
 onMounted(async () => {
   await nextTick();
+
+  if (prefersReducedMotion) {
+    gsap.set('.gsap-bloc', { opacity: 1, y: 0 });
+    gsap.set('.bandeau_bleu-trait', { scaleX: 1 });
+    gsap.set('.bandeau_bleu-text', { opacity: 1 });
+    return;
+  }
 
   // Animation scroll des blocs de contenu
   gsap.utils.toArray(".gsap-bloc").forEach((bloc) => {
@@ -264,6 +250,48 @@ useHead({
 });
 </script>
 
+<style scoped>
+.etdemain-hero,
+.etdemain-banner {
+  width: 100%;
+}
 
+.etdemain-banner-inner,
+.etdemain-content-inner {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.etdemain-white-block {
+  width: 100%;
+}
 
+@media (max-width: 1280px) {
+  .etdemain-banner-inner,
+  .etdemain-content-inner,
+  .etdemain-white-block {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0;
+  }
+
+  .etdemain-banner,
+  .etdemain-content-wrapper,
+  .etdemain-hero {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .etdemain-white-block {
+    border-radius: 0;
+  }
+
+  :global(.main-content) {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+</style>

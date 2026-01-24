@@ -1043,43 +1043,23 @@
           </div>
         </v-col>
 
-        <!-- Bandeau bas -->
-            <div class="bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-              <div class="grid grid-cols-1 sm:grid-cols-3 items-center text-white px-4 sm:px-8 py-6 gap-6 sm:gap-0">
-
-                <!-- Colonne 1 : Logo -->
-                <div class="flex justify-center">
-                  <img height="526" width="595" decoding="async" loading="lazy"
-                    src="/logo_sidebar.png"
-                    ref="logoSidebar"
-                    alt="BTC Énergies Logo"
-                    class="w-40 h-auto max-h-32"
-                  />
-                </div>
-
-                <!-- Colonne 2 : Vide ou contenu futur -->
-                <div></div>
-
-                <!-- Colonne 3 : Texte et bouton -->
-                <div class="flex flex-col items-center text-center">
-                  <h2 class="font-montserrat font-semibold text-xl sm:text-2xl md:text-4xl mb-4 text-white">{{ $t('equipe.clic2_Nous contacter') }}</h2>
-
-                  <a href="/contact"
-                  class="font-montserrat font-bold text-black bg-[#C2C4C7] px-6 py-3 rounded-xl shadow transition duration-300 transform
-                          hover:bg-[#989A9D] hover:text-white hover:scale-105 hover:shadow-lg
-                          active:scale-95 active:shadow-inner flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base">
-                            <span class="text-lg"></span>
-                            {{ $t('equipe.Nos Coordonnées') }}
-                  </a>
-                </div>
-              </div>
-            </div>
+        
           
 
       </v-row>
     </v-main>
   </v-app>
 </template>
+
+<style scoped>
+@media (max-width: 960px) {
+  :global(.main-content) {
+    margin-left: 0 !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+</style>
 
 <script setup>
 import { onMounted, ref, nextTick } from 'vue';
@@ -1232,7 +1212,6 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/equipe' }]
 });
 </script>
-
 
 
 

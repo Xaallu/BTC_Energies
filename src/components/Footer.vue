@@ -6,10 +6,12 @@
           height="526"
           width="595"
           decoding="async"
-          loading="lazy"
-          src="/logo_sidebar.png"
+          loading="eager"
+          fetchpriority="high"
+          :src="logoSrc"
           alt="BTC Énergies Logo"
           class="w-28 sm:w-40 h-auto max-h-32"
+          @error="handleLogoError"
         />
       </div>
       <div></div>
@@ -218,6 +220,7 @@ export default {
       showCookiesPanel: false,
       cookieChoice: null,
       cookiePrefs: { necessary: true, audience: false },
+      logoSrc: '/logo_sidebar.png',
     }
   },
 
@@ -279,6 +282,11 @@ export default {
       localStorage.setItem('btc_cookie_consent', choice)
       localStorage.setItem('btc_cookie_prefs', JSON.stringify(this.cookiePrefs))
       this.showCookiesPanel = false
+    },
+    handleLogoError() {
+      if (this.logoSrc !== '/logo_sidebar.png') {
+        this.logoSrc = '/logo_sidebar.png'
+      }
     },
   },
 }

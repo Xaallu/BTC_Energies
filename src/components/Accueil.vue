@@ -26,7 +26,7 @@
   <div class="w-full max-w-[1200px] mx-auto px-4">
 
     <!-- Groupe centré mais décalé vers la gauche -->
-    <div class="text-center">
+    <div class="text-center bandeau_bleu-logo">
       <!-- Trait supérieur -->
       <div class="bandeau_bleu-trait w-[300px] h-1 bg-[#05ff16] mb-12 mx-auto"></div>
 
@@ -498,17 +498,20 @@ beforeUnmount() {
   });
 
 
-      gsap.from(".bandeau_bleu-logo", {
-        scrollTrigger: {
-          trigger: ".bandeau_bleu-logo",
-          start: "top 90%",
-          toggleActions: "play reverse play reverse",
-        },
-        opacity: 0,
-        scale: 0.9,
-        duration: 5,
-        ease: "power2.out",
-      });
+      const logoElement = document.querySelector('.bandeau_bleu-logo');
+      if (logoElement) {
+        gsap.from(logoElement, {
+          scrollTrigger: {
+            trigger: logoElement,
+            start: "top 90%",
+            toggleActions: "play reverse play reverse",
+          },
+          opacity: 0,
+          scale: 0.9,
+          duration: 5,
+          ease: "power2.out",
+        });
+      }
     });
 
   useHead({
