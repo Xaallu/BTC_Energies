@@ -10,11 +10,14 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
   background-image: url('/Topography/topography33.svg');
   background-repeat: repeat;
   background-size: 20%;
   background-position: center;
+  scrollbar-color: #02081a #e7e9e6;
 }
 
 .v-application--wrap,
@@ -23,6 +26,17 @@ html, body {
 .main-content {
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+
+#app,
+.v-application,
+.v-application--wrap,
+.layout-wrapper,
+.layout-content,
+.v-main,
+.v-main__scroller {
+  min-height: 100%;
+  overflow: visible;
 }
 
 video {

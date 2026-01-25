@@ -214,6 +214,11 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   data() {
     return {
@@ -221,6 +226,9 @@ export default {
       cookieChoice: null,
       cookiePrefs: { necessary: true, audience: false },
       logoSrc: '/logo_sidebar.png',
+
+      logoTween: null,
+      logoTrigger: null,
     }
   },
 
@@ -247,13 +255,56 @@ export default {
           necessary: true,
           audience: Boolean(parsed.audience),
         }
-      } catch (e) {
+      } catch {
         this.cookiePrefs = { necessary: true, audience: false }
       }
     }
+
+    this.$nextTick(() => {
+      this.initLogoAnimation()
+    })
+  },
+
+  watch: {
+    // 🔁 rejoue l’animation à chaque nouvelle page
+    $route() {
+      this.$nextTick(() => {
+        this.initLogoAnimation()
+      })
+    },
+  },
+
+  beforeUnmount() {
+    if (this.logoTween) this.logoTween.kill()
+    if (this.logoTrigger) this.logoTrigger.kill()
   },
 
   methods: {
+    initLogoAnimation() {
+      const el = this.$refs.logoSidebar
+      if (!el) return
+
+      // nettoyage si déjà existant
+      if (this.logoTween) this.logoTween.kill()
+      if (this.logoTrigger) this.logoTrigger.kill()
+
+      // état initial
+      gsap.set(el, { scale: 0, transformOrigin: 'center center' })
+
+      this.logoTween = gsap.to(el, {
+        scale: 1,
+        duration: 0.8,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 90%',
+          once: true, // une fois par page
+        },
+      })
+
+      this.logoTrigger = this.logoTween.scrollTrigger
+    },
+
     openCookies() {
       this.showCookiesPanel = true
     },
@@ -291,6 +342,7 @@ export default {
   },
 }
 </script>
+
 
 
 <style scoped>

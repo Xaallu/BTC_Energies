@@ -41,29 +41,6 @@ git remote -v
 
 Miroir
 
-<<<<<<< HEAD
-git fetch origin
-git push --mirror backup
-
-
-git clone --mirror https://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@github.com/Xa-C24/BTC_Energies.git
-cd BTC_Energies.git
-git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git
-
-
-git remote add backup https://github.com/Xa-C24/BTC_Energies-Backup.git
-git push --mirror backup
-
-
-
-cd ~/BTC_Energies.git
-git fetch -p origin
-git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git
-
-git push --mirror https://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@github.com/Xa-C24/BTC_Energies-Backup.git 
-
-source venv/bin/activate     # Vue 3 + Vite
-=======
 
 
 
@@ -81,4 +58,3 @@ git push --mirror https://github.com/Xa-C24/BTC_Energies-Backup.git (token remov
 
 
 source venv/bin/activate     # Vue 3 + Vite
->>>>>>> 4bb03c812d5e7a916fadb956c8c908460c623e52

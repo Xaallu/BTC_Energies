@@ -16,23 +16,21 @@
 
 
              <!-- Video GIF haut de page -->
-                   <section class="w-full overflow-hidden relative etdemain-hero">
-               <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-            
-                <video
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  preload="metadata"
-                  poster="/screenshotaux.png"
-                  class="absolute top-0 left-0 w-full h-full object-cover object-center"
-                >
-                  <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-                  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-                </video>
-              </div>
-            </section>
+                   <section class="w-full overflow-hidden relative">
+                     <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
+                  
+                      <video
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                        class="absolute top-0 left-0 w-full h-full object-cover object-center"
+                      >
+                        <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+                        Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+                      </video>
+                    </div>
+                  </section>
             
             
             <!-- Bandeau bleu -->

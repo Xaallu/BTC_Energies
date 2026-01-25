@@ -1,20 +1,19 @@
 <template>
   <section class="w-full overflow-hidden relative">
     <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
-      <video
-        autoplay
-        loop
-        muted
-        playsinline
-        preload="metadata"
-        poster="/screenshotaux.png"
-        class="absolute top-0 left-0 w-full h-full object-cover object-center"
-      >
-        <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
-        Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-      </video>
-    </div>
-  </section>
+ 
+     <video
+       autoplay
+       loop
+       muted
+       playsinline
+       class="absolute top-0 left-0 w-full h-full object-cover object-center"
+     >
+       <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+       Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+     </video>
+   </div>
+ </section>
 
   <div class="w-full py-20 bg-[linear-gradient(to_left,#001032,#000926,#01061C)]">
     <div class="w-full max-w-[1200px] mx-auto px-4">
@@ -353,6 +352,23 @@ useHead({
     padding-left: 0;
     padding-right: 0;
     max-width: 100%;
+  }
+
+  .main-content-wrapper {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .constat-body {
+    width: 100vw;
+  }
+
+  .constat-body > .v-container,
+  .constat-body .bg-white {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
   }
 }
 
