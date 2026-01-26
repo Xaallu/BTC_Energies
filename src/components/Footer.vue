@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="page-footer-bandeau bandeau_bleu mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
-    <div class="max-w-[1200px] mx-auto px-4 sm:px-8 py-6 grid grid-cols-1 sm:grid-cols-3 items-center text-white gap-6">
-      <div class="flex justify-center">
+    <div class="max-w-[1200px] mx-auto px-4 sm:px-8 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between text-white gap-6">
+      <div class="flex justify-center sm:justify-start">
         <img
           height="526"
           width="595"
@@ -11,11 +11,11 @@
           :src="logoSrc"
           alt="BTC Énergies Logo"
           class="w-28 sm:w-40 h-auto max-h-32"
+          ref="logoSidebar"
           @error="handleLogoError"
         />
       </div>
-      <div></div>
-      <div class="flex flex-col items-center text-center">
+      <div class="flex flex-col items-center text-center sm:items-end sm:text-right">
         <h2 class="font-semibold text-2xl sm:text-4xl mb-4 text-white">{{ $t('nos_solutions.Nous contacter') }}</h2>
         <a
           href="/contact"
@@ -288,19 +288,22 @@ export default {
       if (this.logoTween) this.logoTween.kill()
       if (this.logoTrigger) this.logoTrigger.kill()
 
-      // état initial
-      gsap.set(el, { scale: 0, transformOrigin: 'center center' })
-
-      this.logoTween = gsap.to(el, {
-        scale: 1,
-        duration: 0.8,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: el,
-          start: 'top 90%',
-          once: true, // une fois par page
-        },
-      })
+      this.logoTween = gsap.fromTo(
+        el,
+        { scale: 0, opacity: 0, transformOrigin: 'center center' },
+        {
+          scale: 1,
+          opacity: 1,
+          duration: 0.8,
+          ease: 'power3.out',
+          immediateRender: false,
+          scrollTrigger: {
+            trigger: el,
+            start: 'top 90%',
+            once: true, // une fois par page
+          },
+        }
+      )
 
       this.logoTrigger = this.logoTween.scrollTrigger
     },
@@ -350,5 +353,11 @@ export default {
   width: 100%;
   position: relative;
   background-color: #0d111c;
+}
+
+.page-footer-bandeau {
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
 }
 </style>

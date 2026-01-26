@@ -45,6 +45,7 @@
             
          
            <v-container class="bg-gray-100 flex flex-col items-start px-3 sm:px-4 md:px-6 lg:px-8 py-5 sm:py-8 gsap-mentions">
+            <div class="w-full max-w-[1200px] mx-auto">
 
 
 
@@ -56,10 +57,10 @@
             </div>
 
               <!-- Bloc principal : Logo à gauche / Infos à droite -->
-            <div class="flex flex-col md:flex-row items-start justify-start gap-5 sm:gap-8 md:gap-12 w-full px-0 sm:px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,1fr)] items-start gap-6 sm:gap-8 lg:gap-12 w-full px-0 sm:px-4">
 
                 <!-- Colonne gauche : Logo + Coordonnées -->
-                <div class="flex flex-col items-center md:items-start ml-0 md:ml-6">
+                <div class="flex flex-col items-center lg:items-start">
                 <img height="1735" width="1793" decoding="async" loading="lazy"
                   src="/favicon2.jpg"
                   alt="Logo BTC Energies"
@@ -67,9 +68,10 @@
                 />
               </div>
 
+              <div class="min-w-0">
 
              <!-- CGU -->
-          <div id="cgu" class="w-full mt-8 sm:mt-16 text-gray-800 sm:max-w-4xl sm:mx-auto text-sm sm:text-base">
+          <div id="cgu" class="w-full mt-8 sm:mt-16 lg:mt-0 text-gray-800 max-w-4xl mx-auto lg:mx-0 text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreCGU') }}</h1>
 
             <!-- Titre souligner-->
@@ -97,7 +99,7 @@
           </div>
 
           <!-- Politique de confidentialité -->
-          <div id="confidentialite" class="w-full mt-8 sm:mt-16 text-gray-800 sm:max-w-4xl sm:mx-auto text-sm sm:text-base">
+          <div id="confidentialite" class="w-full mt-8 sm:mt-16 text-gray-800 max-w-4xl mx-auto lg:mx-0 text-sm sm:text-base">
             <h1 class="text-gray-600 text-2xl sm:text-3xl space-y-3">{{ $t('MentionsLégales.titreConfidentialite') }}</h1>
             <div class="w-20 h-1 bg-[#8BC367] rounded-full mt-2"></div>
 
@@ -163,6 +165,7 @@
 
                   <div class="h-6 sm:h-8"></div>
                     
+              </div>
               </div>
 
                 <!-- Ligne de sépartion verte-->
@@ -248,6 +251,7 @@
 
 
 
+            </div>
       </v-container>
    
           </v-col>

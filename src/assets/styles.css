@@ -1,4 +1,4 @@
-/* ========================
+﻿/* ========================
    VARIABLES & BASE
 =========================*/
 * {
@@ -17,7 +17,7 @@ html, body {
   background-repeat: repeat;
   background-size: 20%;
   background-position: center;
-  scrollbar-color: #02081a #e7e9e6;
+  scrollbar-color: #000000 #e7e9e6;
 }
 
 .v-application--wrap,
@@ -48,12 +48,12 @@ header {
   display: none;
 }
 
-/* Variables personnalisées */
+/* Variables personnalisÃ©es */
 :root {
   --primary-color: #003b46;       /* Couleur de fond principale */
   --secondary-color: #f1642c;     /* Couleur secondaire pour les accents */
   --text-color: #ffffff;          /* Couleur du texte principal */
-  --background-color: #ffffff;    /* Couleur de fond générale */
+  --background-color: #ffffff;    /* Couleur de fond gÃ©nÃ©rale */
 }
 
 /* Base */
@@ -80,7 +80,7 @@ h1, h2, h3 {
 .page-blanche_app-title {
   font-size: 50px !important; /* ou ce que tu veux */
 }
-/* Bouton personnalisé */
+/* Bouton personnalisÃ© */
 .btn-custom {
   background-color: var(--secondary-color);
   color: var(--text-color);
@@ -111,7 +111,7 @@ h1, h2, h3 {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer et Edge */
   height: 100vh; /* pleine hauteur pour scroll */
-  overflow-x: hidden; /* désactive complètement le scroll horizontal */
+  overflow-x: hidden; /* dÃ©sactive complÃ¨tement le scroll horizontal */
 }
 
 .sidebar::-webkit-scrollbar {
@@ -121,7 +121,7 @@ h1, h2, h3 {
 }
 
 .sidebar ul {
-  list-style: none; /* très important : pas de puces */
+  list-style: none; /* trÃ¨s important : pas de puces */
   margin: 0;
   padding: 0;
   text-align: center;
@@ -133,7 +133,7 @@ h1, h2, h3 {
 }
 
 .sidebar ul li::before {
-  content: none; /* enlève toute déco avant les éléments */
+  content: none; /* enlÃ¨ve toute dÃ©co avant les Ã©lÃ©ments */
 }
 
 .sidebar ul li a {
@@ -149,7 +149,7 @@ h1, h2, h3 {
 }
 
 .content {
-  margin-left: 260px; /* adapte la marge à la largeur réelle de la sidebar */
+  margin-left: 260px; /* adapte la marge Ã  la largeur rÃ©elle de la sidebar */
   padding: 0;
 }
 
@@ -172,11 +172,11 @@ h1, h2, h3 {
 }
 
 
-/* Liste déroulante scrollable */
+/* Liste dÃ©roulante scrollable */
 .scrollable-list {
   max-height: 50vh;      /* Limite la hauteur */
   overflow-y: auto;      
-  padding-right: 0.6rem; /* Évite la superposition scrollbar/texte */
+  padding-right: 0.6rem; /* Ã‰vite la superposition scrollbar/texte */
   margin-top: 1.25rem;
 
   /* Personnalisation scrollbar (Firefox & Webkit) */
@@ -193,7 +193,7 @@ h1, h2, h3 {
   background: transparent;
 }
 
-/* Flèches scrollbar webkit */
+/* FlÃ¨ches scrollbar webkit */
 .scrollable-list::-webkit-scrollbar-button:vertical:start {
   content: "";
   display: block;
@@ -215,7 +215,7 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-/* Flèches au-dessus du menu */
+/* FlÃ¨ches au-dessus du menu */
 .menu-arrow_H,
 .menu-arrow_B {
   width: 5px;
@@ -377,7 +377,7 @@ h1, h2, h3 {
   margin: 15px 0;
 }
 
-/* Trait de séparation */
+/* Trait de sÃ©paration */
 .border-t-2 {
   border-top: 2px solid #8BC367;
   width: 80%;
@@ -499,14 +499,14 @@ h1, h2, h3 {
 .video-banner-gif video {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* Garde le bon ratio sans déformer */
-  object-position: center;  /* Centre la vidéo */
+  object-fit: cover;   /* Garde le bon ratio sans dÃ©former */
+  object-position: center;  /* Centre la vidÃ©o */
 }
 
 
 /* ---------Style de Scroll ------*/
 
-/* Scrollbar générale */
+/* Scrollbar gÃ©nÃ©rale */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -516,11 +516,11 @@ h1, h2, h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #02081a;  /* Exemple : vert foncé pour le site */
+  background-color: #000000;
   border-radius: 6px;
 }
 
-/* Scrollbar personnalisée pour la bulle page Equipe */
+/* Scrollbar personnalisÃ©e pour la bulle page Equipe */
 .bulle-scroll::-webkit-scrollbar {
   width: 8px;
 }

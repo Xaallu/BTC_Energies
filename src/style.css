@@ -74,11 +74,37 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #e7e9e6;
 }
 
 #app {
   display: flex;
   min-height: 100vh;
+  overflow: visible;
+}
+
+.v-application,
+.v-application--wrap,
+.v-main,
+.v-main__scroller {
+  min-height: 100%;
+  overflow: visible !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e9e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 8px;
 }
 
 /* Sidebar est déjà fixed dans styles.css */
