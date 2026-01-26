@@ -530,8 +530,13 @@ h1, h2, h3 {
 }
 
 .bulle-scroll::-webkit-scrollbar-thumb {
-  background-color: #8BC367;  /* Vert clair BTC pour la bulle */
+  background-color: #8BC367;
   border-radius: 4px;
+}
+
+.bulle-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #8BC367 #ffffff;
 }
 
 

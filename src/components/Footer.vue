@@ -1,4 +1,4 @@
-Ôªø<template>
+<template>
   <div class="page-footer-bandeau mt-6 w-full bg-gradient-to-r from-[#000926] to-[#3c5a81]">
     <div class="max-w-[1200px] mx-auto px-4 sm:px-8 py-6 grid grid-cols-1 md:grid-cols-[auto_auto] items-center justify-center text-white gap-6 md:gap-12">
       <div class="footer-card flex justify-center">
@@ -9,7 +9,7 @@
           loading="eager"
           fetchpriority="high"
           :src="logoSrc"
-          alt="BTC √ânergies Logo"
+          alt="BTC …nergies Logo"
           class="w-28 sm:w-40 h-auto max-h-32"
           ref="logoSidebar"
           @error="handleLogoError"
@@ -32,7 +32,7 @@
     <div class="w-full sm:max-w-[1200px] sm:mx-auto px-4 sm:px-6 py-5 sm:py-6 text-center">
       <p class="mb-1">{{ $t('Footer.siteoptimise') }}</p>
       <p>
-        {{ $t('Footer.Site con√ßu et') }}
+        {{ $t('Footer.Site conÁu et') }}
         <a href="#" @click.prevent="openCookies" class="underline hover:text-gray-300">
           {{ $t('Footer.Cookies') }}
         </a>
@@ -268,7 +268,7 @@ export default {
   },
 
   watch: {
-    // üîÅ rejoue l‚Äôanimation √† chaque nouvelle page
+    // ?? rejoue líanimation ‡ chaque nouvelle page
     $route() {
       this.$nextTick(() => {
         this.initLogoAnimation()
@@ -286,7 +286,7 @@ export default {
       const el = this.$refs.logoSidebar
       if (!el) return
 
-      // nettoyage si d√©j√† existant
+      // nettoyage si dÈj‡ existant
       if (this.logoTween) this.logoTween.kill()
       if (this.logoTrigger) this.logoTrigger.kill()
 
