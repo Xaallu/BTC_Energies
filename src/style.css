@@ -78,12 +78,21 @@ html, body {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #000000 #e7e9e6;
+  background-image: url('/Topography/topography33.svg');
+  background-repeat: repeat;
+  background-size: 20%;
+  background-position: center;
 }
 
 #app {
   display: flex;
   min-height: 100vh;
   overflow: visible;
+}
+
+.v-application {
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
 .v-application,
