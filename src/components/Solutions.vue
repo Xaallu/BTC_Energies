@@ -1,7 +1,5 @@
 <template>
-  <div class="solutions-page min-h-screen bg-[#f8fafc]">
-    <Header />
-
+  <div class="main-content-wrapper">
     <section class="w-full overflow-hidden relative">
       <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
         <video
@@ -30,17 +28,17 @@
       </div>
     </section>
 
-    <v-container fluid class="page-blanche_app py-10">
+    <v-main>
+     <v-container fluid class="page-blanche_app py-10">
         <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
-        <div class="bg-white rounded-none sm:rounded-[30px] shadow-xl w-full px-4 py-8 sm:p-8 lg:p-10">
-          <section class="py-6 sm:py-10 px-0 sm:px-6 md:px-12 space-y-10">
+         
 
             <div class="gsap-bloc">
               <div class="flex justify-center items-center my-6">
                 <img height="135" width="117" decoding="async" loading="lazy"
                   src="/solutions/logo1.png"
                   alt="Nos services BTC Energies"
-                  class="w-30 transition-transform duration-300 ease-in-out"
+                  class="w-30 transition-transform duration-300 ease-in-out hover:scale-110"
                 />
               </div>
 
@@ -206,12 +204,13 @@
               </ol>
             </div>
 
-          </section>
         </div>
-      </div>
-     </v-container>
-
+      </v-container>
+    </v-main>
   </div>
+
+
+
 </template>
 
 <style>
@@ -234,7 +233,6 @@ video {
 import { onMounted, ref, nextTick } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import Header from './Header.vue';
 import { useHead } from '@vueuse/head';
 
 const logoSidebar = ref(null);
