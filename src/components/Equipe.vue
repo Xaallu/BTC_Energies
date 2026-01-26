@@ -180,8 +180,8 @@
                       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
 
                       <div class="mt-4">
-                        <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_JMarc_Etudes_Titre") }}</p>
-                        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_JMarc_Etudes_Detail')"></p>
+                        <!-- <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_JMarc_Etudes_Titre") }}</p>
+                        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_JMarc_Etudes_Detail')"></p>-->
                       </div>
                     </div>
                   </div>
@@ -202,8 +202,8 @@
                       </ul>
 
                       <div class="mt-4">
-                        <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_JMarc_Etudes_Titre") }}</p>
-                        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_JMarc_Etudes_Detail')"></p>
+                        <!--<p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_JMarc_Etudes_Titre") }}</p>
+                        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_JMarc_Etudes_Detail')"></p> -->
                       </div>
 
                       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
@@ -449,7 +449,7 @@
 <br>
  
 
-    <!-- Bloc Adell -->
+    <!-- Bloc Marie-Pierre LEFEBVRE -->
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Contenu principal -->
@@ -482,8 +482,8 @@
 
         <!-- Études -->
         <div class="mt-4">
-          <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_Adell_Etudes_Titre") }}</p>
-          <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_Adell_Etudes_Detail')"></p>
+          <!-- <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_Adell_Etudes_Titre") }}</p>
+          <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_Adell_Etudes_Detail')"></p> -->
         </div>
       </div>
     </div>
@@ -507,8 +507,8 @@
 
       <!-- Études -->
       <div class="mt-4">
-        <p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_Adell_Etudes_Titre") }}</p>
-        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_Adell_Etudes_Detail')"></p>
+         <!--<p class="italic font-semibold text-gray-700">{{ $t("equipe.equipe_Adell_Etudes_Titre") }}</p>
+        <p class="text-gray-600 mt-1" v-html="$t('equipe.equipe_Adell_Etudes_Detail')"></p>-->
       </div>
 
       <div class="border-t-2 border-[#8BC367] w-16 mx-auto mt-6"></div>
