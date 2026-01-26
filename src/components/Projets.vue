@@ -126,22 +126,21 @@
 
        <!-- Texte dynamique -->
 
-           <!-- ❌ Bouton de fermeture -->
-        <button
-          v-if="activeIndex !== null"
-          @click="activeIndex = null"
-          class="absolute top-6 right-6 sm:top-10 sm:right-10 text-[#05ff16] hover:text-[#00cc11] 
-                text-2xl sm:text-3xl font-bold transition-all duration-300"
-        >
-          &times;
-        </button>
-
         <transition name="fade" mode="out-in">
       <div
         v-if="activeIndex !== null"
         key="activeIndex"
-        class="max-w-5xl p-4 sm:p-6 md:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
+        class="relative max-w-5xl p-4 sm:p-6 md:p-8 mt-12 text-left bg-gray-100 rounded-xl shadow-lg text-gray-900 leading-relaxed"
       >
+        <!-- ❌ Bouton de fermeture -->
+        <button
+          type="button"
+          @click="activeIndex = null"
+          class="absolute top-3 right-3 sm:top-4 sm:right-4 h-9 w-9 sm:h-10 sm:w-10 rounded-full border-2 border-[#05ff16] text-[#05ff16] hover:bg-[#05ff16] hover:text-[#0c2049] text-xl font-bold transition-all duration-300 flex items-center justify-center"
+          aria-label="Fermer"
+        >
+          ×
+        </button>
         <!-- Premier texte -->
         <div v-html="$t(items[activeIndex].text)"></div>
         
