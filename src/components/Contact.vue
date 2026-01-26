@@ -25,7 +25,7 @@
             playsinline
             class="absolute top-0 left-0 w-full h-full object-cover object-center"
           >
-            <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+            <source src="/videos/Bienvenuesurnotresite.min.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture de vidéos HTML5.
           </video>
         </div>

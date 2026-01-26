@@ -19,7 +19,7 @@
            <!-- Bloc vidéo -->
       <section class="video-banner relative w-full h-[50vh] sm:h-[60vh] lg:h-[80vh] overflow-hidden">
         <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-          <source src="/videos/animation_eau2.mp4" type="video/mp4" />
+          <source src="/videos/animation_eau2.min.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la lecture de vidéos HTML5.
         </video>
    

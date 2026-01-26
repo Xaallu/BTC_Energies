@@ -9,7 +9,7 @@
        playsinline
        class="absolute top-0 left-0 w-full h-full object-cover object-center"
      >
-       <source src="/videos/Bienvenuesurnotresite.mp4" type="video/mp4" />
+       <source src="/videos/Bienvenuesurnotresite.min.mp4" type="video/mp4" />
        Votre navigateur ne supporte pas la lecture de vidéos HTML5.
      </video>
    </div>
@@ -40,7 +40,7 @@
 <v-container fluid class="page-blanche_app py-10">
         <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
 
-          
+
   <div class="main-content-wrapper">
     <div class="constat-body w-full flex flex-col gap-10">
       <v-container fluid class="min-h-screen px-0 py-8">
