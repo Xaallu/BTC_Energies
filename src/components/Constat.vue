@@ -37,6 +37,8 @@
     </div>
   </div>
 
+<v-container fluid class="page-blanche_app py-10">
+        <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
   <div class="main-content-wrapper">
     <div class="constat-body w-full flex flex-col gap-10">
       <v-container fluid class="min-h-screen px-0 py-8">
@@ -170,6 +172,9 @@
       </v-container>
     </div>
   </div>
+  </div>
+  </v-container>
+  
 </template>
 
 <script>
