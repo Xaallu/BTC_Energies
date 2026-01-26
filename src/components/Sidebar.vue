@@ -5,7 +5,7 @@
            bg-gradient-to-r from-[#040c29] via-[#0c2049] to-[#1a2f5e]
            text-white flex-col z-50 shadow-lg"
   >
-    <div class="flex flex-col h-full justify-between py-8">
+    <div class="flex flex-col h-full py-8">
       
       <!-- === Haut === -->
       <div class="flex flex-col items-center">
@@ -54,14 +54,21 @@
           </div>
         </div>
 
-        <!-- Petite flèche décorative -->
-        <div class="menu-arrow_H mt-12"></div>
+        <!-- Flèche haut cliquable -->
+        <button
+          type="button"
+          class="menu-scroll-btn mt-20"
+          @click="scrollMenu('up')"
+          aria-label="Monter le menu"
+        >
+          <span class="menu-arrow_H"></span>
+        </button>
       </div>
 
       <!-- === Menu Desktop === -->
       <ul
         ref="menuList"
-        class="menu-scroll flex-1 text-center space-y-4 overflow-x-hidden
+        class="menu-scroll text-center space-y-4 overflow-x-hidden overflow-y-auto
                scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-transparent"
       >
         <li v-for="(item, index) in menuItems" :key="index" class="relative">
@@ -83,9 +90,16 @@
         </li>
       </ul>
 
-      <!-- Flèche bas -->
-      <div class="flex flex-col items-center pb-4">
-        <div class="menu-arrow_B"></div>
+      <!-- Flèche bas cliquable -->
+      <div class="flex flex-col items-center pt-2">
+        <button
+          type="button"
+          class="menu-scroll-btn"
+          @click="scrollMenu('down')"
+          aria-label="Descendre le menu"
+        >
+          <span class="menu-arrow_B"></span>
+        </button>
       </div>
     </div>
   </div>
@@ -223,6 +237,14 @@ function setLocale(code)  { locale.value = code; showDropdown.value = false }
 function toggleSidebar()  { emit('toggleSidebar') }
 function handleLinkClick(){ emit('toggleSidebar') }
 function updateIsDesktop(){ isDesktop.value = window.innerWidth >= 1024 }
+function scrollMenu(direction) {
+  if (!menuList.value) return
+  const delta = 140
+  menuList.value.scrollBy({
+    top: direction === 'up' ? -delta : delta,
+    behavior: 'smooth',
+  })
+}
 
 /* ░░░ Animations GSAP ░░░ */
 const logoL = ref(null)
@@ -260,17 +282,30 @@ onBeforeUnmount(() => {
 <style scoped>
 .menu-arrow_H,
 .menu-arrow_B {
-  width: 6px;
-  height: 6px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
   border-left: 3px solid #05ff16;
   border-bottom: 3px solid #05ff16;
   margin: 0 auto;
   background: transparent;
 }
-.menu-arrow_H { transform: rotate(135deg); margin-bottom: 0.6rem; }
-.menu-arrow_B { transform: rotate(315deg); margin-top: 0.6rem; }
+.menu-arrow_H { transform: rotate(135deg); }
+.menu-arrow_B { transform: rotate(-45deg); }
 
-.menu-scroll      { scrollbar-width: none; -ms-overflow-style: none; }
+.menu-scroll-btn {
+  background: transparent;
+  border: 0;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.menu-scroll-btn:focus-visible {
+  outline: 2px solid #05ff16;
+  outline-offset: 2px;
+}
+
+.menu-scroll      { scrollbar-width: none; -ms-overflow-style: none; max-height: 52vh; }
 .menu-scroll::-webkit-scrollbar { display: none; }
 </style>
 

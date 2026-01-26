@@ -1,4 +1,4 @@
-{
+﻿{
   "__comment_page_sidebar" : "Traductions pour la page d'accueil (Sidebar.vue)",
   
   "menu": {
@@ -9,7 +9,7 @@
     "partenaires": "Funding & Partners",
     "equipe": "Our Team",
     "contact": "Contact",
-    "etDemain": "What’s Next?",
+    "etDemain": "Whatâ€™s Next?",
     "mentions": "Legal Notice"
   },
 
@@ -21,12 +21,12 @@
   "nootre_constat": "Our Analysis",
   "notre_equipe": "Our Team",
   "legal_title": "Legal Notice",
-  "legal_line1": "BTC Énergies (SAS) with a capital of €120, registered with the Toulouse RCS - FRANCE",
+  "legal_line1": "BTC Ã‰nergies (SAS) with a capital of â‚¬120, registered with the Toulouse RCS - FRANCE",
   "legal_line2": "SIRET number: 928 497 585 00010",
 
   "services": {
     "title_Nos services": "Our services",
-    "s1_title_Vente d’energies": "Sale of renewable energy and resources.",
+    "s1_title_Vente dâ€™energies": "Sale of renewable energy and resources.",
     "s1_p1_Nous assurons la production": "We produce and sell renewable energy and resources from biomass and fossil-based processes.",
 
     "s2_title_Gazeification": "Hydrothermal gasification of waste and household garbage",
@@ -43,7 +43,7 @@
     "s5_title_Traitement des effluents industriels": "Industrial effluent treatment",
     "s5_p1_Le traitement des effluents": "Treating industrial effluents is vital for protecting the environment and maintaining water quality. We recover a wide range of effluents from most sectors.",
 
-    "s6_title_Opérations de Dépollution": "Decontamination Operations",
+    "s6_title_OpÃ©rations de DÃ©pollution": "Decontamination Operations",
     "s6_p1_Nous pouvons organiser": "We can organize large-scale remediation of polluted sites (former dumps, soils contaminated with heavy metals)."
   },
 
@@ -78,7 +78,7 @@
   "industrie_texte": "The circular economy and autonomy in energy and resources form the very foundation of our model. With this energy independence comes the inevitable opportunity to develop an entire economic and industrial ecosystem based on renewable energies.",
 
   "reduction_title": "Reducing Inequalities",
-  "reduction_texte": "Our team includes as many women as men in key positions and is composed of individuals from various nationalities. As a future multinational, we are committed to recruiting talent wherever it is found. All employees will benefit from the same opportunities and access to key positions based on merit. The company’s CEO himself holds an RQTH and is officially recognized as a disabled worker.",
+  "reduction_texte": "Our team includes as many women as men in key positions and is composed of individuals from various nationalities. As a future multinational, we are committed to recruiting talent wherever it is found. All employees will benefit from the same opportunities and access to key positions based on merit. The companyâ€™s CEO himself holds an RQTH and is officially recognized as a disabled worker.",
 
   "villes_title": "Sustainable Cities and Communities",
   "villes_texte": "A clean city powered by green electricity is a sustainable city. We are committed to ensuring the energy independence of these communities while promoting green and low-carbon mobility. By organizing renewable heat and cooling networks, we also contribute to reducing costs and lowering gas and electricity consumption.",
@@ -130,7 +130,7 @@
   "notre_constat": {
   "constat_titre": "Our Analysis",
   "intro1_Le monde continue": "The world continues to evolve at a rapid pace, and new opportunities arise every day. In this era of transformation, it is essential to explore the solutions that will shape our future.",
-  "intro2_Ces solutions sont vastes": "These solutions are vast and diverse, but they all share a common goal: addressing today's challenges through innovation, creativity, and collaboration. It is exciting to imagine how these emerging solutions will shape our future and pave the way for a better world. Let’s stay open to opportunities and ready to embrace change for a promising future.",
+  "intro2_Ces solutions sont vastes": "These solutions are vast and diverse, but they all share a common goal: addressing today's challenges through innovation, creativity, and collaboration. It is exciting to imagine how these emerging solutions will shape our future and pave the way for a better world. Letâ€™s stay open to opportunities and ready to embrace change for a promising future.",
 
   "titre2_Technologie": "Technology",
   "intro3_Les avancees technologiques": "Technological advances are constantly transforming the way we live, work and communicate. Areas such as artificial intelligence, the Internet of Things, virtual and augmented reality and blockchain offer fascinating opportunities for solving complex problems. Advances in these areas could not only improve our quality of life, but also revolutionise sectors such as healthcare, education, energy and many others.",
@@ -168,11 +168,11 @@
     "text4_Melange": "Mixing, pulping and brewing.",
 
     "titreVal_Valorisation": "Valuation",
-     "Val_La Gazéification Hydrothermale": "Hydrothermal gasification, or GH, is used to extract various gases and minerals using a catalytic or high-temperature process.",
+     "Val_La GazÃ©ification Hydrothermale": "Hydrothermal gasification, or GH, is used to extract various gases and minerals using a catalytic or high-temperature process.",
       "Exploitation":"Operating",
      "text1_Gaz produits": "Gases produced: (Di) Hydrogen, methane and CO2, which will be purified before being reinjected into the grid, transformed into electricity, compressed or exploited on site.",
-      "text2_Eau récupérée": "Recovered water: will be treated by an electrolysis process (after passing through a reverse osmosis process or an evapo-condenser) and/or reused on site.",
-      "text3_Matiere minérale": "Extracted mineral matter: will be dried, separated and sold to cement manufacturers or refiners. Some of the fertiliser will also be used on site.",
+      "text2_Eau rÃ©cupÃ©rÃ©e": "Recovered water: will be treated by an electrolysis process (after passing through a reverse osmosis process or an evapo-condenser) and/or reused on site.",
+      "text3_Matiere minÃ©rale": "Extracted mineral matter: will be dried, separated and sold to cement manufacturers or refiners. Some of the fertiliser will also be used on site.",
       
       "titre_Notre offre de services": "Our services offerings",
       "texteOffre_Nous pouvons traiter": "We can handle a wide variety of materials from different sectors.",
@@ -180,7 +180,7 @@
 
       "titre_Nos produits fini": "Our finished products and their outlets",
       "texteproduits_Nous destinons": "We use our methane production to supply industrial companies, gas and energy suppliers, service stations and local authorities.",
-      "texteproduits_LHydrogène est": "Hydrogen is redistributed to businesses and local authorities and transformed into electricity.",
+      "texteproduits_LHydrogÃ¨ne est": "Hydrogen is redistributed to businesses and local authorities and transformed into electricity.",
       "texteproduits_Le CO2 est": "The CO2 is used in agricultural and industrial activities or converted into e-fuel.",
       "texteproduits_Leau chargee dazote": "The water, loaded with nitrogen, is osmosed or used to grow plants.",
       "texteproduits_La matiere minerale": "Depending on the material recovered, mineral matter may contain fertilisers and metals. They are therefore extracted and exploited by different sectors.",
@@ -199,7 +199,7 @@
   "projets.mi2025_titre": "Mid-2025",
   "projets.Septembre2025_titre": "September 2025",
 
- "projets.promethee_fin2024_texte_html": "<p>Prometheus — End of 2024: NaTran officially launched its Call for Expressions of Interest (AMI) for the implementation of innovative solutions in the field of renewable and low-carbon gases. In a demanding context and under strong time pressure, BTC Energies positioned itself from the very beginning, volunteering to respond to this ambitious call.</p>",
+ "projets.promethee_fin2024_texte_html": "<p>Prometheus â€” End of 2024: NaTran officially launched its Call for Expressions of Interest (AMI) for the implementation of innovative solutions in the field of renewable and low-carbon gases. In a demanding context and under strong time pressure, BTC Energies positioned itself from the very beginning, volunteering to respond to this ambitious call.</p>",
 
 "projets.carte_opendata_titre": "Map provided by OpenData",
 
@@ -209,23 +209,23 @@
 
 "projets.promethee_fin2024_texte3_html": "<p>Faced with these obstacles, we chose not to rely solely on administrative procedures: BTC Energies was the only industrial player to meet directly with the landowner, adopting an approach of open and active dialogue. We presented our vision, our environmental ambition, and proposed genuine collaboration around the project.<br><br>This human and committed approach bore fruit: the landowner agreed to support the project, thus putting an end to two decades of opposition. This agreement paved the way for the project submission in a calm and transparent context. Thanks to the dedication of our employees and the decisive support of our industrial and institutional partners, we successfully overcame every step with rigor and determination.</p> <div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
-"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>The result is clear: the project led by BTC Energies was selected. It now stands as the second largest officially approved project in France in its category, with:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>an annual production of 202 GWh of low-carbon methane;</li><li>the recovery of 30,000 tons of Solid Recovered Fuels (SRF) through hydrothermal gasification.</li></ul><p class='mb-6 leading-relaxed'>Through this success, BTC Energies establishes itself as a national pioneer in two strategic fields:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>industrial-scale hydrothermal gasification;</li><li>the recovery of SRF through wet processing, a still underexploited sector with major potential.</li></ul><br>This project marks a major operational breakthrough in France’s energy transition and positions BTC Energies at the intersection of climate, technological, and industrial challenges.<div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.promethee_fin2024_texte4_html": "<p class='mb-6 leading-relaxed'>The result is clear: the project led by BTC Energies was selected. It now stands as the second largest officially approved project in France in its category, with:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>an annual production of 202 GWh of low-carbon methane;</li><li>the recovery of 30,000 tons of Solid Recovered Fuels (SRF) through hydrothermal gasification.</li></ul><p class='mb-6 leading-relaxed'>Through this success, BTC Energies establishes itself as a national pioneer in two strategic fields:</p><ul class='list-disc pl-6 mb-6 space-y-2'><li>industrial-scale hydrothermal gasification;</li><li>the recovery of SRF through wet processing, a still underexploited sector with major potential.</li></ul><br>This project marks a major operational breakthrough in Franceâ€™s energy transition and positions BTC Energies at the intersection of climate, technological, and industrial challenges.<div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
   
 
-"projets.mi2025_texte1_html": "<img src='/logo2nosprojets.png' alt='BTC Energies Projects – Alliance H2 Med' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>By mid-2025, the verdict was clear: the companies claiming to offer technologies capable of meeting our needs — as well as those of several partner communities — proved unable to deliver suitable solutions. Worse still, large corporations, entrenched in their dominant positions, systematically buried emerging innovations and actively sought to slow our progress. Their strategy was clear: neutralize any initiative capable of challenging their hegemony.</p><p class='mb-6 leading-relaxed'>Faced with this critical situation, we decided to take the initiative and launch a strategic operation around an R&D consortium. Objective: to develop a sovereign technology, free from the constraints imposed by traditional players, and able to meet real operational needs without compromise.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.mi2025_texte1_html": "<img src='/logo2nosprojets.png' alt='BTC Energies Projects â€“ Alliance H2 Med' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>By mid-2025, the verdict was clear: the companies claiming to offer technologies capable of meeting our needs â€” as well as those of several partner communities â€” proved unable to deliver suitable solutions. Worse still, large corporations, entrenched in their dominant positions, systematically buried emerging innovations and actively sought to slow our progress. Their strategy was clear: neutralize any initiative capable of challenging their hegemony.</p><p class='mb-6 leading-relaxed'>Faced with this critical situation, we decided to take the initiative and launch a strategic operation around an R&D consortium. Objective: to develop a sovereign technology, free from the constraints imposed by traditional players, and able to meet real operational needs without compromise.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
 "projets.mi2025_texte2_html": "<p class='mb-6 leading-relaxed'>Very quickly, major partners joined the effort. A leading research institute, two engineering consulting firms experienced in complex projects, and a company specialized in the Internet of Things committed to working alongside us. Their involvement immediately strengthened our capacity to design, test, and deploy breakthrough technology.</p><p class='mb-6 leading-relaxed'>At the same time, investors were approached and showed strong interest. Some see this initiative as a strategic driver for dual-use technologies, both terrestrial and spatial. Others consider it a key lever for developing smart cities, where connectivity, resilience, and autonomy have become vital challenges.</p><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
-"projets.mi2025_texte3_html": "<p class='mb-6 leading-relaxed'>The course is set: we will no longer endure. The consortium is taking shape, skills are coming together, and capital is aligning. This project is not just about compensating for the failures of existing solutions — it aims to break the lock imposed by major corporations, regain technological advantage, and ensure our independence. The maneuver is underway, and this time, we are determined to chart our own path.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.mi2025_texte3_html": "<p class='mb-6 leading-relaxed'>The course is set: we will no longer endure. The consortium is taking shape, skills are coming together, and capital is aligning. This project is not just about compensating for the failures of existing solutions â€” it aims to break the lock imposed by major corporations, regain technological advantage, and ensure our independence. The maneuver is underway, and this time, we are determined to chart our own path.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
   
   
 
-"projets.Septembre2025_texte1_html": "<img src='/h2med.png' alt='BTC Energies Projects – H2Med Alliance' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>September 2025 marks a decisive step forward in our trajectory. Our president, Thibault Béthencourt, was elected as France’s representative within the H2Med Alliance.</p><p class='mb-6 leading-relaxed'>The H2Med Alliance is the international cooperation framework built around the H2Med project, the first major European green hydrogen corridor. This project connects the Iberian Peninsula to Central Europe through France, with the mission of securing energy supply, accelerating industrial decarbonization, and positioning Europe as a global leader in hydrogen. It brings together leading industrial and institutional players involved in the energy transition.</p><br><img src='/H2medAlliance.png' alt='BTC Energies Projects – H2Med Alliance' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.Septembre2025_texte1_html": "<img src='/h2med.png' alt='BTC Energies Projects â€“ H2Med Alliance' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><br><p class='mb-6 leading-relaxed'>September 2025 marks a decisive step forward in our trajectory. Our president, Thibault BÃ©thencourt, was elected as Franceâ€™s representative within the H2Med Alliance.</p><p class='mb-6 leading-relaxed'>The H2Med Alliance is the international cooperation framework built around the H2Med project, the first major European green hydrogen corridor. This project connects the Iberian Peninsula to Central Europe through France, with the mission of securing energy supply, accelerating industrial decarbonization, and positioning Europe as a global leader in hydrogen. It brings together leading industrial and institutional players involved in the energy transition.</p><br><img src='/H2medAlliance.png' alt='BTC Energies Projects â€“ H2Med Alliance' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
-"projets.Septembre2025_texte2_html": "<p class='mb-6 leading-relaxed'>In this context, our success takes on a historic dimension. We, a start-up without significant resources, are now sitting at the same table as global giants such as Thyssenkrupp — an industrial benchmark worldwide. This presence proves that the relevance of our vision and the credibility of our technology now outweigh pure financial power.</p><br><img src='/H2medCFI.png' alt='BTC Energies Projects – H2Med CFI' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.Septembre2025_texte2_html": "<p class='mb-6 leading-relaxed'>In this context, our success takes on a historic dimension. We, a start-up without significant resources, are now sitting at the same table as global giants such as Thyssenkrupp â€” an industrial benchmark worldwide. This presence proves that the relevance of our vision and the credibility of our technology now outweigh pure financial power.</p><br><img src='/H2medCFI.png' alt='BTC Energies Projects â€“ H2Med CFI' class='w-full max-w-xl mx-auto transition-transform duration-500 transform hover:scale-105 rounded-lg shadow-lg' /><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
 
-"projets.Septembre2025_texte3_html": "<p class='mb-6 leading-relaxed'>This turning point confirms our ability to influence strategic decisions, defend France’s interests, and project our know-how on the European and international stage. Where many once saw us as a peripheral actor, we now stand as an essential force for innovation and collaboration.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
+"projets.Septembre2025_texte3_html": "<p class='mb-6 leading-relaxed'>This turning point confirms our ability to influence strategic decisions, defend Franceâ€™s interests, and project our know-how on the European and international stage. Where many once saw us as a peripheral actor, we now stand as an essential force for innovation and collaboration.</p><br><div class='border-t-2 border-[#8BC367] w-16 mx-auto mt-6'></div>",
   
 
 
@@ -249,28 +249,28 @@
       "Equipe_Titre": "Our Team",
       "Titre_equipe": "Our team is made up of 3 partners presented below and our 'Canine Chief Happiness Officer'. We are also supported by more than a dozen people who contribute their skills to different parts of the project.",
     
-    "equipe_Thibault_Nom": "Thibault BÉTHENCOURT",
-    "equipe_Thibault_TitreCourt": "President - Founder of BTC Énergies",
+    "equipe_Thibault_Nom": "Thibault BÃ‰THENCOURT",
+    "equipe_Thibault_TitreCourt": "President - Founder of BTC Ã‰nergies",
     "equipe_Thibault_CEO": "Project Leader (CEO)",
     "equipe_Thibault_Tel": "+33 6 29 56 07 56",
     "equipe_Thibault_Etudes_Titre": "Studies:",
-    "equipe_Thibault_Etudes_Detail": "Master’s degree in Law, Economics, and Management (Public Institutions Administration)<br />Doctorate in progress (Strategic Management)",
-    "equipe_Thibault_Citation": "“In this world, anything is imaginable. But one must know how to convince and surround themselves with the best for everything to become possible.”",
+    "equipe_Thibault_Etudes_Detail": "Masterâ€™s degree in Law, Economics, and Management (Public Institutions Administration)<br />Doctorate in progress (Strategic Management)",
+    "equipe_Thibault_Citation": "â€œIn this world, anything is imaginable. But one must know how to convince and surround themselves with the best for everything to become possible.â€",
 
     "equipe_Thibault_Bio1": "Holder of several degrees in complementary disciplines Project Engineering and Management, History, International Relations & Geopolitics, Law, Economics, and Management. He embodies a rare multidisciplinary profile, at the intersection of technical, strategic, and geopolitical challenges.",
-    "equipe_Thibault_Bio2": "Founder and visionary behind the BTC Énergies project, he has led it since the technology was officially presented to energy professionals in February 2022, marking the project’s operational launch.",
-    "equipe_Thibault_Bio3": "Since then, BTC Énergies has reached a major milestone with its selection as part of the Call for Expressions of Interest launched by Natran (formerly GRTgaz), specifically dedicated to hydrothermal gasification.",
-    "equipe_Thibault_Bio4": "This milestone confirms the relevance of the solution developed by Thibault BÉTHENCOURT, as well as the growing recognition of his commitment, vision, and execution capabilities. A visionary, creative entrepreneur with a strong focus on innovation, he represents a bold and disruptive approach to industry, making him a unique and notable figure in the energy transition ecosystem.",
+    "equipe_Thibault_Bio2": "Founder and visionary behind the BTC Ã‰nergies project, he has led it since the technology was officially presented to energy professionals in February 2022, marking the projectâ€™s operational launch.",
+    "equipe_Thibault_Bio3": "Since then, BTC Ã‰nergies has reached a major milestone with its selection as part of the Call for Expressions of Interest launched by Natran (formerly GRTgaz), specifically dedicated to hydrothermal gasification.",
+    "equipe_Thibault_Bio4": "This milestone confirms the relevance of the solution developed by Thibault BÃ‰THENCOURT, as well as the growing recognition of his commitment, vision, and execution capabilities. A visionary, creative entrepreneur with a strong focus on innovation, he represents a bold and disruptive approach to industry, making him a unique and notable figure in the energy transition ecosystem.",
     "equipe_Thibault_Bio5": "A polyglot, passionate adventurer, and intrepid traveler, he began his path of ideation at the age of 17 with a world tour through 11 countries and 3 continents. Confronted with energy and environmental realities on the ground, he developed a global understanding of these issues, which immediately enabled him to identify the strategic potential of hydrothermal gasification.",
-    "equipe_Thibault_Bio6": "His international experiences blending pragmatic observation with cultural immersion shaped a singular and ambitious vision: to make this technology a concrete response to the challenges of energy transition and reindustrialization. His ever-stimulated mind makes him the company’s idea generator.",
+    "equipe_Thibault_Bio6": "His international experiences blending pragmatic observation with cultural immersion shaped a singular and ambitious vision: to make this technology a concrete response to the challenges of energy transition and reindustrialization. His ever-stimulated mind makes him the companyâ€™s idea generator.",
     
 
   "equipe_JMarc_Nom": "Dr.-Eng. Susanne SVENSDOTTER",
   "equipe_JMarc_TitreCourt": "Chief Operating Officer (COO)",
   "equipe_JMarc_Titre2": "Mechanical Engineer",
   "equipe_JMarc_Etudes_Titre": "Education:",
-  "equipe_JMarc_Etudes_Detail": "Engineering Degree: Institut National Polytechnique de Grenoble<br />PhD: Management Sciences<br />Certifications: PMP® (Project Management Institute), Certified Mediator (Université Panthéon-Assas)",
-  "equipe_JMarc_Citation": "“My commitment is to make talent shine, create value, and firmly anchor BTC Énergies within the French industrial landscape and beyond. My long-term industrial guiding principle is simple: less plastic.”",
+  "equipe_JMarc_Etudes_Detail": "Engineering Degree: Institut National Polytechnique de Grenoble<br />PhD: Management Sciences<br />Certifications: PMPÂ® (Project Management Institute), Certified Mediator (UniversitÃ© PanthÃ©on-Assas)",
+  "equipe_JMarc_Citation": "â€œMy commitment is to make talent shine, create value, and firmly anchor BTC Ã‰nergies within the French industrial landscape and beyond. My long-term industrial guiding principle is simple: less plastic.â€",
   "equipe_JMarc_Bio1": "Holding a PhD, as well as an MBA and an MSc, she brings over 25 years of experience in research and development in turbomachinery and in industrial process excellence, within highly critical and strongly regulated technological environments. Her career combines top-tier scientific expertise, leadership of complex R&D programs, and strategic management spanning from early-stage research through to industrialization.",
   "equipe_JMarc_Bio2": "She has held governance and strategic advisory roles as a Trustee, independent Non-Executive Director (NED), and Board Advisor, contributing a long-term vision, rigorous risk management discipline, and a strong performance-driven mindset. She has collaborated with leading industrial and academic institutions, including Rolls-Royce Aviation, Baker Hughes, Imperial College, and HEC Paris, on projects with significant technological, economic, and industrial impact.",
   "equipe_JMarc_Bio3": "Her expertise spans advanced design, performance optimization, process reliability, and the structuring of high-performing R&D organizations capable of delivering measurable results over time. A polyglot (French, English, Swedish, German) with extensive international experience, she operates confidently within multicultural environments and complex decision-making frameworks.",
@@ -280,8 +280,8 @@
   "equipe_Alain_Nom": "Charles De MAGNEVAL",
   "equipe_Alain_TitreCourt": "Digital Project Manager",
   "equipe_Alain_Etudes_Titre": "Education:",
-  "equipe_Alain_Etudes_Detail": "Master’s level (Bac+5): Management and Development of Commercial Activities (ongoing)",
-  "equipe_Alain_Citation": "“I joined this project with the deep conviction that it can have a positive and lasting impact on our society. For me, BTC Énergies is above all a vision, a close-knit team, and forward-looking solutions.”",
+  "equipe_Alain_Etudes_Detail": "Masterâ€™s level (Bac+5): Management and Development of Commercial Activities (ongoing)",
+  "equipe_Alain_Citation": "â€œI joined this project with the deep conviction that it can have a positive and lasting impact on our society. For me, BTC Ã‰nergies is above all a vision, a close-knit team, and forward-looking solutions.â€",
   "equipe_Alain_Bio1": "With over 30 years of experience, Charles is a pioneer of the web in France, widely recognized for his ability to design, deploy, and manage critical IT and software systems in support of industrial performance. He has led more than 50 missions for major international corporations, consistently demonstrating his ability to transform technology into operational and strategic advantage.",
   "equipe_Alain_Bio2": "His career is marked by measurable improvements in corporate performance, with long-term successes in market leadership positions. He brings extensive cross-sector expertise (banking, insurance, healthcare, retail, energy), enabling him to adapt robust digital architectures to highly regulated and demanding environments. With deep technical expertise (CSS, embedded Linux, Java, enterprise applications), Charles is responsible for the design and integration of IT tools and artificial intelligence solutions at the core of our machines and industrial installations. He plays a key role in process digitalization, performance optimization, system supervision, and technological risk mitigation across the project.",
   "equipe_Alain_Bio3": "Within the team, he serves as a major technological pillar, ensuring the reliability, scalability, and intelligence of the developed infrastructures, and significantly strengthening the industrial and digital credibility of the R&D program.",
@@ -292,77 +292,77 @@
     "equipe_Camille_Titre2": "Communications Officer",
     "equipe_Camille_Tel": "+33 7 49 71 63 40",
     "equipe_Camille_Etudes_Titre": "Studies:",
-    "equipe_Camille_Etudes_Detail": "Master’s degree: Human Resources Management",
-    "equipe_Camille_Citation": "“My goal is to foster values that build a healthy, human-centered, and forward-looking company culture.”",
-    "equipe_Camille_Bio1": "With a degree in social psychology and a Master’s in Human Resources, she is a co-founder of BTC Énergies and one of the company’s essential pillars. Highly specialized, she stands out for her structured, rigorous mindset. Her keen sense of human analysis, combined with outstanding intuition, enables her to identify profiles and mobilize talents effectively.",
-    "equipe_Camille_Bio2": "As head of recruitment and HR strategy, she ensures that every team member is in a position that aligns with both their skills and personal fulfillment, as well as BTC Énergies’ strategic goals. Her role is central in team structuring and consolidation, contributing directly to the company’s performance and resilience.",
+    "equipe_Camille_Etudes_Detail": "Masterâ€™s degree: Human Resources Management",
+    "equipe_Camille_Citation": "â€œMy goal is to foster values that build a healthy, human-centered, and forward-looking company culture.â€",
+    "equipe_Camille_Bio1": "With a degree in social psychology and a Masterâ€™s in Human Resources, she is a co-founder of BTC Ã‰nergies and one of the companyâ€™s essential pillars. Highly specialized, she stands out for her structured, rigorous mindset. Her keen sense of human analysis, combined with outstanding intuition, enables her to identify profiles and mobilize talents effectively.",
+    "equipe_Camille_Bio2": "As head of recruitment and HR strategy, she ensures that every team member is in a position that aligns with both their skills and personal fulfillment, as well as BTC Ã‰nergiesâ€™ strategic goals. Her role is central in team structuring and consolidation, contributing directly to the companyâ€™s performance and resilience.",
 
-      "equipe_Remi_Nom": "Rémi PICHONNEAU",
+      "equipe_Remi_Nom": "RÃ©mi PICHONNEAU",
     "equipe_Remi_TitreCourt": "Industrial Engineer / Technical Director (CTO)",
     "equipe_Remi_Etudes_Titre": "Studies:",
     "equipe_Remi_Etudes_Detail": "Engineering degree in Industrial Project Management<br />Master SYSPEC",
-    "equipe_Remi_Citation": "“My motto is to drive and energize the energy transition with a sustainable development mindset.”",
-    "equipe_Remi_Bio1": "Holder of an engineering degree in industrial project management and a Master’s in SYSPEC, he has 42 years of experience in key fields such as renewable energy production, waste management (incineration, landfill gas recovery), and data center construction.",
-    "equipe_Remi_Bio2": "Over the course of his career, he contributed to the installation of 145 MW of energy capacity, enough to power 15,000 households the size of a city like Chambéry. His guiding principles are sustainable development and energy transition. Future-oriented, he emphasizes anticipation and innovation to deliver responsible and durable solutions to environmental and technological challenges. His expertise, versatility, and hard-earned wisdom make him a respected expert and influential figure within BTC Énergies.",
+    "equipe_Remi_Citation": "â€œMy motto is to drive and energize the energy transition with a sustainable development mindset.â€",
+    "equipe_Remi_Bio1": "Holder of an engineering degree in industrial project management and a Masterâ€™s in SYSPEC, he has 42 years of experience in key fields such as renewable energy production, waste management (incineration, landfill gas recovery), and data center construction.",
+    "equipe_Remi_Bio2": "Over the course of his career, he contributed to the installation of 145 MW of energy capacity, enough to power 15,000 households the size of a city like ChambÃ©ry. His guiding principles are sustainable development and energy transition. Future-oriented, he emphasizes anticipation and innovation to deliver responsible and durable solutions to environmental and technological challenges. His expertise, versatility, and hard-earned wisdom make him a respected expert and influential figure within BTC Ã‰nergies.",
 
     
   "equipe_Adell_Nom": "Marie-Pierre LEFEBVRE",
   "equipe_Adell_TitreCourt": "Administrative and Financial Director",
   "equipe_Adell_Titre2": "Architect of profitability and lead designer of financial structuring",
   "equipe_Adell_Etudes_Titre": "Education:",
-  "equipe_Adell_Etudes_Detail": "Engineering Degree in Mechanical Engineering / Master’s Degree in Business Management",
-  "equipe_Adell_Citation": "“What interests me is building, taking on challenges, and developing tools that serve innovative projects. The BTC Énergies project carries an exceptionally strong technical and societal dimension, making it a forward-looking initiative and a concrete, relevant path for action.”",
+  "equipe_Adell_Etudes_Detail": "Engineering Degree in Mechanical Engineering / Masterâ€™s Degree in Business Management",
+  "equipe_Adell_Citation": "â€œWhat interests me is building, taking on challenges, and developing tools that serve innovative projects. The BTC Ã‰nergies project carries an exceptionally strong technical and societal dimension, making it a forward-looking initiative and a concrete, relevant path for action.â€",
   "equipe_Adell_Bio1": "Marie-Pierre brings more than 30 years of experience in finance, acquired within SMEs as well as industrial and accounting environments, with deep expertise in financial architecture, strategic vision, and product leadership. Throughout her career, she has placed her know-how at the service of diverse and complex projects, ranging from corporate mergers and organizational restructuring to the redefinition of shareholding structures and the structuring of administrative and financial functions. She has also led numerous restructuring assignments for companies in difficulty, playing a decisive role in restoring performance and ensuring the long-term sustainability of their operations.",
   "equipe_Adell_Bio2": "With a pragmatic, rigorous, and measured profile, she stands out for a direct working style that promotes efficiency, both in decision-making and in the handling of matters. While maintaining a clear hierarchical posture, she operates with full autonomy, combining respect for strategic orientations with genuine operational independence. This balance gives her a strong capacity for discernment, particularly in identifying organizational dysfunctions and addressing them in a constructive and straightforward manner.",
-  "equipe_Adell_Bio3": "Her ability to engage in dialogue with all stakeholders — from the presidency and executive management to operational teams — enables her to maintain a consistently high quality of exchange, regardless of the interlocutor. Curious and forward-thinking, she readily goes beyond the strict scope of her role to approach issues holistically, always with the objective of best serving the missions entrusted to her. Her career path, notably enriched by her involvement in French Tech Tremplin, together with her highly qualified and experienced profile, makes her a driving and structuring force for the organizations she supports.",
+  "equipe_Adell_Bio3": "Her ability to engage in dialogue with all stakeholders â€” from the presidency and executive management to operational teams â€” enables her to maintain a consistently high quality of exchange, regardless of the interlocutor. Curious and forward-thinking, she readily goes beyond the strict scope of her role to approach issues holistically, always with the objective of best serving the missions entrusted to her. Her career path, notably enriched by her involvement in French Tech Tremplin, together with her highly qualified and experienced profile, makes her a driving and structuring force for the organizations she supports.",
 
 
     "equipe_Olivier_Nom": "Olivier COT",
   "equipe_Olivier_TitreCourt": "Chief Business Officer (CBO)",
   "equipe_Olivier_Etudes_Titre": "Studies:",
-  "equipe_Olivier_Etudes_Detail": "Master’s degree – Grande École Program<br />(Business Development, Management, Finance)",
-  "equipe_Olivier_Citation": "“I believe that together we can develop a profitable industrial model and turn BTC Énergies into a thriving company with global reach.”",
-  "equipe_Olivier_Bio1": "With a Master’s degree from the Grande École Program at KEDGE Business School, he has five years of experience in heavy industry, especially in purchasing and supply chain sectors. He spent three of those years abroad, working in complex and demanding industrial environments.",
-  "equipe_Olivier_Bio2": "Thanks to his strong interpersonal skills, he maintains solid and constructive commercial relationships with partners from various parts of the world: the United States, Turkey, China, India, European Union countries, South America, North Africa, South Asia, and more. As a polyglot, he speaks several foreign languages, which is a major asset for the international development of BTC Énergies in key strategic areas.",
-  "equipe_Olivier_Bio3": "His adventurous mindset, combined with pragmatic thinking and sharp analytical skills (needs assessment, KPI monitoring, market dynamics analysis), makes him one of the company’s essential pillars, actively contributing to its structure, vision, and long-term strategic expansion worldwide.",
+  "equipe_Olivier_Etudes_Detail": "Masterâ€™s degree â€“ Grande Ã‰cole Program<br />(Business Development, Management, Finance)",
+  "equipe_Olivier_Citation": "â€œI believe that together we can develop a profitable industrial model and turn BTC Ã‰nergies into a thriving company with global reach.â€",
+  "equipe_Olivier_Bio1": "With a Masterâ€™s degree from the Grande Ã‰cole Program at KEDGE Business School, he has five years of experience in heavy industry, especially in purchasing and supply chain sectors. He spent three of those years abroad, working in complex and demanding industrial environments.",
+  "equipe_Olivier_Bio2": "Thanks to his strong interpersonal skills, he maintains solid and constructive commercial relationships with partners from various parts of the world: the United States, Turkey, China, India, European Union countries, South America, North Africa, South Asia, and more. As a polyglot, he speaks several foreign languages, which is a major asset for the international development of BTC Ã‰nergies in key strategic areas.",
+  "equipe_Olivier_Bio3": "His adventurous mindset, combined with pragmatic thinking and sharp analytical skills (needs assessment, KPI monitoring, market dynamics analysis), makes him one of the companyâ€™s essential pillars, actively contributing to its structure, vision, and long-term strategic expansion worldwide.",
 
   "equipe_Philippe_Nom": "Philippe SUTARIK",
   "equipe_Philippe_TitreCourt": "Quality, Safety, and Environment Manager (QSE)",
   "equipe_Philippe_Etudes_Titre": "Studies:",
   "equipe_Philippe_Etudes_Detail": "Master's degree in Environmental Engineering and Management from the School of Bridges and Roads, major in Management and Economics",
   "equipe_Philippe_Citation": "My goal is to permanently eliminate ultimate waste. Every problem always has a solution.",
-  "equipe_Philippe_Bio1": "A graduate of École des Ponts et Chaussées, Philippe Sutarik has thirty years of expertise in waste treatment and recovery. A visionary and innovator, he is behind fifteen major breakthroughs that have transformed industrial practices in this field, earning him the title of the team's 'Inventor Extraordinaire'.",
-  "equipe_Philippe_Bio2": "In 1993, his commitment to sustainable industrial solutions was recognized with the Eco-Industry Award, highlighting his technical excellence and ability to anticipate future environmental needs. Since 2023, Philippe has joined BTC Énergies as QSE Manager. With his vast experience, he brings strategic vision and technical expertise to the collective mission of pushing the boundaries of innovation in quality, safety, and environment.",
+  "equipe_Philippe_Bio1": "A graduate of Ã‰cole des Ponts et ChaussÃ©es, Philippe Sutarik has thirty years of expertise in waste treatment and recovery. A visionary and innovator, he is behind fifteen major breakthroughs that have transformed industrial practices in this field, earning him the title of the team's 'Inventor Extraordinaire'.",
+  "equipe_Philippe_Bio2": "In 1993, his commitment to sustainable industrial solutions was recognized with the Eco-Industry Award, highlighting his technical excellence and ability to anticipate future environmental needs. Since 2023, Philippe has joined BTC Ã‰nergies as QSE Manager. With his vast experience, he brings strategic vision and technical expertise to the collective mission of pushing the boundaries of innovation in quality, safety, and environment.",
   "equipe_Philippe_Bio3": "As a former auditor at Afnor, he supported forty companies and conducted sixty environmental audits. Throughout his career, he completed three auditor training programs, including a specific training in eco-auditing, the only one officially recognized at the European level.",
   "equipe_Philippe_Bio4": "His approach, combining scientific rigor with operational pragmatism, stems from three decades dedicated to designing and implementing waste recovery processes. Thanks to this unique expertise, he tackles environmental challenges with a comprehensive perspective both technical and managerial with one clear goal: to eradicate ultimate waste once and for all.",
 
-    "equipe_Anais_Nom": "Anaïs Olive",
+    "equipe_Anais_Nom": "AnaÃ¯s Olive",
   "equipe_Anais_TitreCourt": "Overseas Project Manager",
   "equipe_Anais_Etudes_Titre": "Studies:",
-  "equipe_Anais_Etudes_Detail": "Master’s degree in Human Resources Audit and Management + Payroll management training",
-  "equipe_Anais_Citation": "The purpose of my life is to help nature reclaim its place. Joining BTC Énergies means taking part in developing future solutions to effectively treat the waste that’s killing our planet.",
-  "equipe_Anais_Bio1": "Holder of a law degree, a master’s in social law, a master’s in human resources audit and management, and several specialized diplomas (payroll management, law of obligations, sophrology), she has a particularly comprehensive background focused on administrative, legal, and payroll sectors.",
+  "equipe_Anais_Etudes_Detail": "Masterâ€™s degree in Human Resources Audit and Management + Payroll management training",
+  "equipe_Anais_Citation": "The purpose of my life is to help nature reclaim its place. Joining BTC Ã‰nergies means taking part in developing future solutions to effectively treat the waste thatâ€™s killing our planet.",
+  "equipe_Anais_Bio1": "Holder of a law degree, a masterâ€™s in social law, a masterâ€™s in human resources audit and management, and several specialized diplomas (payroll management, law of obligations, sophrology), she has a particularly comprehensive background focused on administrative, legal, and payroll sectors.",
   "equipe_Anais_Bio2": "Her career as an interim agency manager, treasurer, head of administrative and accounting management, and legal assistant demonstrates remarkable versatility and an ability to operate in complex and demanding environments. Enriched by personal travel experiences in Australia, New Caledonia, Mauritius, England, Majorca, Ibiza, the Canary Islands, Crete, Corsica, and Sardinia, she has an in-depth knowledge of island territories and their specific challenges. This geographical immersion is a real asset in building a relevant local strategy grounded in the field.",
-  "equipe_Anais_Bio3": "A dynamic and committed member, with excellent interpersonal skills and a strong sense of initiative, she stands out for her clear vision and strong desire to positively impact her environment. Convinced of the relevance of BTC Énergies’ projects in island territories, she is naturally suited to lead all projects in these high-stakes areas.",
+  "equipe_Anais_Bio3": "A dynamic and committed member, with excellent interpersonal skills and a strong sense of initiative, she stands out for her clear vision and strong desire to positively impact her environment. Convinced of the relevance of BTC Ã‰nergiesâ€™ projects in island territories, she is naturally suited to lead all projects in these high-stakes areas.",
   "equipe_Anais_Bio4": "Her ecological awareness, combined with her rigor and organizational skills, make her an ideal profile for developing projects in fragile ecosystems, while minimizing negative human impacts. Conscientious and methodical, she is able to manage each project phase effectively, with a performance- and sustainability-driven mindset.",
 
 
-    "equipe_Cedric_Nom": "Cédric Chauvet",
+    "equipe_Cedric_Nom": "CÃ©dric Chauvet",
   "equipe_Cedric_TitreCourt": "Director of Production Operations",
   "equipe_Cedric_Etudes_Titre": "Studies:",
-  "equipe_Cedric_Etudes_Detail": "Master’s Degree – Supervision of Industrial Processes. Machine Learning specialization – Holberton School",
+  "equipe_Cedric_Etudes_Detail": "Masterâ€™s Degree â€“ Supervision of Industrial Processes. Machine Learning specialization â€“ Holberton School",
   "equipe_Cedric_Citation": "My ultimate goal is to generalize the use of artificial intelligence in industry and at all levels.",
-  "equipe_Cedric_Bio1": "Holder of a Master’s degree in Supervision of Industrial Processes, a CAPES in Physics-Chemistry, and a diploma in application development with a specialization in AI, Cédric embodies a truly multidisciplinary profile. Passionate about electronics and entrepreneurship, he has taken part in renowned competitions such as Eurobot (2024) and Toulouse Robotrace, where he earned 3rd place in 2022.",
-  "equipe_Cedric_Bio2": "His transversal skills enable him to provide concrete solutions to many complex problems, making him a major asset in tackling today’s and tomorrow’s industrial challenges.",
-  "equipe_Cedric_Bio3": "With an inventive and hands-on spirit, Cédric has the open-mindedness essential for integrating and leveraging innovative technologies. Aware that we live in a pivotal era at the crossroads of past, present, and future technologies, he strives to build bridges between these worlds to harness their full potential.",
-  "equipe_Cedric_Bio3contact": "To benefit from Cédric's services in Automation and Artificial Intelligence Development, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contact him</a> via our dedicated page.",    
+  "equipe_Cedric_Bio1": "Holder of a Masterâ€™s degree in Supervision of Industrial Processes, a CAPES in Physics-Chemistry, and a diploma in application development with a specialization in AI, CÃ©dric embodies a truly multidisciplinary profile. Passionate about electronics and entrepreneurship, he has taken part in renowned competitions such as Eurobot (2024) and Toulouse Robotrace, where he earned 3rd place in 2022.",
+  "equipe_Cedric_Bio2": "His transversal skills enable him to provide concrete solutions to many complex problems, making him a major asset in tackling todayâ€™s and tomorrowâ€™s industrial challenges.",
+  "equipe_Cedric_Bio3": "With an inventive and hands-on spirit, CÃ©dric has the open-mindedness essential for integrating and leveraging innovative technologies. Aware that we live in a pivotal era at the crossroads of past, present, and future technologies, he strives to build bridges between these worlds to harness their full potential.",
+  "equipe_Cedric_Bio3contact": "To benefit from CÃ©dric's services in Automation and Artificial Intelligence Development, <a href='/contact' class='text-[#8BC367] underline hover:text-blue-700'>Contact him</a> via our dedicated page.",    
 
    "equipe_Xavier_Nom": "Xavier Piedallu",
     "equipe_Xavier_TitreCourt": "Full-Stack Web Architect",
     "equipe_Xavier_TitreDetail": "Designer of digital tools",
     "equipe_Xavier_Etudes_Titre": "Studies:",
     "equipe_Xavier_Etudes_Detail": "2-year degree: Full-Stack Web Development RNCP5",
-    "equipe_Xavier_Citation": "BTC Énergies has the ability to offer relevant and concrete solutions to the world. I feel fully aligned with each team member, and that reinforces my inspirations: to make a difference.",
+    "equipe_Xavier_Citation": "BTC Ã‰nergies has the ability to offer relevant and concrete solutions to the world. I feel fully aligned with each team member, and that reinforces my inspirations: to make a difference.",
     "equipe_Xavier_Bio1": "Originally trained in public works, he has shown remarkable adaptability by successfully switching to web development, earning a full-stack developer diploma. With 14 years of experience, he confidently operates in the fields of construction, public works, and digital technology, both in mainland France and overseas territories.",
     "equipe_Xavier_Bio2": "This dual technical and digital background allows him to tackle both heavy infrastructure projects and high-value development tasks with equal effectiveness. His journey reflects a versatile, ambitious, and forward-thinking profile driven by a constant quest for progress. A keen observer of market dynamics, he adjusts his direction based on evolving conditions.",
     "equipe_Xavier_Bio3": "A passionate traveler, he has broadened his global vision through stays in Indian Ocean islands, Quebec, the Philippines, and even sub-Antarctic zones. This global exposure fuels his curiosity and enhances his ability to adapt to diverse contexts. Independent, meticulous, and initiative-driven, he is a highly professional and trustworthy collaborator, ready to thrive in demanding environments.",
@@ -372,13 +372,13 @@
     "equipe_Rubie_Nom": "Rubie",
     "equipe_Rubie_TitreFr": "Well-being Manager",
     "equipe_Rubie_TitreEn": "Chief Happiness Officer",
-    "equipe_Rubie_Bio1": "As part of its CSR approach and strong commitment to promoting a caring and innovative work environment, BTC Énergies made the unique yet deeply human choice to integrate a therapy dog into its team. This decision aligns with a holistic vision of workplace well-being, where performance and humanity move forward hand in paw.",
-    "equipe_Rubie_Bio2": "Her integration is based on three key pillars:\n\n- Well-being and mental health: Numerous studies show the beneficial effects of animal presence in reducing anxiety, improving mood, and lowering chronic stress. Her mere presence helps ease tensions and fosters a climate of calm, especially in demanding sectors like ours.\n\n- Social cohesion and attractiveness: Rubie has become a true mascot, encouraging informal exchanges and strengthening bonds among colleagues and partners. She brings a sense of gentleness to technical environments. Notably, some partners joined BTC Énergies in part because of the affection they developed for her.\n\n- Societal commitment and responsible image: This choice asserts BTC Énergies’ position as a socially innovative and life-respecting organization. It illustrates our ability to combine cutting-edge technology, environmental performance, and a deep sense of life.",
-    "equipe_Rubie_Bio3": "Trained with care, dedicated, and fully integrated into our daily operations, she symbolizes our company’s vision: loyal, agile, and bold. At BTC Énergies, we believe that sustainable performance also comes from the heart  and Rubie is living proof of that.",
+    "equipe_Rubie_Bio1": "As part of its CSR approach and strong commitment to promoting a caring and innovative work environment, BTC Ã‰nergies made the unique yet deeply human choice to integrate a therapy dog into its team. This decision aligns with a holistic vision of workplace well-being, where performance and humanity move forward hand in paw.",
+    "equipe_Rubie_Bio2": "Her integration is based on three key pillars:\n\n- Well-being and mental health: Numerous studies show the beneficial effects of animal presence in reducing anxiety, improving mood, and lowering chronic stress. Her mere presence helps ease tensions and fosters a climate of calm, especially in demanding sectors like ours.\n\n- Social cohesion and attractiveness: Rubie has become a true mascot, encouraging informal exchanges and strengthening bonds among colleagues and partners. She brings a sense of gentleness to technical environments. Notably, some partners joined BTC Ã‰nergies in part because of the affection they developed for her.\n\n- Societal commitment and responsible image: This choice asserts BTC Ã‰nergiesâ€™ position as a socially innovative and life-respecting organization. It illustrates our ability to combine cutting-edge technology, environmental performance, and a deep sense of life.",
+    "equipe_Rubie_Bio3": "Trained with care, dedicated, and fully integrated into our daily operations, she symbolizes our companyâ€™s vision: loyal, agile, and bold. At BTC Ã‰nergies, we believe that sustainable performance also comes from the heart  and Rubie is living proof of that.",
 
     
     "clic2_Nous contacter": "Contact us",
-    "Nos Coordonnées": "Our contact"
+    "Nos CoordonnÃ©es": "Our contact"
 
     
   
@@ -391,7 +391,7 @@
       "titre": "Contact",
       "texteIntroHead": "Are you looking for a sustainable solution for managing your waste and producing clean energy? BTC Energies is your ideal partner.",
       "introForm1": "Would you like to know more about our solutions, propose a partnership, or simply get in touch with our team?",
-      "introForm2": "Fill out this form and we’ll get back to you as soon as possible.",
+      "introForm2": "Fill out this form and weâ€™ll get back to you as soon as possible.",
       "nomLabel": "Your Full Name",
       "nomPlaceholder": "This field is required",
       "emailLabel": "Email Address",
@@ -410,17 +410,17 @@
 
     "titrePrincipal": "And tomorrow, what will we do?",
     "intro": "Thanks to the great diversity of resources we obtain, we have the opportunity to lead and develop a wide range of industrial projects.",
-    "bloc1_phrase": "BTC Énergies plans to build a production zone for therapeutic plants using part of the resources generated:",
-    "bloc1_liste1": "Purified CO₂ will boost plant growth and extract active ingredients.",
+    "bloc1_phrase": "BTC Ã‰nergies plans to build a production zone for therapeutic plants using part of the resources generated:",
+    "bloc1_liste1": "Purified COâ‚‚ will boost plant growth and extract active ingredients.",
     "bloc1_liste2": "Part of the (di)hydrogen converted into electricity will power the facilities.",
     "bloc1_liste3": "Fertilizers and water will nourish the plants.",
-    "bloc2_phrase1": "The plants will be grown in a controlled environment (temperature, humidity, CO₂ levels, nutrient feed, etc.).",
+    "bloc2_phrase1": "The plants will be grown in a controlled environment (temperature, humidity, COâ‚‚ levels, nutrient feed, etc.).",
     "bloc2_phrase2": "This will allow us to produce a wide variety of high-value plants on demand for the pharmaceutical, cosmetics, or food industries.",
     "bloc2_phrase3": "These production zones can also be built near existing methanization units.",
     "citation": "Nothing is lost, nothing is created, everything is transformed and utilized!",
 
     "Nous contacter": "Contact us",
-    "Nos Coordonnées": "Our contact"
+    "Nos CoordonnÃ©es": "Our contact"
   },
 
   
@@ -431,17 +431,17 @@
     "intro": "I am Rubie, Chief Happiness Officer at BTC Energies<br>How can I help you?",
     "questions": "Any questions?",
     "placeholder": "Type your question here...",
-    "error": "❌ An error occurred. Please try again."
+    "error": "âŒ An error occurred. Please try again."
   },
 
 
-    "__comment_page_mentionslégales": "Traductions pour la page Légalesinformations.vue",
+    "__comment_page_mentionslÃ©gales": "Traductions pour la page LÃ©galesinformations.vue",
 
-  "MentionsLégales": {
+  "MentionsLÃ©gales": {
     "titre": "Legal Information",
 
      "titreCGU": "Terms of Use",
-    "cguIntro": "Access to the BTC Énergies website implies full acceptance of the conditions described below. These conditions may be modified at any time.",
+    "cguIntro": "Access to the BTC Ã‰nergies website implies full acceptance of the conditions described below. These conditions may be modified at any time.",
     "accesTitre": "Site Access",
     "accesTexte": "The site is freely accessible. The publisher strives to provide uninterrupted access, without absolute guarantee.",
     "proprieteTitre": "Intellectual Property",
@@ -472,7 +472,7 @@
   "emailPrincipal": "direction@btc-energies.fr",
   "raisonSociale": "Company name: BTC Energies",
   "formeJuridique": "Legal form: SAS",
-  "capitalSocial": "Share capital: €120",
+  "capitalSocial": "Share capital: â‚¬120",
   "adresseSiege": "Head office: 9 RUE DE L'AVENIR, 31470 FONTENILLES",
   "telephoneLabel": "Phone:",
   "telephoneNumero": "+33 6 29 56 07 56",
@@ -484,7 +484,7 @@
     "tvaValue": "FR27928497585",
 
     "Nous contacter": "Contact us",
-    "Nos Coordonnées": "Our contact"
+    "Nos CoordonnÃ©es": "Our contact"
   },
 
   "__comment_page_Footer": "Traductions pour la page Footer.vue",
@@ -492,7 +492,7 @@
   "Footer": {
     "siteoptimise": "Site optimised for the computer version",
     "Cookies": "Cookies",
-    "Site conçu et": "Website designed and optimised by BTC Energies •"
+    "siteConcu": "Website designed and optimised by BTC Energies â€¢"
   },
   
    "cookies": {
