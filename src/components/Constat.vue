@@ -1,4 +1,5 @@
 <template>
+    <div ref="root" class="constat-page">
   <section class="w-full overflow-hidden relative">
     <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
  
@@ -43,7 +44,8 @@
 
   <div class="main-content-wrapper">
     <div class="constat-body w-full flex flex-col gap-10">
-      <v-container fluid class="min-h-screen px-0 py-8">
+      <v-container fluid class="min-h-[100svh] px-0 py-8">
+
         <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-6xl w-full mx-auto lg:mx-0">
           <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
             <br />
@@ -115,9 +117,10 @@
             <v-row class="py-12 px-6 md:px-20 text-[#475C79]">
               <v-col cols="12" md="4">
                 <h3 class="text-center text-green-600 text-2xl font-semibold mb-4 relative">
-                  <p>{{ $t('notre_constat.titre5_Environnement') }}</p>
+                  {{ $t('notre_constat.titre5_Environnement') }}
                   <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-12 border-b-2 border-green-350"></span>
                 </h3>
+
                 <p class="indent-8">
                   {{ $t('notre_constat.intro5_Nous nous sommes') }}
                 </p>
@@ -176,136 +179,163 @@
   </div>
   </div>
   </v-container>
-  
+  </div>
 </template>
 
 <script>
-import { onMounted } from 'vue'
+import { onMounted, onBeforeUnmount, nextTick, ref } from 'vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useHead } from '@vueuse/head'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const prefersReducedMotion =
-  typeof window !== 'undefined' && typeof window.matchMedia === 'function'
-    ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    : false;
-
 export default {
   name: 'Constat',
   setup() {
-    onMounted(() => {
-      if (prefersReducedMotion) {
-        gsap.set('.bandeau_bleu-trait', { scaleX: 1 });
-        gsap.set('.bandeau_bleu-text', { opacity: 1 });
-        return;
-      }
-      // Animation d'apparition progressive des titres <h3>
-      gsap.utils.toArray('h3').forEach((el) => {
-        gsap.from(el, {
-          scrollTrigger: {
-            trigger: el,
-            start: 'top 90%',
-            toggleActions: "play none none reset",
-          },
-          y: 50,
-          opacity: 0,
-          duration: 0.8,
-          ease: 'power2.out',
-        })
-      })
+    const root = ref(null)
+    let ctx
 
-      // ✅ Animation des traits verts
-      gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
-        gsap.fromTo(
-          trait,
-          { scaleX: 0, transformOrigin: 'center' },
-          {
-            scaleX: 1,
-            duration: 1.2,
-            ease: 'power2.out',
-            delay: 0.3,
-            scrollTrigger: {
-              trigger: trait,
-              start: 'top 90%',
-              toggleActions: 'play reverse play reverse',
-            },
-          }
-        );
-      });
+    // ✅ Respect accessibilité (réduit animations si demandé)
+    const prefersReducedMotion =
+      typeof window !== 'undefined' &&
+      typeof window.matchMedia === 'function' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
-      const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
-      if (bandeauBleuText) {
-        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
-      }
-
-      // Animation des paragraphes
-      gsap.utils.toArray('p').forEach((el) => {
-        gsap.from(el, {
-          scrollTrigger: {
-            trigger: el,
-            start: 'top 90%',
-            toggleActions: "play none none reset",
-          },
-          y: 30,
-          opacity: 0,
-          duration: 0.8,
-          ease: 'power1.out',
-        })
-      })
-
-      // Animation du logo dans le bandeau
-      gsap.from('.bandeau_bleu img', {
-        scrollTrigger: {
-          trigger: '.bandeau_bleu',
-          start: 'top 90%',
-          toggleActions: 'play reverse play reverse',
+    // ✅ SEO (référencement)
+    useHead({
+      title: 'Notre Constat - BTC Énergies',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'Découvrez le constat de BTC Énergies sur les enjeux environnementaux, technologiques et durables de demain. Vidéos, explications et vision claire.',
         },
-        scale: 0.5,
-        opacity: 0,
-        duration: 5,
-        ease: 'back.out(1.7)',
-      })
+        {
+          name: 'keywords',
+          content:
+            'transition énergétique, environnement, économie circulaire, innovation durable, BTC Énergies, écologie, technologies vertes',
+        },
+        { property: 'og:title', content: 'Notre Constat - BTC Énergies' },
+        {
+          property: 'og:description',
+          content:
+            'BTC Énergies vous présente son analyse des défis environnementaux et ses solutions durables. Découvrez notre vision pour un avenir meilleur.',
+        },
+        { property: 'og:image', content: 'https://btc-energies.fr/favicon.jpg' },
+        { property: 'og:url', content: 'https://btc-energies.com/constat' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+      ],
     })
+
+    const safeRefresh = () => requestAnimationFrame(() => ScrollTrigger.refresh())
+
+    onMounted(async () => {
+      await nextTick()
+
+      if (prefersReducedMotion) {
+        gsap.set('.constat-page .bandeau_bleu-trait', { scaleX: 1 })
+        gsap.set('.constat-page .bandeau_bleu-text', { autoAlpha: 1 })
+        return
+      }
+
+      ScrollTrigger.config({
+        ignoreMobileResize: false,
+        autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load,resize',
+      })
+
+      ctx = gsap.context(() => {
+        // ✅ h3 (scopé à la page)
+        gsap.utils.toArray('.constat-page h3').forEach((el) => {
+          gsap.from(el, {
+            scrollTrigger: {
+              trigger: el,
+              start: 'top 90%',
+              once: true,
+              invalidateOnRefresh: true,
+            },
+            y: 50,
+            autoAlpha: 0,
+            duration: 0.8,
+            ease: 'power2.out',
+          })
+        })
+
+        // ✅ p (scopé à la page)
+        gsap.utils.toArray('.constat-page p').forEach((el) => {
+          gsap.from(el, {
+            scrollTrigger: {
+              trigger: el,
+              start: 'top 92%',
+              once: true,
+              invalidateOnRefresh: true,
+            },
+            y: 25,
+            autoAlpha: 0,
+            duration: 0.7,
+            ease: 'power1.out',
+          })
+        })
+
+        // ✅ Traits du bandeau
+        gsap.utils.toArray('.constat-page .bandeau_bleu-trait').forEach((trait) => {
+          gsap.fromTo(
+            trait,
+            { scaleX: 0, transformOrigin: 'center' },
+            {
+              scaleX: 1,
+              duration: 1.2,
+              ease: 'power2.out',
+              scrollTrigger: {
+                trigger: trait,
+                start: 'top 90%',
+                once: true,
+                invalidateOnRefresh: true,
+              },
+            }
+          )
+        })
+
+        // ✅ Texte bandeau
+        const bandeauBleuText = document.querySelector('.constat-page .bandeau_bleu-text')
+        if (bandeauBleuText) {
+          gsap.fromTo(
+            bandeauBleuText,
+            { autoAlpha: 0, y: -30, scale: 0.95 },
+            { autoAlpha: 1, y: 0, scale: 1, duration: 1.1, ease: 'power2.out' }
+          )
+        }
+
+          
+        // ✅ Refreshs “anti Safari / anti mobile”
+        window.addEventListener('orientationchange', safeRefresh)
+        window.addEventListener('pageshow', safeRefresh) // iOS back/forward cache
+        setTimeout(safeRefresh, 200)
+        setTimeout(safeRefresh, 800)
+
+        // ✅ Refresh quand médias chargent (img lazy, video, iframe)
+        const medias = root.value?.querySelectorAll('img, iframe')
+        medias?.forEach((m) => m.addEventListener('load', safeRefresh, { once: true }))
+
+        const videos = root.value?.querySelectorAll('video')
+        videos?.forEach((v) => {
+          v.addEventListener('loadedmetadata', safeRefresh, { once: true })
+          v.addEventListener('loadeddata', safeRefresh, { once: true })
+        })
+      }, root)
+    })
+
+    onBeforeUnmount(() => {
+      window.removeEventListener('orientationchange', safeRefresh)
+      window.removeEventListener('pageshow', safeRefresh)
+      if (ctx) ctx.revert()
+    })
+
+    return { root }
   },
 }
-
-// 👉 SEO dynamique - Page "Notre Constat"
-useHead({
-  title: 'Notre Constat - BTC Énergies',
-  meta: [
-    {
-      name: 'description',
-      content: 'Découvrez le constat de BTC Énergies sur les enjeux environnementaux, technologiques et durables de demain. Vidéos, explications et vision claire.',
-    },
-    {
-      name: 'keywords',
-      content: 'transition énergétique, environnement, économie circulaire, innovation durable, BTC Énergies, écologie, technologies vertes',
-    },
-    {
-      property: 'og:title',
-      content: 'Notre Constat - BTC Énergies',
-    },
-    {
-      property: 'og:description',
-      content: 'BTC Énergies vous présente son analyse des défis environnementaux et ses solutions durables. Découvrez notre vision pour un avenir meilleur.',
-    },
-    {
-      property: 'og:image',
-      content: 'https://btc-energies.fr/favicon.jpg',
-    },
-    {
-      property: 'og:url',
-      content: 'https://btc-energies.com/constat',
-    },
-    {
-      name: 'twitter:card',
-      content: 'summary_large_image',
-    },
-  ],
-});
 </script>
+
 
 <style scoped>
 .v-main {
