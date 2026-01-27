@@ -505,7 +505,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Suivez les projets BTC Energies : developpement, innovation et solutions durables pour la transition energetique.',
+        'Suivez les projets BTC Energies : developpement, innovation et solutions durables pour la transition énérgetique.',
     },
     { property: 'og:url', content: 'https://www.btc-energies.fr/projets' },
     { name: 'twitter:card', content: 'summary_large_image' },

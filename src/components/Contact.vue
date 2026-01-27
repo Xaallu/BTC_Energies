@@ -324,7 +324,7 @@ useHead({
       name: 'description',
       content: 'Vous souhaitez un devis ou en savoir plus ? Contactez l’équipe BTC Énergies pour discuter de vos projets énergétiques et environnementaux.',
     },
-    { name: 'keywords', content: 'contact BTC Énergies, devis énergie, formulaire entreprise, valorisation déchets, GDF Enedis contact' },
+    { content: 'contact BTC Énergies, devis énergie, formulaire entreprise, valorisation déchets, GDF Enedis contact' },
     { property: 'og:title', content: 'Contactez BTC Énergies' },
     { property: 'og:description', content: 'Nos experts sont disponibles pour discuter de vos projets : traitement des déchets, valorisation énergétique, accompagnement écologique.' },
     { property: 'og:url', content: 'https://www.btc-energies.fr/contact' },

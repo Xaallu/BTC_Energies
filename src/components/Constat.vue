@@ -210,7 +210,7 @@ export default {
             'DÃ©couvrez le constat de BTC Ã‰nergies sur les enjeux environnementaux, technologiques et durables de demain. VidÃ©os, explications et vision claire.',
         },
         {
-          name: 'keywords',
+          
           content:
             'transition Ã©nergÃ©tique, environnement, Ã©conomie circulaire, innovation durable, BTC Ã‰nergies, Ã©cologie, technologies vertes',
         },

@@ -1203,7 +1203,7 @@ useHead({
       name: 'description',
       content: 'Une équipe pluridisciplinaire : ingénieurs, développeurs, experts énergie et environnement, au service de la transition écologique.',
     },
-    { name: 'keywords', content: 'équipe BTC Énergies, experts énergie, développeur durable, ingénieur environnement, architecte web, QHSE' },
+    { content: 'équipe BTC Énergies, experts énergie, développeur durable, ingénieur environnement, architecte web, QHSE' },
     { property: 'og:title', content: 'L’équipe BTC Énergies' },
     { property: 'og:description', content: 'Découvrez notre équipe : des profils complémentaires pour un même objectif – l’innovation écologique.' },
     { property: 'og:url', content: 'https://www.btc-energies.fr/equipe' },
