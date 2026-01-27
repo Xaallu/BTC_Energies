@@ -1,4 +1,4 @@
-<template>
+﻿<template>
     <div ref="root" class="constat-page">
   <section class="w-full overflow-hidden relative">
     <div class="relative aspect-[1/1] sm:aspect-video md:aspect-[5/2] w-full">
@@ -11,7 +11,7 @@
        class="absolute top-0 left-0 w-full h-full object-cover object-center"
      >
        <source src="/videos/Bienvenuesurnotresite.web.mp4" type="video/mp4" />
-       Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+       Votre navigateur ne supporte pas la lecture de vidÃ©os HTML5.
      </video>
    </div>
  </section>
@@ -196,31 +196,29 @@ export default {
     const root = ref(null)
     let ctx
 
-    // ✅ Respect accessibilité (réduit animations si demandé)
     const prefersReducedMotion =
       typeof window !== 'undefined' &&
       typeof window.matchMedia === 'function' &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
-    // ✅ SEO (référencement)
     useHead({
-      title: 'Notre Constat - BTC Énergies',
+      title: 'Notre Constat - BTC Ã‰nergies',
       meta: [
         {
           name: 'description',
           content:
-            'Découvrez le constat de BTC Énergies sur les enjeux environnementaux, technologiques et durables de demain. Vidéos, explications et vision claire.',
+            'DÃ©couvrez le constat de BTC Ã‰nergies sur les enjeux environnementaux, technologiques et durables de demain. VidÃ©os, explications et vision claire.',
         },
         {
           name: 'keywords',
           content:
-            'transition énergétique, environnement, économie circulaire, innovation durable, BTC Énergies, écologie, technologies vertes',
+            'transition Ã©nergÃ©tique, environnement, Ã©conomie circulaire, innovation durable, BTC Ã‰nergies, Ã©cologie, technologies vertes',
         },
-        { property: 'og:title', content: 'Notre Constat - BTC Énergies' },
+        { property: 'og:title', content: 'Notre Constat - BTC Ã‰nergies' },
         {
           property: 'og:description',
           content:
-            'BTC Énergies vous présente son analyse des défis environnementaux et ses solutions durables. Découvrez notre vision pour un avenir meilleur.',
+            'BTC Ã‰nergies vous prÃ©sente son analyse des dÃ©fis environnementaux et ses solutions durables. DÃ©couvrez notre vision pour un avenir meilleur.',
         },
         { property: 'og:image', content: 'https://btc-energies.fr/favicon.jpg' },
         { property: 'og:url', content: 'https://btc-energies.com/constat' },
@@ -245,8 +243,9 @@ export default {
       })
 
       ctx = gsap.context(() => {
-        // ✅ h3 (scopé à la page)
-        gsap.utils.toArray('.constat-page h3').forEach((el) => {
+        const q = gsap.utils.selector(root.value)
+
+        q('h3').forEach((el) => {
           gsap.from(el, {
             scrollTrigger: {
               trigger: el,
@@ -261,8 +260,7 @@ export default {
           })
         })
 
-        // ✅ p (scopé à la page)
-        gsap.utils.toArray('.constat-page p').forEach((el) => {
+        q('p').forEach((el) => {
           gsap.from(el, {
             scrollTrigger: {
               trigger: el,
@@ -277,8 +275,7 @@ export default {
           })
         })
 
-        // ✅ Traits du bandeau
-        gsap.utils.toArray('.constat-page .bandeau_bleu-trait').forEach((trait) => {
+        q('.bandeau_bleu-trait').forEach((trait) => {
           gsap.fromTo(
             trait,
             { scaleX: 0, transformOrigin: 'center' },
@@ -296,24 +293,33 @@ export default {
           )
         })
 
-        // ✅ Texte bandeau
-        const bandeauBleuText = document.querySelector('.constat-page .bandeau_bleu-text')
-        if (bandeauBleuText) {
+        q('.bandeau_bleu-text').forEach((el) => {
           gsap.fromTo(
-            bandeauBleuText,
+            el,
             { autoAlpha: 0, y: -30, scale: 0.95 },
-            { autoAlpha: 1, y: 0, scale: 1, duration: 1.1, ease: 'power2.out' }
+            {
+              autoAlpha: 1,
+              y: 0,
+              scale: 1,
+              duration: 1.1,
+              ease: 'power2.out',
+              scrollTrigger: {
+                trigger: el,
+                start: 'top 85%',
+                once: true,
+                invalidateOnRefresh: true,
+              },
+            }
           )
-        }
+        })
 
-          
-        // ✅ Refreshs “anti Safari / anti mobile”
         window.addEventListener('orientationchange', safeRefresh)
-        window.addEventListener('pageshow', safeRefresh) // iOS back/forward cache
+        window.addEventListener('pageshow', safeRefresh)
+        window.addEventListener('load', safeRefresh, { once: true })
+
         setTimeout(safeRefresh, 200)
         setTimeout(safeRefresh, 800)
 
-        // ✅ Refresh quand médias chargent (img lazy, video, iframe)
         const medias = root.value?.querySelectorAll('img, iframe')
         medias?.forEach((m) => m.addEventListener('load', safeRefresh, { once: true }))
 
@@ -322,13 +328,14 @@ export default {
           v.addEventListener('loadedmetadata', safeRefresh, { once: true })
           v.addEventListener('loadeddata', safeRefresh, { once: true })
         })
-      }, root)
+      }, root.value)
     })
 
     onBeforeUnmount(() => {
       window.removeEventListener('orientationchange', safeRefresh)
       window.removeEventListener('pageshow', safeRefresh)
       if (ctx) ctx.revert()
+      ScrollTrigger.getAll().forEach((t) => t.kill())
     })
 
     return { root }
@@ -417,7 +424,7 @@ export default {
   gap: 2rem;
 }
 
-/* ✅ Version mobile */
+/* âœ… Version mobile */
 @media (max-width: 960px) {
   .video-full-width_gif {
     margin-left: 0;
@@ -425,3 +432,4 @@ export default {
   }
 }
 </style>
+
