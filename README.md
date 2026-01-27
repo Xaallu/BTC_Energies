@@ -39,9 +39,19 @@ npm run build && npm run preview
 
 git remote -v
 
+
+
 Miroir
 
+cd ~/BTC_Energies
+git status
+git remote -v
+git remote add backup https://github.com/Xa-C24/BTC_Energies-Backup.git
+git push --mirror backup
 
+
+
+git push --mirror backup
 
 
 
