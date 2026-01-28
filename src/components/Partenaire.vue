@@ -294,7 +294,7 @@ useHead({
     { property: 'og:url', content: 'https://www.btc-energies.fr/partenaires' },
     { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/partenaires' }]
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/partenaire' }],
 });
 </script>
 

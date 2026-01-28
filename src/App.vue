@@ -85,7 +85,9 @@ const alternateLinks = computed(() => {
     hreflang,
     href: `${SITE_URL}${path}?lang=${code}`
   }))
-  links.push({ rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}${path}` })
+ 
+  links.push({ rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}${path}?lang=fr` })
+
   return links
 })
 
@@ -94,9 +96,14 @@ const schemaOrg = {
   '@graph': [
     {
       '@type': 'Organization',
-      name: 'BTC Energies',
+      '@id': `${SITE_URL}/#organization`,
+      name: 'BTC Énergies',
       url: `${SITE_URL}/`,
-      logo: `${SITE_URL}/logo_sidebar.png`,
+      logo: {
+        '@type': 'ImageObject',
+        '@id': `${SITE_URL}/#logo`,
+        url: `${SITE_URL}/logo_sidebar.png`
+      },
       contactPoint: [
         {
           '@type': 'ContactPoint',
@@ -106,11 +113,14 @@ const schemaOrg = {
           availableLanguage: ['fr', 'en', 'es', 'it', 'de', 'ja', 'zh-CN']
         }
       ]
+      // sameAs: ['https://www.linkedin.com/company/...', 'https://www.youtube.com/@...']
     },
     {
       '@type': 'WebSite',
-      name: 'BTC Energies',
+      '@id': `${SITE_URL}/#website`,
       url: `${SITE_URL}/`,
+      name: 'BTC Énergies',
+      publisher: { '@id': `${SITE_URL}/#organization` },
       inLanguage: ['fr', 'en', 'es', 'it', 'de', 'ja', 'zh-CN']
     }
   ]

@@ -518,12 +518,16 @@ beforeUnmount() {
   title: 'BTC Énergies – Valorisation énergétique & énergies renouvelables',
   meta: [
     {
+      name: 'title',
+      content: 'BTC Énergies – Valorisation énergétique & énergies renouvelables',
+    },
+    {
       name: 'description',
       content:
         'BTC Énergies est un acteur engagé dans la transition énergétique : vente d’énergies, gazéification, dépollution, valorisation des effluents et traitement des déchets.',
     },
     {
-      
+      name: 'keywords',
       content:
         'valorisation énergétique, traitement des déchets, effluents industriels, biogaz, GDF, Enedis, transition écologique, dépollution, BTC Énergies, NaTran, GRT Gaz, AMI, gazéification hydrothermale, bas carbone, innovations, Téréga, climat, réchauffement climatique, panneaux solaires, hydrogène, méthane, CO2, engrais',
     },

@@ -510,6 +510,6 @@ useHead({
     { property: 'og:url', content: 'https://www.btc-energies.fr/projets' },
     { name: 'twitter:card', content: 'summary_large_image' },
   ],
-  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
+   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/projets' }],
 });
 </script>

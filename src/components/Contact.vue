@@ -330,7 +330,7 @@ useHead({
     { property: 'og:url', content: 'https://www.btc-energies.fr/contact' },
     { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/contact' }]
+  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/contact' }],
 });
 </script>
 

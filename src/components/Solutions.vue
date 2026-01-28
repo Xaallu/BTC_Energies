@@ -332,6 +332,6 @@ useHead({
     { property: 'og:url', content: 'https://www.btc-energies.fr/solutions' },
     { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }]
+   link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/solutions' }],
 });
 </script>

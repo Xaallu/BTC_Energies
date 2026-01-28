@@ -202,28 +202,29 @@ export default {
       window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
     useHead({
-      title: 'Notre Constat - BTC Ã‰nergies',
+      title: 'Notre Constat - BTC Énergies',
       meta: [
         {
           name: 'description',
           content:
-            'DÃ©couvrez le constat de BTC Ã‰nergies sur les enjeux environnementaux, technologiques et durables de demain. VidÃ©os, explications et vision claire.',
+            'Découvrez le constat de BTC Énergies sur les enjeux environnementaux, technologiques et durables de demain. Vidéos, explications et vision claire.',
         },
         {
-          
+          name: 'keywords',
           content:
-            'transition Ã©nergÃ©tique, environnement, Ã©conomie circulaire, innovation durable, BTC Ã‰nergies, Ã©cologie, technologies vertes',
+            'transition énergétique, environnement, économie circulaire, innovation durable, BTC Énergies, écologie, technologies vertes',
         },
-        { property: 'og:title', content: 'Notre Constat - BTC Ã‰nergies' },
+        { property: 'og:title', content: 'Notre Constat - BTC Énergies' },
         {
           property: 'og:description',
           content:
-            'BTC Ã‰nergies vous prÃ©sente son analyse des dÃ©fis environnementaux et ses solutions durables. DÃ©couvrez notre vision pour un avenir meilleur.',
+            'BTC Énergies vous présente son analyse des défis environnementaux et ses solutions durables. Découvrez notre vision pour un avenir meilleur.',
         },
         { property: 'og:image', content: 'https://btc-energies.fr/favicon.jpg' },
-        { property: 'og:url', content: 'https://btc-energies.com/constat' },
+        { property: 'og:url', content: 'https://www.btc-energies.fr/constat' },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
+      link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/constat' }],
     })
 
     const safeRefresh = () => requestAnimationFrame(() => ScrollTrigger.refresh())
@@ -432,4 +433,5 @@ export default {
   }
 }
 </style>
+
 
