@@ -427,14 +427,12 @@ beforeUnmount() {
     onMounted(() => {
       const bandeauBleuText = document.querySelector('.bandeau_bleu-text');
       if (bandeauBleuText) {
-        gsap.fromTo(bandeauBleuText, { opacity: 0, y: -40, scale: 0.8 }, { opacity: 1, y: 0, scale: 1, duration: 3.1, ease: 'power2.out' });
+        gsap.fromTo(
+          bandeauBleuText,
+          { y: -20, scale: 0.98 },
+          { y: 0, scale: 1, duration: 0.6, ease: 'power2.out' }
+        );
       }
-
-      gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
-        gsap.fromTo(trait, { scaleX: 0, transformOrigin: 'center' }, { scaleX: 1, duration: 1.5, ease: 'power2.out', delay: 0.3 });
-      });
-
-      gsap.fromTo('.page-blanche_app-wrapper', { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 3, delay: 1, ease: 'power2.out' });
 
       const blocks = document.querySelectorAll('.page-blanche_app-block, .profile');
       blocks.forEach((block) => {
@@ -459,7 +457,7 @@ beforeUnmount() {
         });
       });
 
-      gsap.from('.page-blanche_app-block', { opacity: 0, y: 30, duration: 1, stagger: 0.2, ease: 'power2.out' });
+      gsap.from('.page-blanche_app-block', { y: 20, duration: 0.4, stagger: 0.06, ease: 'power2.out' });
 
       gsap.utils.toArray('.trombi-card').forEach((card) => {
         gsap.from(card, {
@@ -468,35 +466,13 @@ beforeUnmount() {
             start: 'top 85%',
             toggleActions: 'play none none reset',
           },
-          opacity: 0,
           y: 50,
-          scale: 0.90,
-          duration: 0.9,
+          scale: 0.96,
+          duration: 0.5,
           ease: 'power2.out',
           stagger: 0.20
         });
       });
-
-
-     // ✅ Animation des traits verts
-  gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
-    gsap.fromTo(
-      trait,
-      { scaleX: 0, transformOrigin: 'center' },
-      {
-        scaleX: 1,
-        duration: 1.2,
-        ease: 'power2.out',
-        delay: 0.3,
-        scrollTrigger: {
-          trigger: trait,
-          start: 'top 90%',
-          toggleActions: 'play reverse play reverse',
-        },
-      }
-    );
-  });
-
 
       const logoElement = document.querySelector('.bandeau_bleu-logo');
       if (logoElement) {
@@ -506,9 +482,8 @@ beforeUnmount() {
             start: "top 90%",
             toggleActions: "play reverse play reverse",
           },
-          opacity: 0,
-          scale: 0.9,
-          duration: 5,
+          y: 20,
+          duration: 0.6,
           ease: "power2.out",
         });
       }
