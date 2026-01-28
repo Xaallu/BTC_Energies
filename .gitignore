@@ -15,6 +15,12 @@ venv/bin/
 venv/lib/
 venv/include/
 pyvenv.cfg
+.venv/
+env/
+ENV/
+venv_*/
+venv-*/
+venv_test/
 
 # 🔹 Fichiers spécifiques à ton système (Windows, macOS, Linux)
 *.log
@@ -37,6 +43,7 @@ __pycache__/
 
 # 🔹 Clés et fichiers sensibles (ex: API keys)
 .env
+
 
 # 🔹 Scripts d'activation de l'environnement (Python, shell, etc.)
 activate
