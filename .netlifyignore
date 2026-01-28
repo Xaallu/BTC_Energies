@@ -1,0 +1,10 @@
+# Evite les doublons / contenus inutiles lors d'un deploy depuis la racine
+public/
+backend/
+node_modules/
+.venv/
+venv*/
+venv-*/
+venv_test/
+_video_backup/
+.git/
