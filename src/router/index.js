@@ -1,14 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
-const Accueil = () => import('../components/Accueil.vue')
-const Constat = () => import('../components/Constat.vue')
-const Solutions = () => import('../components/Solutions.vue')
-const Projets = () => import('../components/Projets.vue')
-const Partenaire = () => import('../components/Partenaire.vue')
-const Equipe = () => import('../components/Equipe.vue')
-const Contact = () => import('../components/Contact.vue')
-const Etdemain = () => import('../components/Etdemain.vue')
-const MentionsLegales = () => import('../components/MentionsLegales.vue')
-const NotFound = () => import('../components/NotFound.vue')
+import Accueil from '../components/Accueil.vue'
+import Constat from '../components/Constat.vue'
+import Solutions from '../components/Solutions.vue'
+import Projets from '../components/Projets.vue'
+import Partenaire from '../components/Partenaire.vue'
+import Equipe from '../components/Equipe.vue'
+import Contact from '../components/Contact.vue'
+import Etdemain from '../components/Etdemain.vue'
+import MentionsLegales from '../components/MentionsLegales.vue'
+import NotFound from '../components/NotFound.vue'
+
+
 import gsap from 'gsap'  // ✅ Assure-toi d'avoir bien installé GSAP
 
 const routes = [
@@ -62,3 +64,4 @@ const router = createRouter({
 })
 
 export default router
+
