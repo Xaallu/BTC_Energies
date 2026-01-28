@@ -1062,7 +1062,7 @@
 </style>
 
 <script setup>
-import { onMounted, ref, nextTick } from 'vue';
+import { onMounted, onBeforeUnmount, ref, nextTick } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Header from './Header.vue';
@@ -1072,25 +1072,40 @@ import { useHead } from '@vueuse/head';
 const logoSidebar = ref(null);
 gsap.registerPlugin(ScrollTrigger);
 
-onMounted(() => {
-  nextTick(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const el = document.querySelector(hash);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+const safeRefresh = () => requestAnimationFrame(() => ScrollTrigger.refresh());
+const handleScrollUpdate = () => ScrollTrigger.update();
 
-        // Attendre un peu puis forcer le check du scroll (important)
-        setTimeout(() => {
-          ScrollTrigger.refresh(); // ✅ force le recalcul du scroll
-        }, 800); // ⏱️ délai à ajuster si nécessaire
-      }
-    } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+onMounted(async () => {
+  await nextTick();
+  const isMobile =
+    typeof window !== 'undefined' &&
+    typeof window.matchMedia === 'function' &&
+    window.matchMedia('(max-width: 768px)').matches;
+
+  ScrollTrigger.config({
+    ignoreMobileResize: true,
+    autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load',
   });
 
+  window.addEventListener('touchmove', handleScrollUpdate, { passive: true });
+  window.addEventListener('scroll', handleScrollUpdate, { passive: true });
+  window.addEventListener('orientationchange', safeRefresh);
+  window.addEventListener('pageshow', safeRefresh);
+  window.addEventListener('load', safeRefresh, { once: true });
+
+  const hash = window.location.hash;
+  if (hash) {
+    const el = document.querySelector(hash);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(safeRefresh, 800);
+    }
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   // Animation scroll des blocs
+  const blocStart = isMobile ? 'top 95%' : 'top 90%';
   gsap.utils.toArray(".gsap-bloc").forEach((bloc) => {
     gsap.from(bloc, {
       opacity: 0,
@@ -1099,8 +1114,9 @@ onMounted(() => {
       ease: "power2.out",
       scrollTrigger: {
         trigger: bloc,
-        start: "top 90%",
+        start: blocStart,
         toggleActions: "play reverse play reverse",
+        invalidateOnRefresh: true,
       }
     });
 
@@ -1156,17 +1172,21 @@ onMounted(() => {
   });
 
   // Animation du logo au scroll
-  gsap.from(logoSidebar.value, {
-    scrollTrigger: {
-      trigger: logoSidebar.value,
-      start: 'top 90%',
-      toggleActions: 'play reverse play reverse',
-    },
-    scale: 0,
-    opacity: 0,
-    duration: 5,
-    ease: 'back.out(1.7)',
-  });
+  const logoStart = isMobile ? 'top 95%' : 'top 90%';
+  if (logoSidebar.value) {
+    gsap.from(logoSidebar.value, {
+      scrollTrigger: {
+        trigger: logoSidebar.value,
+        start: logoStart,
+        toggleActions: 'play reverse play reverse',
+        invalidateOnRefresh: true,
+      },
+      scale: 0,
+      opacity: 0,
+      duration: 5,
+      ease: 'back.out(1.7)',
+    });
+  }
 
     // Animation du texte du bandeau bleu
     gsap.utils.toArray('.bandeau_bleu-text').forEach((el) => {
@@ -1188,12 +1208,33 @@ onMounted(() => {
         ease: 'power2.out',
         scrollTrigger: {
           trigger: trait,
-          start: 'top 95%',
+          start: isMobile ? 'top 96%' : 'top 95%',
           toggleActions: 'play none none none',
+          invalidateOnRefresh: true,
         },
       }
     );
   });
+
+  setTimeout(safeRefresh, 200);
+  setTimeout(safeRefresh, 800);
+  safeRefresh();
+
+  const medias = document.querySelectorAll('img, iframe');
+  medias.forEach((m) => m.addEventListener('load', safeRefresh, { once: true }));
+
+  const videos = document.querySelectorAll('video');
+  videos.forEach((v) => {
+    v.addEventListener('loadedmetadata', safeRefresh, { once: true });
+    v.addEventListener('loadeddata', safeRefresh, { once: true });
+  });
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('touchmove', handleScrollUpdate);
+  window.removeEventListener('scroll', handleScrollUpdate);
+  window.removeEventListener('orientationchange', safeRefresh);
+  window.removeEventListener('pageshow', safeRefresh);
 });
 
 useHead({

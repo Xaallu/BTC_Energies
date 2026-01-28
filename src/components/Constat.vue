@@ -195,6 +195,7 @@ export default {
   setup() {
     const root = ref(null)
     let ctx
+    const handleScrollUpdate = () => ScrollTrigger.update()
 
     const prefersReducedMotion =
       typeof window !== 'undefined' &&
@@ -231,6 +232,10 @@ export default {
 
     onMounted(async () => {
       await nextTick()
+      const isMobile =
+        typeof window !== 'undefined' &&
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(max-width: 768px)').matches
 
       if (prefersReducedMotion) {
         gsap.set('.constat-page .bandeau_bleu-trait', { scaleX: 1 })
@@ -239,20 +244,27 @@ export default {
       }
 
       ScrollTrigger.config({
-        ignoreMobileResize: false,
-        autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load,resize',
+        ignoreMobileResize: true,
+        autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load',
       })
+
+      window.addEventListener('touchmove', handleScrollUpdate, { passive: true })
+      window.addEventListener('scroll', handleScrollUpdate, { passive: true })
 
       ctx = gsap.context(() => {
         const q = gsap.utils.selector(root.value)
+        const baseTrigger = { once: true, invalidateOnRefresh: true }
+        const startH3 = isMobile ? 'top 95%' : 'top 90%'
+        const startP = isMobile ? 'top 97%' : 'top 92%'
+        const startTrait = isMobile ? 'top 95%' : 'top 90%'
+        const startBandeau = isMobile ? 'top 90%' : 'top 85%'
 
         q('h3').forEach((el) => {
           gsap.from(el, {
             scrollTrigger: {
               trigger: el,
-              start: 'top 90%',
-              once: true,
-              invalidateOnRefresh: true,
+              start: startH3,
+              ...baseTrigger,
             },
             y: 50,
             autoAlpha: 0,
@@ -265,9 +277,8 @@ export default {
           gsap.from(el, {
             scrollTrigger: {
               trigger: el,
-              start: 'top 92%',
-              once: true,
-              invalidateOnRefresh: true,
+              start: startP,
+              ...baseTrigger,
             },
             y: 25,
             autoAlpha: 0,
@@ -286,9 +297,8 @@ export default {
               ease: 'power2.out',
               scrollTrigger: {
                 trigger: trait,
-                start: 'top 90%',
-                once: true,
-                invalidateOnRefresh: true,
+                start: startTrait,
+                ...baseTrigger,
               },
             }
           )
@@ -306,9 +316,8 @@ export default {
               ease: 'power2.out',
               scrollTrigger: {
                 trigger: el,
-                start: 'top 85%',
-                once: true,
-                invalidateOnRefresh: true,
+                start: startBandeau,
+                ...baseTrigger,
               },
             }
           )
@@ -320,6 +329,7 @@ export default {
 
         setTimeout(safeRefresh, 200)
         setTimeout(safeRefresh, 800)
+        safeRefresh()
 
         const medias = root.value?.querySelectorAll('img, iframe')
         medias?.forEach((m) => m.addEventListener('load', safeRefresh, { once: true }))
@@ -335,6 +345,8 @@ export default {
     onBeforeUnmount(() => {
       window.removeEventListener('orientationchange', safeRefresh)
       window.removeEventListener('pageshow', safeRefresh)
+      window.removeEventListener('touchmove', handleScrollUpdate)
+      window.removeEventListener('scroll', handleScrollUpdate)
       if (ctx) ctx.revert()
       ScrollTrigger.getAll().forEach((t) => t.kill())
     })
