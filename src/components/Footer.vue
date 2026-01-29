@@ -43,44 +43,47 @@
   <teleport to="body">
     <div
       v-if="shouldShowBanner"
-      class="cookie-banner fixed inset-x-0 bottom-0 z-[60] border-t border-gray-200 bg-white text-gray-900 shadow-2xl"
+      class="cookie-banner fixed inset-x-0 top-0 z-[60] bg-[#222222] text-white shadow-2xl"
       role="region"
       aria-label="Cookie banner"
     >
-      <div class="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
-        <div class="text-left">
-          <p class="text-sm sm:text-base font-semibold">{{ $t('cookies.bannerTitle') }}</p>
-          <p class="text-xs sm:text-sm text-gray-600">{{ $t('cookies.bannerSubtitle') }}</p>
-        </div>
+      <button
+        type="button"
+        class="absolute right-3 top-3 text-2xl text-white/70 hover:text-white"
+        :aria-label="$t('common.close')"
+        @click="declineAll"
+      >
+        ×
+      </button>
+      <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
+        <p class="text-sm sm:text-base text-white/90">
+          {{ $t('cookies.popupText') }}
+        </p>
 
-        <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
+        <div class="flex flex-col items-start gap-3 sm:items-end">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
+            <button
+              type="button"
+              class="rounded-md bg-white px-4 py-2 text-xs sm:text-sm font-semibold text-gray-900 hover:bg-gray-100"
+              @click="declineAll"
+            >
+              {{ $t('cookies.acceptNecessary') }}
+            </button>
+            <button
+              type="button"
+              class="rounded-md bg-[#0d5f2c] px-4 py-2 text-xs sm:text-sm font-semibold text-white hover:bg-[#0b4d24]"
+              @click="acceptAll"
+            >
+              {{ $t('cookies.acceptAll') }}
+            </button>
+          </div>
           <button
             type="button"
-            class="rounded-full bg-[#0d5f2c] px-4 py-2 text-xs sm:text-sm font-semibold text-white hover:bg-[#0b4d24]"
-            @click="setCookiesChoice('accepted')"
-          >
-            {{ $t('cookies.acceptAll') }}
-          </button>
-          <button
-            type="button"
-            class="rounded-full border border-gray-300 px-4 py-2 text-xs sm:text-sm font-semibold text-gray-700 hover:bg-gray-100"
-            @click="setCookiesChoice('declined')"
-          >
-            {{ $t('cookies.declineAll') }}
-          </button>
-          <button
-            type="button"
-            class="rounded-full border border-gray-300 px-4 py-2 text-xs sm:text-sm font-semibold text-gray-700 hover:bg-gray-100"
+            class="text-xs sm:text-sm font-semibold text-white underline underline-offset-4"
             @click="openCookies"
           >
-            {{ $t('cookies.manage') }}
+            {{ $t('cookies.openAdvanced') }}
           </button>
-          <router-link
-            to="/mentions-legales#confidentialite"
-            class="text-xs sm:text-sm font-semibold text-[#0d5f2c] underline"
-          >
-            {{ $t('cookies.privacyLink') }}
-          </router-link>
         </div>
       </div>
     </div>
