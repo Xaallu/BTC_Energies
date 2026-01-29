@@ -46,8 +46,8 @@
     <div class="constat-body w-full flex flex-col gap-10">
       <v-container fluid class="min-h-[100svh] px-0 py-8">
 
-        <div class="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-6xl w-full mx-auto lg:mx-0">
-          <div class="bg-white rounded-2xl shadow-md max-w-5xl w-full p-8">
+        <div class="constat-container px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-6xl w-full mx-auto lg:mx-0">
+          <div class="constat-card bg-white rounded-none sm:rounded-2xl shadow-none sm:shadow-md max-w-5xl w-full p-6 sm:p-8">
             <br />
             <br />
             <div class="text-[#475C79] text-center font-bold">
@@ -426,6 +426,27 @@ export default {
     max-width: 100%;
     margin: 0;
     border-radius: 0;
+  }
+
+  .page-blanche_app-wrapper {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .constat-container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .constat-card {
+    border-radius: 0;
+    box-shadow: none;
   }
 }
 
