@@ -62,6 +62,7 @@
             </div>
 
           </v-col>
+          <v-col cols="12" class="pa-0">
       <v-container fluid class="min-h-screen flex items-center justify-center px-3 sm:px-4 py-6 sm:py-8 gsap-mentions">
         <div class="w-full px-3 sm:px-6 md:px-10 lg:px-12 xl:px-16">
           <div class="bg-white rounded-xl sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto p-5 sm:p-6 md:p-8">
@@ -87,14 +88,15 @@
 
         <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          @submit.prevent="envoyerFormulaire"
-          class="space-y-5 sm:space-y-6"
-        >
+          <form
+            name="contact"
+            method="POST"
+            action="/contact"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            @submit.prevent="envoyerFormulaire"
+            class="space-y-5 sm:space-y-6"
+          >
           <input type="hidden" name="form-name" value="contact" />
           <p class="hidden">
             <label>Don’t fill this out: <input name="bot-field" /></label>
@@ -149,12 +151,7 @@
             ></textarea>
           </div>
 
-                <input
-                  type="hidden"
-                  name="langue"
-                  :value="localStorage.getItem('lang') || 'fr'"
-                />
-    
+               
           <!-- Bouton -->
           <div class="text-center mx-auto">
             <button
@@ -186,6 +183,7 @@
         </div>
       
       </v-container>
+    </v-col>
             <!-- Bandeau bas -->
            
       </v-row>
@@ -228,7 +226,7 @@ const envoyerFormulaire = async () => {
     formData.append("message", message.value);
     formData.append("langue", localStorage.getItem("lang") || "fr");
 
-    const response = await fetch("/", {
+    const response = await fetch(window.location.pathname, {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: formData.toString()
@@ -320,20 +318,14 @@ gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
     });
   }
 
-   // Animation du container "Contact"
-   gsap.from(".gsap-mentions", {
-  scrollTrigger: {
-    trigger: ".gsap-mentions",
-    start: "top 65%", // déclenche un peu plus tôt
-    toggleActions: "play none none none",
-    once: true // animation ne se rejoue pas si on remonte
-  },
-  y: 70,             // décalage vertical plus prononcé
-  opacity: 0,
-  duration: 3.6,     // animation un peu plus rapide
-  ease: "power4.out", // easing plus naturel
-  stagger: 0.2       // si plusieurs éléments, ils s’animent en cascade
-});
+  // Animation du container "Contact" (sans le rendre invisible avant scroll)
+  gsap.from(".gsap-mentions", {
+    y: 40,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power2.out",
+    delay: 0.15,
+  });
 });
 
 useHead({
