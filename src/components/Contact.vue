@@ -91,6 +91,7 @@
           <form
             name="contact"
             method="POST"
+            action="/contact?success=true"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             @submit="onSubmit"
@@ -101,6 +102,11 @@
           <p class="hidden">
             <label>Don’t fill this out: <input name="bot-field" /></label>
           </p>
+          <input
+            type="hidden"
+            name="langue"
+            :value="localStorage.getItem('lang') || 'fr'"
+          />
 
 
           <!-- Champ Nom -->
@@ -205,48 +211,6 @@ const nom = ref('');
 const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
-
-
-
-const envoyerFormulaire = async () => {
-  if (boutonSoumettre.value) {
-    gsap.fromTo(boutonSoumettre.value, { scale: 1 }, {
-      scale: 1.55,
-      backgroundColor: "#10b981",
-      duration: 0.15,
-      yoyo: true,
-      repeat: 1,
-      ease: 'power2.out'
-    });
-  }
-
-  try {
-    const formData = new URLSearchParams();
-    formData.append("form-name", "contact");
-    formData.append("nom", nom.value);
-    formData.append("email", email.value);
-    formData.append("message", message.value);
-    formData.append("langue", localStorage.getItem("lang") || "fr");
-
-    const response = await fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: formData.toString()
-    })
-
-    if (response.ok) {
-      alert("✅ Message envoyé avec succès, nous reviendrons vers vous rapidement");
-      nom.value = "";
-      email.value = "";
-      message.value = "";
-    } else {
-      alert("❌ Erreur lors de l'envoi du message.");
-    }
-  } catch (error) {
-    console.error(error);
-    alert("⚠️ Impossible d'envoyer le message. Réessaie dans quelques instants.");
-  }
-};
 
 const onSubmit = () => {
   // petite anim ok, puis on laisse le navigateur envoyer le form à Netlify
