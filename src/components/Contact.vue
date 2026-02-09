@@ -91,12 +91,12 @@
           <form
             name="contact"
             method="POST"
-            action="/contact"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             @submit.prevent="envoyerFormulaire"
             class="space-y-5 sm:space-y-6"
           >
+
           <input type="hidden" name="form-name" value="contact" />
           <p class="hidden">
             <label>Don’t fill this out: <input name="bot-field" /></label>
@@ -226,11 +226,11 @@ const envoyerFormulaire = async () => {
     formData.append("message", message.value);
     formData.append("langue", localStorage.getItem("lang") || "fr");
 
-    const response = await fetch(window.location.pathname, {
+    const response = await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: formData.toString()
-    });
+    })
 
     if (response.ok) {
       alert("✅ Message envoyé avec succès, nous reviendrons vers vous rapidement");
