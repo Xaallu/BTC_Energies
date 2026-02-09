@@ -87,7 +87,19 @@
 
         <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
-        <form @submit.prevent="envoyerFormulaire" class="space-y-5 sm:space-y-6">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          @submit.prevent="envoyerFormulaire"
+          class="space-y-5 sm:space-y-6"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
 
           <!-- Champ Nom -->
           <div class="w-full sm:max-w-lg sm:mx-auto">
@@ -95,6 +107,7 @@
               {{ $t('contact.nomLabel') }}
             </label>
             <input
+              name="nom"
               v-model="nom"
               id="nom"
               type="text"
@@ -125,6 +138,7 @@
               {{ $t('contact.messageLabel') }}
             </label>
             <textarea
+              name="message"
               v-model="message"
               id="message"
               rows="7"
@@ -188,11 +202,10 @@ const message = ref('');
 const boutonSoumettre = ref(null);
 
 const envoyerFormulaire = async () => {
-  // Animation rebond bouton
   if (boutonSoumettre.value) {
     gsap.fromTo(boutonSoumettre.value, { scale: 1 }, {
       scale: 1.55,
-      backgroundColor: "#10b981", // vert
+      backgroundColor: "#10b981",
       duration: 0.15,
       yoyo: true,
       repeat: 1,
@@ -201,34 +214,33 @@ const envoyerFormulaire = async () => {
   }
 
   try {
-const response = await fetch(import.meta.env.VITE_API_URL + "/api/contact/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    nom: nom.value,
-    email: email.value,
-    message: message.value,
-    langue: localStorage.getItem("lang") || "fr"
-  })
-});
+    const formData = new URLSearchParams();
+    formData.append("form-name", "contact");
+    formData.append("nom", nom.value);
+    formData.append("email", email.value);
+    formData.append("message", message.value);
+    formData.append("langue", localStorage.getItem("lang") || "fr");
 
-const data = await response.json(); // ✅ lecture de la réponse JSON
+    const response = await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: formData.toString()
+    });
 
     if (response.ok) {
-      alert(data.message || "✅ Message envoyé avec succès, nous reviendrons vers vous rapidement");
+      alert("✅ Message envoyé avec succès, nous reviendrons vers vous rapidement");
       nom.value = "";
       email.value = "";
       message.value = "";
     } else {
-      alert(data.error || "❌ Erreur lors de l'envoi du message.");
+      alert("❌ Erreur lors de l'envoi du message.");
     }
   } catch (error) {
     console.error(error);
-    alert("⚠️ Impossible de contacter le serveur. Vérifie ta connexion.");
+    alert("⚠️ Impossible d'envoyer le message. Réessaie dans quelques instants.");
   }
 };
+
 
 
 
