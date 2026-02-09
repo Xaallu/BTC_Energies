@@ -15,6 +15,24 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <!-- Netlify Form Detection (obligatoire pour Vue/SPA) -->
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+      <input type="text" name="nom" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="text" name="langue" />
+    </form>
     <script type="module" src="/src/main.js"></script>
     <script type="text/javascript" src="https://tarteaucitron.io/load.js?domain=btc-energies.fr&uuid=TON_UUID" async></script>
 
