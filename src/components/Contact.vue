@@ -94,7 +94,6 @@
             action="/contact?success=true"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            @submit="onSubmit"
             class="space-y-5 sm:space-y-6"
           >
 
@@ -211,23 +210,6 @@ const nom = ref('');
 const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
-
-const onSubmit = () => {
-  // petite anim ok, puis on laisse le navigateur envoyer le form à Netlify
-  if (boutonSoumettre.value) {
-    gsap.fromTo(
-      boutonSoumettre.value,
-      { scale: 1 },
-      {
-        scale: 1.08,
-        duration: 0.15,
-        yoyo: true,
-        repeat: 1,
-        ease: "power2.out",
-      }
-    );
-  }
-};
 
 
 
