@@ -107,12 +107,12 @@
               {{ $t('contact.nomLabel') }}
             </label>
             <input
-              name="email"
-              v-model="email"
-              id="email"
-              type="email"
+              name="nom"
+              v-model="nom"
+              id="nom"
+              type="text"
               required
-              placeholder="@"
+              :placeholder="$t('contact.nomPlaceholder')"
               class="w-full px-4 py-3 border border-gray-500 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
@@ -123,6 +123,7 @@
               {{ $t('contact.emailLabel') }}
             </label>
             <input
+             name="email"
               v-model="email"
               id="email"
               type="email"
