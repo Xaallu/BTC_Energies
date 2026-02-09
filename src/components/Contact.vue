@@ -107,12 +107,12 @@
               {{ $t('contact.nomLabel') }}
             </label>
             <input
-              name="nom"
-              v-model="nom"
-              id="nom"
-              type="text"
+              name="email"
+              v-model="email"
+              id="email"
+              type="email"
               required
-              :placeholder="$t('contact.nomPlaceholder')"
+              placeholder="@"
               class="w-full px-4 py-3 border border-gray-500 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
           </div>
@@ -148,6 +148,12 @@
             ></textarea>
           </div>
 
+                <input
+                  type="hidden"
+                  name="langue"
+                  :value="localStorage.getItem('lang') || 'fr'"
+                />
+    
           <!-- Bouton -->
           <div class="text-center mx-auto">
             <button
