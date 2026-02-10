@@ -299,7 +299,11 @@
     "emailLabel": "电子邮箱地址",
     "messageLabel": "您的留言",
     "messagePlaceholder": "留言至少需包含 20 个字符",
-    "boutonEnvoyer": "提交"
+    "boutonEnvoyer": "提交",
+    "successTitle": "感谢您的留言，我们已收到。",
+    "successMessage": "团队成员会在 24-48 小时内回复您。期间欢迎继续浏览我们的网站。",
+    "successBack": "返回首页",
+    "successNew": "再发送一条留言"
   },
   "__comment_page_etdemain": "“明天”页面翻译（Demain.vue）",
   "Etdemain": {

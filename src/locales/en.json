@@ -398,7 +398,11 @@
       
       "messageLabel": "Your Message",
       "messagePlaceholder": "Your message must contain at least 20 characters",
-      "boutonEnvoyer": "Submit"
+      "boutonEnvoyer": "Submit",
+      "successTitle": "Thanks, we received your message.",
+      "successMessage": "Someone from the team will get back to you within 24-48h. In the meantime, feel free to explore our site.",
+      "successBack": "Back to home",
+      "successNew": "Send another message"
   },
 
   "__comment_page_etdemain": "Traductions pour la page Demain.vue",

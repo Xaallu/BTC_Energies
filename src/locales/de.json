@@ -375,7 +375,11 @@
     
     "messageLabel": "Ihre Nachricht",
     "messagePlaceholder": "Ihre Nachricht muss mindestens 20 Zeichen enthalten",
-    "boutonEnvoyer": "Senden"
+    "boutonEnvoyer": "Senden",
+    "successTitle": "Danke, wir haben Ihre Nachricht erhalten.",
+    "successMessage": "Jemand aus dem Team meldet sich innerhalb von 24-48 Stunden. In der Zwischenzeit können Sie unsere Seite weiter erkunden.",
+    "successBack": "Zur Startseite",
+    "successNew": "Neue Nachricht senden"
   },
 
   "__comment_page_etdemain": "Übersetzungen für „Und morgen?“ (Demain.vue)",

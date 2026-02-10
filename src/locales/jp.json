@@ -297,10 +297,14 @@
     "nomLabel": "お名前",
     "nomPlaceholder": "必須項目です",
     "emailLabel": "メールアドレス",
-    "messageLabel": "メッセージ",
-    "messagePlaceholder": "メッセージは20文字以上で入力してください",
-    "boutonEnvoyer": "送信"
-  },
+  "messageLabel": "メッセージ",
+  "messagePlaceholder": "メッセージは20文字以上で入力してください",
+  "boutonEnvoyer": "送信",
+  "successTitle": "送信が完了しました。",
+  "successMessage": "24〜48時間以内に担当者からご連絡いたします。それまでの間、ぜひ他のページもご覧ください。",
+  "successBack": "ホームに戻る",
+  "successNew": "別のメッセージを送る"
+},
   "__comment_page_etdemain": "「そして明日は？」ページ翻訳（Demain.vue）",
   "Etdemain": {
     "titre": "そして明日は？",

@@ -393,7 +393,11 @@
     
     "messageLabel": "Su mensaje",
     "messagePlaceholder": "Su mensaje debe contener al menos 20 caracteres",
-    "boutonEnvoyer": "Enviar"
+    "boutonEnvoyer": "Enviar",
+    "successTitle": "Gracias, hemos recibido su mensaje.",
+    "successMessage": "Alguien del equipo le responderá en 24-48 h. Mientras tanto, puede explorar nuestro sitio.",
+    "successBack": "Volver al inicio",
+    "successNew": "Enviar otro mensaje"
   },
 
   "__comment_page_etdemain": "Traducciones para la página ¿Y mañana? (Demain.vue)",

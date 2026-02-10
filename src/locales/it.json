@@ -384,7 +384,11 @@
   
   "messageLabel": "Il tuo messaggio",
   "messagePlaceholder": "Il tuo messaggio deve contenere almeno 20 caratteri",
-  "boutonEnvoyer": "Invia"
+  "boutonEnvoyer": "Invia",
+  "successTitle": "Grazie, abbiamo ricevuto il tuo messaggio.",
+  "successMessage": "Qualcuno del team ti risponderà entro 24-48 ore. Nel frattempo puoi esplorare il sito.",
+  "successBack": "Torna alla home",
+  "successNew": "Invia un nuovo messaggio"
 },
 
 

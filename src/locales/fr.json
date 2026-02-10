@@ -395,7 +395,11 @@
       
       "messageLabel": "Votre Message",
       "messagePlaceholder": "Votre message doit contenir au moins 20 caractères",
-      "boutonEnvoyer": "Soumettre"
+      "boutonEnvoyer": "Soumettre",
+      "successTitle": "Merci, nous avons bien reçu votre message.",
+      "successMessage": "Un membre de l'équipe vous répondra sous 24 à 48 h. En attendant, vous pouvez découvrir nos autres pages.",
+      "successBack": "Retour à l'accueil",
+      "successNew": "Envoyer un nouveau message"
     },
 
   "__comment_page_etdemain": "Traductions pour la page Demain.vue",

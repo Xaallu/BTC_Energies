@@ -88,18 +88,53 @@
 
         <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
+          <div v-if="soumissionReussie" class="flex justify-center">
+            <div class="relative overflow-hidden bg-white rounded-2xl shadow-xl w-full sm:max-w-2xl px-6 sm:px-10 py-12 border border-gray-100">
+              <div class="absolute inset-0 pointer-events-none opacity-20" style="background: radial-gradient(circle at 20% 20%, #05ff16 0%, transparent 35%), radial-gradient(circle at 80% 10%, #0ea5e9 0%, transparent 30%), radial-gradient(circle at 50% 80%, #05ff16 0%, transparent 35%);"></div>
+              <div class="relative flex flex-col items-center gap-3">
+                <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#e8f5eb] text-[#0f5132] text-2xl font-bold shadow-inner">
+                  ✓
+                </div>
+                <div class="w-16 h-1 bg-[#05ff16] rounded-full"></div>
+                <h3 class="text-2xl sm:text-3xl font-bold text-[#0b172a] text-center">
+                  {{ $t('contact.successTitle') }}
+                </h3>
+                <p class="text-base sm:text-lg text-slate-600 leading-relaxed text-center max-w-xl">
+                  {{ $t('contact.successMessage') }}
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+                  <RouterLink
+                    to="/"
+                    class="inline-flex items-center justify-center px-5 py-3 rounded-full border border-[#0b172a] text-[#0b172a] font-semibold hover:bg-[#0b172a] hover:text-white transition duration-200"
+                  >
+                    {{ $t('contact.successBack') }}
+                  </RouterLink>
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center px-5 py-3 rounded-full bg-[#0b172a] text-white font-semibold hover:opacity-90 transition duration-200"
+                    @click="soumissionReussie = false"
+                  >
+                    {{ $t('contact.successNew') }}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <form
+            v-else
             name="contact"
             method="POST"
             action="/contact?success=true"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             class="space-y-5 sm:space-y-6"
+            @submit.prevent="submitForm"
           >
 
           <input type="hidden" name="form-name" value="contact" />
           <p class="hidden">
-            <label>Don’t fill this out: <input name="bot-field" /></label>
+            <label>Don’t fill this out: <input name="bot-field" v-model="botField" /></label>
           </p>
           <input
             type="hidden"
@@ -156,15 +191,21 @@
             ></textarea>
           </div>
 
-               
+          <!-- Erreur -->
+          <p v-if="erreurSoumission" class="text-center text-red-600 text-sm sm:text-base">
+            {{ erreurSoumission }}
+          </p>
+
           <!-- Bouton -->
           <div class="text-center mx-auto">
             <button
               ref="boutonSoumettre"
               type="submit"
-              class="bg-[#1f2937] text-white font-bold py-3 px-10 sm:px-12 rounded-full shadow transition duration-300 w-full sm:w-auto text-sm sm:text-base"
+              :disabled="envoiEnCours"
+              class="bg-[#1f2937] text-white font-bold py-3 px-10 sm:px-12 rounded-full shadow transition duration-300 w-full sm:w-auto text-sm sm:text-base disabled:opacity-70 disabled:cursor-not-allowed"
             >
-              {{ $t('contact.boutonEnvoyer') }}
+              <span v-if="envoiEnCours">...</span>
+              <span v-else>{{ $t('contact.boutonEnvoyer') }}</span>
             </button>
           </div>
 
@@ -200,6 +241,7 @@
 import { onMounted, ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import { RouterLink } from 'vue-router';
 import Sidebar from './Sidebar.vue';
 import { useHead } from '@vueuse/head';
 
@@ -211,6 +253,51 @@ const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
 const langueCachee = ref('fr');
+const botField = ref('');
+const soumissionReussie = ref(false);
+const envoiEnCours = ref(false);
+const erreurSoumission = ref('');
+
+const encode = (data) =>
+  Object.keys(data)
+    .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+    .join('&');
+
+const submitForm = async () => {
+  erreurSoumission.value = '';
+  envoiEnCours.value = true;
+
+  const payload = {
+    'form-name': 'contact',
+    nom: nom.value,
+    email: email.value,
+    message: message.value,
+    langue: langueCachee.value,
+    'bot-field': botField.value,
+  };
+
+  try {
+    await fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode(payload),
+    });
+
+    soumissionReussie.value = true;
+    nom.value = '';
+    email.value = '';
+    message.value = '';
+    botField.value = '';
+
+    const url = new URL(window.location.href);
+    url.searchParams.set('success', 'true');
+    window.history.replaceState({}, '', url.toString());
+  } catch (e) {
+    erreurSoumission.value = 'Une erreur est survenue. Merci de reessayer dans un instant.';
+  } finally {
+    envoiEnCours.value = false;
+  }
+};
 
 
 
@@ -222,6 +309,11 @@ onMounted(() => {
     }
   } catch (e) {
     langueCachee.value = 'fr';
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('success') === 'true') {
+    soumissionReussie.value = true;
   }
 
   // ✅ Animation du logo
