@@ -104,7 +104,7 @@
           <input
             type="hidden"
             name="langue"
-            :value="localStorage.getItem('lang') || 'fr'"
+            :value="langueCachee"
           />
 
 
@@ -210,10 +210,20 @@ const nom = ref('');
 const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
+const langueCachee = ref('fr');
 
 
 
 onMounted(() => {
+  // Récupère la langue depuis localStorage sans casser le rendu si indisponible
+  try {
+    if (typeof localStorage !== 'undefined') {
+      langueCachee.value = localStorage.getItem('lang') || 'fr';
+    }
+  } catch (e) {
+    langueCachee.value = 'fr';
+  }
+
   // ✅ Animation du logo
   if (logoSidebar.value) {
     gsap.fromTo(

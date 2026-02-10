@@ -24,8 +24,16 @@ import jp from './locales/jp.json'
 import cn from './locales/cn.json'
 
 
-// Langue enregistrée (ou fr par défaut)
-const savedLocale = localStorage.getItem('lang') || 'fr'
+// Langue enregistrée (ou fr par défaut) avec garde anti-undefined
+const getSavedLocale = () => {
+  try {
+    if (typeof localStorage === 'undefined') return 'fr'
+    return localStorage.getItem('lang') || 'fr'
+  } catch (e) {
+    return 'fr'
+  }
+}
+const savedLocale = getSavedLocale()
 
 // Instance i18n
 const i18n = createI18n({
