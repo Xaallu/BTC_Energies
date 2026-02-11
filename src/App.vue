@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="app">
     <v-app>
       <HeaderMobile @toggleSidebar="toggleSidebar" />
@@ -6,7 +6,7 @@
 
       <!-- Contenu principal -->
       <div class="layout-wrapper lg:ml-[260px]">
-        <div class="layout-content">
+        <div class="layout-content pt-[68px] sm:pt-[76px] lg:pt-0 px-3 sm:px-4 lg:px-0">
           <router-view />
           
           <Footer />
@@ -32,13 +32,13 @@ import HeaderMobile from './components/HeaderMobile.vue'
 
 const SITE_URL = 'https://www.btc-energies.fr'
 const localeMap = [
-  { code: 'fr', hreflang: 'fr' },
-  { code: 'en', hreflang: 'en' },
-  { code: 'es', hreflang: 'es' },
-  { code: 'it', hreflang: 'it' },
-  { code: 'de', hreflang: 'de' },
-  { code: 'jp', hreflang: 'ja' },
-  { code: 'cn', hreflang: 'zh-CN' }
+  { code: 'fr', hreflang: 'fr', og: 'fr_FR' },
+  { code: 'en', hreflang: 'en', og: 'en_US' },
+  { code: 'es', hreflang: 'es', og: 'es_ES' },
+  { code: 'it', hreflang: 'it', og: 'it_IT' },
+  { code: 'de', hreflang: 'de', og: 'de_DE' },
+  { code: 'jp', hreflang: 'ja', og: 'ja_JP' },
+  { code: 'cn', hreflang: 'zh-CN', og: 'zh_CN' }
 ]
 
 const { locale } = useI18n()
@@ -91,6 +91,18 @@ const alternateLinks = computed(() => {
   return links
 })
 
+const canonicalUrl = computed(() => `${SITE_URL}${route.path || '/'}`)
+
+const ogLocale = computed(() => {
+  return localeMap.find((entry) => entry.code === locale.value)?.og || 'fr_FR'
+})
+
+const ogAlternateLocales = computed(() =>
+  localeMap
+    .map((entry) => entry.og)
+    .filter((og) => og && og !== ogLocale.value)
+)
+
 const schemaOrg = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -128,7 +140,22 @@ const schemaOrg = {
 
 useHead(() => ({
   htmlAttrs: { lang: langAttr.value },
-  link: alternateLinks.value,
+  titleTemplate: (title) => {
+    if (!title) return 'BTC Énergies'
+    return title.includes('BTC Énergies') ? title : `${title} | BTC Énergies`
+  },
+  link: [
+    ...alternateLinks.value,
+    { rel: 'canonical', href: canonicalUrl.value }
+  ],
+  meta: [
+    { name: 'theme-color', content: '#001032' },
+    { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+    { name: 'format-detection', content: 'telephone=no' },
+    { property: 'og:site_name', content: 'BTC Énergies' },
+    { property: 'og:locale', content: ogLocale.value },
+    ...ogAlternateLocales.value.map((value) => ({ property: 'og:locale:alternate', content: value }))
+  ],
   script: [
     {
       type: 'application/ld+json',
@@ -153,3 +180,5 @@ html, body {
   overflow-x: hidden;
 }
 </style>
+
+

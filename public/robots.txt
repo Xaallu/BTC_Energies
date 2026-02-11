@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Host: www.btc-energies.fr
 Sitemap: https://www.btc-energies.fr/sitemap.xml

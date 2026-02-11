@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <v-app>
     <v-main class="pa-0 ma-0">
      <v-row no-gutters class="pa-0 ma-0">
@@ -88,7 +88,7 @@
 
         <!-- Formulaire de Contact -->
       <div class="page-blanche_app-wrapper px-4 sm:px-6 md:px-8 lg:px-12">
-          <div v-if="soumissionReussie" class="flex justify-center">
+          <div v-if="soumissionReussie" class="flex justify-center" role="status" aria-live="polite">
             <div class="relative overflow-hidden bg-white rounded-2xl shadow-xl w-full sm:max-w-2xl px-6 sm:px-10 py-12 border border-gray-100">
               <div class="absolute inset-0 pointer-events-none opacity-20" style="background: radial-gradient(circle at 20% 20%, #05ff16 0%, transparent 35%), radial-gradient(circle at 80% 10%, #0ea5e9 0%, transparent 30%), radial-gradient(circle at 50% 80%, #05ff16 0%, transparent 35%);"></div>
               <div class="relative flex flex-col items-center gap-3">
@@ -134,7 +134,7 @@
 
           <input type="hidden" name="form-name" value="contact" />
           <p class="hidden">
-            <label>Don’t fill this out: <input name="bot-field" v-model="botField" /></label>
+            <label>Don't fill this out: <input name="bot-field" v-model="botField" /></label>
           </p>
           <input
             type="hidden"
@@ -154,6 +154,8 @@
               id="nom"
               type="text"
               required
+              autocomplete="name"
+              autocapitalize="words"
               :placeholder="$t('contact.nomPlaceholder')"
               class="w-full px-4 py-3 border border-gray-500 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
@@ -170,6 +172,8 @@
               id="email"
               type="email"
               required
+              autocomplete="email"
+              inputmode="email"
               placeholder="@"
               class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             />
@@ -186,6 +190,7 @@
               id="message"
               rows="7"
               required
+              autocomplete="on"
               :placeholder="$t('contact.messagePlaceholder')"
               class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-green-300"
             ></textarea>
@@ -238,21 +243,35 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { RouterLink } from 'vue-router';
 import Sidebar from './Sidebar.vue';
 import { useHead } from '@vueuse/head';
+import { useI18n } from 'vue-i18n';
 
 gsap.registerPlugin(ScrollTrigger);
+
+const { locale } = useI18n();
+const SITE_URL = 'https://www.btc-energies.fr';
+const ogLocaleMap = {
+  fr: 'fr_FR',
+  en: 'en_US',
+  es: 'es_ES',
+  it: 'it_IT',
+  de: 'de_DE',
+  jp: 'ja_JP',
+  cn: 'zh_CN',
+};
+const ogLocale = computed(() => ogLocaleMap[locale.value] || 'fr_FR');
 
 const logoSidebar = ref(null);
 const nom = ref('');
 const email = ref('');
 const message = ref('');
 const boutonSoumettre = ref(null);
-const langueCachee = ref('fr');
+const langueCachee = ref(locale.value || 'fr');
 const botField = ref('');
 const soumissionReussie = ref(false);
 const envoiEnCours = ref(false);
@@ -293,7 +312,7 @@ const submitForm = async () => {
     url.searchParams.set('success', 'true');
     window.history.replaceState({}, '', url.toString());
   } catch (e) {
-    erreurSoumission.value = 'Une erreur est survenue. Merci de reessayer dans un instant.';
+    erreurSoumission.value = 'Une erreur est survenue. Merci de réessayer dans un instant.';
   } finally {
     envoiEnCours.value = false;
   }
@@ -305,10 +324,18 @@ onMounted(() => {
   // Récupère la langue depuis localStorage sans casser le rendu si indisponible
   try {
     if (typeof localStorage !== 'undefined') {
-      langueCachee.value = localStorage.getItem('lang') || 'fr';
+      const storedLang = localStorage.getItem('lang');
+      if (storedLang) {
+        langueCachee.value = storedLang;
+        if (storedLang !== locale.value) {
+          locale.value = storedLang;
+        }
+      } else {
+        langueCachee.value = locale.value || 'fr';
+      }
     }
   } catch (e) {
-    langueCachee.value = 'fr';
+    langueCachee.value = locale.value || 'fr';
   }
 
   const params = new URLSearchParams(window.location.search);
@@ -394,22 +421,64 @@ gsap.utils.toArray('.bandeau_bleu-trait').forEach((trait) => {
   });
 });
 
-useHead({
+const metaDescription =
+  'Vous souhaitez un devis ou en savoir plus ? Contactez l’équipe BTC Énergies pour discuter de vos projets énergétiques et environnementaux.';
+const metaKeywords =
+  'contact BTC Énergies, devis énergie, formulaire entreprise, valorisation déchets, GDF Enedis contact';
+const alternateOgLocales = computed(() =>
+  Object.values(ogLocaleMap).filter((value) => value && value !== ogLocale.value)
+);
+
+const contactSchema = computed(() => ({
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact – BTC Énergies',
+  url: `${SITE_URL}/contact`,
+  inLanguage: locale.value,
+  description: metaDescription,
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'BTC Énergies',
+    url: `${SITE_URL}/`,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      telephone: '+33 6 29 56 07 56',
+      email: 'direction@btc-energies.fr',
+      availableLanguage: Object.keys(ogLocaleMap)
+    }
+  }
+}));
+
+useHead(() => ({
   title: 'Contact – BTC Énergies',
   meta: [
-    {
-      name: 'description',
-      content: 'Vous souhaitez un devis ou en savoir plus ? Contactez l’équipe BTC Énergies pour discuter de vos projets énergétiques et environnementaux.',
-    },
-    { content: 'contact BTC Énergies, devis énergie, formulaire entreprise, valorisation déchets, GDF Enedis contact' },
-    { property: 'og:title', content: 'Contactez BTC Énergies' },
-    { property: 'og:description', content: 'Nos experts sont disponibles pour discuter de vos projets : traitement des déchets, valorisation énergétique, accompagnement écologique.' },
-    { property: 'og:url', content: 'https://www.btc-energies.fr/contact' },
-    { name: 'twitter:card', content: 'summary_large_image' }
+    { name: 'description', content: metaDescription },
+    { name: 'keywords', content: metaKeywords },
+    { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:title', content: 'Contact – BTC Énergies' },
+    { property: 'og:description', content: metaDescription },
+    { property: 'og:url', content: `${SITE_URL}/contact` },
+    { property: 'og:image', content: `${SITE_URL}/logo_sidebar.png` },
+    { property: 'og:site_name', content: 'BTC Énergies' },
+    { property: 'og:locale', content: ogLocale.value },
+    ...alternateOgLocales.value.map((value) => ({ property: 'og:locale:alternate', content: value })),
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Contact – BTC Énergies' },
+    { name: 'twitter:description', content: metaDescription },
+    { name: 'twitter:image', content: `${SITE_URL}/logo_sidebar.png` }
   ],
-  link: [{ rel: 'canonical', href: 'https://www.btc-energies.fr/contact' }],
-});
+  link: [{ rel: 'canonical', href: `${SITE_URL}/contact` }],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify(contactSchema.value)
+    }
+  ]
+}));
 </script>
+
 
 
 

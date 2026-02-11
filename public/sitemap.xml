@@ -1,57 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Last updated: 2026-02-11 -->
   <url>
     <loc>https://www.btc-energies.fr/</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/constat</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/constat?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/constat?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/constat?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/constat?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/constat?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/constat?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/constat?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/constat"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/solutions</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/solutions?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/solutions?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/solutions?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/solutions?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/solutions?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/solutions?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/solutions?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/solutions"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/projets</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/projets?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/projets?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/projets?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/projets?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/projets?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/projets?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/projets?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/projets"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/partenaires</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/partenaires?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/partenaires?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/partenaires?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/partenaires?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/partenaires?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/partenaires?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/partenaires?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/partenaires"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/equipe</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/equipe?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/equipe?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/equipe?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/equipe?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/equipe?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/equipe?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/equipe?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/equipe"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/contact</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/contact?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/contact?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/contact?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/contact?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/contact?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/contact?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/contact?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/contact"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/etdemain</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/etdemain?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/etdemain?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/etdemain?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/etdemain?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/etdemain?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/etdemain?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/etdemain?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/etdemain"/>
   </url>
   <url>
     <loc>https://www.btc-energies.fr/mentions-legales</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.btc-energies.fr/mentions-legales?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.btc-energies.fr/mentions-legales?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.btc-energies.fr/mentions-legales?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.btc-energies.fr/mentions-legales?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.btc-energies.fr/mentions-legales?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.btc-energies.fr/mentions-legales?lang=jp"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.btc-energies.fr/mentions-legales?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.btc-energies.fr/mentions-legales"/>
   </url>
 </urlset>
