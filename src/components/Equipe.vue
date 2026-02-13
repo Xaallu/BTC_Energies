@@ -1082,6 +1082,22 @@ onMounted(async () => {
     typeof window.matchMedia === 'function' &&
     window.matchMedia('(max-width: 768px)').matches;
 
+  // Ferme toutes les bulles sauf éventuellement celle à garder ouverte
+  const closeAllBubbles = (keepOpen = null) => {
+    document.querySelectorAll('.bulle-info').forEach((autreBulle) => {
+      if (autreBulle !== keepOpen) {
+        gsap.to(autreBulle, {
+          rotateY: -90,
+          opacity: 0,
+          pointerEvents: 'none',
+          duration: 1,
+          ease: 'power2.in',
+        });
+        autreBulle.dataset.open = 'false';
+      }
+    });
+  };
+
   ScrollTrigger.config({
     ignoreMobileResize: true,
     autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load',
@@ -1131,25 +1147,10 @@ onMounted(async () => {
         opacity: 0,
         pointerEvents: "none"
       });
+      bulle.dataset.open = 'false';
 
-      bloc.addEventListener('mouseenter', () => {
-         
-        // Fermer toutes les autres bulles
-      document.querySelectorAll('.bulle-info').forEach((autreBulle) => {
-        if (autreBulle !== bulle) {
-          gsap.to(autreBulle, {
-            rotateY: -90,
-            opacity: 0,
-            pointerEvents: "none",
-            duration: 1,
-            ease: "power2.in"
-          });
-        }
-      });
-
-      
-
-      // Puis ouvrir celle du bloc actuel
+      const openBubble = () => {
+        closeAllBubbles(bulle);
         gsap.to(bulle, {
           rotateY: 0,
           opacity: 1,
@@ -1157,9 +1158,10 @@ onMounted(async () => {
           duration: 1.8,
           ease: "power2.out"
         });
-      });
+        bulle.dataset.open = 'true';
+      };
 
-      bloc.addEventListener('mouseleave', () => {
+      const closeBubble = () => {
         gsap.to(bulle, {
           rotateY: -90,
           opacity: 0,
@@ -1167,7 +1169,24 @@ onMounted(async () => {
           duration: 1,
           ease: "power2.in"
         });
-      });
+        bulle.dataset.open = 'false';
+      };
+
+      if (isMobile) {
+        // Sur mobile on n'a pas de hover, on toggle Ã  chaque tap sur le bloc
+        bloc.addEventListener('click', (event) => {
+          if (bulle.contains(event.target)) return; // ne pas fermer si on tape dÃ©jÃ  dans la bulle
+          const isOpen = bulle.dataset.open === 'true';
+          if (isOpen) {
+            closeBubble();
+          } else {
+            openBubble();
+          }
+        });
+      } else {
+        bloc.addEventListener('mouseenter', openBubble);
+        bloc.addEventListener('mouseleave', closeBubble);
+      }
     }
   });
 

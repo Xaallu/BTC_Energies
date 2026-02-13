@@ -237,6 +237,18 @@ export default {
         typeof window.matchMedia === 'function' &&
         window.matchMedia('(max-width: 768px)').matches
 
+      // Sur mobile : on affiche directement les éléments sans animation pour éviter qu'ils restent cachés
+      if (isMobile) {
+        const q = gsap.utils.selector(root.value)
+        q('h3, p, .bandeau_bleu-text').forEach((el) => {
+          gsap.set(el, { autoAlpha: 1, y: 0, scale: 1 })
+        })
+        q('.bandeau_bleu-trait').forEach((trait) => {
+          gsap.set(trait, { scaleX: 1, transformOrigin: 'center' })
+        })
+        return
+      }
+
       if (prefersReducedMotion) {
         gsap.set('.constat-page .bandeau_bleu-trait', { scaleX: 1 })
         gsap.set('.constat-page .bandeau_bleu-text', { autoAlpha: 1 })
