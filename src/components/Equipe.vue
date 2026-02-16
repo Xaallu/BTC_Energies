@@ -48,7 +48,6 @@
             
                   <!-- Trait inférieur -->
                   <div class="bandeau_bleu-trait w-[220px] sm:w-[300px] h-1 bg-[#05ff16] mt-8 sm:mt-12 mx-auto"></div>
-<br>
                   <!-- Texte -->
                   <h1 class="bandeau_bleu-text font-montserrat text-white leading-snug break-words"
                       style="font-size: clamp(0.9rem, 1.7vw, 2rem);">
@@ -72,9 +71,7 @@
                <div class="w-full px-0 sm:px-6 md:px-10 lg:px-12 xl:px-16">
             
               <div class="bg-white rounded-none sm:rounded-2xl shadow-md w-full sm:max-w-5xl sm:mx-auto px-4 py-6 sm:p-6 md:p-8">
-<br>
-<br>           
-                  <!-- bloc 1 -->
+<!-- bloc 1 -->
                   <div class="gsap-bloc relative group hover:scale-[1.04] transition-transform duration-300 ease-in-out">
                     
                 <div id="ThibaultBethencourt" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc overflow-visible">
@@ -144,13 +141,7 @@
                   </div>
                 </div>
               </div>
-
-<br> 
-<br>
-<br> 
-
-
-                <!-- Bloc J-M Bouillon  -->
+<!-- Bloc J-M Bouillon  -->
                <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
                 
                   <div id="SusanneSvensdotter" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -217,12 +208,7 @@
                     </div>
                   </div>
                 </div>
-
-    <br> 
-    <br>
-    <br> 
-
-        <!-- Bloc 3 Alain DEGANS -->
+<!-- Bloc 3 Alain DEGANS -->
            <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
            
             <div id="AlainDEGANS" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -286,12 +272,7 @@
             </div>
           </div>
         </div>
-
-<br>            
-<br>
-
-    
-           <!-- Bloc Camille FAURE 
+<!-- Bloc Camille FAURE 
         <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
           
 
@@ -356,13 +337,7 @@
   </div>
 </div>
 -->
-
-            
-<br>
-<br> 
-<br>
-
-                <!-- Bloc 5 Rémi PICHONNEAU -->
+<!-- Bloc 5 Rémi PICHONNEAU -->
   <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
     <div id="RemiPichonneau" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
 
@@ -442,14 +417,7 @@
     </div>
   </div>
 </div>
-
-  
-<br>
-<br> 
-<br>
- 
-
-    <!-- Bloc Marie-Pierre LEFEBVRE -->
+<!-- Bloc Marie-Pierre LEFEBVRE -->
 <div class="gsap-bloc relative group hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Contenu principal -->
@@ -470,8 +438,6 @@
       <div class="text-left mb-4">
         <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t("equipe.equipe_Adell_Nom") }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
-        <br>
-
         <!-- Détails -->
         <ul class="text-gray-600 text-base sm:text-lg space-y-1">
           <li><strong>{{ $t("equipe.equipe_Adell_TitreCourt") }}</strong></li>
@@ -523,12 +489,7 @@
     </div>
   </div>
 </div>
-               
-<br>
-<br> 
-<br>
-
-                  <!-- Bloc Olivier COT -->
+<!-- Bloc Olivier COT -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <div id="OlivierCot" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
     <!-- Image à gauche -->
@@ -595,13 +556,7 @@
     </div>
   </div>
 </div>
-
-<br>
-<br> 
-<br> 
-
-
-                 <!-- Bloc Philippe SUTARIK -->
+<!-- Bloc Philippe SUTARIK -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
 
   <!-- Titre + image -->
@@ -692,12 +647,7 @@
     </div>
   </div>
 </div>
-
-<br>
-<br>
-<br>
-
-             <!-- Bloc 7 Anais OLIVIER -->
+<!-- Bloc 7 Anais OLIVIER -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
   <div id="AnaisOLIVE" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -774,13 +724,7 @@
     </div>
   </div>
 </div>
-       
-
-<br>
-<br>
-<br>
- 
-    <!-- Bloc 8 Cedric CHAUVET 
+<!-- Bloc 8 Cedric CHAUVET 
     <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
       
       <div id="CedricChauvet" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -799,10 +743,6 @@
         <h2 class="text-2xl sm:text-3xl font-bold text-[#555]">{{ $t('equipe.equipe_Cedric_Nom') }}</h2>
         <div class="w-16 h-1 bg-[#8BC367] rounded-full mt-1"></div>
       </div>
-
-      <br>
-
-      
       <ul class="text-gray-600 text-base sm:text-lg space-y-1">
         <li><strong>{{ $t('equipe.equipe_Cedric_TitreCourt') }}</strong></li>
       </ul>
@@ -866,10 +806,7 @@
   </div>
 </div>
 -->
-<br>
-<br>
-<br> 
-             <!-- Bloc 9 Xavier Piedallu -->
+<!-- Bloc 9 Xavier Piedallu -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
   <div id="XavierPiedallu" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -964,12 +901,7 @@
     </div>
   </div>
 </div>
-
-
-<br>
-<br>
-<br>
-                  <!-- Bloc Rubie -->
+<!-- Bloc Rubie -->
 <div class="gsap-bloc hover:scale-[1.08] transition-transform duration-300 ease-in-out">
   <!-- Titre 1 + soulignement -->
   <div id="Rubie" class="flex flex-col md:flex-row items-start gap-6 sm:gap-8 bg-white rounded-lg shadow-md p-4 sm:p-6 gsap-bloc">
@@ -1027,14 +959,8 @@
     </div>
   </div>
 </div>
-
-
-                    <br>          
-                    
-
                 </div>
-                <br><br>
-              </div>
+</div>
               </v-container>
             </section>
 
