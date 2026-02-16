@@ -10,7 +10,7 @@
         </div>
       </v-col>
 
-      <!-- Contenu principal avec la vidéo _-->
+      <!--_ Contenu principal avec la vidéo _-->
 
         <v-col>  
 
